@@ -69,10 +69,22 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
     # ---- what to check today: curated companies + a slice of the discovered universe
     targets: list[dict] = []
     for entry in companies:
-        ids = company_ids(entry, state, log)
+        name = entry.get("name") if isinstance(entry, dict) else None
+        if not isinstance(name, str) or not name.strip():
+            log.append(f"companies.yaml: skipped an entry with an unusable name ({entry!r}); "
+                       "put quotes around names like \"On\" or \"Yes\"")
+            continue
+        try:
+            ids = company_ids(entry, state, log)
+        except Exception as e:
+            log.append(f"{name}: lookup ERROR {type(e).__name__}: {e}")
+            continue
         if ids:
             targets.append({"name": entry["name"], "ats": ids[0], "ids": ids[1],
                             "origin": "curated", "terms": f.search_terms})
+
+    if not dry_run:
+        state.save()  # keep company lookups even if something later in the run fails
 
     u = None
     sweep = ucfg.get("sweep", {})

@@ -190,3 +190,13 @@ def test_resolution_cache(sandbox):
     pipeline.run()
     resolved = json.load(open(sandbox / "data" / "resolved.json"))
     assert resolved["Gap"]["ats"] == "workday" and resolved["Acme GH"]["ids"] == {"token": "acme"}
+
+
+def test_bad_company_entries_dont_crash_the_run(sandbox):
+    """A bare `On` in YAML parses as True; the run should log it and carry on."""
+    cfg = sandbox / "config" / "companies.yaml"
+    cfg.write_text(cfg.read_text() + "  - name: On\n")
+    res = pipeline.run()
+    md = (sandbox / "JOBS.md").read_text()
+    assert "unusable name (" in md and res["new"] == 3
+    assert json.load(open(sandbox / "data" / "resolved.json"))["Gap"]["ats"] == "workday"

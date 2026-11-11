@@ -43,7 +43,7 @@ companies:
     slugs: [columbia, columbiasportswear]
   - name: KEEN
     slugs: [keenfootwear, keen]
-  - name: On                        # On Running, US HQ in Portland
+  - name: "On Running"              # US HQ in Portland
     slugs: [onrunning, on-running]
   - name: SRAM                      # Chicago
   - name: Warby Parker              # NYC
