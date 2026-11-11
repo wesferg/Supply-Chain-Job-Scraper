@@ -1,8 +1,8 @@
 # ---------------------------------------------------------------------------
 # The "universe": job boards discovered automatically, beyond companies.yaml.
 #
-# `python -m jobscout grow` (weekly in GitHub Actions) finds new boards.
-# `python -m jobscout run` (daily) sweeps a rotating slice of them.
+# The one daily command (`python -m jobscout`) finds new boards weekly and
+# sweeps a rotating slice of them every day.
 # ---------------------------------------------------------------------------
 enabled: true
 
@@ -25,7 +25,9 @@ sweep:
 exclude_board_names: "staffing|recruit|talent|consulting group|search partners|personnel|workforce|manpower|kelly|randstad|aerotek|insight global|robert half|adecco|teksystems|apex systems"
 
 grow:
-  # New boards checked (validated) per grow run.
+  # The daily run looks for new companies on its first run and then every N days.
+  every_days: 7
+  # New boards checked (validated) per discovery pass.
   max_new_boards: 2000
   sources:
     # Common Crawl's public URL index: millions of crawled career-site URLs. No key needed.

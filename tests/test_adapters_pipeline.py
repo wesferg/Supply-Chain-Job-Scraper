@@ -149,6 +149,7 @@ def sandbox(tmp_path, monkeypatch, fake_net):
     monkeypatch.setattr(pipeline, "CONFIG", str(cfg))
     monkeypatch.setattr(store, "DATA", str(tmp_path / "data"))
     monkeypatch.setattr(store, "RESULTS", str(tmp_path / "results"))
+    monkeypatch.setattr(store, "JOBS_MD", str(tmp_path / "JOBS.md"))
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
     # explicit hints still get validated; make validation pass for the fakes
     monkeypatch.setattr(discover, "_validate", lambda ats, ids: True)
@@ -171,12 +172,18 @@ def test_pipeline_end_to_end(sandbox):
     csv_text = (sandbox / "results" / "jobs.csv").read_text()
     assert csv_text.splitlines()[0].startswith("score,verdict,title")
     assert "Planner, Demand Agg" in csv_text
-    md = (sandbox / "results" / "latest.md").read_text()
-    assert "new match" in md and "Gap" in md
+    md = (sandbox / "JOBS.md").read_text()
+    assert "3 open roles" in md and "3 new today" in md
+    # one ranked list, highest score first, numbered across tiers
+    order = [l.split("|")[3] for l in md.splitlines() if l.startswith("| ") and l[2].isdigit()]
+    assert "Planner, Demand Agg" in order[0] and "Logistics Analyst" in order[-1]
+    assert md.index("| 1 |") < md.index("| 2 |") < md.index("| 3 |")
+    assert res["issue"] and "3 new matches" in res["issue"][0]
 
     # second run: nothing new, everything still open, no duplicate scoring
     res2 = pipeline.run()
     assert res2["new"] == 0 and res2["open"] == 3
+    assert res2["issue"] is None                        # nothing new -> no issue
 
 
 def test_resolution_cache(sandbox):

@@ -77,6 +77,17 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
     u = None
     sweep = ucfg.get("sweep", {})
     if sweep_universe and ucfg.get("enabled"):
+        # Find new companies automatically: on the first run, then every `every_days`.
+        every = ucfg.get("grow", {}).get("every_days", 7)
+        last = universe.load()["meta"].get("last_grow", "")
+        due = not last or last <= (date.today() - timedelta(days=every)).isoformat()
+        if due and not dry_run:
+            try:
+                g = universe.grow(ucfg, curated_board_keys(state))
+                log.append(f"[company discovery] found {g['added']} new job boards "
+                           f"({g['total']} in the discovered set)")
+            except Exception as e:
+                log.append(f"[company discovery] ERROR {type(e).__name__}: {e}")
         u = universe.load()
         excl = re.compile(ucfg.get("exclude_board_names") or r"(?!x)x", re.I)
         for k in universe.todays_slice(u, sweep.get("daily_budget_units", 1500),
@@ -86,7 +97,7 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
                 continue
             targets.append({"name": b["name"], "ats": b["ats"], "ids": b["ids"], "origin": "universe",
                             "bkey": k, "terms": sweep.get("workday_search_terms", f.search_terms)})
-    deadline = started + 60 * sweep.get("max_minutes", 40)
+    deadline = time.monotonic() + 60 * sweep.get("max_minutes", 40)
 
     def fetch_one(t: dict):
         if t["origin"] == "universe" and time.monotonic() > deadline:
@@ -151,6 +162,9 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
         rec = {**job.to_dict(), "first_seen": today, "last_seen": today,
                "origin": t.get("origin", "curated")}
         rec.pop("description", None)
+        if not rec.get("verdict") and os.environ.get("ANTHROPIC_API_KEY"):
+            # Not Claude-scored yet (no key, or today's cap hit): keep enough text to score later.
+            rec["pending_desc"] = job.description[:5000]
         state.matches[k] = rec
         new_rows.append(rec)
         if t.get("origin") == "universe" and u is not None:
@@ -179,23 +193,36 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
     recent = (date.today() - timedelta(days=2)).isoformat()
     open_rows = [r for r in state.matches.values() if r.get("last_seen", "") >= recent]
 
-    by_score = lambda r: (-(r.get("score") or 0), r.get("company", ""), r.get("title", ""))
-    new_rows.sort(key=by_score)
-    open_rows.sort(key=by_score)
+    # Spare Claude budget upgrades open matches that only have a rule score, best first,
+    # so the whole list ends up ranked on the same scale.
+    if os.environ.get("ANTHROPIC_API_KEY") and llm_left > 0 and not dry_run:
+        pending = sorted((r for r in open_rows if not r.get("verdict") and r.get("pending_desc")),
+                         key=lambda r: -(r.get("score") or 0))
+        for r in pending[:llm_left]:
+            job = Job(**{k: r[k] for k in Job.__dataclass_fields__ if k in r and k != "description"},
+                      description=r["pending_desc"])
+            scoring.score(job, profile, f.floor, f.good_pay)
+            if job.verdict:
+                r.update(score=job.score, verdict=job.verdict, why=job.why, concerns=job.concerns)
+                r.pop("pending_desc", None)
+
+    open_rows.sort(key=store.rank_key)
+    new_rows.sort(key=store.rank_key)
     log.sort()
 
     summary = {"companies": len(targets), "postings_checked": len(fetched),
                "new": len(new_rows), "open": len(open_rows)}
     if dry_run:
-        return {**summary, "new_rows": new_rows, "log": log}
+        return {**summary, "new_rows": new_rows, "ranked": open_rows, "log": log}
 
     state.prune()
     state.save()
     if u is not None:
         universe.save(u)
     store.write_csv(open_rows)
-    md = store.digest_markdown(new_rows, open_rows, log, profile.get("digest_min_score", 55))
-    with open(os.path.join(store.RESULTS, "latest.md"), "w") as fh:
+    min_score = profile.get("list_min_score", 45)
+    md = store.ranked_markdown(open_rows, today, log, min_score)
+    with open(store.JOBS_MD, "w") as fh:
         fh.write(md)
-    shown = sum(1 for r in new_rows if (r.get("score") or 0) >= profile.get("digest_min_score", 55))
-    return {**summary, "digest_count": shown, "digest": md}
+    return {**summary, "issue": store.issue_text(open_rows, new_rows, today, min_score,
+                                                  repo=os.environ.get("GITHUB_REPOSITORY"))}

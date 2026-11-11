@@ -1,20 +1,15 @@
 name: Job scout
 
+# One job does everything: finds companies (first run, then weekly), checks every board,
+# ranks all matches into JOBS.md, and opens an issue when there are new ones.
 on:
   schedule:
-    - cron: "43 14 * * *"   # daily run, ~6:43am Pacific (7:43 during daylight time)
-    - cron: "13 13 * * 1"   # Mondays, an hour earlier: grow the discovered universe, then run
-  workflow_dispatch:
-    inputs:
-      mode:
-        description: "run = daily run; grow = find new job boards, then run; discover = re-check your curated companies; dry-run = print matches, save nothing"
-        type: choice
-        options: [run, grow, discover, dry-run]
-        default: run
+    - cron: "43 14 * * *"   # daily, ~6:43am Pacific (7:43 during daylight time)
+  workflow_dispatch:         # "Run workflow" button for an on-demand run
 
 permissions:
-  contents: write   # commit results/ and data/ back to the repo
-  issues: write     # post the daily digest as an issue (phone notification via the GitHub app)
+  contents: write   # commit JOBS.md, results/ and data/ back to the repo
+  issues: write     # daily issue with new matches (phone notification via the GitHub app)
 
 concurrency:
   group: job-scout
@@ -38,30 +33,18 @@ jobs:
       - name: Tests
         run: python -m pytest -q
 
-      - name: Run
+      - name: Find and rank jobs
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: Claude fit scoring
-          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}           # optional: web-search discovery
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}           # optional: web-search company discovery
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          MODE="${{ github.event.inputs.mode }}"
-          if [ -z "$MODE" ]; then
-            if [ "${{ github.event.schedule }}" = "13 13 * * 1" ]; then MODE=grow; else MODE=run; fi
-          fi
-          # First run ever: build the universe before sweeping it.
-          if [ "$MODE" = "run" ] && [ ! -f data/universe.json ]; then MODE=grow; fi
-          case "$MODE" in
-            discover) python -m jobscout discover ;;
-            dry-run)  python -m jobscout run --dry-run ;;
-            grow)     python -m jobscout grow && python -m jobscout run --issue ;;
-            *)        python -m jobscout run --issue ;;
-          esac
+        run: python -m jobscout
 
       - name: Save results
-        if: always() && github.event.inputs.mode != 'dry-run'
+        if: always()
         run: |
           git config user.name "job-scout"
           git config user.email "job-scout@users.noreply.github.com"
-          git add data results
+          git add JOBS.md data results 2>/dev/null || git add data results
           git diff --cached --quiet || git commit -m "Job scout $(date -u +%Y-%m-%d)"
           git push

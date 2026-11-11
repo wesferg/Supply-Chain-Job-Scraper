@@ -1,46 +1,36 @@
-# job-scout
+# Supply Chain Job Scraper
 
-A daily scraper that checks company career sites directly (Workday, Greenhouse, Lever,
-Ashby, SmartRecruiters), keeps the supply chain / demand planning / OR roles that fit
-Wes's rules, scores each one, and posts the new ones as a GitHub issue.
+**[→ Your ranked job list: JOBS.md](JOBS.md)**
 
-It skips the big job boards. It reads the same public JSON that each company's own
-careers page loads, so it sees postings as soon as the company lists them.
+One daily run finds supply chain, demand planning, and operations research roles that fit
+Wes's rules. It ranks every open match by fit and puts the result in a single list,
+`JOBS.md`, with the most important roles first.
 
-It watches two sets of companies:
+It skips the big job boards. Instead it reads the same public JSON that each company's own
+careers site loads, on Workday, Greenhouse, Lever, Ashby and SmartRecruiters. That way it
+sees postings as soon as the company lists them.
 
-- **Your list** (`config/companies.yaml`, about 70 companies). These are checked every day.
-- **The discovered universe.** Thousands of company job boards are found automatically
-  (see below) and swept in rotation. This is how it finds niche roles at companies you've
-  never heard of.
+## What one run does
 
-## Finding companies beyond your list
+Everything happens in a single command, `python -m jobscout`, which GitHub Actions runs
+every morning:
 
-Each week, `python -m jobscout grow` collects career-site URLs from public sources and
-pulls out every company job board it recognizes on the five supported systems:
-
-| Source | What it gives | Needs |
-|---|---|---|
-| Common Crawl URL index | Millions of crawled career-site URLs, read a few pages at a time each week | Nothing |
-| Wayback Machine index | More career-site URLs from the Internet Archive | Nothing |
-| Brave web search | Boards with live postings like "demand planner" + "Oakland". The most targeted source | A `BRAVE_API_KEY` secret (optional) |
-
-Each new board is checked once to confirm it's real. Staffing agencies are skipped by name.
-New boards are added to `data/universe.json`.
-
-The daily run then sweeps part of the universe, set by `daily_budget_units` in
-`config/universe.yaml`:
-
-- Boards never checked, or checked longest ago, go first, so the whole universe is covered
-  every few days.
-- A board that produced a match in the last 45 days is checked **every day**.
-- A board that fails 3 sweeps in a row is dropped.
-- In the daily digest, discovered companies are marked with `*` and the run log names
-  them.
-
-Your filters apply to these boards exactly as they do to your list. Postings outside your
-cities are screened out from the list page, before any detail is fetched, which keeps the
-sweep cheap.
+1. **Finds companies.** It checks your list in `config/companies.yaml` every day. On the
+   first run, and then weekly, it also discovers thousands more company job boards from
+   public web indexes (see below).
+2. **Checks the boards.** That means all of your companies, plus a rotating slice of the
+   discovered ones, so all of them get covered every few days. Any company that has
+   produced a match is checked daily.
+3. **Filters** every posting against your rules (table below).
+4. **Scores and ranks** every match from 0 to 100 against `config/profile.yaml`. If an
+   `ANTHROPIC_API_KEY` is set, Claude does the scoring; otherwise a rule-based score is
+   used.
+5. **Writes one ranked list** to `JOBS.md`, grouped into four tiers: *Apply first (80+)*,
+   *Strong fits (65+)*, *Worth a look (50+)*, and *Long shots*.
+   - **NEW** marks roles first seen today.
+   - `*` marks companies it discovered on its own.
+6. **Opens a GitHub issue** whenever there are new matches. The issue shows the top 20 of
+   the same ranked list, and it reaches your phone if you use the GitHub app.
 
 ## What it filters for
 
@@ -50,101 +40,79 @@ All rules live in `config/filters.yaml`.
 |---|---|
 | Field | Supply chain, demand/supply/inventory planning, forecasting, S&OP, OR, simulation, logistics/procurement analytics |
 | Never | Sales, sales engineering, mechanical/other engineering, HVAC, internships, part-time/contract |
-| Level | No senior/lead/manager/director titles; rejects postings that require 5+ years; flags 3–4 years as a "stretch" |
+| Level | No senior/lead/manager/director titles; rejects postings needing 5+ years; flags 3–4 years as a stretch |
 | Where | SF Bay Area (preferred), NYC, Boston, Portland OR, Chicago, or US-remote. Nothing in Texas, the South, Florida, the Midwest, or SoCal |
 | Pay | Rejects ranges that top out under $65k; unlisted pay passes |
 
-The run has three stages:
+## How companies are discovered
 
-1. **Title screen.** List pages are cheap, so titles get screened there first. Full job
-   details are fetched only for titles that pass.
-2. **Full check.** Each remaining job is checked for location, years of experience, pay
-   and job type.
-3. **Scoring.** Each survivor gets a 0–100 score. With an `ANTHROPIC_API_KEY` secret set,
-   Claude scores it against `config/profile.yaml` and writes a one-line "why". Without
-   the key, a rule-based score is used.
+The scraper collects career-site URLs from three public sources and keeps every company
+job board it recognizes:
 
-## Setup (once)
+| Source | Needs |
+|---|---|
+| Common Crawl URL index (millions of crawled career-site URLs) | Nothing |
+| Wayback Machine index | Nothing |
+| Brave web search, e.g. "demand planner" + "Oakland" on career sites | Optional `BRAVE_API_KEY` secret (paid by usage; check Brave's pricing) |
 
-1. Create a **private** repo, since the profile is personal. Push this folder to it.
-2. Optional but recommended: go to **Settings → Secrets and variables → Actions → New
-   repository secret** and add `ANTHROPIC_API_KEY`. Scoring uses Claude Haiku and costs
-   pennies per day, because only new matches are scored.
-3. Optional: add a `BRAVE_API_KEY` secret too, for web-search discovery. Brave's Search
-   API is paid by usage, with monthly credits; check their current pricing. Everything
-   else works without it.
-4. Go to **Actions → Job scout → Run workflow**, choose `discover`, and run it. The log
-   shows which careers site was found for each of your companies. Fix any `NOT FOUND` rows
-   as described below.
-5. Run it again with `grow`. This builds the universe for the first time and then does a
-   normal run. After that it runs every morning on its own, and grows the universe every
-   Monday.
-6. To get phone notifications, install the GitHub mobile app and watch the repo (or just
-   its issues). Each day with new matches opens an issue.
+- Each new board is checked once to confirm it's real.
+- Staffing agencies are skipped.
+- Boards that stop responding are dropped.
 
-**Actions minutes:** private repos get a monthly allowance of free Actions minutes. The
-sweep stops starting new boards after `max_minutes` (40 by default), so a daily run stays
-well under an hour. Check **Settings → Billing** after the first week. If you're running
-low, lower `daily_budget_units` or `max_minutes` in `config/universe.yaml`.
+## Setup
 
-## Where results go
+1. Make the repo **private**: Settings → General → Danger Zone → Change visibility. The
+   profile and results are personal.
+2. Recommended: add `ANTHROPIC_API_KEY` under Settings → Secrets and variables → Actions.
+   Claude Haiku scores each match once, which costs pennies a day.
+3. Go to **Actions → Job scout → Run workflow**. That's the only button. After the first
+   run, it runs every morning by itself.
+
+The first run takes longer, because it discovers companies and checks every board for the
+first time. Private repos have a monthly allowance of Actions minutes. The daily sweep
+stops starting new boards after 40 minutes, and anything left rolls to the next day. You
+can tune this with `max_minutes` and `daily_budget_units` in `config/universe.yaml`.
+
+## Files
 
 | File | What it holds |
 |---|---|
-| `results/latest.md` | Today's digest: new matches, scores, why, and a run log |
-| `results/jobs.csv` | Every currently open match, best first. GitHub renders it as a sortable table |
-| `data/matches.json`, `data/rejected.json` | Memory, so a job is only reported and scored once |
-| `data/resolved.json` | Which ATS each of your companies uses. Delete an entry to force a re-check |
-| `data/universe.json` | Every discovered board, with when it was last checked and last matched |
-
-## Adding or fixing companies
-
-Edit `config/companies.yaml`. Only a `name` is required. Discovery tries three things in
-order:
-
-1. Any hint you give.
-2. Scanning the `careers_url` page for ATS links.
-3. Guessing board names on each ATS.
-
-The fastest fix for a `NOT FOUND` company is to open its careers site, click any job, and
-copy the URL into the entry:
-
-- A `...myworkdayjobs.com/...` link goes in `url:`.
-- A `boards.greenhouse.io/<name>` link becomes `ats: greenhouse` plus `token: <name>`.
-- A `jobs.lever.co/<name>` link becomes `ats: lever` plus `slug: <name>`.
-- A `jobs.ashbyhq.com/<name>` link becomes `ats: ashby` plus `org: <name>`.
-
-Apple, Google, Tesla, Amazon and Meta run their own custom sites and aren't supported.
+| `JOBS.md` | **The ranked list.** Every open match, most important first, with a run log at the bottom |
+| `results/jobs.csv` | The same ranking with every column, including lower-scoring roles |
+| `data/*.json` | Memory: seen jobs, company boards, discovery progress |
 
 ## Tuning
 
-- Too many off-target titles: add a pattern to `titles.exclude`.
-- Missing a title type: add it to `titles.core` or `titles.adjacent`.
-- To add a city, add it under `locations.metros`.
-- To see lower-scoring roles in the digest, lower `digest_min_score` in `profile.yaml`.
-  Lower-scoring roles always stay in `jobs.csv`.
-- To test a change without saving anything, run the workflow in `dry-run` mode, or run
-  locally:
+- **Off-target titles:** add a pattern to `titles.exclude` in `config/filters.yaml`.
+- **Missing a kind of title:** add it to `titles.core` or `titles.adjacent`.
+- **Cities:** edit `locations.metros`.
+- **Show more or fewer roles in JOBS.md:** change `list_min_score` in `profile.yaml`.
+- **A company on your list says "could not find a supported careers site" in the run
+  log:** open any of its job postings and copy the link into its entry in
+  `companies.yaml`.
+  - A `...myworkdayjobs.com/...` link goes in `url:`.
+  - A `boards.greenhouse.io/<name>` link becomes `ats: greenhouse` plus `token: <name>`.
+  - A Lever link becomes `ats: lever` plus `slug: <name>`.
+  - An Ashby link becomes `ats: ashby` plus `org: <name>`.
+- **A discovered company you never want:** add its name to `exclude_board_names` in
+  `config/universe.yaml`.
+- **A discovered company you love:** copy it into `companies.yaml` so it's checked daily.
+
+Apple, Google, Tesla, Amazon and Meta run their own custom career sites and aren't
+covered.
+
+To run it locally:
 
 ```bash
 pip install -r requirements.txt
-python -m pytest -q                       # 101 offline tests
-python -m jobscout grow                   # find new job boards
-python -m jobscout run --dry-run          # live, prints matches, saves nothing
-python -m jobscout run --dry-run --company Nike
-python -m jobscout run --no-universe      # only your list
-python -m jobscout discover
+python -m pytest -q                 # offline tests
+python -m jobscout                  # the whole thing
+python -m jobscout --dry-run        # print the ranked list, save nothing
 ```
-
-- If a discovered company keeps showing up with roles you'll never want, add its name to
-  `exclude_board_names` in `config/universe.yaml`.
-- If a discovered company turns out to be great, copy it into `companies.yaml` so it's
-  checked daily with the fuller search.
 
 ## Being a polite scraper
 
-Requests to each site are spaced out and retried with backoff: 0.6s per company site,
-0.25s on the public job-board APIs. Workday is queried with search terms instead of
-downloading every posting. A job's detail page is only fetched if its title and location
-pass, and only the first time that job is seen. One run a day is plenty, so keep it that
-way.
+- Requests are spaced out: 0.6s per company site, 0.25s on the public job-board APIs.
+- Requests are retried with backoff.
+- Workday sites are searched by keyword instead of downloading every posting.
+- A job's detail page is fetched only once, and only if its title and location pass.

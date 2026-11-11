@@ -70,6 +70,7 @@ def sandbox(tmp_path, monkeypatch, fake_net):
     monkeypatch.setattr(pipeline, "CONFIG", str(cfg))
     monkeypatch.setattr(store, "DATA", str(tmp_path / "data"))
     monkeypatch.setattr(store, "RESULTS", str(tmp_path / "results"))
+    monkeypatch.setattr(store, "JOBS_MD", str(tmp_path / "JOBS.md"))
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
     monkeypatch.delenv("BRAVE_API_KEY", raising=False)
     monkeypatch.setattr(discover, "_validate", lambda ats, ids: ats != "smartrecruiters")
@@ -93,7 +94,7 @@ def test_grow(sandbox, monkeypatch):
 
 def test_sweep_finds_niche_role_and_drops_dead_board(sandbox):
     os.makedirs(sandbox / "data", exist_ok=True)
-    universe.save({"meta": {}, "boards": {
+    universe.save({"meta": {"last_grow": date.today().isoformat()}, "boards": {
         "lever:acme": {"ats": "lever", "ids": {"slug": "acme"}, "name": "Cold Chain Co",
                        "added": "2026-11-01", "last_scanned": "", "last_hit": "", "hits": 0, "fails": 0},
         "lever:gone": {"ats": "lever", "ids": {"slug": "gone"}, "name": "Gone Inc",
@@ -110,15 +111,31 @@ def test_sweep_finds_niche_role_and_drops_dead_board(sandbox):
     u = universe.load()
     assert u["boards"]["lever:acme"]["last_hit"] == date.today().isoformat()
     assert "lever:gone" not in u["boards"]          # 3rd straight failure -> dropped
-    md = (sandbox / "results" / "latest.md").read_text()
-    assert "Cold Chain Co *" in md and "automatic discovery" in md
+    md = (sandbox / "JOBS.md").read_text()
+    assert "Cold Chain Co \\*" in md and "automatic company discovery" in md
     assert "[discovered boards] swept" in md
     assert res["new"] == 2   # curated Acme GH analyst + discovered Cold Chain Co analyst
 
 
+def test_single_run_discovers_companies_itself(sandbox, monkeypatch):
+    """No separate grow step: the first run finds boards, then sweeps them."""
+    monkeypatch.setattr(universe, "_commoncrawl", lambda *a: ["https://jobs.lever.co/acme/x"])
+    monkeypatch.setattr(universe, "_wayback", lambda *a: [])
+    res = pipeline.run()
+    u = universe.load()
+    assert "lever:acme" in u["boards"] and u["meta"]["last_grow"] == date.today().isoformat()
+    md = (sandbox / "JOBS.md").read_text()
+    assert "[company discovery] found 1 new job boards" in md
+    assert "Acme \\*" in md            # the discovered board's Chicago analyst is in the same list
+    calls = []
+    monkeypatch.setattr(universe, "grow", lambda *a: calls.append(1))
+    pipeline.run()                       # a week hasn't passed: no second discovery pass
+    assert calls == []
+
+
 def test_no_universe_flag(sandbox):
     os.makedirs(sandbox / "data", exist_ok=True)
-    universe.save({"meta": {}, "boards": {
+    universe.save({"meta": {"last_grow": date.today().isoformat()}, "boards": {
         "lever:acme": {"ats": "lever", "ids": {"slug": "acme"}, "name": "Cold Chain Co",
                        "added": "x", "last_scanned": "", "last_hit": "", "hits": 0, "fails": 0}}})
     res = pipeline.run(sweep_universe=False)
