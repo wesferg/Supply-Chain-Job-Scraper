@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# The "universe": job boards discovered automatically, beyond companies.yaml.
+#
+# `python -m jobscout grow` (weekly in GitHub Actions) finds new boards.
+# `python -m jobscout run` (daily) sweeps a rotating slice of them.
+# ---------------------------------------------------------------------------
+enabled: true
+
+sweep:
+  # Boards checked per day. Workday boards cost 3 units (several searches each);
+  # the others cost 1. ~1500 units covers a few thousand boards every few days.
+  daily_budget_units: 1500
+  # A board that produced a match in the last N days is checked every day.
+  promote_days: 45
+  # Stop starting new boards after this many minutes (unfinished ones roll to tomorrow).
+  max_minutes: 40
+  # A board that fails this many sweeps in a row is dropped.
+  drop_after_failures: 3
+  # Fewer Workday search terms than for your curated companies, to keep sweeps cheap.
+  workday_search_terms: [supply chain, planner, demand, forecast, logistics, inventory]
+  # Claude scores at most this many new matches per run (the rest keep the rule score).
+  max_llm_scores_per_run: 150
+
+# Skip boards whose name matches (staffing agencies mostly post contract roles).
+exclude_board_names: "staffing|recruit|talent|consulting group|search partners|personnel|workforce|manpower|kelly|randstad|aerotek|insight global|robert half|adecco|teksystems|apex systems"
+
+grow:
+  # New boards checked (validated) per grow run.
+  max_new_boards: 2000
+  sources:
+    # Common Crawl's public URL index: millions of crawled career-site URLs. No key needed.
+    commoncrawl:
+      enabled: true
+      pages_per_pattern: 2      # each grow run reads the next pages, so coverage builds weekly
+    # Internet Archive's Wayback Machine index. No key needed.
+    wayback:
+      enabled: true
+      rows_per_pattern: 20000
+      since_year: 2025
+    # Web search for currently-open niche roles in your cities. Needs a BRAVE_API_KEY secret.
+    # Skipped silently if the key isn't set.
+    brave:
+      enabled: true
+      queries_per_run: 60
+      roles: ["demand planner", "supply planner", "supply chain analyst", "inventory analyst",
+              "S&OP analyst", "operations research analyst", "materials planner",
+              "logistics analyst", "supply chain associate", "planning analyst"]
+      places: ["San Francisco", "Bay Area", "Oakland", "San Jose", "New York", "Boston",
+               "Portland Oregon", "Chicago", "remote"]
+      sites: ["myworkdayjobs.com", "greenhouse.io", "lever.co", "ashbyhq.com"]
+
+  # URL patterns harvested from the crawl indexes.
+  patterns:
+    - {host: "*.myworkdayjobs.com", wayback: myworkdayjobs.com, match: domain}
+    - {host: "*.myworkdaysite.com", wayback: myworkdaysite.com, match: domain}
+    - {host: "boards.greenhouse.io/*", wayback: boards.greenhouse.io/, match: prefix}
+    - {host: "job-boards.greenhouse.io/*", wayback: job-boards.greenhouse.io/, match: prefix}
+    - {host: "jobs.lever.co/*", wayback: jobs.lever.co/, match: prefix}
+    - {host: "jobs.ashbyhq.com/*", wayback: jobs.ashbyhq.com/, match: prefix}
+    - {host: "jobs.smartrecruiters.com/*", wayback: jobs.smartrecruiters.com/, match: prefix}

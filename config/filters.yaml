@@ -1,0 +1,142 @@
+# ---------------------------------------------------------------------------
+# What counts as a match. Edit freely; every rule here is applied in code.
+# Regexes are case-insensitive Python regex.
+# ---------------------------------------------------------------------------
+
+# Searched on Workday sites (other ATSs return every job and we filter locally).
+workday_search_terms:
+  - supply chain
+  - demand planning
+  - supply planning
+  - planner
+  - forecasting
+  - inventory
+  - S&OP
+  - logistics
+  - procurement
+  - operations research
+  - operations analyst
+  - materials planning
+
+titles:
+  # Core field: scored highest.
+  core:
+    - supply chain
+    - demand plan
+    - supply plan
+    - "\\b(demand|supply|inventory|material)\\b.*\\bplanner\\b|\\bplanner\\b.*\\b(demand|supply|inventory|material)"
+    - "demand (and|&) supply"
+    - forecast
+    - "s&op|s & op|s&oe|\\bibp\\b|sales (and|&) operations planning|integrated business planning"
+    - operations research
+    - "\\boptimization\\b"
+    - "simulation"
+    - inventory (plan|analyst|control|optimi[sz])
+    - "material(s)? (plan|requirement)"
+    - production plan
+    - master (production )?schedul
+    - replenishment
+    - "\\bmrp\\b"
+    - network (plan|design|model|optimi[sz]|strategy)
+    - capacity plan
+  # Adjacent: still in the supply chain world, scored a bit lower.
+  adjacent:
+    - "\\bplanner\\b"
+    - planning analyst
+    - "allocat(or|ion)"
+    - logistics
+    - procurement
+    - sourcing (analyst|specialist|associate|coordinator)
+    - "\\bbuyer\\b.*\\bplanner\\b|\\bplanner\\b.*\\bbuyer\\b"
+    - (fulfillment|distribution|transportation|warehouse|import|export|trade) (analyst|planner|coordinator|specialist|associate)
+    - operations (analyst|associate|planning|planner|specialist)
+    - "(decision|data) scien.*(supply|operations|forecast|demand|inventory|logistics)"
+    - "(supply|operations|forecast|demand|inventory|logistics).*(decision|data) scien"
+    - "(rotation(al)?|development|leadership) program.*(supply|operations|planning)"
+    - "(supply|operations|planning).*(rotation(al)?|development|leadership) program"
+
+  # Any of these in the title = rejected.
+  exclude:
+    # fields you ruled out
+    - "\\bsales\\b(?!\\s*(and|&)\\s*operations)"
+    - "account (manager|executive|director)"
+    - business development
+    - "\\bhvac\\b"
+    - mechanical
+    - "sales engineer|applications? engineer|field engineer|service engineer|design engineer|process engineer|quality engineer|manufacturing engineer|test engineer|equipment engineer|hardware engineer|software engineer|electrical engineer"
+    - technician
+    - "\\bdriver\\b|forklift|material handler|picker|packer|warehouse associate|warehouse worker|loader"
+    - "store (manager|associate|lead)|retail (associate|sales)|stylist|cashier"
+    - marketing
+    - recruit
+    - "customer (service|support|success)"
+    - "financial planner|financial planning|wealth|tax planner|estate planner|event planner|wedding|travel planner|media planner|urban planner|environmental planner|meeting planner|retirement"
+    - "\\bnurse\\b|clinical|pharmac"
+    # not full-time, not entry-ish
+    - "\\bintern\\b|internship|co-op|\\bcoop\\b"
+    - "part[- ]time|temporary|\\btemp\\b|seasonal|contractor|\\(contract|\\bcontract\\s*(\\)|$|role|position|to hire|-)"
+    # "operations" titles from unrelated departments
+    - "(security|\\bit\\b|people|\\bhr\\b|revenue|marketing|clinical|trust|cyber|fraud|payroll|legal|finance|financial|loan|banking|trading|network operations center|\\bsoc\\b|guest|restaurant|store|field) operations"
+    # seniority
+    - "\\bsenior\\b|\\bsr\\.?\\b|\\blead\\b|principal|\\bstaff\\b|director|\\bhead\\b|vice president|\\bvp\\b|\\bsvp\\b|\\bchief\\b|supervisor|expert|specialist iii|\\biii\\b|\\biv\\b|\\bv\\b(?=\\s*$)|\\b[3-9]\\b(?=\\s*$)"
+    - "(?<!associate )(?<!assistant )\\bmanager\\b"
+
+  # The narrow "engineer" exception: only these engineer titles are allowed.
+  engineer_allowed:
+    - supply chain engineer
+    - planning engineer
+    - operations research engineer
+    - logistics engineer
+
+  # Title words that signal a true first-job fit (small score boost).
+  entry_signals:
+    - "new grad|new graduate|university grad|recent grad|early career|entry[- ]level|graduate program|rotation(al)? program|development program"
+    - "\\bassociate\\b|\\bjunior\\b|\\bjr\\.?\\b|\\bi\\b(?=\\s*$|\\s*[,(-])|\\b1\\b(?=\\s*$)"
+    - "\\banalyst\\b"
+
+experience:
+  reject_if_min_years_at_least: 5   # "5+ years required" is out
+  stretch_if_min_years_at_least: 3  # 3-4 years: kept, flagged as a stretch
+
+salary:
+  floor: 65000          # reject if the posted range tops out below this
+  good: 85000           # small score boost at or above this midpoint
+
+locations:
+  allow_remote_us: true # US-remote roles pass (scored below in-office in your metros)
+  # Metros you'd move to. A posting passes if ANY of its locations matches.
+  # Each city needs its state (code or name) in the same location string,
+  # except cities listed under `unambiguous`.
+  metros:
+    SF Bay Area:
+      state: [CA, California]
+      cities: [San Francisco, Oakland, Berkeley, Emeryville, Alameda, San Leandro, Hayward,
+               Fremont, Newark, Union City, Milpitas, San Jose, Santa Clara, Sunnyvale,
+               Mountain View, Palo Alto, Menlo Park, Redwood City, San Carlos, San Mateo,
+               Foster City, Burlingame, South San Francisco, Brisbane, Daly City, Cupertino,
+               Los Gatos, Campbell, Morgan Hill, Gilroy, Pleasanton, Dublin, Livermore,
+               San Ramon, Walnut Creek, Concord, Richmond, Novato, San Rafael, Petaluma,
+               Bay Area, SF Bay Area, Silicon Valley, Napa, Vallejo, Benicia, Martinez]
+    New York City:
+      state: [NY, New York, NJ, New Jersey]
+      cities: [New York, New York City, NYC, Manhattan, Brooklyn, Queens, Long Island City,
+               Bronx, Jersey City, Hoboken]
+    Boston:
+      state: [MA, Massachusetts]
+      cities: [Boston, Cambridge, Somerville, Waltham, Watertown, Brookline, Newton,
+               Burlington, Lexington, Woburn, Needham, Quincy]
+    Portland:
+      state: [OR, Oregon]
+      cities: [Portland, Beaverton, Hillsboro, Lake Oswego, Tigard, Tualatin, Wilsonville]
+    Chicago:
+      state: [IL, Illinois]
+      cities: [Chicago]
+  unambiguous: [San Francisco, Brooklyn, Manhattan, Beaverton, Sunnyvale, Silicon Valley,
+                SF Bay Area, Bay Area, NYC, Emeryville, Morgan Hill, South San Francisco, Menlo Park,
+                Mountain View, Palo Alto, Redwood City, Lake Oswego, Somerville]
+  # A "Remote" posting restricted to one of these is rejected.
+  blocked_states: [TX, Texas, FL, Florida, OH, Ohio, MI, Michigan, IN, Indiana,
+                   WI, Wisconsin, MN, Minnesota, IA, Iowa, MO, Missouri, KS, Kansas, NE, Nebraska,
+                   ND, North Dakota, SD, South Dakota, GA, Georgia, AL, Alabama, MS, Mississippi,
+                   LA, Louisiana, AR, Arkansas, TN, Tennessee, KY, Kentucky, SC, South Carolina,
+                   NC, North Carolina, OK, Oklahoma, Los Angeles, San Diego, Irvine, Orange County]

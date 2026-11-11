@@ -1,0 +1,156 @@
+# ---------------------------------------------------------------------------
+# Companies to watch. Only `name` is required.
+#
+# Hints that help the first-run discovery (all are validated before use):
+#   url:          a Workday careers URL  (https://<tenant>.wdN.myworkdayjobs.com/<site>)
+#   careers_url:  the company's own careers page; scanned for ATS links
+#   slugs:        likely board names to try on Greenhouse/Lever/Ashby/Workday
+#   ats + ids:    exact, e.g. {ats: greenhouse, token: simplisafe}
+#
+# Whatever is found is cached in data/resolved.json. Companies that can't be
+# resolved are listed in the run log; retry is automatic after 7 days.
+#
+# Not supported (own custom sites): Apple, Google, Tesla, Amazon, Meta. Check those by hand.
+# ---------------------------------------------------------------------------
+companies:
+  # ---- Footwear / apparel / outdoor / cycling ----
+  - name: Nike                      # Beaverton OR HQ (Portland metro); also Converse in Boston
+    url: https://nike.wd1.myworkdayjobs.com/nke
+  - name: Specialized               # Morgan Hill HQ
+    careers_url: https://www.specialized.com/us/en/careers
+    slugs: [specialized, specializedbicycles, specializedbicyclecomponents]
+  - name: Gap Inc                   # SF: Gap, Old Navy, Banana Republic, Athleta
+    url: https://gap.wd1.myworkdayjobs.com/GAPINC
+  - name: Levi Strauss & Co
+    careers_url: https://www.levistrauss.com/work-with-us/
+    slugs: [levistraussandco, levistrauss]
+  - name: Williams-Sonoma
+    careers_url: https://www.williams-sonomainc.com/careers/jobs
+    slugs: [wsgc, williamssonoma, williams-sonoma]
+  - name: Ross Stores
+    careers_url: https://jobs.rossstores.com/
+    slugs: [rossstores]
+  - name: Allbirds
+  - name: Rothy's
+    slugs: [rothys]
+  - name: Peak Design
+    slugs: [peakdesign]
+  - name: New Balance               # Boston HQ
+    careers_url: https://jobs.newbalance.com/
+    slugs: [newbalance]
+  - name: Reebok
+  - name: Columbia Sportswear       # Portland
+    slugs: [columbia, columbiasportswear]
+  - name: KEEN
+    slugs: [keenfootwear, keen]
+  - name: On                        # On Running, US HQ in Portland
+    slugs: [onrunning, on-running]
+  - name: SRAM                      # Chicago
+  - name: Warby Parker              # NYC
+    slugs: [warbyparker]
+  - name: Glossier
+  - name: Away
+    slugs: [away, awaytravel]
+  - name: Bombas
+  - name: Harry's
+    slugs: [harrys]
+  - name: Rent the Runway
+    slugs: [renttherunway]
+  - name: Etsy
+  - name: Peloton
+  - name: PVH
+  - name: Ralph Lauren
+    slugs: [ralphlauren]
+  - name: Tapestry
+  - name: Estee Lauder Companies
+    slugs: [elcompanies, esteelauder]
+
+  # ---- Consumer goods / food & beverage ----
+  - name: Clorox                    # Oakland HQ, Pleasanton campus
+    url: https://wd1.myworkdaysite.com/recruiting/clorox/Clorox
+  - name: Impossible Foods
+    slugs: [impossiblefoods]
+  - name: Once Upon a Farm
+    slugs: [onceuponafarm]
+  - name: Peet's Coffee
+    slugs: [peets, peetscoffee]
+  - name: Chobani
+  - name: Spindrift
+  - name: Mondelez                  # Chicago HQ
+    url: https://mdlz.wd3.myworkdayjobs.com/External
+  - name: Kraft Heinz               # Chicago
+    url: https://kraftheinz.wd1.myworkdayjobs.com/KraftHeinz_Careers
+  - name: Conagra Brands            # Chicago
+    slugs: [conagra, conagrabrands]
+  - name: Kellanova                 # Chicago
+    slugs: [kellanova]
+
+  # ---- Hardware / semiconductors / robotics / EV (big planning orgs) ----
+  - name: NVIDIA
+    url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+  - name: Applied Materials
+    url: https://amat.wd1.myworkdayjobs.com/External
+  - name: Lam Research
+    url: https://lamresearch.wd1.myworkdayjobs.com/LAM
+  - name: KLA
+    slugs: [kla]
+  - name: Intel                     # Santa Clara + Hillsboro OR
+    url: https://intel.wd1.myworkdayjobs.com/External
+  - name: HP Inc
+    url: https://hp.wd5.myworkdayjobs.com/ExternalCareerSite
+    slugs: [hp]
+  - name: Western Digital
+    slugs: [wdc, westerndigital]
+  - name: Intuitive Surgical
+    slugs: [intuitive]
+  - name: Lucid Motors
+    slugs: [lucidmotors]
+  - name: Rivian
+  - name: Zipline
+    slugs: [flyzipline, zipline]
+  - name: Joby Aviation
+    slugs: [jobyaviation]
+  - name: Archer Aviation
+    slugs: [archer56, archeraviation, archer]
+  - name: Oura
+    slugs: [oura, ouraring]
+  - name: Samsara
+  - name: Waymo
+  - name: Boston Dynamics
+    slugs: [bostondynamics]
+  - name: Formlabs
+  - name: WHOOP
+    slugs: [whoop]
+  - name: SimpliSafe
+    ats: greenhouse
+    token: simplisafe
+  - name: Motorola Solutions        # Chicago
+    slugs: [motorolasolutions]
+
+  # ---- Pharma / biotech / medtech (supply planning heavy) ----
+  - name: Gilead Sciences
+    url: https://gilead.wd1.myworkdayjobs.com/gileadcareers
+    slugs: [gilead]
+  - name: Genentech (Roche)
+    url: https://roche.wd3.myworkdayjobs.com/roche-ext
+  - name: Bio-Rad
+    slugs: [bio-rad, biorad]
+
+  # ---- Logistics / supply chain tech / marketplaces ----
+  - name: Flexport
+  - name: Instacart
+  - name: DoorDash
+    slugs: [doordashusa, doordash]
+  - name: Wayfair                   # Boston
+  - name: project44                 # Chicago
+    slugs: [project44]
+  - name: FourKites                 # Chicago
+    slugs: [fourkites]
+  - name: ShipBob                   # Chicago
+    slugs: [shipbob]
+  - name: Coyote Logistics          # Chicago
+    slugs: [coyote, coyotelogistics]
+
+  # ---- Energy ----
+  - name: Chevron                   # San Ramon
+    url: https://chevron.wd5.myworkdayjobs.com/jobs

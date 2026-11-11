@@ -1,0 +1,63 @@
+# Who the scorer is matching jobs against. Edit this as your story changes.
+# This text is sent to the Claude API when ANTHROPIC_API_KEY is set; keep the repo private.
+
+name: Wes
+
+summary: >
+  Graduating May 2027 with a B.S. in Industrial Engineering & Operations Research (IEOR)
+  from UC Berkeley (Leadership Award scholar). Looking for a first full-time role in
+  supply chain: demand planning, supply/inventory planning, S&OP, forecasting, logistics
+  and network analytics, operations research, simulation and optimization. Available to
+  start mid-July 2027.
+
+experience:
+  - >
+    Air Treatment Corporation (Alameda, CA) - Inside Sales Engineering Intern (summer 2026),
+    now part-time. Built equipment selections and quotes from mechanical plans; on his own
+    initiative wrote a Python automation tool (MechTakeoff + Proposal Builder) that cut a
+    30-minute takeoff to ~3 minutes and was rolled out office-wide; now building Claude-based
+    automation and a RAG multi-agent workflow over internal documents.
+  - >
+    Steel fabrication shop floor - worked alongside welders machining and fabricating parts
+    from multiple steel types for large custom steel artwork (hands-on manufacturing).
+  - >
+    2nd Blessings Thrift Store (Wichita, KS) - Inventory & Volunteer Manager: ran the flow of
+    donated inventory to sales floor, wholesale, or waste; in-shop processing; truck loading.
+  - >
+    Forward Motion (specialty running store) - Shoe Fit Specialist: gait/fit analysis,
+    inventory counts, restocking from backstock.
+  - >
+    Founded a vintage clothing business - sourced secondhand inventory from demand trends,
+    upcycled it, sold online and wholesale to a brick-and-mortar shop and an online brand.
+
+skills:
+  - IEOR coursework incl. Production Systems Analysis, logistics/inventory modeling,
+    forecasting, optimization, simulation
+  - Python automation, Excel, data pipelines; building LLM/RAG tools
+  - Intermediate Mandarin; lived in China 8 years
+  - Shop-floor manufacturing plus corporate experience
+
+interests: >
+  Footwear, apparel, cycling and outdoor brands are especially appealing (he's a competitive
+  cyclist and runner), but any strong supply chain / planning / operations-research role
+  qualifies.
+
+preferences:
+  wants: >
+    Supply chain, demand planning, supply/inventory planning, forecasting, S&OP, logistics
+    analytics, operations research, simulation. Roles suited to a new graduate with a few
+    years of part-time/internship experience (analyst, associate, planner I/II, new-grad or
+    rotational programs).
+  avoid: >
+    Sales of any kind, sales engineering, mechanical engineering, HVAC, pure manufacturing
+    engineering, senior/manager roles needing 5+ years.
+  locations: >
+    SF Bay Area strongly preferred. Also open to New York City, Boston, Portland OR, Chicago.
+    Will NOT work in Texas, the South, Florida, the Midwest (other than Chicago), or Southern
+    California (LA, San Diego, etc.). US-remote is acceptable.
+  pay: Base salary floor about $65k; higher is better.
+
+# Claude model used for fit scoring (only if ANTHROPIC_API_KEY is set).
+model: claude-haiku-5-5
+# Jobs scoring below this are kept in the CSV but left out of the daily digest.
+digest_min_score: 55
