@@ -20,9 +20,10 @@ DESC_KEYWORDS = [
 
 def rule_score(job: Job, floor: float, good_pay: float) -> int:
     s = 0
-    s += 40 if "core" in job.flags else 28 if "adjacent" in job.flags else 15
+    general = "core" not in job.flags and "adjacent" not in job.flags
+    s += 40 if "core" in job.flags else 28 if "adjacent" in job.flags else 8
     s += {"SF Bay Area": 25, "Remote (US)": 12}.get(job.metro, 18)
-    if "entry" in job.flags:
+    if "entry" in job.flags and not general:  # "Associate" alone doesn't make bizops supply chain
         s += 10
     if job.min_years is None or job.min_years <= 2:
         s += 8

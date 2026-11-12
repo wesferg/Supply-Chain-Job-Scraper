@@ -94,6 +94,7 @@ titles:
     # not supply chain at all
     - "\\bseo\\b|\\bsearch engine|actuar|quantum|meteorolog|weather|population|store plan|space plan|visual merchandis|\\bmerchant\\b"
     - "talent (community|network|pool)|skillbridge|freelance|ai trainer|evergreen|general application"
+    - "cruise|resort|appointment setter|destination|vacation|honeymoon|people (&|and) |workplace|\\bgtm\\b|go[- ]to[- ]market|subscription|technical operations"
     - "crypto|\\btrading\\b|clearing|corporate actions|\\bmargin\\b|\\bapac\\b|\\bemea\\b|\\blatam\\b"
     # seniority
     - "\\bsenior\\b|\\bsr\\.?\\b|\\blead\\b|principal|\\bstaff\\b|director|\\bhead\\b|vice president|\\bvp\\b|\\bsvp\\b|\\bchief\\b|supervisor|expert|specialist iii|\\biii\\b|\\biv\\b|\\bv\\b(?=\\s*$)|\\b[3-9]\\b(?=\\s*$)"
