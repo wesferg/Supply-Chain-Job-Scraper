@@ -19,51 +19,6 @@
   "reason": "location: Yokohama; Tokyo",
   "title": "Procurement Specialist"
  },
- "ashby:Airapps:0b65aaf8-6cc4-4ab9-b5fb-4432b9b0a4e1": {
-  "last_seen": "2026-11-12",
-  "reason": "location: Stockholm",
-  "title": "Technical Operations Coordinator"
- },
- "ashby:Airapps:2a149391-16d9-45f7-a3da-fc3b97b272a7": {
-  "last_seen": "2026-11-12",
-  "reason": "location: Berlin Metropolitain Area",
-  "title": "Technical Operations Coordinator"
- },
- "ashby:Airapps:5a51df73-537e-4e81-9377-fbb12b0d924d": {
-  "last_seen": "2026-11-12",
-  "reason": "location: Amsterdam",
-  "title": "Technical Operations Coordinator"
- },
- "ashby:Airapps:6a14f60e-e7df-4b04-a50b-eb48db0df5bd": {
-  "last_seen": "2026-11-12",
-  "reason": "location: Barcelona",
-  "title": "Technical Operations Coordinator"
- },
- "ashby:Airapps:77a70c26-906c-4f4d-b65a-844898596641": {
-  "last_seen": "2026-11-12",
-  "reason": "location: Rome Metropolitain Area",
-  "title": "Technical Operations Coordinator"
- },
- "ashby:Airapps:8aa6b8eb-acbc-4d8d-a936-a0783690f3c9": {
-  "last_seen": "2026-11-12",
-  "reason": "location: London Metropolitain Area",
-  "title": "Technical Operations Coordinator"
- },
- "ashby:Airapps:8af7439a-a59e-4924-a0b0-ac0e7460a5d7": {
-  "last_seen": "2026-11-12",
-  "reason": "location: Madrid",
-  "title": "Technical Operations Coordinator"
- },
- "ashby:Airapps:aa4b5e90-5dbe-4f9f-8703-2cfeb59c385e": {
-  "last_seen": "2026-11-12",
-  "reason": "location: Paris",
-  "title": "Technical Operations Coordinator"
- },
- "ashby:Airapps:e0d894da-dd5b-46a2-93ec-e8898a125b3d": {
-  "last_seen": "2026-11-12",
-  "reason": "location: Helsinki",
-  "title": "Technical Operations Coordinator"
- },
  "ashby:Allarahealth:c2f68c70-c1b7-4347-97c0-621fabad797f": {
   "last_seen": "2026-11-12",
   "reason": "location: Florida",
@@ -194,35 +149,10 @@
   "reason": "experience: 8+ years",
   "title": "AV Operations Specialist"
  },
- "greenhouse:Anthropic:5390952008": {
-  "last_seen": "2026-11-12",
-  "reason": "salary: starts at $190,000 (senior pay band)",
-  "title": "GTM Strategy & Operations, Frontier"
- },
- "greenhouse:Anthropic:5390956008": {
-  "last_seen": "2026-11-12",
-  "reason": "experience: 10+ years",
-  "title": "GTM Strategy & Operations - AMER Enterprise Tech"
- },
- "greenhouse:Anthropic:5425680008": {
-  "last_seen": "2026-11-12",
-  "reason": "salary: starts at $190,000 (senior pay band)",
-  "title": "Procurement Operations Business Partner - Workplace, Security and People"
- },
- "greenhouse:Anthropic:5427938008": {
-  "last_seen": "2026-11-12",
-  "reason": "salary: starts at $270,000 (senior pay band)",
-  "title": "GTM Strategy & Operations, FDE"
- },
  "greenhouse:Anthropic:5432995008": {
   "last_seen": "2026-11-12",
   "reason": "salary: starts at $190,000 (senior pay band)",
   "title": "Strategy & Operations, Office of the CCO"
- },
- "greenhouse:Anthropic:5441896008": {
-  "last_seen": "2026-11-12",
-  "reason": "experience: 6+ years",
-  "title": "Discovery Technical Operations Specialist "
  },
  "greenhouse:Anthropic:5446641008": {
   "last_seen": "2026-11-12",
