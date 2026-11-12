@@ -24,14 +24,17 @@ _SITE_URL = re.compile(
     r"https?://(?P<host>wd\d+\.myworkdaysite\.com)"
     r"/(?:[a-z]{2}-[A-Z]{2}/)?recruiting/(?P<tenant>[a-z0-9_-]+)/(?P<site>[A-Za-z0-9_\-]+)",
 )
-_NOT_SITES = {"wday", "job", "details", "login", "apply", "userHome"}
+_NOT_SITES = {"wday", "job", "details", "login", "apply", "userHome", "assets", "favicon",
+              "robots", "shared-vendors", "uxinsights", "cx-jobs", "cx-jobs-ie", "gtm",
+              "sitemap", "static", "resources", "images", "fonts", "css", "js", "api"}
+_NOT_SITES_LOWER = {x.lower() for x in _NOT_SITES}
 
 
 def parse_url(url: str) -> dict | None:
     """Turn any Workday careers/job URL into {host, tenant, site}."""
     for rx in (_SITE_URL, _JOBS_URL):
         m = rx.search(url)
-        if (m and m.group("site") not in _NOT_SITES
+        if (m and m.group("site").lower() not in _NOT_SITES_LOWER
                 and not re.fullmatch(r"[a-z]{2}-[A-Z]{2}|[a-z]{2}", m.group("site"))
                 and "." not in m.group("site")):
             return {"host": m.group("host"), "tenant": m.group("tenant"), "site": m.group("site")}
@@ -48,10 +51,9 @@ def public_url(c: dict, external_path: str) -> str:
     return f"https://{c['host']}/en-US/{c['site']}{external_path}"
 
 
-def validate(c: dict) -> bool:
-    data = http.post_json(_base(c) + "/jobs",
-                          {"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""})
-    return isinstance(data, dict) and "jobPostings" in data
+def validate(c: dict) -> bool | None:
+    return http.check(_base(c) + "/jobs", lambda d: isinstance(d, dict) and "jobPostings" in d,
+                      payload={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""})
 
 
 def _list(c: dict, term: str) -> Iterable[dict]:

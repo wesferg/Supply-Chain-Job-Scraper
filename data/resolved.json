@@ -1,7 +1,4 @@
 {
- "Allbirds": {
-  "failed_on": "2026-11-11"
- },
  "Applied Materials": {
   "ats": "workday",
   "found_on": "2026-11-11",
@@ -25,18 +22,12 @@
    "org": "away"
   }
  },
- "Bio-Rad": {
-  "failed_on": "2026-11-11"
- },
  "Bombas": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
   "ids": {
    "token": "bombas"
   }
- },
- "Boston Dynamics": {
-  "failed_on": "2026-11-11"
  },
  "Chevron": {
   "ats": "workday",
@@ -47,9 +38,6 @@
    "tenant": "chevron"
   }
  },
- "Chobani": {
-  "failed_on": "2026-11-11"
- },
  "Clorox": {
   "ats": "workday",
   "found_on": "2026-11-11",
@@ -59,27 +47,12 @@
    "tenant": "clorox"
   }
  },
- "Columbia Sportswear": {
-  "failed_on": "2026-11-11"
- },
- "Conagra Brands": {
-  "failed_on": "2026-11-11"
- },
- "Coyote Logistics": {
-  "failed_on": "2026-11-11"
- },
  "DoorDash": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
   "ids": {
    "token": "doordashusa"
   }
- },
- "Estee Lauder Companies": {
-  "failed_on": "2026-11-11"
- },
- "Etsy": {
-  "failed_on": "2026-11-11"
  },
  "Flexport": {
   "ats": "greenhouse",
@@ -100,13 +73,6 @@
   "found_on": "2026-11-11",
   "ids": {
    "token": "fourkites"
-  }
- },
- "Gap Inc": {
-  "ats": "smartrecruiters",
-  "found_on": "2026-11-11",
-  "ids": {
-   "company_id": "gapinc"
   }
  },
  "Genentech (Roche)": {
@@ -180,30 +146,12 @@
    "company_id": "intuitive"
   }
  },
- "Joby Aviation": {
-  "failed_on": "2026-11-11"
- },
  "KEEN": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
   "ids": {
    "token": "keenfootwear"
   }
- },
- "KLA": {
-  "failed_on": "2026-11-11"
- },
- "Kellanova": {
-  "failed_on": "2026-11-11"
- },
- "Kraft Heinz": {
-  "failed_on": "2026-11-11"
- },
- "Lam Research": {
-  "failed_on": "2026-11-11"
- },
- "Levi Strauss & Co": {
-  "failed_on": "2026-11-11"
  },
  "Lucid Motors": {
   "ats": "greenhouse",
@@ -221,9 +169,6 @@
    "tenant": "mdlz"
   }
  },
- "Motorola Solutions": {
-  "failed_on": "2026-11-11"
- },
  "NVIDIA": {
   "ats": "workday",
   "found_on": "2026-11-11",
@@ -231,13 +176,6 @@
    "host": "nvidia.wd5.myworkdayjobs.com",
    "site": "NVIDIAExternalCareerSite",
    "tenant": "nvidia"
-  }
- },
- "New Balance": {
-  "ats": "greenhouse",
-  "found_on": "2026-11-11",
-  "ids": {
-   "token": "new"
   }
  },
  "Nike": {
@@ -270,18 +208,12 @@
    "token": "oura"
   }
  },
- "PVH": {
-  "failed_on": "2026-11-11"
- },
  "Peak Design": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
   "ids": {
    "token": "peakdesign"
   }
- },
- "Peet's Coffee": {
-  "failed_on": "2026-11-11"
  },
  "Peloton": {
   "ats": "greenhouse",
@@ -290,28 +222,12 @@
    "token": "peloton"
   }
  },
- "Ralph Lauren": {
-  "ats": "ashby",
-  "found_on": "2026-11-11",
-  "ids": {
-   "org": "ralph"
-  }
- },
- "Reebok": {
-  "failed_on": "2026-11-11"
- },
  "Rent the Runway": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
   "ids": {
    "token": "renttherunway"
   }
- },
- "Rivian": {
-  "failed_on": "2026-11-11"
- },
- "Ross Stores": {
-  "failed_on": "2026-11-11"
  },
  "Rothy's": {
   "ats": "ashby",
@@ -320,18 +236,12 @@
    "org": "rothys"
   }
  },
- "SRAM": {
-  "failed_on": "2026-11-11"
- },
  "Samsara": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
   "ids": {
    "token": "samsara"
   }
- },
- "ShipBob": {
-  "failed_on": "2026-11-11"
  },
  "SimpliSafe": {
   "ats": "greenhouse",
@@ -349,21 +259,12 @@
    "tenant": "specialized"
   }
  },
- "Spindrift": {
-  "failed_on": "2026-11-11"
- },
- "Tapestry": {
-  "failed_on": "2026-11-11"
- },
  "WHOOP": {
   "ats": "ashby",
   "found_on": "2026-11-11",
   "ids": {
    "org": "whoop"
   }
- },
- "Warby Parker": {
-  "failed_on": "2026-11-11"
  },
  "Wayfair": {
   "ats": "smartrecruiters",
@@ -385,9 +286,6 @@
   "ids": {
    "company_id": "westerndigital"
   }
- },
- "Williams-Sonoma": {
-  "failed_on": "2026-11-11"
  },
  "Zipline": {
   "ats": "greenhouse",

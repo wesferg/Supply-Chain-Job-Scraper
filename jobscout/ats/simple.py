@@ -28,9 +28,17 @@ def _cached(ats, name, jid, title, url, locs) -> Job:
 # Detail: GET https://boards-api.greenhouse.io/v1/boards/{token}/jobs/{id}
 
 
-def greenhouse_validate(token: str) -> bool:
-    d = http.get_json(f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs")
-    return isinstance(d, dict) and "jobs" in d
+def greenhouse_info(token: str) -> tuple[bool | None, str]:
+    """(exists?, the board's display name). exists is None when we couldn't tell."""
+    code, d = http.status_json(f"https://boards-api.greenhouse.io/v1/boards/{token}")
+    if code == 200:
+        ok = isinstance(d, dict) and "name" in d
+        return ok, (d.get("name") or "").strip() if ok else ""
+    return (False if code in http.GONE else None), ""
+
+
+def greenhouse_validate(token: str) -> bool | None:
+    return greenhouse_info(token)[0]
 
 
 def greenhouse(name: str, c: dict, title_ok: TitleOk, loc_ok: LocOk = _yes,
@@ -69,9 +77,9 @@ def greenhouse(name: str, c: dict, title_ok: TitleOk, loc_ok: LocOk = _yes,
 # GET https://api.lever.co/v0/postings/{company}?mode=json   (descriptions included)
 
 
-def lever_validate(slug: str) -> bool:
-    d = http.get_json(f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1")
-    return isinstance(d, list)
+def lever_validate(slug: str) -> bool | None:
+    return http.check(f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1",
+                      lambda d: isinstance(d, list))
 
 
 def lever(name: str, c: dict, title_ok: TitleOk, loc_ok: LocOk = _yes,
@@ -107,9 +115,9 @@ def lever(name: str, c: dict, title_ok: TitleOk, loc_ok: LocOk = _yes,
 # GET https://api.ashbyhq.com/posting-api/job-board/{org}?includeCompensation=true
 
 
-def ashby_validate(org: str) -> bool:
-    d = http.get_json(f"https://api.ashbyhq.com/posting-api/job-board/{org}")
-    return isinstance(d, dict) and "jobs" in d
+def ashby_validate(org: str) -> bool | None:
+    return http.check(f"https://api.ashbyhq.com/posting-api/job-board/{org}",
+                      lambda d: isinstance(d, dict) and "jobs" in d)
 
 
 def ashby(name: str, c: dict, title_ok: TitleOk, loc_ok: LocOk = _yes,
@@ -147,9 +155,10 @@ def ashby(name: str, c: dict, title_ok: TitleOk, loc_ok: LocOk = _yes,
 # GET https://api.smartrecruiters.com/v1/companies/{id}/postings?limit=100&offset=N
 
 
-def smartrecruiters_validate(cid: str) -> bool:
-    d = http.get_json(f"https://api.smartrecruiters.com/v1/companies/{cid}/postings?limit=1")
-    return isinstance(d, dict) and (d.get("totalFound") or 0) > 0
+def smartrecruiters_validate(cid: str) -> bool | None:
+    # SmartRecruiters answers 200 for any id, so "exists" means "has postings".
+    return http.check(f"https://api.smartrecruiters.com/v1/companies/{cid}/postings?limit=1",
+                      lambda d: isinstance(d, dict) and (d.get("totalFound") or 0) > 0)
 
 
 def smartrecruiters(name: str, c: dict, title_ok: TitleOk, loc_ok: LocOk = _yes,

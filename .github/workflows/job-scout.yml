@@ -38,6 +38,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: Claude fit scoring
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}           # optional: web-search company discovery
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONUNBUFFERED: "1"   # show progress in the Actions log as it happens
         run: python -m jobscout
 
       - name: Save results

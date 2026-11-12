@@ -7,7 +7,7 @@ Wes's rules. It ranks every open match by fit and puts the result in a single li
 `JOBS.md`, with the most important roles first.
 
 It skips the big job boards. Instead it reads the same public JSON that each company's own
-careers site loads, on Workday, Greenhouse, Lever, Ashby and SmartRecruiters. That way it
+careers site loads, on Workday, Greenhouse, Lever, Ashby, SmartRecruiters and Eightfold. That way it
 sees postings as soon as the company lists them.
 
 ## What one run does
@@ -38,10 +38,11 @@ All rules live in `config/filters.yaml`.
 
 | Rule | Setting |
 |---|---|
-| Field | Supply chain, demand/supply/inventory planning, forecasting, S&OP, OR, simulation, logistics/procurement analytics |
-| Never | Sales, sales engineering, mechanical/other engineering, HVAC, internships, part-time/contract |
-| Level | No senior/lead/manager/director titles; rejects postings needing 5+ years; flags 3–4 years as a stretch |
-| Where | SF Bay Area (preferred), NYC, Boston, Portland OR, Chicago, or US-remote. Nothing in Texas, the South, Florida, the Midwest, or SoCal |
+| Field | Supply chain, demand/supply/inventory/merchandise planning, forecasting, S&OP, operations research, operations simulation and optimization, logistics/procurement analytics |
+| Ranked lower | General operations titles (Business Operations, Strategy & Operations, Operations Associate) are kept but sit below real supply chain roles |
+| Never | Sales, sales engineering, mechanical/other engineering, HVAC, SEO, actuarial, lab/fund/drone/robot/facilities operations, internships, part-time/contract, talent-community posts |
+| Level | No senior/lead/manager/director titles; rejects postings needing 5+ years; flags 3–4 years as a stretch; rejects pay bands that *start* at $190k+ (a senior hire) and ranks $150k+ starts lower |
+| Where | SF Bay Area (preferred), NYC, Boston, Portland OR, Chicago (and near suburbs), or US-remote. Nothing in Texas, the South, Florida, the Midwest, SoCal, or outside the US |
 | Pay | Rejects ranges that top out under $65k; unlisted pay passes |
 
 ## How companies are discovered
@@ -55,7 +56,10 @@ job board it recognizes:
 | Wayback Machine index | Nothing |
 | Brave web search, e.g. "demand planner" + "Oakland" on career sites | Optional `BRAVE_API_KEY` secret (paid by usage; check Brave's pricing) |
 
-- Each new board is checked once to confirm it's real.
+- Each new board is checked once to confirm it's real. If a site is busy or rate-limits the
+  check, the board is re-checked next time instead of being written off.
+- Junk links (asset files, numeric IDs, tracking pages) are ignored before any request.
+- Greenhouse boards show the company's real name, not its board slug.
 - Staffing agencies are skipped.
 - Boards that stop responding are dropped.
 
@@ -87,9 +91,11 @@ can tune this with `max_minutes` and `daily_budget_units` in `config/universe.ya
 - **Missing a kind of title:** add it to `titles.core` or `titles.adjacent`.
 - **Cities:** edit `locations.metros`.
 - **Show more or fewer roles in JOBS.md:** change `list_min_score` in `profile.yaml`.
+- **Changing the rules** in `filters.yaml` re-checks every saved job on the next run, so
+  roles that no longer fit drop off and older ones keep their original "first seen" date.
 - **A company on your list says "could not find a supported careers site" in the run
   log:** open any of its job postings and copy the link into its entry in
-  `companies.yaml`.
+  `companies.yaml`. Editing an entry re-runs its lookup on the next run.
   - A `...myworkdayjobs.com/...` link goes in `url:`.
   - A `boards.greenhouse.io/<name>` link becomes `ats: greenhouse` plus `token: <name>`.
   - A Lever link becomes `ats: lever` plus `slug: <name>`.
@@ -98,8 +104,8 @@ can tune this with `max_minutes` and `daily_budget_units` in `config/universe.ya
   `config/universe.yaml`.
 - **A discovered company you love:** copy it into `companies.yaml` so it's checked daily.
 
-Apple, Google, Tesla, Amazon and Meta run their own custom career sites and aren't
-covered.
+Apple, Google, Tesla, Amazon, Meta and Williams-Sonoma run their own custom career sites
+and aren't covered.
 
 To run it locally:
 

@@ -15,6 +15,7 @@ import itertools
 import json
 import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
 
@@ -75,7 +76,7 @@ def boards_from_urls(urls) -> dict[str, tuple[str, dict]]:
 # ---------------- sources ----------------
 
 def _commoncrawl(patterns: list[dict], pages: int, meta: dict) -> list[str]:
-    info = http.get_json("https://index.commoncrawl.org/collinfo.json", timeout=60)
+    info = http.get_json("https://index.commoncrawl.org/collinfo.json", timeout=(10, 30), quick=True)
     if not info:
         print("  commoncrawl: index list unavailable")
         return []
@@ -85,22 +86,29 @@ def _commoncrawl(patterns: list[dict], pages: int, meta: dict) -> list[str]:
         meta["cc_index"], cursors = api, {}
         meta["cc_cursor"] = cursors
     urls: list[str] = []
+    failures = 0
     for p in patterns:
+        if failures >= 3:  # the index is having a bad day; don't burn the run on it
+            print("  commoncrawl: too many errors, skipping the rest until next time")
+            break
         q = f"{api}?url={p['host']}&output=json&fl=url"
-        n = http.get_json(q + "&showNumPages=true", timeout=120) or {}
+        n = http.get_json(q + "&showNumPages=true", timeout=(10, 60), quick=True) or {}
         total = int(n.get("pages") or 0)
         if not total:
+            failures += 1
             continue
         start = cursors.get(p["host"], 0)
         for i in range(pages):
             page = (start + i) % total
             try:
-                r = http.get(f"{q}&page={page}", timeout=180)
+                r = http.get(f"{q}&page={page}", quick=True, timeout=(10, 90))
             except Exception as e:
-                print(f"  commoncrawl {p['host']} p{page}: {e}")
-                continue
+                print(f"  commoncrawl {p['host']} p{page}: {type(e).__name__}")
+                failures += 1
+                break
             if r.status_code != 200:
-                continue
+                failures += 1
+                break
             for line in r.text.splitlines():
                 try:
                     urls.append(json.loads(line)["url"])
@@ -119,11 +127,14 @@ def _wayback(patterns: list[dict], rows: int, since: int, meta: dict) -> list[st
         q = (f"https://web.archive.org/cdx/search/cdx?url={p['wayback']}&matchType={p['match']}"
              f"&fl=original&collapse=urlkey&from={since}&limit={rows}&offset={off}")
         try:
-            r = http.get(q, timeout=180)
+            r = http.get(q, quick=True, timeout=(10, 120))
         except Exception as e:
-            print(f"  wayback {p['wayback']}: {e}")
+            print(f"  wayback {p['wayback']}: {type(e).__name__}")
             continue
-        lines = r.text.split() if r.status_code == 200 else []
+        if r.status_code != 200:
+            print(f"  wayback {p['wayback']}: HTTP {r.status_code}")
+            continue  # keep the offset; try the same slice next time
+        lines = r.text.split()
         urls += lines
         offsets[p["wayback"]] = 0 if len(lines) < rows else off + rows
         print(f"  wayback {p['wayback']}: {len(lines)} urls from offset {off}")
@@ -154,11 +165,28 @@ def _brave(cfg: dict, meta: dict) -> list[str]:
 # ---------------- grow ----------------
 
 def _validate(item):
+    """(key, True/False/None, display name). None = no answer; try again next time."""
     k, (ats, ids) = item
     try:
-        return k, discover._validate(ats, ids)
+        if ats == "greenhouse":
+            from .ats import simple
+            ok, name = simple.greenhouse_info(ids["token"])
+            return k, ok, name
+        return k, discover._validate(ats, ids), ""
     except Exception:
-        return k, False
+        return k, None, ""
+
+
+def ids_from_key(k: str) -> tuple[str, dict] | None:
+    """Rebuild (ats, ids) from a board key, for re-checking boards marked dead."""
+    ats, _, rest = k.partition(":")
+    one = {"greenhouse": "token", "lever": "slug", "ashby": "org", "smartrecruiters": "company_id"}
+    if ats in one and rest:
+        return ats, {one[ats]: rest}
+    if ats == "workday" and "/" in rest and ".myworkdayjobs.com" in rest:
+        host, site = rest.split("/", 1)
+        return ats, {"host": host, "tenant": host.split(".")[0], "site": site}
+    return None
 
 
 def grow(cfg: dict, curated_keys: set[str]) -> dict:
@@ -176,6 +204,11 @@ def grow(cfg: dict, curated_keys: set[str]) -> dict:
                          src["wayback"].get("since_year", 2025), u["meta"])
 
     found = boards_from_urls(urls)
+    # Boards whose check got no answer last time (rate limits, timeouts) go first.
+    for k in u["meta"].pop("recheck", []):
+        rebuilt = ids_from_key(k)
+        if rebuilt and discover.plausible(*rebuilt):
+            found = {k: rebuilt, **found}
     excl = re.compile(cfg.get("exclude_board_names") or r"(?!x)x", re.I)
     dead = set(u["meta"].get("dead", []))
     new = [(k, v) for k, v in found.items()
@@ -186,21 +219,48 @@ def grow(cfg: dict, curated_keys: set[str]) -> dict:
 
     today = date.today().isoformat()
     added = 0
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        for k, ok in pool.map(_validate, new):
+    recheck: list[str] = []
+    deadline = time.monotonic() + 60 * g.get("max_minutes", 15)
+
+    def timed(item):
+        if time.monotonic() > deadline:
+            return item[0], None, ""
+        return _validate(item)
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        for k, ok, display in pool.map(timed, new):
             if ok:
                 ats, ids = found[k]
                 u["boards"][k] = {"ats": ats, "ids": ids, "name": pretty_name(ats, ids),
                                   "added": today, "last_scanned": "", "last_hit": "",
                                   "hits": 0, "fails": 0}
+                if display:
+                    u["boards"][k]["display"] = display
                 added += 1
+            elif ok is None:
+                recheck.append(k)
             else:
                 dead.add(k)
     u["meta"]["dead"] = sorted(dead)[-50000:]
+    u["meta"]["recheck"] = recheck[:5000]
+    if recheck:
+        print(f"grow: {len(recheck)} boards got no answer; re-checking them next time")
     u["meta"]["last_grow"] = today
     save(u)
     print(f"grow: added {added}; universe now {len(u['boards'])} boards")
     return {"urls": len(urls), "boards_seen": len(found), "added": added, "total": len(u["boards"])}
+
+
+def backfill_names(u: dict, limit: int = 60) -> None:
+    """Real company names for Greenhouse boards that have produced matches
+    ("1stavenuepower" -> "1st Avenue Power"). One cheap call per board, once."""
+    from .ats import simple
+    todo = [b for b in u["boards"].values()
+            if b["ats"] == "greenhouse" and b.get("hits") and "display" not in b][:limit]
+    for b in todo:
+        ok, name = simple.greenhouse_info(b["ids"]["token"])
+        if ok is not None:
+            b["display"] = name or ""
 
 
 # ---------------- daily slice ----------------

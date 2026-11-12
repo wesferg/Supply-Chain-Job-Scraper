@@ -27,8 +27,10 @@ exclude_board_names: "staffing|recruit|talent|consulting group|search partners|p
 grow:
   # The daily run looks for new companies on its first run and then every N days.
   every_days: 7
-  # New boards checked (validated) per discovery pass.
+  # New boards checked (validated) per discovery pass, and a time cap on that step.
+  # Anything not checked in time is picked up by the next pass.
   max_new_boards: 2000
+  max_minutes: 15
   sources:
     # Common Crawl's public URL index: millions of crawled career-site URLs. No key needed.
     commoncrawl:

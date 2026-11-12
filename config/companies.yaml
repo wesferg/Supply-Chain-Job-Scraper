@@ -20,10 +20,9 @@ companies:
     careers_url: https://www.specialized.com/us/en/careers
     slugs: [specialized, specializedbicycles, specializedbicyclecomponents]
   - name: Gap Inc                   # SF: Gap, Old Navy, Banana Republic, Athleta
-    url: https://gap.wd1.myworkdayjobs.com/GAPINC
+    url: https://gapinc.wd1.myworkdayjobs.com/GAPINC
   - name: Levi Strauss & Co
-    careers_url: https://www.levistrauss.com/work-with-us/
-    slugs: [levistraussandco, levistrauss]
+    url: https://levistraussandco.wd5.myworkdayjobs.com/External
   - name: Williams-Sonoma
     careers_url: https://www.williams-sonomainc.com/careers/jobs
     slugs: [wsgc, williamssonoma, williams-sonoma]
@@ -31,23 +30,26 @@ companies:
     careers_url: https://jobs.rossstores.com/
     slugs: [rossstores]
   - name: Allbirds
+    ats: greenhouse
+    token: allbirds
   - name: Rothy's
     slugs: [rothys]
   - name: Peak Design
     slugs: [peakdesign]
   - name: New Balance               # Boston HQ
-    careers_url: https://jobs.newbalance.com/
+    url: https://newbalance.wd1.myworkdayjobs.com/Careers
     slugs: [newbalance]
   - name: Reebok
   - name: Columbia Sportswear       # Portland
-    slugs: [columbia, columbiasportswear]
+    url: https://columbiasportswearcompany.wd5.myworkdayjobs.com/Columbia_Career_Site
   - name: KEEN
     slugs: [keenfootwear, keen]
   - name: "On Running"              # US HQ in Portland
     slugs: [onrunning, on-running]
   - name: SRAM                      # Chicago
   - name: Warby Parker              # NYC
-    slugs: [warbyparker]
+    ats: greenhouse
+    token: warbyparker
   - name: Glossier
   - name: Away
     slugs: [away, awaytravel]
@@ -56,12 +58,19 @@ companies:
     slugs: [harrys]
   - name: Rent the Runway
     slugs: [renttherunway]
-  - name: Etsy
+  - name: TJX                       # Framingham MA: TJ Maxx, Marshalls (big planning org)
+    url: https://wd1.myworkdaysite.com/recruiting/tjx/TJX_EXTERNAL
+  - name: Bose                      # Framingham MA
+    url: https://boseallaboutme.wd1.myworkdayjobs.com/Bose_Careers
+  - name: Etsy                      # Brooklyn
+    url: https://etsy.wd5.myworkdayjobs.com/Etsy_Careers
   - name: Peloton
-  - name: PVH
+  - name: PVH                       # NYC: Calvin Klein, Tommy Hilfiger
+    url: https://pvh.wd1.myworkdayjobs.com/PVH_Careers
   - name: Ralph Lauren
     slugs: [ralphlauren]
-  - name: Tapestry
+  - name: Tapestry                  # NYC: Coach, Kate Spade
+    url: https://tapestry.wd108.myworkdayjobs.com/Tapestry_Careers
   - name: Estee Lauder Companies
     slugs: [elcompanies, esteelauder]
 
@@ -79,9 +88,13 @@ companies:
   - name: Mondelez                  # Chicago HQ
     url: https://mdlz.wd3.myworkdayjobs.com/External
   - name: Kraft Heinz               # Chicago
-    url: https://kraftheinz.wd1.myworkdayjobs.com/KraftHeinz_Careers
+    url: https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers
   - name: Conagra Brands            # Chicago
-    slugs: [conagra, conagrabrands]
+    url: https://conagrabrands.wd1.myworkdayjobs.com/Careers_US
+  - name: Constellation Brands      # Chicago office
+    url: https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers
+  - name: Crate & Barrel            # Northbrook IL
+    url: https://crateandbarrel.wd1.myworkdayjobs.com/CBH
   - name: Kellanova                 # Chicago
     slugs: [kellanova]
 
@@ -90,10 +103,12 @@ companies:
     url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
   - name: Applied Materials
     url: https://amat.wd1.myworkdayjobs.com/External
-  - name: Lam Research
-    url: https://lamresearch.wd1.myworkdayjobs.com/LAM
-  - name: KLA
-    slugs: [kla]
+  - name: Lam Research              # Fremont (Eightfold careers site)
+    ats: eightfold
+    host: careers.lamresearch.com
+    domain: lamresearch.com
+  - name: KLA                       # Milpitas
+    url: https://kla.wd1.myworkdayjobs.com/Search
   - name: Intel                     # Santa Clara + Hillsboro OR
     url: https://intel.wd1.myworkdayjobs.com/External
   - name: HP Inc
@@ -105,7 +120,8 @@ companies:
     slugs: [intuitive]
   - name: Lucid Motors
     slugs: [lucidmotors]
-  - name: Rivian
+  - name: Rivian                    # Palo Alto
+    slugs: [rivian]
   - name: Zipline
     slugs: [flyzipline, zipline]
   - name: Joby Aviation
@@ -117,7 +133,7 @@ companies:
   - name: Samsara
   - name: Waymo
   - name: Boston Dynamics
-    slugs: [bostondynamics]
+    url: https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics
   - name: Formlabs
   - name: WHOOP
     slugs: [whoop]
@@ -125,7 +141,7 @@ companies:
     ats: greenhouse
     token: simplisafe
   - name: Motorola Solutions        # Chicago
-    slugs: [motorolasolutions]
+    url: https://motorolasolutions.wd5.myworkdayjobs.com/Careers
 
   # ---- Pharma / biotech / medtech (supply planning heavy) ----
   - name: Gilead Sciences

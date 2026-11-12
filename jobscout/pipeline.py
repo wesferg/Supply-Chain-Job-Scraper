@@ -1,6 +1,8 @@
 """The daily run: resolve companies -> fetch -> filter -> score -> write results."""
 from __future__ import annotations
 
+import hashlib
+import json
 import os
 import re
 import time
@@ -16,6 +18,7 @@ from .models import Job, BoardUnavailable
 
 CONFIG = os.path.join(store.ROOT, "config")
 RETRY_FAILED_AFTER_DAYS = 7
+RULES_VERSION = 2  # bump when filtering/scoring code changes in a way that should re-check jobs
 
 
 def load_yaml(name: str) -> dict:
@@ -23,22 +26,38 @@ def load_yaml(name: str) -> dict:
         return yaml.safe_load(f)
 
 
+def _hints(entry: dict) -> str:
+    """Fingerprint of an entry's hints; editing them in companies.yaml re-runs the lookup."""
+    return json.dumps({k: v for k, v in entry.items() if k != "name"}, sort_keys=True, default=str)
+
+
 def company_ids(entry: dict, state: store.State, log: list[str]) -> tuple[str, dict] | None:
     """Cached result if we have one, else resolve (validating any hints) and cache it."""
     name = entry["name"]
     cached = state.resolved.get(name)
     today = date.today()
+    hints = _hints(entry)
+    if cached and cached.setdefault("hints", hints) != hints:
+        cached = None  # hints changed since the last lookup
     if cached and cached.get("ats"):
         return cached["ats"], cached["ids"]
-    if cached and cached.get("failed_on", "") > (today - timedelta(days=RETRY_FAILED_AFTER_DAYS)).isoformat():
-        return None
+    if cached and cached.get("failed_on"):
+        wait = 1 if cached.get("unsure") else RETRY_FAILED_AFTER_DAYS
+        if cached["failed_on"] > (today - timedelta(days=wait)).isoformat():
+            return None
 
-    hit = discover.resolve(entry)
+    try:
+        hit = discover.resolve(entry)
+    except discover.LookupUnsure as e:
+        state.resolved[name] = {"failed_on": today.isoformat(), "unsure": True, "hints": hints}
+        log.append(f"{name}: lookup inconclusive ({e}); will retry tomorrow")
+        return None
     if hit:
-        state.resolved[name] = {"ats": hit[0], "ids": hit[1], "found_on": today.isoformat()}
+        state.resolved[name] = {"ats": hit[0], "ids": hit[1], "found_on": today.isoformat(),
+                                "hints": hints}
         log.append(f"{name}: discovered {hit[0]} {hit[1]}")
         return hit
-    state.resolved[name] = {"failed_on": today.isoformat()}
+    state.resolved[name] = {"failed_on": today.isoformat(), "hints": hints}
     log.append(f"{name}: could not find a supported careers site (add it by hand in companies.yaml)")
     return None
 
@@ -61,6 +80,18 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
 
     f = Filters(filters_cfg)
     state = store.State()
+    # When the rules change, re-check every job from scratch (details re-fetched once),
+    # but remember when each match was first seen so old ones don't come back as NEW.
+    rules = hashlib.sha1(json.dumps([RULES_VERSION, filters_cfg], sort_keys=True,
+                                    default=str).encode()).hexdigest()[:12]
+    cutoff = (date.today() - timedelta(days=60)).isoformat()
+    first_seen = {k: d for k, d in state.meta.get("first_seen", {}).items() if d >= cutoff}
+    first_seen.update({k: v["first_seen"] for k, v in state.matches.items() if v.get("first_seen")})
+    if state.meta.get("rules") != rules and not only:
+        if state.meta.get("rules") or state.matches:
+            state.matches, state.rejected = {}, {}
+            state.meta["first_seen"] = first_seen
+        state.meta["rules"] = rules
     known = state.known_keys()
     today = date.today().isoformat()
     log: list[str] = []
@@ -85,6 +116,7 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
 
     if not dry_run:
         state.save()  # keep company lookups even if something later in the run fails
+    print(f"your companies: {len(targets)} boards ready ({time.monotonic() - started:.0f}s)")
 
     u = None
     sweep = ucfg.get("sweep", {})
@@ -101,14 +133,19 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
             except Exception as e:
                 log.append(f"[company discovery] ERROR {type(e).__name__}: {e}")
         u = universe.load()
+        if not dry_run:
+            universe.backfill_names(u)
         excl = re.compile(ucfg.get("exclude_board_names") or r"(?!x)x", re.I)
         for k in universe.todays_slice(u, sweep.get("daily_budget_units", 1500),
                                        sweep.get("promote_days", 45), curated_board_keys(state)):
             b = u["boards"][k]
             if excl.search(b["name"]):
                 continue
+            if excl.search(b.get("display") or ""):
+                continue
             targets.append({"name": b["name"], "ats": b["ats"], "ids": b["ids"], "origin": "universe",
-                            "bkey": k, "terms": sweep.get("workday_search_terms", f.search_terms)})
+                            "bkey": k, "display": b.get("display"),
+                            "terms": sweep.get("workday_search_terms", f.search_terms)})
     deadline = time.monotonic() + 60 * sweep.get("max_minutes", 40)
 
     def fetch_one(t: dict):
@@ -125,8 +162,11 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
     fetched: list[Job] = []
     board_of: dict[str, dict] = {}  # job key -> target
     uni_stats = {"scanned": 0, "failed": 0, "skipped": 0, "postings": 0}
+    print(f"checking {len(targets)} boards...")
     with ThreadPoolExecutor(max_workers=workers) as pool:
-        for fut in as_completed([pool.submit(fetch_one, t) for t in targets]):
+        for n, fut in enumerate(as_completed([pool.submit(fetch_one, t) for t in targets]), 1):
+            if n % 200 == 0:
+                print(f"  {n}/{len(targets)} boards checked ({time.monotonic() - started:.0f}s)")
             t, jobs, err = fut.result()
             if t["origin"] == "curated":
                 log.append(f"{t['name']}: ERROR {err}" if err else
@@ -171,14 +211,17 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
         t = board_of.get(k, {})
         scoring.score(job, profile, f.floor, f.good_pay, allow_llm=llm_left > 0)
         llm_left -= 1
-        rec = {**job.to_dict(), "first_seen": today, "last_seen": today,
+        rec = {**job.to_dict(), "first_seen": first_seen.get(k) or today, "last_seen": today,
                "origin": t.get("origin", "curated")}
+        if t.get("display"):
+            rec["display"] = t["display"]
         rec.pop("description", None)
         if not rec.get("verdict") and os.environ.get("ANTHROPIC_API_KEY"):
             # Not Claude-scored yet (no key, or today's cap hit): keep enough text to score later.
             rec["pending_desc"] = job.description[:5000]
         state.matches[k] = rec
-        new_rows.append(rec)
+        if rec["first_seen"] == today:
+            new_rows.append(rec)
         if t.get("origin") == "universe" and u is not None:
             b = u["boards"][t["bkey"]]
             b["last_hit"] = today
@@ -200,6 +243,12 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
         if hit_boards:
             msg += "; new matches from: " + ", ".join(hit_boards)
         log.append(msg)
+
+    if u is not None:  # names learned after a match was first stored
+        names = {b["name"]: b["display"] for b in u["boards"].values() if b.get("display")}
+        for r in state.matches.values():
+            if r.get("origin") == "universe" and not r.get("display") and r["company"] in names:
+                r["display"] = names[r["company"]]
 
     # "Open" = seen in the last 3 days, so one failed fetch doesn't drop a company's jobs.
     recent = (date.today() - timedelta(days=2)).isoformat()

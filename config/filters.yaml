@@ -29,8 +29,10 @@ titles:
     - forecast
     - "s&op|s & op|s&oe|\\bibp\\b|sales (and|&) operations planning|integrated business planning"
     - operations research
-    - "\\boptimization\\b"
-    - "simulation"
+    # optimization / simulation only in an operations sense (not SEO, not quantum physics)
+    - "(supply chain|inventory|network|logistics|operations|route|routing|fulfillment|warehouse|transportation|capacity|production|manufacturing|scheduling) (optimi[sz]ation|simulation)"
+    - "(optimi[sz]ation|simulation) (analyst|modeler|modeller|scientist)"
+    - "discrete[- ]event"
     - inventory (plan|analyst|control|optimi[sz])
     - "material(s)? (plan|requirement)"
     - production plan
@@ -43,17 +45,31 @@ titles:
   adjacent:
     - "\\bplanner\\b"
     - planning analyst
+    - "(merchandise|assortment) plann"
     - "allocat(or|ion)"
     - logistics
     - procurement
     - sourcing (analyst|specialist|associate|coordinator)
     - "\\bbuyer\\b.*\\bplanner\\b|\\bplanner\\b.*\\bbuyer\\b"
     - (fulfillment|distribution|transportation|warehouse|import|export|trade) (analyst|planner|coordinator|specialist|associate)
-    - operations (analyst|associate|planning|planner|specialist)
+    - "(supply chain|logistics|fulfillment|distribution|manufacturing|production|inventory|procurement|sourcing|materials?|warehouse|transportation|freight) operations"
+    - operations (planning|planner)
     - "(decision|data) scien.*(supply|operations|forecast|demand|inventory|logistics)"
     - "(supply|operations|forecast|demand|inventory|logistics).*(decision|data) scien"
     - "(rotation(al)?|development|leadership) program.*(supply|operations|planning)"
     - "(supply|operations|planning).*(rotation(al)?|development|leadership) program"
+
+  # General operations / strategy titles: kept, but ranked below real supply chain roles.
+  general:
+    - operations (analyst|associate|specialist|coordinator)
+    - business operations
+    - "strategy (and|&) operations|bizops|biz ops"
+
+  # Rejected unless the title also matches a core pattern
+  # ("AI Infrastructure Operations, Demand Planning" survives; "Lab Operations Specialist" doesn't).
+  exclude_unless_core:
+    - "(security|\\bit\\b|people|\\bhr\\b|revenue|marketing|clinical|trust|cyber|fraud|payroll|legal|finance|financial|loan|banking|trading|network operations center|\\bsoc\\b|guest|restaurant|store|field|fund|lab|laboratory|facilit(y|ies)|robot(ic)?s?|software quality|quality|tool install|pricing|creative|content|community|member|studio|platform|cloud|data center|infrastructure|\\bml\\b|\\bai\\b|site reliability|support|account|client|investment|portfolio|insurance|claims|medical|patient|school|academic|research|capture|fleet|flight|ground|uas|drone|data|dev|sales|partner|merchant|seller|creator|ads?|risk|compliance|tax|treasury|real estate|construction|events?|hospitality|kitchen|culinary|retail) operations"
+    - "\\bpilot\\b|\\buas\\b|drone"
 
   # Any of these in the title = rejected.
   exclude:
@@ -75,8 +91,10 @@ titles:
     # not full-time, not entry-ish
     - "\\bintern\\b|internship|co-op|\\bcoop\\b"
     - "part[- ]time|temporary|\\btemp\\b|seasonal|contractor|\\(contract|\\bcontract\\s*(\\)|$|role|position|to hire|-)"
-    # "operations" titles from unrelated departments
-    - "(security|\\bit\\b|people|\\bhr\\b|revenue|marketing|clinical|trust|cyber|fraud|payroll|legal|finance|financial|loan|banking|trading|network operations center|\\bsoc\\b|guest|restaurant|store|field) operations"
+    # not supply chain at all
+    - "\\bseo\\b|\\bsearch engine|actuar|quantum|meteorolog|weather|population|store plan|space plan|visual merchandis|\\bmerchant\\b"
+    - "talent (community|network|pool)|skillbridge|freelance|ai trainer|evergreen|general application"
+    - "crypto|\\btrading\\b|clearing|corporate actions|\\bmargin\\b|\\bapac\\b|\\bemea\\b|\\blatam\\b"
     # seniority
     - "\\bsenior\\b|\\bsr\\.?\\b|\\blead\\b|principal|\\bstaff\\b|director|\\bhead\\b|vice president|\\bvp\\b|\\bsvp\\b|\\bchief\\b|supervisor|expert|specialist iii|\\biii\\b|\\biv\\b|\\bv\\b(?=\\s*$)|\\b[3-9]\\b(?=\\s*$)"
     - "(?<!associate )(?<!assistant )\\bmanager\\b"
@@ -87,6 +105,8 @@ titles:
     - planning engineer
     - operations research engineer
     - logistics engineer
+    - "(discrete[- ]event|operations|supply chain|factory|manufacturing|logistics) simulation engineer"
+    - "(supply chain|operations|logistics|inventory) optimi[sz]ation engineer"
 
   # Title words that signal a true first-job fit (small score boost).
   entry_signals:
@@ -101,6 +121,9 @@ experience:
 salary:
   floor: 65000          # reject if the posted range tops out below this
   good: 85000           # small score boost at or above this midpoint
+  # A pay band that STARTS this high is hiring someone with years of experience.
+  senior_reject_min: 190000   # range starts at or above this: rejected
+  senior_flag_min: 150000     # range starts at or above this: kept, ranked lower
 
 locations:
   allow_remote_us: true # US-remote roles pass (scored below in-office in your metros)
@@ -124,13 +147,15 @@ locations:
     Boston:
       state: [MA, Massachusetts]
       cities: [Boston, Cambridge, Somerville, Waltham, Watertown, Brookline, Newton,
-               Burlington, Lexington, Woburn, Needham, Quincy]
+               Burlington, Lexington, Woburn, Needham, Quincy, Framingham, Marlborough,
+               Natick, Wellesley, Bedford]
     Portland:
       state: [OR, Oregon]
       cities: [Portland, Beaverton, Hillsboro, Lake Oswego, Tigard, Tualatin, Wilsonville]
     Chicago:
       state: [IL, Illinois]
-      cities: [Chicago]
+      cities: [Chicago, Evanston, Oak Brook, Northbrook, Deerfield, Rosemont, Schaumburg,
+               Itasca, Lombard, Downers Grove, Glenview, Skokie]
   unambiguous: [San Francisco, Brooklyn, Manhattan, Beaverton, Sunnyvale, Silicon Valley,
                 SF Bay Area, Bay Area, NYC, Emeryville, Morgan Hill, South San Francisco, Menlo Park,
                 Mountain View, Palo Alto, Redwood City, Lake Oswego, Somerville]

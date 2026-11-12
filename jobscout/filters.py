@@ -16,6 +16,19 @@ from .text import parse_salary, required_years
 _US = re.compile(r"\b(US|USA|U\.S\.A?\.?|United States( of America)?|North America|Anywhere)\b", re.I)
 
 
+# Non-US countries, as names or the ISO codes Workday appends ("San Francisco,CRI").
+_FOREIGN = re.compile(
+    r"(?<![A-Za-z])(CRI|CAN|MEX|IND|CHN|GBR|IRL|DEU|FRA|NLD|ESP|ITA|POL|ISR|JPN|KOR|TWN|SGP|MYS|PHL"
+    r"|BRA|ARG|COL|CHL|PER|AUS|NZL|CHE|SWE|DNK|NOR|FIN|BEL|AUT|CZE|HUN|ROU|PRT|VNM|THA|IDN|ARE"
+    r"|SAU|ZAF|EGY|TUR|HKG|PRI)(?![A-Za-z])"
+    r"|(?i:\b(costa rica|canada|mexico|india|china|united kingdom|england|ireland|germany|france"
+    r"|netherlands|spain|italy|poland|israel|japan|korea|taiwan|singapore|malaysia|philippines"
+    r"|brazil|argentina|colombia|chile|australia|new zealand|switzerland|sweden|denmark|norway"
+    r"|finland|belgium|austria|czech|hungary|romania|portugal|vietnam|thailand|indonesia"
+    r"|emirates|saudi|south africa|egypt|turkey|hong kong|puerto rico|ontario|british columbia"
+    r"|quebec|alberta)\b)")
+
+
 def _rx(patterns: list[str]) -> list[re.Pattern]:
     return [re.compile(p, re.I) for p in patterns]
 
@@ -42,7 +55,9 @@ class Filters:
         t = cfg["titles"]
         self.core = _rx(t["core"])
         self.adjacent = _rx(t["adjacent"])
+        self.general = _rx(t.get("general", []))
         self.exclude = _rx(t["exclude"])
+        self.exclude_unless_core = _rx(t.get("exclude_unless_core", []))
         self.engineer_ok = _rx(t.get("engineer_allowed", []))
         self.entry = _rx(t.get("entry_signals", []))
         self.search_terms: list[str] = cfg.get("workday_search_terms", [])
@@ -54,6 +69,8 @@ class Filters:
         s = cfg.get("salary", {})
         self.floor = s.get("floor", 0)
         self.good_pay = s.get("good", self.floor)
+        self.senior_reject = s.get("senior_reject_min")
+        self.senior_flag = s.get("senior_flag_min")
 
         loc = cfg["locations"]
         self.allow_remote = loc.get("allow_remote_us", True)
@@ -69,7 +86,7 @@ class Filters:
     # ---------------- titles ----------------
 
     def title_category(self, title: str) -> Optional[str]:
-        """'core' | 'adjacent' | None (rejected)."""
+        """'core' | 'adjacent' | 'general' | None (rejected)."""
         if not title:
             return None
         for rx in self.exclude:
@@ -79,8 +96,12 @@ class Filters:
             return None
         if any(r.search(title) for r in self.core):
             return "core"
+        if any(r.search(title) for r in self.exclude_unless_core):
+            return None
         if any(r.search(title) for r in self.adjacent):
             return "adjacent"
+        if any(r.search(title) for r in self.general):
+            return "general"
         return None
 
     def title_ok(self, title: str) -> bool:
@@ -92,6 +113,8 @@ class Filters:
     # ---------------- locations ----------------
 
     def match_location(self, loc: str) -> Optional[str]:
+        if _FOREIGN.search(loc):  # "San Francisco,CRI" is in Costa Rica
+            return None
         for metro, state, cities in self.metros:
             for city_rx, unambiguous in cities:
                 if city_rx.search(loc) and (unambiguous or state.search(loc)):
@@ -134,7 +157,7 @@ class Filters:
         cat = self.title_category(job.title)
         if not cat:
             return Decision(False, "title")
-        job.flags = [f for f in job.flags if f not in ("core", "adjacent")] + [cat]
+        job.flags = [f for f in job.flags if f not in ("core", "adjacent", "general")] + [cat]
 
         if re.search(r"part[- ]time|contract|temporary|intern", job.time_type or "", re.I):
             return Decision(False, f"type: {job.time_type}")
@@ -154,6 +177,11 @@ class Filters:
             job.salary_min, job.salary_max = parse_salary(job.description)
         if job.salary_max is not None and job.salary_max < self.floor:
             return Decision(False, f"salary: tops out at ${job.salary_max:,.0f}")
+        low = job.salary_min or job.salary_max
+        if low and self.senior_reject and low >= self.senior_reject:
+            return Decision(False, f"salary: starts at ${low:,.0f} (senior pay band)")
+        if low and self.senior_flag and low >= self.senior_flag:
+            job.flags.append("senior_pay")
 
         if self.entry_signal(job.title):
             job.flags.append("entry")

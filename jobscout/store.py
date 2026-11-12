@@ -35,6 +35,7 @@ class State:
         self.matches = _load("matches.json")
         self.rejected = _load("rejected.json")
         self.resolved = _load("resolved.json")
+        self.meta = _load("meta.json")
 
     def known_keys(self) -> set[str]:
         return set(self.matches) | set(self.rejected)
@@ -49,6 +50,11 @@ class State:
         _save("matches.json", self.matches)
         _save("rejected.json", self.rejected)
         _save("resolved.json", self.resolved)
+        _save("meta.json", self.meta)
+
+
+def company(r: dict) -> str:
+    return r.get("display") or r.get("company", "")
 
 
 CSV_FIELDS = ["score", "verdict", "title", "company", "metro", "locations", "salary",
@@ -69,7 +75,7 @@ def write_csv(rows: list[dict]) -> str:
         w = csv.DictWriter(f, fieldnames=CSV_FIELDS, extrasaction="ignore")
         w.writeheader()
         for r in rows:
-            w.writerow({**r, "locations": "; ".join(r.get("locations") or []),
+            w.writerow({**r, "company": company(r), "locations": "; ".join(r.get("locations") or []),
                         "flags": " ".join(f for f in r.get("flags") or [] if f != "cached"),
                         "salary": _salary(r)})
     return path
@@ -100,8 +106,8 @@ def _row(i: int, r: dict, today: str) -> str:
     if notes:
         why += f" `{', '.join(notes)}`"
     new = "**NEW** " if r.get("first_seen") == today else ""
-    company = _md_cell(r["company"]) + (" \\*" if r.get("origin") == "universe" else "")
-    return (f"| {i} | {r.get('score')} | {new}[{_md_cell(r['title'])}]({r['url']}) | {company} "
+    company_cell = _md_cell(company(r)) + (" \\*" if r.get("origin") == "universe" else "")
+    return (f"| {i} | {r.get('score')} | {new}[{_md_cell(r['title'])}]({r['url']}) | {company_cell} "
             f"| {_md_cell(r.get('metro'))} | {_salary(r) or '-'} | {why} |")
 
 
@@ -147,7 +153,7 @@ def issue_text(rows: list[dict], new_rows: list[dict], today: str, min_score: in
     shown = [r for r in rows if (r.get("score") or 0) >= min_score][:top]
     best = new_good[0]
     title = (f"{len(new_good)} new match{'es' if len(new_good) != 1 else ''} - "
-             f"best new: {best['title']} @ {best['company']} ({best.get('score')})")
+             f"best new: {best['title']} @ {company(best)} ({best.get('score')})")
     body = "\n".join([
         f"Your top {len(shown)} open roles, most important first. **NEW** = first seen today.", "",
         *_HEAD, *[_row(i + 1, r, today) for i, r in enumerate(shown)], "",

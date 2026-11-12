@@ -74,10 +74,17 @@ def fake_net(monkeypatch):
             return LEVER
         if "api.ashbyhq.com/posting-api/job-board/acme" in url:
             return ASHBY
+        if url.endswith("boards-api.greenhouse.io/v1/boards/acme"):       # board info
+            return {"name": "Acme Brands", "content": ""}
         return None
+
+    def status_json(url, payload=None, **kw):
+        data = post_json(url, payload) if payload is not None else get_json(url)
+        return (200, data) if data is not None else (404, None)
 
     monkeypatch.setattr(http, "post_json", post_json)
     monkeypatch.setattr(http, "get_json", get_json)
+    monkeypatch.setattr(http, "status_json", status_json)
 
 
 # ---------------- unit: adapters ----------------

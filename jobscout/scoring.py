@@ -20,7 +20,7 @@ DESC_KEYWORDS = [
 
 def rule_score(job: Job, floor: float, good_pay: float) -> int:
     s = 0
-    s += 40 if "core" in job.flags else 25
+    s += 40 if "core" in job.flags else 28 if "adjacent" in job.flags else 15
     s += {"SF Bay Area": 25, "Remote (US)": 12}.get(job.metro, 18)
     if "entry" in job.flags:
         s += 10
@@ -28,6 +28,8 @@ def rule_score(job: Job, floor: float, good_pay: float) -> int:
         s += 8
     if "stretch" in job.flags:
         s -= 6
+    if "senior_pay" in job.flags:
+        s -= 12
     if job.salary_max is not None:
         mid = ((job.salary_min or job.salary_max) + job.salary_max) / 2
         s += 7 if mid >= good_pay else 3
@@ -100,7 +102,10 @@ def llm_score(job: Job, profile: dict) -> dict | None:
 
 
 def rule_why(job: Job) -> str:
-    parts = ["core planning/supply chain role" if "core" in job.flags else "adjacent supply chain role"]
+    parts = ["core planning/supply chain role" if "core" in job.flags else
+             "adjacent supply chain role" if "adjacent" in job.flags else "general operations role"]
+    if "senior_pay" in job.flags:
+        parts.append("pay band suggests a more senior hire")
     if "entry" in job.flags:
         parts.append("entry-level title")
     if job.min_years is not None:
