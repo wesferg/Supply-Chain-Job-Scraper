@@ -1,0 +1,406 @@
+{
+ "Allbirds": {
+  "failed_on": "2026-11-11"
+ },
+ "Applied Materials": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "amat.wd1.myworkdayjobs.com",
+   "site": "External",
+   "tenant": "amat"
+  }
+ },
+ "Archer Aviation": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "archer56"
+  }
+ },
+ "Away": {
+  "ats": "ashby",
+  "found_on": "2026-11-11",
+  "ids": {
+   "org": "away"
+  }
+ },
+ "Bio-Rad": {
+  "failed_on": "2026-11-11"
+ },
+ "Bombas": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "bombas"
+  }
+ },
+ "Boston Dynamics": {
+  "failed_on": "2026-11-11"
+ },
+ "Chevron": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "chevron.wd5.myworkdayjobs.com",
+   "site": "jobs",
+   "tenant": "chevron"
+  }
+ },
+ "Chobani": {
+  "failed_on": "2026-11-11"
+ },
+ "Clorox": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "wd1.myworkdaysite.com",
+   "site": "Clorox",
+   "tenant": "clorox"
+  }
+ },
+ "Columbia Sportswear": {
+  "failed_on": "2026-11-11"
+ },
+ "Conagra Brands": {
+  "failed_on": "2026-11-11"
+ },
+ "Coyote Logistics": {
+  "failed_on": "2026-11-11"
+ },
+ "DoorDash": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "doordashusa"
+  }
+ },
+ "Estee Lauder Companies": {
+  "failed_on": "2026-11-11"
+ },
+ "Etsy": {
+  "failed_on": "2026-11-11"
+ },
+ "Flexport": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "flexport"
+  }
+ },
+ "Formlabs": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "formlabs"
+  }
+ },
+ "FourKites": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "fourkites"
+  }
+ },
+ "Gap Inc": {
+  "ats": "smartrecruiters",
+  "found_on": "2026-11-11",
+  "ids": {
+   "company_id": "gapinc"
+  }
+ },
+ "Genentech (Roche)": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "roche.wd3.myworkdayjobs.com",
+   "site": "roche-ext",
+   "tenant": "roche"
+  }
+ },
+ "Gilead Sciences": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "gilead.wd1.myworkdayjobs.com",
+   "site": "gileadcareers",
+   "tenant": "gilead"
+  }
+ },
+ "Glossier": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "glossier"
+  }
+ },
+ "HP Inc": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "hp.wd5.myworkdayjobs.com",
+   "site": "ExternalCareerSite",
+   "tenant": "hp"
+  }
+ },
+ "Harry's": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "harrys"
+  }
+ },
+ "Impossible Foods": {
+  "ats": "ashby",
+  "found_on": "2026-11-11",
+  "ids": {
+   "org": "impossible-foods"
+  }
+ },
+ "Instacart": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "instacart"
+  }
+ },
+ "Intel": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "intel.wd1.myworkdayjobs.com",
+   "site": "External",
+   "tenant": "intel"
+  }
+ },
+ "Intuitive Surgical": {
+  "ats": "smartrecruiters",
+  "found_on": "2026-11-11",
+  "ids": {
+   "company_id": "intuitive"
+  }
+ },
+ "Joby Aviation": {
+  "failed_on": "2026-11-11"
+ },
+ "KEEN": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "keenfootwear"
+  }
+ },
+ "KLA": {
+  "failed_on": "2026-11-11"
+ },
+ "Kellanova": {
+  "failed_on": "2026-11-11"
+ },
+ "Kraft Heinz": {
+  "failed_on": "2026-11-11"
+ },
+ "Lam Research": {
+  "failed_on": "2026-11-11"
+ },
+ "Levi Strauss & Co": {
+  "failed_on": "2026-11-11"
+ },
+ "Lucid Motors": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "lucidmotors"
+  }
+ },
+ "Mondelez": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "mdlz.wd3.myworkdayjobs.com",
+   "site": "External",
+   "tenant": "mdlz"
+  }
+ },
+ "Motorola Solutions": {
+  "failed_on": "2026-11-11"
+ },
+ "NVIDIA": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "nvidia.wd5.myworkdayjobs.com",
+   "site": "NVIDIAExternalCareerSite",
+   "tenant": "nvidia"
+  }
+ },
+ "New Balance": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "new"
+  }
+ },
+ "Nike": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "nike.wd1.myworkdayjobs.com",
+   "site": "nke",
+   "tenant": "nike"
+  }
+ },
+ "On Running": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "onrunning"
+  }
+ },
+ "Once Upon a Farm": {
+  "ats": "lever",
+  "found_on": "2026-11-11",
+  "ids": {
+   "slug": "onceuponafarm"
+  }
+ },
+ "Oura": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "oura"
+  }
+ },
+ "PVH": {
+  "failed_on": "2026-11-11"
+ },
+ "Peak Design": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "peakdesign"
+  }
+ },
+ "Peet's Coffee": {
+  "failed_on": "2026-11-11"
+ },
+ "Peloton": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "peloton"
+  }
+ },
+ "Ralph Lauren": {
+  "ats": "ashby",
+  "found_on": "2026-11-11",
+  "ids": {
+   "org": "ralph"
+  }
+ },
+ "Reebok": {
+  "failed_on": "2026-11-11"
+ },
+ "Rent the Runway": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "renttherunway"
+  }
+ },
+ "Rivian": {
+  "failed_on": "2026-11-11"
+ },
+ "Ross Stores": {
+  "failed_on": "2026-11-11"
+ },
+ "Rothy's": {
+  "ats": "ashby",
+  "found_on": "2026-11-11",
+  "ids": {
+   "org": "rothys"
+  }
+ },
+ "SRAM": {
+  "failed_on": "2026-11-11"
+ },
+ "Samsara": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "samsara"
+  }
+ },
+ "ShipBob": {
+  "failed_on": "2026-11-11"
+ },
+ "SimpliSafe": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "simplisafe"
+  }
+ },
+ "Specialized": {
+  "ats": "workday",
+  "found_on": "2026-11-11",
+  "ids": {
+   "host": "specialized.wd5.myworkdayjobs.com",
+   "site": "Specialized_External_Career_Site",
+   "tenant": "specialized"
+  }
+ },
+ "Spindrift": {
+  "failed_on": "2026-11-11"
+ },
+ "Tapestry": {
+  "failed_on": "2026-11-11"
+ },
+ "WHOOP": {
+  "ats": "ashby",
+  "found_on": "2026-11-11",
+  "ids": {
+   "org": "whoop"
+  }
+ },
+ "Warby Parker": {
+  "failed_on": "2026-11-11"
+ },
+ "Wayfair": {
+  "ats": "smartrecruiters",
+  "found_on": "2026-11-11",
+  "ids": {
+   "company_id": "wayfair"
+  }
+ },
+ "Waymo": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "waymo"
+  }
+ },
+ "Western Digital": {
+  "ats": "smartrecruiters",
+  "found_on": "2026-11-11",
+  "ids": {
+   "company_id": "westerndigital"
+  }
+ },
+ "Williams-Sonoma": {
+  "failed_on": "2026-11-11"
+ },
+ "Zipline": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "flyzipline"
+  }
+ },
+ "project44": {
+  "ats": "greenhouse",
+  "found_on": "2026-11-11",
+  "ids": {
+   "token": "project44"
+  }
+ }
+}

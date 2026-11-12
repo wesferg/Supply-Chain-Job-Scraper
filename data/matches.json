@@ -1,0 +1,1981 @@
+{
+ "ashby:1x:bdb83ddb-0337-4542-b066-7580e534a60a": {
+  "ats": "ashby",
+  "company": "1x",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "bdb83ddb-0337-4542-b066-7580e534a60a",
+  "key": "ashby:1x:bdb83ddb-0337-4542-b066-7580e534a60a",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Carlos, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2026-10-05T16:52:19.909+00:00",
+  "remote": false,
+  "salary_max": 120000,
+  "salary_min": 100000,
+  "score": 76,
+  "time_type": "FullTime",
+  "title": "Materials Planner",
+  "url": "https://jobs.ashbyhq.com/1x/bdb83ddb-0337-4542-b066-7580e534a60a",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 3+ yrs"
+ },
+ "ashby:Aaru:5d05520d-5fee-4849-9cd8-88b9478d8ae1": {
+  "ats": "ashby",
+  "company": "Aaru",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "5d05520d-5fee-4849-9cd8-88b9478d8ae1",
+  "key": "ashby:Aaru:5d05520d-5fee-4849-9cd8-88b9478d8ae1",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "NYC"
+  ],
+  "metro": "New York City",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-07-30T00:53:42.575+00:00",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 70,
+  "time_type": "FullTime",
+  "title": "Simulation Architect, NYC",
+  "url": "https://jobs.ashbyhq.com/aaru/5d05520d-5fee-4849-9cd8-88b9478d8ae1",
+  "verdict": "",
+  "why": "Core planning/supply chain role; pay not listed"
+ },
+ "ashby:Aaru:b0d5cf02-fe88-4eaa-8908-3c5556844dbb": {
+  "ats": "ashby",
+  "company": "Aaru",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "b0d5cf02-fe88-4eaa-8908-3c5556844dbb",
+  "key": "ashby:Aaru:b0d5cf02-fe88-4eaa-8908-3c5556844dbb",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-08-25T22:27:22.063+00:00",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 77,
+  "time_type": "FullTime",
+  "title": "Simulation Architect, West",
+  "url": "https://jobs.ashbyhq.com/aaru/b0d5cf02-fe88-4eaa-8908-3c5556844dbb",
+  "verdict": "",
+  "why": "Core planning/supply chain role; pay not listed"
+ },
+ "ashby:Aaru:f718d12f-67e9-4fe9-91cc-9e3b69ff00fe": {
+  "ats": "ashby",
+  "company": "Aaru",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "f718d12f-67e9-4fe9-91cc-9e3b69ff00fe",
+  "key": "ashby:Aaru:f718d12f-67e9-4fe9-91cc-9e3b69ff00fe",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "NYC"
+  ],
+  "metro": "New York City",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-03-08T15:21:57.814+00:00",
+  "remote": false,
+  "salary_max": 600000,
+  "salary_min": 200000,
+  "score": 77,
+  "time_type": "FullTime",
+  "title": "Researcher, Population Simulation",
+  "url": "https://jobs.ashbyhq.com/aaru/f718d12f-67e9-4fe9-91cc-9e3b69ff00fe",
+  "verdict": "",
+  "why": "Core planning/supply chain role"
+ },
+ "ashby:Airapps:b2bd37fd-42a4-4016-b7af-b0807fdb4680": {
+  "ats": "ashby",
+  "company": "Airapps",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "b2bd37fd-42a4-4016-b7af-b0807fdb4680",
+  "key": "ashby:Airapps:b2bd37fd-42a4-4016-b7af-b0807fdb4680",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2025-03-07T16:27:01.445+00:00",
+  "remote": false,
+  "salary_max": 100000,
+  "salary_min": 60000,
+  "score": 66,
+  "time_type": "FullTime",
+  "title": "Search Engine Optimization (SEO) Specialist",
+  "url": "https://jobs.ashbyhq.com/airapps/b2bd37fd-42a4-4016-b7af-b0807fdb4680",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 3+ yrs"
+ },
+ "ashby:Alan:a5973d82-d4f2-48f8-8c96-70de49f14c9b": {
+  "ats": "ashby",
+  "company": "Alan",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "a5973d82-d4f2-48f8-8c96-70de49f14c9b",
+  "key": "ashby:Alan:a5973d82-d4f2-48f8-8c96-70de49f14c9b",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Anywhere in France"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-10-27T13:27:12.194+00:00",
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 66,
+  "time_type": "FullTime",
+  "title": "Portfolio analytics and forecasts actuary",
+  "url": "https://jobs.ashbyhq.com/alan/a5973d82-d4f2-48f8-8c96-70de49f14c9b",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 2+ yrs; pay not listed"
+ },
+ "ashby:Allocate:ea7672bc-1037-45ee-b9e2-06a0a7ac93f3": {
+  "ats": "ashby",
+  "company": "Allocate",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "ea7672bc-1037-45ee-b9e2-06a0a7ac93f3",
+  "key": "ashby:Allocate:ea7672bc-1037-45ee-b9e2-06a0a7ac93f3",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "New York Office (On-Site)"
+  ],
+  "metro": "New York City",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2026-10-01T18:19:43.756+00:00",
+  "remote": false,
+  "salary_max": 125000,
+  "salary_min": 110000,
+  "score": 56,
+  "time_type": "FullTime",
+  "title": "Fund Operations Associate",
+  "url": "https://jobs.ashbyhq.com/allocate/ea7672bc-1037-45ee-b9e2-06a0a7ac93f3",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 3+ yrs"
+ },
+ "ashby:Ambrook:686819c1-5a5e-4151-8a0a-2647aa17693b": {
+  "ats": "ashby",
+  "company": "Ambrook",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "686819c1-5a5e-4151-8a0a-2647aa17693b",
+  "key": "ashby:Ambrook:686819c1-5a5e-4151-8a0a-2647aa17693b",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-10-30T18:30:46.188+00:00",
+  "remote": true,
+  "salary_max": 140000,
+  "salary_min": 100000,
+  "score": 77,
+  "time_type": "FullTime",
+  "title": "Operations Associate, San Francisco",
+  "url": "https://jobs.ashbyhq.com/ambrook/686819c1-5a5e-4151-8a0a-2647aa17693b",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title"
+ },
+ "ashby:Anyone ai:ea7b9c45-d0f4-4873-8877-963c297c3478": {
+  "ats": "ashby",
+  "company": "Anyone ai",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "ea7b9c45-d0f4-4873-8877-963c297c3478",
+  "key": "ashby:Anyone ai:ea7b9c45-d0f4-4873-8877-963c297c3478",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Remote",
+   "Fully Remote",
+   "Argentina - Fully Remote"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-07-08T16:50:10.308+00:00",
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 51,
+  "time_type": "FullTime",
+  "title": "Data & Operations Specialist",
+  "url": "https://jobs.ashbyhq.com/anyone-ai/ea7b9c45-d0f4-4873-8877-963c297c3478",
+  "verdict": "",
+  "why": "Adjacent supply chain role; pay not listed"
+ },
+ "ashby:Ashgro:5071c238-b98d-4a9b-9c30-b026f2c114f7": {
+  "ats": "ashby",
+  "company": "Ashgro",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "5071c238-b98d-4a9b-9c30-b026f2c114f7",
+  "key": "ashby:Ashgro:5071c238-b98d-4a9b-9c30-b026f2c114f7",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Anywhere"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2025-10-31T19:49:34.498+00:00",
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 55,
+  "time_type": "FullTime",
+  "title": "Operations Associate",
+  "url": "https://jobs.ashbyhq.com/ashgro/5071c238-b98d-4a9b-9c30-b026f2c114f7",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
+ "ashby:Atomic invest:4e5b6963-b07a-4262-b260-459e37ea8a1d": {
+  "ats": "ashby",
+  "company": "Atomic invest",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "4e5b6963-b07a-4262-b260-459e37ea8a1d",
+  "key": "ashby:Atomic invest:4e5b6963-b07a-4262-b260-459e37ea8a1d",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "United States"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-09-14T23:11:19.239+00:00",
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 55,
+  "time_type": "FullTime",
+  "title": "Operations Associate, Trading and Margin",
+  "url": "https://jobs.ashbyhq.com/atomic-invest/4e5b6963-b07a-4262-b260-459e37ea8a1d",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
+ "ashby:Atomic invest:acbc4395-213c-44ad-9290-e132cb7f321c": {
+  "ats": "ashby",
+  "company": "Atomic invest",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "acbc4395-213c-44ad-9290-e132cb7f321c",
+  "key": "ashby:Atomic invest:acbc4395-213c-44ad-9290-e132cb7f321c",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "United States"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-09T16:39:20.125+00:00",
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 55,
+  "time_type": "FullTime",
+  "title": "Operations Associate, Self-Clearing & Corporate Actions",
+  "url": "https://jobs.ashbyhq.com/atomic-invest/acbc4395-213c-44ad-9290-e132cb7f321c",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
+ "ashby:Atp:a4715410-a68d-4faa-8027-daac961fa09c": {
+  "ats": "ashby",
+  "company": "Atp",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "a4715410-a68d-4faa-8027-daac961fa09c",
+  "key": "ashby:Atp:a4715410-a68d-4faa-8027-daac961fa09c",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Waltham, MA"
+  ],
+  "metro": "Boston",
+  "min_years": 0,
+  "origin": "universe",
+  "posted": "2026-09-28T16:46:20.811+00:00",
+  "remote": false,
+  "salary_max": 90000,
+  "salary_min": 60000,
+  "score": 58,
+  "time_type": "FullTime",
+  "title": "Lab Operations Specialist ",
+  "url": "https://jobs.ashbyhq.com/atp/a4715410-a68d-4faa-8027-daac961fa09c",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 0+ yrs"
+ },
+ "ashby:Basis research:18e40048-fa0a-4118-ae3f-cafd38c59289": {
+  "ats": "ashby",
+  "company": "Basis research",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "18e40048-fa0a-4118-ae3f-cafd38c59289",
+  "key": "ashby:Basis research:18e40048-fa0a-4118-ae3f-cafd38c59289",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "New York Office"
+  ],
+  "metro": "New York City",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-02T03:59:58.022+00:00",
+  "remote": false,
+  "salary_max": 140000,
+  "salary_min": 100000,
+  "score": 68,
+  "time_type": "PartTime",
+  "title": "Business Operations Associate",
+  "url": "https://jobs.ashbyhq.com/basis-research/18e40048-fa0a-4118-ae3f-cafd38c59289",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title"
+ },
+ "ashby:Rothy's:0942a9fe-7ea2-4c3a-ad09-91c168dac26c": {
+  "ats": "ashby",
+  "company": "Rothy's",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "stretch"
+  ],
+  "job_id": "0942a9fe-7ea2-4c3a-ad09-91c168dac26c",
+  "key": "ashby:Rothy's:0942a9fe-7ea2-4c3a-ad09-91c168dac26c",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 4,
+  "origin": "curated",
+  "posted": "2026-10-12T17:59:17.838+00:00",
+  "remote": false,
+  "salary_max": 99000,
+  "salary_min": 82000,
+  "score": 57,
+  "time_type": "FullTime",
+  "title": "Store Planner",
+  "url": "https://jobs.ashbyhq.com/Rothys/0942a9fe-7ea2-4c3a-ad09-91c168dac26c",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 4+ yrs"
+ },
+ "ashby:WHOOP:e9c53109-cff8-406f-bcc1-aa420ed783fe": {
+  "ats": "ashby",
+  "company": "WHOOP",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "e9c53109-cff8-406f-bcc1-aa420ed783fe",
+  "key": "ashby:WHOOP:e9c53109-cff8-406f-bcc1-aa420ed783fe",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Boston, MA"
+  ],
+  "metro": "Boston",
+  "min_years": 1,
+  "origin": "curated",
+  "posted": "2026-11-06T18:36:34.585+00:00",
+  "remote": false,
+  "salary_max": 90000.0,
+  "salary_min": 50000.0,
+  "score": 64,
+  "time_type": "FullTime",
+  "title": "Facilities Operations Associate",
+  "url": "https://jobs.ashbyhq.com/whoop/e9c53109-cff8-406f-bcc1-aa420ed783fe",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 1+ yrs"
+ },
+ "ashby:WHOOP:f4c503bb-4532-43b4-89c0-138b224233d4": {
+  "ats": "ashby",
+  "company": "WHOOP",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "entry"
+  ],
+  "job_id": "f4c503bb-4532-43b4-89c0-138b224233d4",
+  "key": "ashby:WHOOP:f4c503bb-4532-43b4-89c0-138b224233d4",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Boston, MA"
+  ],
+  "metro": "Boston",
+  "min_years": 0,
+  "origin": "curated",
+  "posted": "2026-10-02T14:24:24.985+00:00",
+  "remote": false,
+  "salary_max": 85000.0,
+  "salary_min": 60000.0,
+  "score": 87,
+  "time_type": "FullTime",
+  "title": "Wholesale Inventory Analyst, Accessories & Apparel",
+  "url": "https://jobs.ashbyhq.com/whoop/f4c503bb-4532-43b4-89c0-138b224233d4",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; asks 0+ yrs"
+ },
+ "ashby:WHOOP:fa31c080-9bc5-432c-b6e1-5577fcce97e7": {
+  "ats": "ashby",
+  "company": "WHOOP",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "fa31c080-9bc5-432c-b6e1-5577fcce97e7",
+  "key": "ashby:WHOOP:fa31c080-9bc5-432c-b6e1-5577fcce97e7",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Boston, MA"
+  ],
+  "metro": "Boston",
+  "min_years": 3,
+  "origin": "curated",
+  "posted": "2026-10-28T19:00:14.742+00:00",
+  "remote": false,
+  "salary_max": 110000.0,
+  "salary_min": 80000.0,
+  "score": 69,
+  "time_type": "FullTime",
+  "title": "Apparel & Accessories Inventory Planner ",
+  "url": "https://jobs.ashbyhq.com/whoop/fa31c080-9bc5-432c-b6e1-5577fcce97e7",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 3+ yrs"
+ },
+ "greenhouse:1stavenuepower:5444320008": {
+  "ats": "greenhouse",
+  "company": "1stavenuepower",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "5444320008",
+  "key": "greenhouse:1stavenuepower:5444320008",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Mountain View, CA",
+   "Bay Area, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-10-08T13:49:26-04:00",
+  "remote": false,
+  "salary_max": 125000.0,
+  "salary_min": 95000.0,
+  "score": 86,
+  "time_type": "",
+  "title": "Supply Chain Specialist/ Buyer",
+  "url": "https://job-boards.greenhouse.io/1stavenuepower/jobs/5444320008",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 2+ yrs"
+ },
+ "greenhouse:Agency:4605323101": {
+  "ats": "greenhouse",
+  "company": "Agency",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "4605323101",
+  "key": "greenhouse:Agency:4605323101",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "United States of America",
+   "Worldwide - Remote"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2025-06-11T16:41:32-04:00",
+  "remote": true,
+  "salary_max": 135200.0,
+  "salary_min": 135200.0,
+  "score": 56,
+  "time_type": "",
+  "title": "General Operations Specialist - Freelance AI Trainer Project",
+  "url": "https://job-boards.eu.greenhouse.io/agency/jobs/4605323101",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
+ "greenhouse:Aloyoga:6204619004": {
+  "ats": "greenhouse",
+  "company": "Aloyoga",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "6204619004",
+  "key": "greenhouse:Aloyoga:6204619004",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Amherst, New York, United States"
+  ],
+  "metro": "New York City",
+  "min_years": 1,
+  "origin": "universe",
+  "posted": "2026-09-23T14:37:01-04:00",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 65,
+  "time_type": "",
+  "title": "Operations Associate (Full-Time) - Station Twelve",
+  "url": "https://boards.greenhouse.io/aloyoga/jobs/6204619004?gh_jid=6204619004",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 1+ yrs; pay not listed"
+ },
+ "greenhouse:Alpaca:4431262004": {
+  "ats": "greenhouse",
+  "company": "Alpaca",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "4431262004",
+  "key": "greenhouse:Alpaca:4431262004",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Remote - Anywhere ",
+   "Asia"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2025-07-07T10:26:15-04:00",
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 41,
+  "time_type": "",
+  "title": "Crypto Operations Associate - APAC",
+  "url": "https://job-boards.greenhouse.io/alpaca/jobs/4431262004",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 3+ yrs; pay not listed"
+ },
+ "greenhouse:Anthropic:5357933008": {
+  "ats": "greenhouse",
+  "company": "Anthropic",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "5357933008",
+  "key": "greenhouse:Anthropic:5357933008",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA | Seattle, WA",
+   "San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-09-04T19:00:14-04:00",
+  "remote": false,
+  "salary_max": 230000.0,
+  "salary_min": 190000.0,
+  "score": 67,
+  "time_type": "",
+  "title": "Procurement Operations Business Partner, R&D Operations",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5357933008",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
+ "greenhouse:Anthropic:5382744008": {
+  "ats": "greenhouse",
+  "company": "Anthropic",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "5382744008",
+  "key": "greenhouse:Anthropic:5382744008",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA | New York City, NY",
+   "San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-08-11T08:10:02-04:00",
+  "remote": false,
+  "salary_max": 405000.0,
+  "salary_min": 320000.0,
+  "score": 90,
+  "time_type": "",
+  "title": "Infrastructure Capacity Planner, Demand Planning",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382744008",
+  "verdict": "",
+  "why": "Core planning/supply chain role"
+ },
+ "greenhouse:Anthropic:5382750008": {
+  "ats": "greenhouse",
+  "company": "Anthropic",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "5382750008",
+  "key": "greenhouse:Anthropic:5382750008",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA | New York City, NY",
+   "San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-08-11T08:14:01-04:00",
+  "remote": false,
+  "salary_max": 405000.0,
+  "salary_min": 320000.0,
+  "score": 90,
+  "time_type": "",
+  "title": "AI Infrastructure Operations, Demand Planning",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382750008",
+  "verdict": "",
+  "why": "Core planning/supply chain role"
+ },
+ "greenhouse:Anthropic:5425680008": {
+  "ats": "greenhouse",
+  "company": "Anthropic",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "5425680008",
+  "key": "greenhouse:Anthropic:5425680008",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA | Seattle, WA",
+   "San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-04T14:44:48-05:00",
+  "remote": false,
+  "salary_max": 230000.0,
+  "salary_min": 190000.0,
+  "score": 67,
+  "time_type": "",
+  "title": "Procurement Operations Business Partner - Workplace, Security and People",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5425680008",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
+ "greenhouse:Anthropic:5446641008": {
+  "ats": "greenhouse",
+  "company": "Anthropic",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "5446641008",
+  "key": "greenhouse:Anthropic:5446641008",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA | Seattle, WA",
+   "San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-10-07T13:45:01-04:00",
+  "remote": false,
+  "salary_max": 230000.0,
+  "salary_min": 190000.0,
+  "score": 69,
+  "time_type": "",
+  "title": "Procurement Operations Business Partner, Technology",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5446641008",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
+ "greenhouse:Aperiatechnologies:6205690004": {
+  "ats": "greenhouse",
+  "company": "Aperiatechnologies",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "6205690004",
+  "key": "greenhouse:Aperiatechnologies:6205690004",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Hayward, CA",
+   "Hayward, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-09-22T15:42:52-04:00",
+  "remote": false,
+  "salary_max": 105000.0,
+  "salary_min": 95000.0,
+  "score": 90,
+  "time_type": "",
+  "title": "Planner/Buyer, Supply Chain",
+  "url": "https://job-boards.greenhouse.io/aperiatechnologies/jobs/6205690004",
+  "verdict": "",
+  "why": "Core planning/supply chain role"
+ },
+ "greenhouse:Applovin:4723320006": {
+  "ats": "greenhouse",
+  "company": "Applovin",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "4723320006",
+  "key": "greenhouse:Applovin:4723320006",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Palo Alto, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-10-20T14:50:31-04:00",
+  "remote": false,
+  "salary_max": 156465.0,
+  "salary_min": 105300.0,
+  "score": 83,
+  "time_type": "",
+  "title": "Business Operations Analyst",
+  "url": "https://boards.greenhouse.io/applovin/jobs/4723320006?gh_jid=4723320006",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title"
+ },
+ "greenhouse:Apptronik:6227425004": {
+  "ats": "greenhouse",
+  "company": "Apptronik",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "6227425004",
+  "key": "greenhouse:Apptronik:6227425004",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Remote US",
+   "Austin, TX"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-10-16T16:10:06-04:00",
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 59,
+  "time_type": "",
+  "title": "Strategy & Operations Associate",
+  "url": "https://boards.greenhouse.io/apptronik/jobs/6227425004?gh_jid=6227425004",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 2+ yrs; pay not listed"
+ },
+ "greenhouse:Armstrongtransportgroup:5459621008": {
+  "ats": "greenhouse",
+  "company": "Armstrongtransportgroup",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "5459621008",
+  "key": "greenhouse:Armstrongtransportgroup:5459621008",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Remote"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-10-21T10:40:24-04:00",
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 45,
+  "time_type": "",
+  "title": "Operations Specialist",
+  "url": "https://job-boards.greenhouse.io/armstrongtransportgroup/jobs/5459621008",
+  "verdict": "",
+  "why": "Adjacent supply chain role; pay not listed"
+ },
+ "greenhouse:Astranis:4718946006": {
+  "ats": "greenhouse",
+  "company": "Astranis",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "4718946006",
+  "key": "greenhouse:Astranis:4718946006",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA",
+   "District of Columbia, United States",
+   "San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-10-04T14:41:57-04:00",
+  "remote": false,
+  "salary_max": 185000.0,
+  "salary_min": 115000.0,
+  "score": 79,
+  "time_type": "",
+  "title": "USG Capture Operations Analyst",
+  "url": "https://job-boards.greenhouse.io/astranis/jobs/4718946006",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 2+ yrs"
+ },
+ "greenhouse:DoorDash:6813973": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "6813973",
+  "key": "greenhouse:DoorDash:6813973",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Dublin, CA; San Francisco, CA",
+   "Dublin"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "curated",
+  "posted": "2025-04-17T16:35:43-04:00",
+  "remote": false,
+  "salary_max": 72384.0,
+  "salary_min": 49296.0,
+  "score": 63,
+  "time_type": "",
+  "title": "Robot Operations Specialist",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/6813973",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 2+ yrs"
+ },
+ "greenhouse:DoorDash:7749114": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "7749114",
+  "key": "greenhouse:DoorDash:7749114",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA; Sunnyvale, CA",
+   "San Francisco, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "curated",
+  "posted": "2026-03-25T10:18:22-04:00",
+  "remote": false,
+  "salary_max": 192000.0,
+  "salary_min": 130600.0,
+  "score": 88,
+  "time_type": "",
+  "title": "Operations Research Scientist",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/7749114",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 2+ yrs"
+ },
+ "greenhouse:DoorDash:8205350": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "8205350",
+  "key": "greenhouse:DoorDash:8205350",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Washington D.C; Chicago, IL; Tempe, AZ",
+   "New York"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 4,
+  "origin": "curated",
+  "posted": "2026-09-16T12:27:45-04:00",
+  "remote": false,
+  "salary_max": 155000.0,
+  "salary_min": 105400.0,
+  "score": 86,
+  "time_type": "",
+  "title": "Associate Manager,  DashMart - Supply Chain Profitability Strategy & Operations",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8205350",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; asks 4+ yrs"
+ },
+ "greenhouse:DoorDash:8243739": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "8243739",
+  "key": "greenhouse:DoorDash:8243739",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-09-30T14:58:46-04:00",
+  "remote": false,
+  "salary_max": 86944.0,
+  "salary_min": 59072.0,
+  "score": 65,
+  "time_type": "",
+  "title": "UAS Operations Specialist, Labs",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8243739",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
+ "greenhouse:DoorDash:8244483": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "8244483",
+  "key": "greenhouse:DoorDash:8244483",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Concord, CA; Bay Point, CA",
+   "Concord, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-09-30T17:00:33-04:00",
+  "remote": false,
+  "salary_max": 86944.0,
+  "salary_min": 59072.0,
+  "score": 63,
+  "time_type": "",
+  "title": "UAS Operations Specialist - Pilot",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8244483",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
+ "greenhouse:DoorDash:8263786": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "8263786",
+  "key": "greenhouse:DoorDash:8263786",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Bay Point, CA; Concord, CA ",
+   "Concord, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-08T03:05:21-04:00",
+  "remote": false,
+  "salary_max": 72384.0,
+  "salary_min": 49296.0,
+  "score": 63,
+  "time_type": "",
+  "title": "UAS Operations Specialist - Ground Support",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8263786",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
+ "greenhouse:DoorDash:8273901": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "entry"
+  ],
+  "job_id": "8273901",
+  "key": "greenhouse:DoorDash:8273901",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Washington DC; Chicago, IL; Tempe, AZ",
+   "Chicago, IL"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 1,
+  "origin": "curated",
+  "posted": "2026-10-12T11:28:05-04:00",
+  "remote": false,
+  "salary_max": 110000.0,
+  "salary_min": 74800.0,
+  "score": 100,
+  "time_type": "",
+  "title": "Associate,  DashMart - Supply Chain Profitability Strategy & Operations",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8273901",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; asks 1+ yrs"
+ },
+ "greenhouse:DoorDash:8331916": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "8331916",
+  "key": "greenhouse:DoorDash:8331916",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 4,
+  "origin": "curated",
+  "posted": "2026-10-28T15:59:27-04:00",
+  "remote": false,
+  "salary_max": 155000.0,
+  "salary_min": 105400.0,
+  "score": 65,
+  "time_type": "",
+  "title": "Associate Manager,  Strategy & Operations - Logistics (DoorDash for Business)",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8331916",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 4+ yrs"
+ },
+ "greenhouse:DoorDash:8356727": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "8356727",
+  "key": "greenhouse:DoorDash:8356727",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, CA; New York, NY",
+   "San Francisco, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 1,
+  "origin": "curated",
+  "posted": "2026-11-05T16:54:36-05:00",
+  "remote": false,
+  "salary_max": 110000.0,
+  "salary_min": 74800.0,
+  "score": 79,
+  "time_type": "",
+  "title": "Associate, Dasher & Logistics \u2014 Rotational Leadership Program",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8356727",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 1+ yrs"
+ },
+ "greenhouse:Flexport:7450540": {
+  "ats": "greenhouse",
+  "company": "Flexport",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "7450540",
+  "key": "greenhouse:Flexport:7450540",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco, California, United States",
+   "Atlanta, Georgia, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "curated",
+  "posted": "2025-12-10T18:34:16-05:00",
+  "remote": false,
+  "salary_max": 69600.0,
+  "salary_min": 55680.0,
+  "score": 71,
+  "time_type": "",
+  "title": "Global Operations Associate",
+  "url": "https://job-boards.greenhouse.io/flexport/jobs/7450540",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 2+ yrs"
+ },
+ "greenhouse:Flexport:7904839": {
+  "ats": "greenhouse",
+  "company": "Flexport",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "7904839",
+  "key": "greenhouse:Flexport:7904839",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Atlanta, Georgia, United States; Bellevue, Washington, United States; Chicago, Illinois, United States; Dallas, Texas, United States; Denver, Colorado, United States; Los Angeles, California, United States; New York City, New York, United States; San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "curated",
+  "posted": "2026-05-08T16:49:38-04:00",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 68,
+  "time_type": "",
+  "title": "Operations Associate - Join Our Talent Community",
+  "url": "https://job-boards.greenhouse.io/flexport/jobs/7904839",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; asks 2+ yrs; pay not listed"
+ },
+ "greenhouse:Flexport:7909078": {
+  "ats": "greenhouse",
+  "company": "Flexport",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "7909078",
+  "key": "greenhouse:Flexport:7909078",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Atlanta, Georgia, United States; Bellevue, Washington, United States; Chicago, Illinois, United States; Dallas, Texas, United States; Denver, Colorado, United States; Los Angeles, California, United States; New York City, New York, United States; San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 1,
+  "origin": "curated",
+  "posted": "2026-05-08T16:49:39-04:00",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 62,
+  "time_type": "",
+  "title": "Operations Specialist - Join Our Talent Community ",
+  "url": "https://job-boards.greenhouse.io/flexport/jobs/7909078",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 1+ yrs; pay not listed"
+ },
+ "greenhouse:Flexport:8011615": {
+  "ats": "greenhouse",
+  "company": "Flexport",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "8011615",
+  "key": "greenhouse:Flexport:8011615",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Atlanta, Georgia, United States; Bellevue, Washington, United States; Chicago, Illinois, United States; Dallas, Texas, United States; Los Angeles, California, United States; New York City, New York, United States",
+   "Chicago, Illinois, United States"
+  ],
+  "metro": "New York City",
+  "min_years": 3,
+  "origin": "curated",
+  "posted": "2026-06-16T18:48:46-04:00",
+  "remote": false,
+  "salary_max": 111840.0,
+  "salary_min": 74560.0,
+  "score": 79,
+  "time_type": "",
+  "title": "Analyst, Transportation & Supply Chain Strategy",
+  "url": "https://job-boards.greenhouse.io/flexport/jobs/8011615",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; asks 3+ yrs"
+ },
+ "greenhouse:Formlabs:8249635": {
+  "ats": "greenhouse",
+  "company": "Formlabs",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "8249635",
+  "key": "greenhouse:Formlabs:8249635",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Somerville, MA",
+   "Somerville, MA, United States"
+  ],
+  "metro": "Boston",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-02T13:00:27-04:00",
+  "remote": false,
+  "salary_max": 75000.0,
+  "salary_min": 65000.0,
+  "score": 58,
+  "time_type": "",
+  "title": "Fulfillment Coordinator - May 2027 Graduates",
+  "url": "https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
+ "greenhouse:Formlabs:8311099": {
+  "ats": "greenhouse",
+  "company": "Formlabs",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "8311099",
+  "key": "greenhouse:Formlabs:8311099",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Somerville, MA",
+   "Somerville, MA, United States"
+  ],
+  "metro": "Boston",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-30T16:05:55-04:00",
+  "remote": false,
+  "salary_max": 140000.0,
+  "salary_min": 85000.0,
+  "score": 76,
+  "time_type": "",
+  "title": "Strategy & Operations Analyst ",
+  "url": "https://careers.formlabs.com/job/8311099/apply/?gh_jid=8311099",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title"
+ },
+ "greenhouse:Lucid Motors:5261028007": {
+  "ats": "greenhouse",
+  "company": "Lucid Motors",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "stretch"
+  ],
+  "job_id": "5261028007",
+  "key": "greenhouse:Lucid Motors:5261028007",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Fremont, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 4,
+  "origin": "curated",
+  "posted": "2026-10-26T14:16:01-04:00",
+  "remote": false,
+  "salary_max": 96250.0,
+  "salary_min": 70000.0,
+  "score": 53,
+  "time_type": "",
+  "title": "Logistics Coordinator",
+  "url": "https://lucidmotors.com/careers/search/5261028007?gh_jid=5261028007",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 4+ yrs"
+ },
+ "greenhouse:Oura:4418964009": {
+  "ats": "greenhouse",
+  "company": "Oura",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "4418964009",
+  "key": "greenhouse:Oura:4418964009",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Hybrid - San Francisco, California",
+   "San Francisco, CA, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-09-24T16:56:53-04:00",
+  "remote": false,
+  "salary_max": 140000.0,
+  "salary_min": 119000.0,
+  "score": 90,
+  "time_type": "",
+  "title": "Demand Planner, E-Commerce",
+  "url": "https://job-boards.greenhouse.io/oura/jobs/4418964009",
+  "verdict": "",
+  "why": "Core planning/supply chain role"
+ },
+ "greenhouse:Oura:4487597009": {
+  "ats": "greenhouse",
+  "company": "Oura",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "stretch"
+  ],
+  "job_id": "4487597009",
+  "key": "greenhouse:Oura:4487597009",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Remote - United States",
+   "North America "
+  ],
+  "metro": "Remote (US)",
+  "min_years": 3,
+  "origin": "curated",
+  "posted": "2026-11-10T17:40:44-05:00",
+  "remote": true,
+  "salary_max": 110000.0,
+  "salary_min": 93500.0,
+  "score": 40,
+  "time_type": "",
+  "title": "Logistics Specialist, Fulfillment",
+  "url": "https://job-boards.greenhouse.io/oura/jobs/4487597009",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 3+ yrs"
+ },
+ "greenhouse:Samsara:8359956": {
+  "ats": "greenhouse",
+  "company": "Samsara",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "8359956",
+  "key": "greenhouse:Samsara:8359956",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Remote - US",
+   "Remote - CA"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-11-06T14:06:04-05:00",
+  "remote": true,
+  "salary_max": 319000.0,
+  "salary_min": 178640.0,
+  "score": 77,
+  "time_type": "",
+  "title": "ML/AI - Supply Chain",
+  "url": "https://www.samsara.com/company/careers/roles/8359956?gh_jid=8359956",
+  "verdict": "",
+  "why": "Core planning/supply chain role"
+ },
+ "greenhouse:Waymo:7456163": {
+  "ats": "greenhouse",
+  "company": "Waymo",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "stretch"
+  ],
+  "job_id": "7456163",
+  "key": "greenhouse:Waymo:7456163",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Remote, USA"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 4,
+  "origin": "curated",
+  "posted": "2025-12-17T11:42:15-05:00",
+  "remote": true,
+  "salary_max": 160000.0,
+  "salary_min": 130000.0,
+  "score": 46,
+  "time_type": "",
+  "title": "Software Quality Operations Specialist",
+  "url": "https://careers.withwaymo.com/jobs?gh_jid=7456163",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 4+ yrs"
+ },
+ "greenhouse:Zipline:7807637003": {
+  "ats": "greenhouse",
+  "company": "Zipline",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "7807637003",
+  "key": "greenhouse:Zipline:7807637003",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Dallas-Fort Worth, Texas, USA; Phoenix, Arizona, USA; South San Francisco, California, USA",
+   "South San Francisco, California, United States",
+   "Dallas, Texas, United States",
+   "Phoenix, Arizona, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-07-19T17:19:47-04:00",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 62,
+  "time_type": "",
+  "title": "Logistics Specialist (SkillBridge)",
+  "url": "https://www.zipline.com/open-roles/7807637003?gh_jid=7807637003",
+  "verdict": "",
+  "why": "Adjacent supply chain role; pay not listed"
+ },
+ "smartrecruiters:AbbVie:3743990015247176": {
+  "ats": "smartrecruiters",
+  "company": "AbbVie",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "3743990015247176",
+  "key": "smartrecruiters:AbbVie:3743990015247176",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "North Chicago, IL, us"
+  ],
+  "metro": "Chicago",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-09-14T19:52:05.839Z",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 65,
+  "time_type": "Full-time",
+  "title": "2027 Operations Development Program",
+  "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015247176",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
+ "smartrecruiters:Intuitive Surgical:744000149095010": {
+  "ats": "smartrecruiters",
+  "company": "Intuitive Surgical",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "stretch"
+  ],
+  "job_id": "744000149095010",
+  "key": "smartrecruiters:Intuitive Surgical:744000149095010",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Sunnyvale, CA, us"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 3,
+  "origin": "curated",
+  "posted": "2026-09-11T19:22:32.802Z",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 54,
+  "time_type": "Full-time",
+  "title": "Pricing Operations Specialist",
+  "url": "https://jobs.smartrecruiters.com/intuitive/744000149095010",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 3+ yrs; pay not listed"
+ },
+ "smartrecruiters:Western Digital:744000154753501": {
+  "ats": "smartrecruiters",
+  "company": "Western Digital",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "744000154753501",
+  "key": "smartrecruiters:Western Digital:744000154753501",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Jose, CA, us"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-09T17:32:36.050Z",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 79,
+  "time_type": "Full-time",
+  "title": "Quantum Compute Simulation Scientist",
+  "url": "https://jobs.smartrecruiters.com/westerndigital/744000154753501",
+  "verdict": "",
+  "why": "Core planning/supply chain role; pay not listed"
+ },
+ "smartrecruiters:Western Digital:744000160924891": {
+  "ats": "smartrecruiters",
+  "company": "Western Digital",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "744000160924891",
+  "key": "smartrecruiters:Western Digital:744000160924891",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Jose, CA, us"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-11-10T16:39:00.342Z",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 83,
+  "time_type": "Full-time",
+  "title": "Kinaxis Solution Architect - Supply Chain Planning",
+  "url": "https://jobs.smartrecruiters.com/westerndigital/744000160924891",
+  "verdict": "",
+  "why": "Core planning/supply chain role; pay not listed"
+ },
+ "workday:Analogdevices:Analyst--Supply-Chain-Planning_R265892": {
+  "ats": "workday",
+  "company": "Analogdevices",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "entry"
+  ],
+  "job_id": "Analyst--Supply-Chain-Planning_R265892",
+  "key": "workday:Analogdevices:Analyst--Supply-Chain-Planning_R265892",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "US, CA, San Jose, Rio Robles"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-02",
+  "remote": false,
+  "salary_max": 108795.0,
+  "salary_min": 79108.0,
+  "score": 100,
+  "time_type": "Full time",
+  "title": "Analyst, Supply Chain Planning",
+  "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Analyst--Supply-Chain-Planning_R265892",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title"
+ },
+ "workday:Analogdevices:Associate-Supply-Chain-Analyst_R265317": {
+  "ats": "workday",
+  "company": "Analogdevices",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "entry"
+  ],
+  "job_id": "Associate-Supply-Chain-Analyst_R265317",
+  "key": "workday:Analogdevices:Associate-Supply-Chain-Analyst_R265317",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "US, CA, San Jose, Rio Robles"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 0,
+  "origin": "universe",
+  "posted": "2026-08-21",
+  "remote": false,
+  "salary_max": 89820.0,
+  "salary_min": 65311.0,
+  "score": 96,
+  "time_type": "",
+  "title": "Associate Supply Chain Analyst",
+  "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Associate-Supply-Chain-Analyst_R265317",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; asks 0+ yrs"
+ },
+ "workday:Applied Materials:Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1": {
+  "ats": "workday",
+  "company": "Applied Materials",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
+  "key": "workday:Applied Materials:Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Santa Clara,CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-21",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 76,
+  "time_type": "Full time",
+  "title": "Logistics Operations I, New College Grad- Bachelor's (Santa Clara, CA)",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
+ "workday:Applied Materials:Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027": {
+  "ats": "workday",
+  "company": "Applied Materials",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "entry"
+  ],
+  "job_id": "Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
+  "key": "workday:Applied Materials:Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Santa Clara,CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-16",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 91,
+  "time_type": "Full time",
+  "title": "Global Supply Chain Rotational Program, New College Grad- Master's (Santa Clara, CA)",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; pay not listed"
+ },
+ "workday:Applied Materials:Job-Posting-Title-Supply-Chain-Buyer--multiple-openings--in-Costa-Rica_R2516777": {
+  "ats": "workday",
+  "company": "Applied Materials",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "Job-Posting-Title-Supply-Chain-Buyer--multiple-openings--in-Costa-Rica_R2516777",
+  "key": "workday:Applied Materials:Job-Posting-Title-Supply-Chain-Buyer--multiple-openings--in-Costa-Rica_R2516777",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "San Francisco,CRI"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 1,
+  "origin": "curated",
+  "posted": "2026-11-03",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 83,
+  "time_type": "Full time",
+  "title": "Supply Chain Buyer (multiple openings) in Costa Rica",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/San-FranciscoCRI/Job-Posting-Title-Supply-Chain-Buyer--multiple-openings--in-Costa-Rica_R2516777",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 1+ yrs; pay not listed"
+ },
+ "workday:Applied Materials:Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714": {
+  "ats": "workday",
+  "company": "Applied Materials",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
+  "key": "workday:Applied Materials:Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Santa Clara,CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-21",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 68,
+  "time_type": "Full time",
+  "title": "Logistics Automation New College Grad- Bachelor's (Santa Clara, CA)",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
+  "verdict": "",
+  "why": "Adjacent supply chain role; pay not listed"
+ },
+ "workday:Applied Materials:Supply-Chain-Project-Management----B3-_R2625779": {
+  "ats": "workday",
+  "company": "Applied Materials",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "Supply-Chain-Project-Management----B3-_R2625779",
+  "key": "workday:Applied Materials:Supply-Chain-Project-Management----B3-_R2625779",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "Santa Clara,CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 4,
+  "origin": "curated",
+  "posted": "2026-08-17",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 69,
+  "time_type": "Full time",
+  "title": "Supply Chain Project Management - (B3)",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Supply-Chain-Project-Management----B3-_R2625779",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 4+ yrs; pay not listed"
+ },
+ "workday:Intel:Operations-Research-Engineer_JR0284429": {
+  "ats": "workday",
+  "company": "Intel",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "Operations-Research-Engineer_JR0284429",
+  "key": "workday:Intel:Operations-Research-Engineer_JR0284429",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "US, Arizona, Phoenix",
+   "US, California, Folsom",
+   "US, Oregon, Hillsboro"
+  ],
+  "metro": "Portland",
+  "min_years": 2,
+  "origin": "curated",
+  "posted": "2026-08-25",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 76,
+  "time_type": "Full time",
+  "title": "Operations Research Engineer",
+  "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Operations-Research-Engineer_JR0284429",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 2+ yrs; pay not listed"
+ },
+ "workday:Intel:Supply-Chain-Engineer_JR0288597": {
+  "ats": "workday",
+  "company": "Intel",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "Supply-Chain-Engineer_JR0288597",
+  "key": "workday:Intel:Supply-Chain-Engineer_JR0288597",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "US, Oregon, Hillsboro",
+   "US, Arizona, Phoenix"
+  ],
+  "metro": "Portland",
+  "min_years": 3,
+  "origin": "curated",
+  "posted": "2026-10-29",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 54,
+  "time_type": "Full time",
+  "title": "Supply Chain Engineer",
+  "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Supply-Chain-Engineer_JR0288597",
+  "verdict": "",
+  "why": "Core planning/supply chain role; asks 3+ yrs; pay not listed"
+ },
+ "workday:Intel:Tool-Install-Qual-Operations-Specialist_JR0289025": {
+  "ats": "workday",
+  "company": "Intel",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "Tool-Install-Qual-Operations-Specialist_JR0289025",
+  "key": "workday:Intel:Tool-Install-Qual-Operations-Specialist_JR0289025",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "US, Oregon, Hillsboro"
+  ],
+  "metro": "Portland",
+  "min_years": 2,
+  "origin": "curated",
+  "posted": "2026-11-10",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 53,
+  "time_type": "Full time",
+  "title": "Tool Install Qual Operations Specialist",
+  "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Tool-Install-Qual-Operations-Specialist_JR0289025",
+  "verdict": "",
+  "why": "Adjacent supply chain role; asks 2+ yrs; pay not listed"
+ },
+ "workday:Specialized:Demand-Planner---North-America_R0011838": {
+  "ats": "workday",
+  "company": "Specialized",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "Demand-Planner---North-America_R0011838",
+  "key": "workday:Specialized:Demand-Planner---North-America_R0011838",
+  "last_seen": "2026-11-11",
+  "locations": [
+   "United States, CA, Morgan Hill (Office)"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-21",
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 83,
+  "time_type": "Full time",
+  "title": "Demand Planner - North America",
+  "url": "https://specialized.wd5.myworkdayjobs.com/Specialized_External_Career_Site/job/United-States-CA-Morgan-Hill-Office/Demand-Planner---North-America_R0011838",
+  "verdict": "",
+  "why": "Core planning/supply chain role; pay not listed"
+ }
+}
