@@ -1,211 +1,190 @@
 # Your job matches
 
-Updated Thu Nov 12, 2026: **66 open roles**, ranked by fit, **66 new today**. 2 lower-scoring roles are in `results/jobs.csv`.
+Updated Thu Nov 12, 2026: **69 open roles**, ranked by fit, **35 new today**. 6 lower-scoring roles are in `results/jobs.csv`.
 
 ## Apply first (80+)
 
 | # | Score | Role | Company | Where | Pay | Why it fits |
 |---:|---:|---|---|---|---|---|
-| 1 | 100 | **NEW** [Analyst, Supply Chain Planning](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Analyst--Supply-Chain-Planning_R265892) | Analogdevices \* | SF Bay Area | $79k-$109k | Core planning/supply chain role; entry-level title `entry-level` |
-| 2 | 100 | **NEW** [Associate,  DashMart - Supply Chain Profitability Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8273901) | DoorDash | SF Bay Area | $75k-$110k | Core planning/supply chain role; entry-level title; asks 1+ yrs `entry-level` |
-| 3 | 96 | **NEW** [Associate Supply Chain Analyst](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Associate-Supply-Chain-Analyst_R265317) | Analogdevices \* | SF Bay Area | $65k-$90k | Core planning/supply chain role; entry-level title; asks 0+ yrs `entry-level` |
-| 4 | 91 | **NEW** [Global Supply Chain Rotational Program, New College Grad- Master's (Santa Clara, CA)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027) | Applied Materials | SF Bay Area | - | Core planning/supply chain role; entry-level title; pay not listed `entry-level` |
-| 5 | 90 | **NEW** [AI Infrastructure Operations, Demand Planning](https://job-boards.greenhouse.io/anthropic/jobs/5382750008) | Anthropic \* | SF Bay Area | $320k-$405k | Core planning/supply chain role |
-| 6 | 90 | **NEW** [Infrastructure Capacity Planner, Demand Planning](https://job-boards.greenhouse.io/anthropic/jobs/5382744008) | Anthropic \* | SF Bay Area | $320k-$405k | Core planning/supply chain role |
-| 7 | 90 | **NEW** [Planner/Buyer, Supply Chain](https://job-boards.greenhouse.io/aperiatechnologies/jobs/6205690004) | Aperiatechnologies \* | SF Bay Area | $95k-$105k | Core planning/supply chain role |
-| 8 | 90 | **NEW** [Demand Planner, E-Commerce](https://job-boards.greenhouse.io/oura/jobs/4418964009) | Oura | SF Bay Area | $119k-$140k | Core planning/supply chain role |
-| 9 | 88 | **NEW** [Operations Research Scientist](https://job-boards.greenhouse.io/doordashusa/jobs/7749114) | DoorDash | SF Bay Area | $131k-$192k | Core planning/supply chain role; asks 2+ yrs |
-| 10 | 87 | **NEW** [Wholesale Inventory Analyst, Accessories & Apparel](https://jobs.ashbyhq.com/whoop/f4c503bb-4532-43b4-89c0-138b224233d4) | WHOOP | Boston | $60k-$85k | Core planning/supply chain role; entry-level title; asks 0+ yrs `entry-level` |
-| 11 | 86 | **NEW** [Supply Chain Specialist/ Buyer](https://job-boards.greenhouse.io/1stavenuepower/jobs/5444320008) | 1stavenuepower \* | SF Bay Area | $95k-$125k | Core planning/supply chain role; asks 2+ yrs |
-| 12 | 86 | **NEW** [Associate Manager,  DashMart - Supply Chain Profitability Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8205350) | DoorDash | SF Bay Area | $105k-$155k | Core planning/supply chain role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
-| 13 | 83 | **NEW** [Supply Chain Buyer (multiple openings) in Costa Rica](https://amat.wd1.myworkdayjobs.com/External/job/San-FranciscoCRI/Job-Posting-Title-Supply-Chain-Buyer--multiple-openings--in-Costa-Rica_R2516777) | Applied Materials | SF Bay Area | - | Core planning/supply chain role; asks 1+ yrs; pay not listed |
-| 14 | 83 | **NEW** [Business Operations Analyst](https://boards.greenhouse.io/applovin/jobs/4723320006?gh_jid=4723320006) | Applovin \* | SF Bay Area | $105k-$156k | Adjacent supply chain role; entry-level title `entry-level` |
-| 15 | 83 | **NEW** [Demand Planner - North America](https://specialized.wd5.myworkdayjobs.com/Specialized_External_Career_Site/job/United-States-CA-Morgan-Hill-Office/Demand-Planner---North-America_R0011838) | Specialized | SF Bay Area | - | Core planning/supply chain role; pay not listed |
-| 16 | 83 | **NEW** [Kinaxis Solution Architect - Supply Chain Planning](https://jobs.smartrecruiters.com/westerndigital/744000160924891) | Western Digital | SF Bay Area | - | Core planning/supply chain role; pay not listed |
+| 1 | 100 | [Analyst, Supply Chain Planning](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Analyst--Supply-Chain-Planning_R265892) | Analogdevices \* | SF Bay Area | $79k-$109k | Core planning/supply chain role; entry-level title `entry-level` |
+| 2 | 100 | [Associate,  DashMart - Supply Chain Profitability Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8273901) | DoorDash | SF Bay Area | $75k-$110k | Core planning/supply chain role; entry-level title; asks 1+ yrs `entry-level` |
+| 3 | 96 | [Associate Supply Chain Analyst](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Associate-Supply-Chain-Analyst_R265317) | Analogdevices \* | SF Bay Area | $65k-$90k | Core planning/supply chain role; entry-level title; asks 0+ yrs `entry-level` |
+| 4 | 91 | [Global Supply Chain Rotational Program, New College Grad- Master's (Santa Clara, CA)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027) | Applied Materials | SF Bay Area | - | Core planning/supply chain role; entry-level title; pay not listed `entry-level` |
+| 5 | 90 | [Planner/Buyer, Supply Chain](https://job-boards.greenhouse.io/aperiatechnologies/jobs/6205690004) | Aperia Technologies, Inc \* | SF Bay Area | $95k-$105k | Core planning/supply chain role |
+| 6 | 90 | [Demand Planner, E-Commerce](https://job-boards.greenhouse.io/oura/jobs/4418964009) | Oura | SF Bay Area | $119k-$140k | Core planning/supply chain role |
+| 7 | 88 | [Operations Research Scientist](https://job-boards.greenhouse.io/doordashusa/jobs/7749114) | DoorDash | SF Bay Area | $131k-$192k | Core planning/supply chain role; asks 2+ yrs |
+| 8 | 87 | [Wholesale Inventory Analyst, Accessories & Apparel](https://jobs.ashbyhq.com/whoop/f4c503bb-4532-43b4-89c0-138b224233d4) | WHOOP | Boston | $60k-$85k | Core planning/supply chain role; entry-level title; asks 0+ yrs `entry-level` |
+| 9 | 86 | **NEW** [Analyst, Network Capacity Planning](https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers/job/Chicago-IL/Analyst--Network-Capacity-Planning_R-107715) | Kraft Heinz | Chicago | - | Core planning/supply chain role; entry-level title; asks 1+ yrs; pay not listed `entry-level` |
+| 10 | 86 | [Supply Chain Specialist/ Buyer](https://job-boards.greenhouse.io/1stavenuepower/jobs/5444320008) | 1 Arc Power \* | SF Bay Area | $95k-$125k | Core planning/supply chain role; asks 2+ yrs |
+| 11 | 86 | [Associate Manager,  DashMart - Supply Chain Profitability Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8205350) | DoorDash | SF Bay Area | $105k-$155k | Core planning/supply chain role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 12 | 84 | **NEW** [Analyst, Inventory Control](https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers/job/Chicago-IL/Analyst--Inventory-Control_R-106849) | Kraft Heinz | Chicago | - | Core planning/supply chain role; entry-level title; pay not listed `entry-level` |
+| 13 | 83 | **NEW** [Master Scheduler](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Master-Scheduler_2641326) | KLA | SF Bay Area | - | Core planning/supply chain role; asks 1+ yrs; pay not listed |
+| 14 | 83 | **NEW** [Spares Demand Planner](https://kla.wd1.myworkdayjobs.com/Search/job/USA-CA-Milpitas-KLA/Spares-Demand-Planner_2637177) | KLA | SF Bay Area | - | Core planning/supply chain role; asks 2+ yrs; pay not listed |
+| 15 | 83 | [Demand Planner - North America](https://specialized.wd5.myworkdayjobs.com/Specialized_External_Career_Site/job/United-States-CA-Morgan-Hill-Office/Demand-Planner---North-America_R0011838) | Specialized | SF Bay Area | - | Core planning/supply chain role; pay not listed |
+| 16 | 83 | [Kinaxis Solution Architect - Supply Chain Planning](https://jobs.smartrecruiters.com/westerndigital/744000160924891) | Western Digital | SF Bay Area | - | Core planning/supply chain role; pay not listed |
+| 17 | 82 | [Associate, Dasher & Logistics — Rotational Leadership Program](https://job-boards.greenhouse.io/doordashusa/jobs/8356727) | DoorDash | SF Bay Area | $75k-$110k | Adjacent supply chain role; entry-level title; asks 1+ yrs `entry-level` |
 
 ## Strong fits (65+)
 
 | # | Score | Role | Company | Where | Pay | Why it fits |
 |---:|---:|---|---|---|---|---|
-| 17 | 79 | **NEW** [USG Capture Operations Analyst](https://job-boards.greenhouse.io/astranis/jobs/4718946006) | Astranis \* | SF Bay Area | $115k-$185k | Adjacent supply chain role; entry-level title; asks 2+ yrs `entry-level` |
-| 18 | 79 | **NEW** [Associate, Dasher & Logistics — Rotational Leadership Program](https://job-boards.greenhouse.io/doordashusa/jobs/8356727) | DoorDash | SF Bay Area | $75k-$110k | Adjacent supply chain role; entry-level title; asks 1+ yrs `entry-level` |
-| 19 | 79 | **NEW** [Analyst, Transportation & Supply Chain Strategy](https://job-boards.greenhouse.io/flexport/jobs/8011615) | Flexport | New York City | $75k-$112k | Core planning/supply chain role; entry-level title; asks 3+ yrs `entry-level, asks 3+ yrs` |
-| 20 | 79 | **NEW** [Quantum Compute Simulation Scientist](https://jobs.smartrecruiters.com/westerndigital/744000154753501) | Western Digital | SF Bay Area | - | Core planning/supply chain role; pay not listed |
-| 21 | 77 | **NEW** [Researcher, Population Simulation](https://jobs.ashbyhq.com/aaru/f718d12f-67e9-4fe9-91cc-9e3b69ff00fe) | Aaru \* | New York City | $200k-$600k | Core planning/supply chain role |
-| 22 | 77 | **NEW** [Simulation Architect, West](https://jobs.ashbyhq.com/aaru/b0d5cf02-fe88-4eaa-8908-3c5556844dbb) | Aaru \* | SF Bay Area | - | Core planning/supply chain role; pay not listed |
-| 23 | 77 | **NEW** [Operations Associate, San Francisco](https://jobs.ashbyhq.com/ambrook/686819c1-5a5e-4151-8a0a-2647aa17693b) | Ambrook \* | SF Bay Area | $100k-$140k | Adjacent supply chain role; entry-level title `entry-level` |
-| 24 | 77 | **NEW** [ML/AI - Supply Chain](https://www.samsara.com/company/careers/roles/8359956?gh_jid=8359956) | Samsara | Remote (US) | $179k-$319k | Core planning/supply chain role |
-| 25 | 76 | **NEW** [Materials Planner](https://jobs.ashbyhq.com/1x/bdb83ddb-0337-4542-b066-7580e534a60a) | 1x \* | SF Bay Area | $100k-$120k | Core planning/supply chain role; asks 3+ yrs `asks 3+ yrs` |
-| 26 | 76 | **NEW** [Logistics Operations I, New College Grad- Bachelor's (Santa Clara, CA)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1) | Applied Materials | SF Bay Area | - | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
-| 27 | 76 | **NEW** [Strategy & Operations Analyst](https://careers.formlabs.com/job/8311099/apply/?gh_jid=8311099) | Formlabs | Boston | $85k-$140k | Adjacent supply chain role; entry-level title `entry-level` |
-| 28 | 76 | **NEW** [Operations Research Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Operations-Research-Engineer_JR0284429) | Intel | Portland | - | Core planning/supply chain role; asks 2+ yrs; pay not listed |
-| 29 | 71 | **NEW** [Global Operations Associate](https://job-boards.greenhouse.io/flexport/jobs/7450540) | Flexport | SF Bay Area | $56k-$70k | Adjacent supply chain role; entry-level title; asks 2+ yrs `entry-level` |
-| 30 | 70 | **NEW** [Simulation Architect, NYC](https://jobs.ashbyhq.com/aaru/5d05520d-5fee-4849-9cd8-88b9478d8ae1) | Aaru \* | New York City | - | Core planning/supply chain role; pay not listed |
-| 31 | 69 | **NEW** [Procurement Operations Business Partner, Technology](https://job-boards.greenhouse.io/anthropic/jobs/5446641008) | Anthropic \* | SF Bay Area | $190k-$230k | Adjacent supply chain role |
-| 32 | 69 | **NEW** [Supply Chain Project Management - (B3)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Supply-Chain-Project-Management----B3-_R2625779) | Applied Materials | SF Bay Area | - | Core planning/supply chain role; asks 4+ yrs; pay not listed `asks 4+ yrs` |
-| 33 | 69 | **NEW** [Apparel & Accessories Inventory Planner](https://jobs.ashbyhq.com/whoop/fa31c080-9bc5-432c-b6e1-5577fcce97e7) | WHOOP | Boston | $80k-$110k | Core planning/supply chain role; asks 3+ yrs `asks 3+ yrs` |
-| 34 | 68 | **NEW** [Logistics Automation New College Grad- Bachelor's (Santa Clara, CA)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714) | Applied Materials | SF Bay Area | - | Adjacent supply chain role; pay not listed |
-| 35 | 68 | **NEW** [Business Operations Associate](https://jobs.ashbyhq.com/basis-research/18e40048-fa0a-4118-ae3f-cafd38c59289) | Basis research \* | New York City | $100k-$140k | Adjacent supply chain role; entry-level title `entry-level` |
-| 36 | 68 | **NEW** [Operations Associate - Join Our Talent Community](https://job-boards.greenhouse.io/flexport/jobs/7904839) | Flexport | SF Bay Area | - | Adjacent supply chain role; entry-level title; asks 2+ yrs; pay not listed `entry-level` |
-| 37 | 67 | **NEW** [Procurement Operations Business Partner - Workplace, Security and People](https://job-boards.greenhouse.io/anthropic/jobs/5425680008) | Anthropic \* | SF Bay Area | $190k-$230k | Adjacent supply chain role |
-| 38 | 67 | **NEW** [Procurement Operations Business Partner, R&D Operations](https://job-boards.greenhouse.io/anthropic/jobs/5357933008) | Anthropic \* | SF Bay Area | $190k-$230k | Adjacent supply chain role |
-| 39 | 66 | **NEW** [Search Engine Optimization (SEO) Specialist](https://jobs.ashbyhq.com/airapps/b2bd37fd-42a4-4016-b7af-b0807fdb4680) | Airapps \* | SF Bay Area | $60k-$100k | Core planning/supply chain role; asks 3+ yrs `asks 3+ yrs` |
-| 40 | 66 | **NEW** [Portfolio analytics and forecasts actuary](https://jobs.ashbyhq.com/alan/a5973d82-d4f2-48f8-8c96-70de49f14c9b) | Alan \* | Remote (US) | - | Core planning/supply chain role; asks 2+ yrs; pay not listed |
-| 41 | 65 | **NEW** [2027 Operations Development Program](https://jobs.smartrecruiters.com/AbbVie/3743990015247176) | AbbVie \* | Chicago | - | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
-| 42 | 65 | **NEW** [Operations Associate (Full-Time) - Station Twelve](https://boards.greenhouse.io/aloyoga/jobs/6204619004?gh_jid=6204619004) | Aloyoga \* | New York City | - | Adjacent supply chain role; entry-level title; asks 1+ yrs; pay not listed `entry-level` |
-| 43 | 65 | **NEW** [Associate Manager,  Strategy & Operations - Logistics (DoorDash for Business)](https://job-boards.greenhouse.io/doordashusa/jobs/8331916) | DoorDash | SF Bay Area | $105k-$155k | Adjacent supply chain role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
-| 44 | 65 | **NEW** [UAS Operations Specialist, Labs](https://job-boards.greenhouse.io/doordashusa/jobs/8243739) | DoorDash | SF Bay Area | $59k-$87k | Adjacent supply chain role |
+| 18 | 79 | [Logistics Operations I, New College Grad- Bachelor's (Santa Clara, CA)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1) | Applied Materials | SF Bay Area | - | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
+| 19 | 79 | [Analyst, Transportation & Supply Chain Strategy](https://job-boards.greenhouse.io/flexport/jobs/8011615) | Flexport | New York City | $75k-$112k | Core planning/supply chain role; entry-level title; asks 3+ yrs `entry-level, asks 3+ yrs` |
+| 20 | 76 | **NEW** [Data Scientist - Forecasting](https://newbalance.wd1.myworkdayjobs.com/Careers/job/Boston-MA-Headquarters---NB/Data-Scientist---Forecasting_R41549) | New Balance | Boston | - | Core planning/supply chain role; asks 2+ yrs; pay not listed |
+| 21 | 76 | [Materials Planner](https://jobs.ashbyhq.com/1x/bdb83ddb-0337-4542-b066-7580e534a60a) | 1x \* | SF Bay Area | $100k-$120k | Core planning/supply chain role; asks 3+ yrs `asks 3+ yrs` |
+| 22 | 76 | [Operations Research Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Operations-Research-Engineer_JR0284429) | Intel | Portland | - | Core planning/supply chain role; asks 2+ yrs; pay not listed |
+| 23 | 74 | **NEW** [Logistics Fulfillment Execution Analyst](https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Logistics-Fulfillment-Execution-Analyst_R-41345) | Constellation Brands | Chicago | - | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
+| 24 | 73 | **NEW** [Associate, New Verticals - Grocery Revenue Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8240696) | DoorDash | SF Bay Area | $75k-$110k | General operations role; entry-level title; asks 1+ yrs `entry-level` |
+| 25 | 73 | [Business Operations Analyst](https://boards.greenhouse.io/applovin/jobs/4723320006?gh_jid=4723320006) | AppLovin \* | SF Bay Area | $105k-$156k | General operations role; entry-level title `entry-level` |
+| 26 | 72 | **NEW** [Associate Planner](https://tapestry.wd108.myworkdayjobs.com/Tapestry_Careers/job/New-York-New-York-USA-Corporate-Headquarters/Associate-Planner_JR20041) | Tapestry | New York City | - | Adjacent supply chain role; entry-level title; asks 2+ yrs; pay not listed `entry-level` |
+| 27 | 71 | **NEW** [Associate Manager, New Verticals - Affordability Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8092065) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title `entry-level` |
+| 28 | 71 | **NEW** [Associate Manager, New Verticals - Retail Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8056158) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title; asks 2+ yrs `entry-level` |
+| 29 | 71 | **NEW** [Associate, Dasher Tasks, Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8197734) | DoorDash | SF Bay Area | $75k-$110k | General operations role; entry-level title; asks 1+ yrs `entry-level` |
+| 30 | 71 | [Logistics Automation New College Grad- Bachelor's (Santa Clara, CA)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714) | Applied Materials | SF Bay Area | - | Adjacent supply chain role; pay not listed |
+| 31 | 70 | **NEW** [Associate, Global Store Design Procurement and Operations](https://tapestry.wd108.myworkdayjobs.com/Tapestry_Careers/job/New-York-New-York-USA-Corporate-Headquarters/Associate--Global-Store-Design-Procurement-and-Operations_JR17111-1) | Tapestry | New York City | - | Adjacent supply chain role; entry-level title; asks 2+ yrs; pay not listed `entry-level` |
+| 32 | 69 | **NEW** [Spares Demand Planner](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Spares-Demand-Planner_2638659) | KLA | SF Bay Area | - | Core planning/supply chain role; asks 3+ yrs; pay not listed `asks 3+ yrs` |
+| 33 | 69 | [Supply Chain Project Management - (B3)](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Supply-Chain-Project-Management----B3-_R2625779) | Applied Materials | SF Bay Area | - | Core planning/supply chain role; asks 4+ yrs; pay not listed `asks 4+ yrs` |
+| 34 | 69 | [Apparel & Accessories Inventory Planner](https://jobs.ashbyhq.com/whoop/fa31c080-9bc5-432c-b6e1-5577fcce97e7) | WHOOP | Boston | $80k-$110k | Core planning/supply chain role; asks 3+ yrs `asks 3+ yrs` |
+| 35 | 68 | [2027 Operations Development Program](https://jobs.smartrecruiters.com/AbbVie/3743990015247176) | AbbVie \* | Chicago | - | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
+| 36 | 68 | [Associate Manager,  Strategy & Operations - Logistics (DoorDash for Business)](https://job-boards.greenhouse.io/doordashusa/jobs/8331916) | DoorDash | SF Bay Area | $105k-$155k | Adjacent supply chain role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 37 | 67 | [Operations Associate, San Francisco](https://jobs.ashbyhq.com/ambrook/686819c1-5a5e-4151-8a0a-2647aa17693b) | Ambrook \* | SF Bay Area | $100k-$140k | General operations role; entry-level title `entry-level` |
+| 38 | 66 | [Strategy & Operations Analyst](https://careers.formlabs.com/job/8311099/apply/?gh_jid=8311099) | Formlabs | Boston | $85k-$140k | General operations role; entry-level title `entry-level` |
+| 39 | 65 | **NEW** [People & Workplace Operations Associate](https://jobs.lever.co/alltrails/805e6a85-336b-4718-80c1-f6bb3cd17225) | Alltrails \* | SF Bay Area | $88k-$110k | General operations role; entry-level title `entry-level` |
+| 40 | 65 | [ML/AI - Supply Chain](https://www.samsara.com/company/careers/roles/8359956?gh_jid=8359956) | Samsara | Remote (US) | $179k-$319k | Core planning/supply chain role; pay band suggests a more senior hire |
 
 ## Worth a look (50+)
 
 | # | Score | Role | Company | Where | Pay | Why it fits |
 |---:|---:|---|---|---|---|---|
-| 45 | 64 | **NEW** [Facilities Operations Associate](https://jobs.ashbyhq.com/whoop/e9c53109-cff8-406f-bcc1-aa420ed783fe) | WHOOP | Boston | $50k-$90k | Adjacent supply chain role; entry-level title; asks 1+ yrs `entry-level` |
-| 46 | 63 | **NEW** [Robot Operations Specialist](https://job-boards.greenhouse.io/doordashusa/jobs/6813973) | DoorDash | SF Bay Area | $49k-$72k | Adjacent supply chain role; asks 2+ yrs |
-| 47 | 63 | **NEW** [UAS Operations Specialist - Ground Support](https://job-boards.greenhouse.io/doordashusa/jobs/8263786) | DoorDash | SF Bay Area | $49k-$72k | Adjacent supply chain role |
-| 48 | 63 | **NEW** [UAS Operations Specialist - Pilot](https://job-boards.greenhouse.io/doordashusa/jobs/8244483) | DoorDash | SF Bay Area | $59k-$87k | Adjacent supply chain role |
-| 49 | 62 | **NEW** [Operations Specialist - Join Our Talent Community](https://job-boards.greenhouse.io/flexport/jobs/7909078) | Flexport | SF Bay Area | - | Adjacent supply chain role; asks 1+ yrs; pay not listed |
-| 50 | 62 | **NEW** [Logistics Specialist (SkillBridge)](https://www.zipline.com/open-roles/7807637003?gh_jid=7807637003) | Zipline | SF Bay Area | - | Adjacent supply chain role; pay not listed |
-| 51 | 59 | **NEW** [Strategy & Operations Associate](https://boards.greenhouse.io/apptronik/jobs/6227425004?gh_jid=6227425004) | Apptronik \* | Remote (US) | - | Adjacent supply chain role; entry-level title; asks 2+ yrs; pay not listed `entry-level` |
-| 52 | 58 | **NEW** [Lab Operations Specialist](https://jobs.ashbyhq.com/atp/a4715410-a68d-4faa-8027-daac961fa09c) | Atp \* | Boston | $60k-$90k | Adjacent supply chain role; asks 0+ yrs |
-| 53 | 58 | **NEW** [Fulfillment Coordinator - May 2027 Graduates](https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635) | Formlabs | Boston | $65k-$75k | Adjacent supply chain role |
-| 54 | 57 | **NEW** [Store Planner](https://jobs.ashbyhq.com/Rothys/0942a9fe-7ea2-4c3a-ad09-91c168dac26c) | Rothy's | SF Bay Area | $82k-$99k | Adjacent supply chain role; asks 4+ yrs `asks 4+ yrs` |
-| 55 | 56 | **NEW** [General Operations Specialist - Freelance AI Trainer Project](https://job-boards.eu.greenhouse.io/agency/jobs/4605323101) | Agency \* | Remote (US) | $135k | Adjacent supply chain role |
-| 56 | 56 | **NEW** [Fund Operations Associate](https://jobs.ashbyhq.com/allocate/ea7672bc-1037-45ee-b9e2-06a0a7ac93f3) | Allocate \* | New York City | $110k-$125k | Adjacent supply chain role; entry-level title; asks 3+ yrs `entry-level, asks 3+ yrs` |
-| 57 | 55 | **NEW** [Operations Associate](https://jobs.ashbyhq.com/ashgro/5071c238-b98d-4a9b-9c30-b026f2c114f7) | Ashgro \* | Remote (US) | - | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
-| 58 | 55 | **NEW** [Operations Associate, Self-Clearing & Corporate Actions](https://jobs.ashbyhq.com/atomic-invest/acbc4395-213c-44ad-9290-e132cb7f321c) | Atomic invest \* | Remote (US) | - | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
-| 59 | 55 | **NEW** [Operations Associate, Trading and Margin](https://jobs.ashbyhq.com/atomic-invest/4e5b6963-b07a-4262-b260-459e37ea8a1d) | Atomic invest \* | Remote (US) | - | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
-| 60 | 54 | **NEW** [Supply Chain Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Supply-Chain-Engineer_JR0288597) | Intel | Portland | - | Core planning/supply chain role; asks 3+ yrs; pay not listed `asks 3+ yrs` |
-| 61 | 54 | **NEW** [Pricing Operations Specialist](https://jobs.smartrecruiters.com/intuitive/744000149095010) | Intuitive Surgical | SF Bay Area | - | Adjacent supply chain role; asks 3+ yrs; pay not listed `asks 3+ yrs` |
-| 62 | 53 | **NEW** [Tool Install Qual Operations Specialist](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Tool-Install-Qual-Operations-Specialist_JR0289025) | Intel | Portland | - | Adjacent supply chain role; asks 2+ yrs; pay not listed |
-| 63 | 53 | **NEW** [Logistics Coordinator](https://lucidmotors.com/careers/search/5261028007?gh_jid=5261028007) | Lucid Motors | SF Bay Area | $70k-$96k | Adjacent supply chain role; asks 4+ yrs `asks 4+ yrs` |
-| 64 | 51 | **NEW** [Data & Operations Specialist](https://jobs.ashbyhq.com/anyone-ai/ea7b9c45-d0f4-4873-8877-963c297c3478) | Anyone ai \* | Remote (US) | - | Adjacent supply chain role; pay not listed |
+| 41 | 62 | **NEW** [Associate, Strategy & Operations - Dasher Financial](https://job-boards.greenhouse.io/doordashusa/jobs/8176875) | DoorDash | Chicago | $75k-$110k | General operations role; entry-level title; asks 2+ yrs `entry-level` |
+| 42 | 62 | **NEW** [Allocator, Coachtopia, Special Projects/Small Departments](https://tapestry.wd108.myworkdayjobs.com/Tapestry_Careers/job/New-York-New-York-USA-Corporate-Headquarters/Allocator--Coachtopia--Special-Projects-Small-Departments_JR7450) | Tapestry | New York City | - | Adjacent supply chain role; asks 1+ yrs; pay not listed |
+| 43 | 61 | [Global Operations Associate](https://job-boards.greenhouse.io/flexport/jobs/7450540) | Flexport | SF Bay Area | $56k-$70k | General operations role; entry-level title; asks 2+ yrs `entry-level` |
+| 44 | 61 | [Fulfillment Coordinator - May 2027 Graduates](https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635) | Formlabs | Boston | $65k-$75k | Adjacent supply chain role |
+| 45 | 59 | **NEW** [Remote / Appointment Setter / Cruise Planner](https://jobs.lever.co/aisle_and_abroad/6f942712-3503-4580-8be3-0aebee1b615d) | Aisle and abroad \* | Chicago | $45k-$70k | Adjacent supply chain role |
+| 46 | 59 | **NEW** [Remote / Resort Planner  / All Inclusive Destinations](https://jobs.lever.co/aisle_and_abroad/08f2c208-bb45-4d56-a301-d51be047e4cf) | Aisle and abroad \* | New York City | $25k-$75k | Adjacent supply chain role |
+| 47 | 59 | **NEW** [Associate Manager, Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8131068) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 48 | 58 | **NEW** [Service Contracts and Subscription Operations Analyst](https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Illinois-Remote-Work/Service-Contracts-and-Subscription-Operations-Analyst_R70020) | Motorola Solutions | Chicago | $55k-$65k | General operations role; entry-level title; asks 2+ yrs `entry-level` |
+| 49 | 58 | [Business Operations Associate](https://jobs.ashbyhq.com/basis-research/18e40048-fa0a-4118-ae3f-cafd38c59289) | Basis research \* | New York City | $100k-$140k | General operations role; entry-level title `entry-level` |
+| 50 | 57 | **NEW** [Associate Manager, New Verticals - Convenience Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8004278) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 51 | 57 | **NEW** [Associate Manager, New Verticals - In-Store AI Platform Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8350225) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 52 | 57 | **NEW** [Associate Manager, Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8162204) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 53 | 56 | [Logistics Coordinator](https://lucidmotors.com/careers/search/5261028007?gh_jid=5261028007) | Lucid Motors | SF Bay Area | $70k-$96k | Adjacent supply chain role; asks 4+ yrs `asks 4+ yrs` |
+| 54 | 55 | **NEW** [Associate Manager, New Verticals - Fulfillment Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8160170) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 55 | 55 | **NEW** [Associate Manager, New Verticals - Retail Merchandising Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8303234) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 56 | 55 | [Operations Associate (Full-Time) - Station Twelve](https://boards.greenhouse.io/aloyoga/jobs/6204619004?gh_jid=6204619004) | ALO \* | New York City | - | General operations role; entry-level title; asks 1+ yrs; pay not listed `entry-level` |
+| 57 | 54 | [Supply Chain Engineer](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Supply-Chain-Engineer_JR0288597) | Intel | Portland | - | Core planning/supply chain role; asks 3+ yrs; pay not listed `asks 3+ yrs` |
+| 58 | 53 | **NEW** [Technical Operations Coordinator](https://jobs.ashbyhq.com/airapps/b8e9c792-8bfd-49ce-9204-604fe3fba6d3) | Airapps \* | SF Bay Area | $60k-$70k | General operations role; asks 2+ yrs |
+| 59 | 53 | **NEW** [Associate Manager, Digital Ordering - Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8259455) | DoorDash | SF Bay Area | $105k-$155k | General operations role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 60 | 52 | **NEW** [Strategy and Operations, Revenue](https://jobs.ashbyhq.com/agentio/43039c49-bfa4-4cd2-bf04-f1253cee64af) | Agentio \* | New York City | $145k-$165k | General operations role |
+| 61 | 52 | **NEW** [Sourcing Associate, Nike Mens & THUM](https://pvh.wd1.myworkdayjobs.com/PVH_Careers/job/New-York-NY-Calvin-Klein-Office/Sourcing-Associate---PVH_R62180) | PVH | New York City | - | Adjacent supply chain role; entry-level title; asks 3+ yrs; pay not listed `entry-level, asks 3+ yrs` |
+| 62 | 51 | **NEW** [Deployment Operations Coordinator](https://job-boards.greenhouse.io/archer56/jobs/7805058003) | Archer Aviation | SF Bay Area | $73k | General operations role |
+| 63 | 50 | **NEW** [Regional Services Operations Specialist](https://kla.wd1.myworkdayjobs.com/Search/job/Hillsboro-OR/Regional-Services-Operations-Specialist_2638990-1) | KLA | Portland | $52k-$89k | General operations role; asks 2+ yrs |
 
 ## Long shots
 
 | # | Score | Role | Company | Where | Pay | Why it fits |
 |---:|---:|---|---|---|---|---|
-| 65 | 46 | **NEW** [Software Quality Operations Specialist](https://careers.withwaymo.com/jobs?gh_jid=7456163) | Waymo | Remote (US) | $130k-$160k | Adjacent supply chain role; asks 4+ yrs `asks 4+ yrs` |
-| 66 | 45 | **NEW** [Operations Specialist](https://job-boards.greenhouse.io/armstrongtransportgroup/jobs/5459621008) | Armstrongtransportgroup \* | Remote (US) | - | Adjacent supply chain role; pay not listed |
+| 64 | 49 | [Strategy & Operations Associate](https://boards.greenhouse.io/apptronik/jobs/6227425004?gh_jid=6227425004) | Apptronik \* | Remote (US) | - | General operations role; entry-level title; asks 2+ yrs; pay not listed `entry-level` |
+| 65 | 48 | **NEW** [GTM Strategy and Operations](https://jobs.ashbyhq.com/arketa/3abca43c-8635-4eb6-9327-a1dfd831e631) | Arketa \* | New York City | $125k-$150k | General operations role |
+| 66 | 48 | **NEW** [Associate Manager, Marketplace - Restaurant Growth Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8368010) | DoorDash | New York City | $105k-$155k | General operations role; entry-level title; asks 4+ yrs `entry-level, asks 4+ yrs` |
+| 67 | 45 | **NEW** [Strategy & Operations](https://jobs.ashbyhq.com/ARQ/d2ec29d9-1bca-44e4-99d9-a3acb1a875e9) | Arq \* | New York City | - | General operations role; pay not listed |
+| 68 | 45 | **NEW** [DashOS, Product Strategy & Operations](https://job-boards.greenhouse.io/doordashusa/jobs/8301438) | DoorDash | SF Bay Area | $105k-$155k | General operations role; asks 4+ yrs `asks 4+ yrs` |
+| 69 | 45 | [Operations Associate](https://jobs.ashbyhq.com/ashgro/5071c238-b98d-4a9b-9c30-b026f2c114f7) | Ashgro \* | Remote (US) | - | General operations role; entry-level title; pay not listed `entry-level` |
 
 \* found by automatic company discovery (not on your list)
 
 <details><summary>Run log</summary>
 
 - Allbirds: could not find a supported careers site (add it by hand in companies.yaml)
-- Applied Materials: 7 postings in your field
-- Applied Materials: discovered workday {'host': 'amat.wd1.myworkdayjobs.com', 'tenant': 'amat', 'site': 'External'}
-- Archer Aviation: 0 postings in your field
-- Archer Aviation: discovered greenhouse {'token': 'archer56'}
+- Applied Materials: 6 postings in your field
+- Archer Aviation: 1 postings in your field
 - Away: 0 postings in your field
-- Away: discovered ashby {'org': 'away'}
 - Bio-Rad: could not find a supported careers site (add it by hand in companies.yaml)
 - Bombas: 0 postings in your field
-- Bombas: discovered greenhouse {'token': 'bombas'}
-- Boston Dynamics: could not find a supported careers site (add it by hand in companies.yaml)
+- Bose: could not find a supported careers site (add it by hand in companies.yaml)
+- Boston Dynamics: 0 postings in your field
+- Boston Dynamics: discovered workday {'host': 'bostondynamics.wd1.myworkdayjobs.com', 'tenant': 'bostondynamics', 'site': 'Boston_Dynamics'}
 - Chevron: 0 postings in your field
-- Chevron: discovered workday {'host': 'chevron.wd5.myworkdayjobs.com', 'tenant': 'chevron', 'site': 'jobs'}
 - Chobani: could not find a supported careers site (add it by hand in companies.yaml)
 - Clorox: 1 postings in your field
-- Clorox: discovered workday {'host': 'wd1.myworkdaysite.com', 'tenant': 'clorox', 'site': 'Clorox'}
-- Columbia Sportswear: could not find a supported careers site (add it by hand in companies.yaml)
-- Conagra Brands: could not find a supported careers site (add it by hand in companies.yaml)
+- Columbia Sportswear: 0 postings in your field
+- Columbia Sportswear: discovered workday {'host': 'columbiasportswearcompany.wd5.myworkdayjobs.com', 'tenant': 'columbiasportswearcompany', 'site': 'Columbia_Career_Site'}
+- Conagra Brands: 1 postings in your field
+- Conagra Brands: discovered workday {'host': 'conagrabrands.wd1.myworkdayjobs.com', 'tenant': 'conagrabrands', 'site': 'Careers_US'}
+- Constellation Brands: 1 postings in your field
+- Constellation Brands: discovered workday {'host': 'cbrands.wd5.myworkdayjobs.com', 'tenant': 'cbrands', 'site': 'CBI_External_Careers'}
 - Coyote Logistics: could not find a supported careers site (add it by hand in companies.yaml)
-- DoorDash: 10 postings in your field
-- DoorDash: discovered greenhouse {'token': 'doordashusa'}
+- Crate & Barrel: 1 postings in your field
+- Crate & Barrel: discovered workday {'host': 'crateandbarrel.wd1.myworkdayjobs.com', 'tenant': 'crateandbarrel', 'site': 'CBH'}
+- DoorDash: 21 postings in your field
 - Estee Lauder Companies: could not find a supported careers site (add it by hand in companies.yaml)
-- Etsy: could not find a supported careers site (add it by hand in companies.yaml)
-- Flexport: 4 postings in your field
-- Flexport: discovered greenhouse {'token': 'flexport'}
+- Etsy: 0 postings in your field
+- Etsy: discovered workday {'host': 'etsy.wd5.myworkdayjobs.com', 'tenant': 'etsy', 'site': 'Etsy_Careers'}
+- Flexport: 2 postings in your field
 - Formlabs: 4 postings in your field
-- Formlabs: discovered greenhouse {'token': 'formlabs'}
 - FourKites: 0 postings in your field
-- FourKites: discovered greenhouse {'token': 'fourkites'}
 - Gap Inc: 0 postings in your field
-- Gap Inc: discovered smartrecruiters {'company_id': 'gapinc'}
+- Gap Inc: discovered workday {'host': 'gapinc.wd1.myworkdayjobs.com', 'tenant': 'gapinc', 'site': 'GAPINC'}
 - Genentech (Roche): 3 postings in your field
-- Genentech (Roche): discovered workday {'host': 'roche.wd3.myworkdayjobs.com', 'tenant': 'roche', 'site': 'roche-ext'}
 - Gilead Sciences: 0 postings in your field
-- Gilead Sciences: discovered workday {'host': 'gilead.wd1.myworkdayjobs.com', 'tenant': 'gilead', 'site': 'gileadcareers'}
 - Glossier: 0 postings in your field
-- Glossier: discovered greenhouse {'token': 'glossier'}
 - HP Inc: 5 postings in your field
-- HP Inc: discovered workday {'host': 'hp.wd5.myworkdayjobs.com', 'tenant': 'hp', 'site': 'ExternalCareerSite'}
 - Harry's: 0 postings in your field
-- Harry's: discovered greenhouse {'token': 'harrys'}
 - Impossible Foods: 0 postings in your field
-- Impossible Foods: discovered ashby {'org': 'impossible-foods'}
 - Instacart: 0 postings in your field
-- Instacart: discovered greenhouse {'token': 'instacart'}
 - Intel: 4 postings in your field
-- Intel: discovered workday {'host': 'intel.wd1.myworkdayjobs.com', 'tenant': 'intel', 'site': 'External'}
-- Intuitive Surgical: 1 postings in your field
-- Intuitive Surgical: discovered smartrecruiters {'company_id': 'intuitive'}
+- Intuitive Surgical: 0 postings in your field
 - Joby Aviation: could not find a supported careers site (add it by hand in companies.yaml)
 - KEEN: 1 postings in your field
-- KEEN: discovered greenhouse {'token': 'keenfootwear'}
-- KLA: could not find a supported careers site (add it by hand in companies.yaml)
+- KLA: 8 postings in your field
+- KLA: discovered workday {'host': 'kla.wd1.myworkdayjobs.com', 'tenant': 'kla', 'site': 'Search'}
 - Kellanova: could not find a supported careers site (add it by hand in companies.yaml)
-- Kraft Heinz: could not find a supported careers site (add it by hand in companies.yaml)
-- Lam Research: could not find a supported careers site (add it by hand in companies.yaml)
-- Levi Strauss & Co: could not find a supported careers site (add it by hand in companies.yaml)
+- Kraft Heinz: 2 postings in your field
+- Kraft Heinz: discovered workday {'host': 'heinz.wd1.myworkdayjobs.com', 'tenant': 'heinz', 'site': 'KraftHeinz_Careers'}
+- Lam Research: lookup inconclusive (1 checks got no answer); will retry tomorrow
+- Levi Strauss & Co: 13 postings in your field
+- Levi Strauss & Co: discovered workday {'host': 'levistraussandco.wd5.myworkdayjobs.com', 'tenant': 'levistraussandco', 'site': 'External'}
 - Lucid Motors: 1 postings in your field
-- Lucid Motors: discovered greenhouse {'token': 'lucidmotors'}
 - Mondelez: 6 postings in your field
-- Mondelez: discovered workday {'host': 'mdlz.wd3.myworkdayjobs.com', 'tenant': 'mdlz', 'site': 'External'}
-- Motorola Solutions: could not find a supported careers site (add it by hand in companies.yaml)
+- Motorola Solutions: 1 postings in your field
+- Motorola Solutions: discovered workday {'host': 'motorolasolutions.wd5.myworkdayjobs.com', 'tenant': 'motorolasolutions', 'site': 'Careers'}
 - NVIDIA: 1 postings in your field
-- NVIDIA: discovered workday {'host': 'nvidia.wd5.myworkdayjobs.com', 'tenant': 'nvidia', 'site': 'NVIDIAExternalCareerSite'}
-- New Balance: 0 postings in your field
-- New Balance: discovered greenhouse {'token': 'new'}
+- New Balance: 1 postings in your field
+- New Balance: discovered workday {'host': 'newbalance.wd1.myworkdayjobs.com', 'tenant': 'newbalance', 'site': 'Careers'}
 - Nike: 0 postings in your field
-- Nike: discovered workday {'host': 'nike.wd1.myworkdayjobs.com', 'tenant': 'nike', 'site': 'nke'}
 - On Running: 0 postings in your field
-- On Running: discovered greenhouse {'token': 'onrunning'}
 - Once Upon a Farm: 0 postings in your field
-- Once Upon a Farm: discovered lever {'slug': 'onceuponafarm'}
 - Oura: 2 postings in your field
-- Oura: discovered greenhouse {'token': 'oura'}
-- PVH: could not find a supported careers site (add it by hand in companies.yaml)
+- PVH: 2 postings in your field
+- PVH: discovered workday {'host': 'pvh.wd1.myworkdayjobs.com', 'tenant': 'pvh', 'site': 'PVH_Careers'}
 - Peak Design: 0 postings in your field
-- Peak Design: discovered greenhouse {'token': 'peakdesign'}
 - Peet's Coffee: could not find a supported careers site (add it by hand in companies.yaml)
 - Peloton: 0 postings in your field
-- Peloton: discovered greenhouse {'token': 'peloton'}
-- Ralph Lauren: 0 postings in your field
-- Ralph Lauren: discovered ashby {'org': 'ralph'}
+- Ralph Lauren: could not find a supported careers site (add it by hand in companies.yaml)
 - Reebok: could not find a supported careers site (add it by hand in companies.yaml)
 - Rent the Runway: 0 postings in your field
-- Rent the Runway: discovered greenhouse {'token': 'renttherunway'}
 - Rivian: could not find a supported careers site (add it by hand in companies.yaml)
 - Ross Stores: could not find a supported careers site (add it by hand in companies.yaml)
-- Rothy's: 1 postings in your field
-- Rothy's: discovered ashby {'org': 'rothys'}
+- Rothy's: 0 postings in your field
 - SRAM: could not find a supported careers site (add it by hand in companies.yaml)
 - Samsara: 1 postings in your field
-- Samsara: discovered greenhouse {'token': 'samsara'}
 - ShipBob: could not find a supported careers site (add it by hand in companies.yaml)
 - SimpliSafe: 0 postings in your field
-- SimpliSafe: discovered greenhouse {'token': 'simplisafe'}
 - Specialized: 1 postings in your field
-- Specialized: discovered workday {'host': 'specialized.wd5.myworkdayjobs.com', 'tenant': 'specialized', 'site': 'Specialized_External_Career_Site'}
 - Spindrift: could not find a supported careers site (add it by hand in companies.yaml)
-- Tapestry: could not find a supported careers site (add it by hand in companies.yaml)
-- WHOOP: 3 postings in your field
-- WHOOP: discovered ashby {'org': 'whoop'}
+- TJX: 0 postings in your field
+- TJX: discovered workday {'host': 'wd1.myworkdaysite.com', 'tenant': 'tjx', 'site': 'TJX_EXTERNAL'}
+- Tapestry: 3 postings in your field
+- Tapestry: discovered workday {'host': 'tapestry.wd108.myworkdayjobs.com', 'tenant': 'tapestry', 'site': 'Tapestry_Careers'}
+- WHOOP: 2 postings in your field
 - Warby Parker: could not find a supported careers site (add it by hand in companies.yaml)
 - Wayfair: 0 postings in your field
-- Wayfair: discovered smartrecruiters {'company_id': 'wayfair'}
-- Waymo: 1 postings in your field
-- Waymo: discovered greenhouse {'token': 'waymo'}
-- Western Digital: 3 postings in your field
-- Western Digital: discovered smartrecruiters {'company_id': 'westerndigital'}
+- Waymo: 0 postings in your field
+- Western Digital: 2 postings in your field
 - Williams-Sonoma: could not find a supported careers site (add it by hand in companies.yaml)
-- Zipline: 2 postings in your field
-- Zipline: discovered greenhouse {'token': 'flyzipline'}
-- [company discovery] found 1007 new job boards (1007 in the discovered set)
-- [discovered boards] swept 1007 of 1007, 73 postings in your field, 0 failed; new matches from: 1stavenuepower, 1x, Aaru, AbbVie, Agency, Airapps, Alan, Allocate, Aloyoga, Alpaca, Ambrook, Analogdevices, Anthropic, Anyone ai, Aperiatechnologies, Applovin, Apptronik, Armstrongtransportgroup, Ashgro, Astranis, Atomic invest, Atp, Basis research
+- Zipline: 1 postings in your field
+- [company discovery] found 111 new job boards (1109 in the discovered set)
+- [discovered boards] swept 1109 of 1109, 73 postings in your field, 0 failed; new matches from: AfterQuery, Agentio, Airapps, Aisle and abroad, Alltrails, Andurilindustries, Arketa, Arq
 - project44: 0 postings in your field
-- project44: discovered greenhouse {'token': 'project44'}
 
 </details>

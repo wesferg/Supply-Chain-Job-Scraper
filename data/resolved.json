@@ -1,7 +1,12 @@
 {
+ "Allbirds": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"ats\": \"greenhouse\", \"token\": \"allbirds\"}"
+ },
  "Applied Materials": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"url\": \"https://amat.wd1.myworkdayjobs.com/External\"}",
   "ids": {
    "host": "amat.wd1.myworkdayjobs.com",
    "site": "External",
@@ -11,6 +16,7 @@
  "Archer Aviation": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"archer56\", \"archeraviation\", \"archer\"]}",
   "ids": {
    "token": "archer56"
   }
@@ -18,45 +24,131 @@
  "Away": {
   "ats": "ashby",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"away\", \"awaytravel\"]}",
   "ids": {
    "org": "away"
   }
  },
+ "Bio-Rad": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"bio-rad\", \"biorad\"]}"
+ },
  "Bombas": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "token": "bombas"
+  }
+ },
+ "Bose": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"url\": \"https://boseallaboutme.wd1.myworkdayjobs.com/Bose_Careers\"}"
+ },
+ "Boston Dynamics": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics\"}",
+  "ids": {
+   "host": "bostondynamics.wd1.myworkdayjobs.com",
+   "site": "Boston_Dynamics",
+   "tenant": "bostondynamics"
   }
  },
  "Chevron": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"url\": \"https://chevron.wd5.myworkdayjobs.com/jobs\"}",
   "ids": {
    "host": "chevron.wd5.myworkdayjobs.com",
    "site": "jobs",
    "tenant": "chevron"
   }
  },
+ "Chobani": {
+  "failed_on": "2026-11-12",
+  "hints": "{}"
+ },
  "Clorox": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"url\": \"https://wd1.myworkdaysite.com/recruiting/clorox/Clorox\"}",
   "ids": {
    "host": "wd1.myworkdaysite.com",
    "site": "Clorox",
    "tenant": "clorox"
   }
  },
+ "Columbia Sportswear": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://columbiasportswearcompany.wd5.myworkdayjobs.com/Columbia_Career_Site\"}",
+  "ids": {
+   "host": "columbiasportswearcompany.wd5.myworkdayjobs.com",
+   "site": "Columbia_Career_Site",
+   "tenant": "columbiasportswearcompany"
+  }
+ },
+ "Conagra Brands": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://conagrabrands.wd1.myworkdayjobs.com/Careers_US\"}",
+  "ids": {
+   "host": "conagrabrands.wd1.myworkdayjobs.com",
+   "site": "Careers_US",
+   "tenant": "conagrabrands"
+  }
+ },
+ "Constellation Brands": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers\"}",
+  "ids": {
+   "host": "cbrands.wd5.myworkdayjobs.com",
+   "site": "CBI_External_Careers",
+   "tenant": "cbrands"
+  }
+ },
+ "Coyote Logistics": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"coyote\", \"coyotelogistics\"]}"
+ },
+ "Crate & Barrel": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://crateandbarrel.wd1.myworkdayjobs.com/CBH\"}",
+  "ids": {
+   "host": "crateandbarrel.wd1.myworkdayjobs.com",
+   "site": "CBH",
+   "tenant": "crateandbarrel"
+  }
+ },
  "DoorDash": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"doordashusa\", \"doordash\"]}",
   "ids": {
    "token": "doordashusa"
+  }
+ },
+ "Estee Lauder Companies": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"elcompanies\", \"esteelauder\"]}"
+ },
+ "Etsy": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://etsy.wd5.myworkdayjobs.com/Etsy_Careers\"}",
+  "ids": {
+   "host": "etsy.wd5.myworkdayjobs.com",
+   "site": "Etsy_Careers",
+   "tenant": "etsy"
   }
  },
  "Flexport": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "token": "flexport"
   }
@@ -64,6 +156,7 @@
  "Formlabs": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "token": "formlabs"
   }
@@ -71,13 +164,25 @@
  "FourKites": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"fourkites\"]}",
   "ids": {
    "token": "fourkites"
+  }
+ },
+ "Gap Inc": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://gapinc.wd1.myworkdayjobs.com/GAPINC\"}",
+  "ids": {
+   "host": "gapinc.wd1.myworkdayjobs.com",
+   "site": "GAPINC",
+   "tenant": "gapinc"
   }
  },
  "Genentech (Roche)": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"url\": \"https://roche.wd3.myworkdayjobs.com/roche-ext\"}",
   "ids": {
    "host": "roche.wd3.myworkdayjobs.com",
    "site": "roche-ext",
@@ -87,6 +192,7 @@
  "Gilead Sciences": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"gilead\"], \"url\": \"https://gilead.wd1.myworkdayjobs.com/gileadcareers\"}",
   "ids": {
    "host": "gilead.wd1.myworkdayjobs.com",
    "site": "gileadcareers",
@@ -96,6 +202,7 @@
  "Glossier": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "token": "glossier"
   }
@@ -103,6 +210,7 @@
  "HP Inc": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"hp\"], \"url\": \"https://hp.wd5.myworkdayjobs.com/ExternalCareerSite\"}",
   "ids": {
    "host": "hp.wd5.myworkdayjobs.com",
    "site": "ExternalCareerSite",
@@ -112,6 +220,7 @@
  "Harry's": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"harrys\"]}",
   "ids": {
    "token": "harrys"
   }
@@ -119,6 +228,7 @@
  "Impossible Foods": {
   "ats": "ashby",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"impossiblefoods\"]}",
   "ids": {
    "org": "impossible-foods"
   }
@@ -126,6 +236,7 @@
  "Instacart": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "token": "instacart"
   }
@@ -133,6 +244,7 @@
  "Intel": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"url\": \"https://intel.wd1.myworkdayjobs.com/External\"}",
   "ids": {
    "host": "intel.wd1.myworkdayjobs.com",
    "site": "External",
@@ -142,20 +254,66 @@
  "Intuitive Surgical": {
   "ats": "smartrecruiters",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"intuitive\"]}",
   "ids": {
    "company_id": "intuitive"
   }
  },
+ "Joby Aviation": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"jobyaviation\"]}"
+ },
  "KEEN": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"keenfootwear\", \"keen\"]}",
   "ids": {
    "token": "keenfootwear"
+  }
+ },
+ "KLA": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://kla.wd1.myworkdayjobs.com/Search\"}",
+  "ids": {
+   "host": "kla.wd1.myworkdayjobs.com",
+   "site": "Search",
+   "tenant": "kla"
+  }
+ },
+ "Kellanova": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"kellanova\"]}"
+ },
+ "Kraft Heinz": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers\"}",
+  "ids": {
+   "host": "heinz.wd1.myworkdayjobs.com",
+   "site": "KraftHeinz_Careers",
+   "tenant": "heinz"
+  }
+ },
+ "Lam Research": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"ats\": \"eightfold\", \"domain\": \"lamresearch.com\", \"host\": \"careers.lamresearch.com\"}",
+  "unsure": true
+ },
+ "Levi Strauss & Co": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://levistraussandco.wd5.myworkdayjobs.com/External\"}",
+  "ids": {
+   "host": "levistraussandco.wd5.myworkdayjobs.com",
+   "site": "External",
+   "tenant": "levistraussandco"
   }
  },
  "Lucid Motors": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"lucidmotors\"]}",
   "ids": {
    "token": "lucidmotors"
   }
@@ -163,24 +321,47 @@
  "Mondelez": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"url\": \"https://mdlz.wd3.myworkdayjobs.com/External\"}",
   "ids": {
    "host": "mdlz.wd3.myworkdayjobs.com",
    "site": "External",
    "tenant": "mdlz"
   }
  },
+ "Motorola Solutions": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://motorolasolutions.wd5.myworkdayjobs.com/Careers\"}",
+  "ids": {
+   "host": "motorolasolutions.wd5.myworkdayjobs.com",
+   "site": "Careers",
+   "tenant": "motorolasolutions"
+  }
+ },
  "NVIDIA": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"url\": \"https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite\"}",
   "ids": {
    "host": "nvidia.wd5.myworkdayjobs.com",
    "site": "NVIDIAExternalCareerSite",
    "tenant": "nvidia"
   }
  },
+ "New Balance": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"newbalance\"], \"url\": \"https://newbalance.wd1.myworkdayjobs.com/Careers\"}",
+  "ids": {
+   "host": "newbalance.wd1.myworkdayjobs.com",
+   "site": "Careers",
+   "tenant": "newbalance"
+  }
+ },
  "Nike": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"url\": \"https://nike.wd1.myworkdayjobs.com/nke\"}",
   "ids": {
    "host": "nike.wd1.myworkdayjobs.com",
    "site": "nke",
@@ -190,6 +371,7 @@
  "On Running": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"onrunning\", \"on-running\"]}",
   "ids": {
    "token": "onrunning"
   }
@@ -197,6 +379,7 @@
  "Once Upon a Farm": {
   "ats": "lever",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"onceuponafarm\"]}",
   "ids": {
    "slug": "onceuponafarm"
   }
@@ -204,48 +387,93 @@
  "Oura": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"oura\", \"ouraring\"]}",
   "ids": {
    "token": "oura"
+  }
+ },
+ "PVH": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://pvh.wd1.myworkdayjobs.com/PVH_Careers\"}",
+  "ids": {
+   "host": "pvh.wd1.myworkdayjobs.com",
+   "site": "PVH_Careers",
+   "tenant": "pvh"
   }
  },
  "Peak Design": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"peakdesign\"]}",
   "ids": {
    "token": "peakdesign"
   }
  },
+ "Peet's Coffee": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"peets\", \"peetscoffee\"]}"
+ },
  "Peloton": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "token": "peloton"
   }
  },
+ "Ralph Lauren": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"ralphlauren\"]}"
+ },
+ "Reebok": {
+  "failed_on": "2026-11-12",
+  "hints": "{}"
+ },
  "Rent the Runway": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"renttherunway\"]}",
   "ids": {
    "token": "renttherunway"
   }
  },
+ "Rivian": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"rivian\"]}"
+ },
+ "Ross Stores": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"careers_url\": \"https://jobs.rossstores.com/\", \"slugs\": [\"rossstores\"]}"
+ },
  "Rothy's": {
   "ats": "ashby",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"rothys\"]}",
   "ids": {
    "org": "rothys"
   }
  },
+ "SRAM": {
+  "failed_on": "2026-11-12",
+  "hints": "{}"
+ },
  "Samsara": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "token": "samsara"
   }
  },
+ "ShipBob": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"slugs\": [\"shipbob\"]}"
+ },
  "SimpliSafe": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"ats\": \"greenhouse\", \"token\": \"simplisafe\"}",
   "ids": {
    "token": "simplisafe"
   }
@@ -253,22 +481,53 @@
  "Specialized": {
   "ats": "workday",
   "found_on": "2026-11-11",
+  "hints": "{\"careers_url\": \"https://www.specialized.com/us/en/careers\", \"slugs\": [\"specialized\", \"specializedbicycles\", \"specializedbicyclecomponents\"]}",
   "ids": {
    "host": "specialized.wd5.myworkdayjobs.com",
    "site": "Specialized_External_Career_Site",
    "tenant": "specialized"
   }
  },
+ "Spindrift": {
+  "failed_on": "2026-11-12",
+  "hints": "{}"
+ },
+ "TJX": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://wd1.myworkdaysite.com/recruiting/tjx/TJX_EXTERNAL\"}",
+  "ids": {
+   "host": "wd1.myworkdaysite.com",
+   "site": "TJX_EXTERNAL",
+   "tenant": "tjx"
+  }
+ },
+ "Tapestry": {
+  "ats": "workday",
+  "found_on": "2026-11-12",
+  "hints": "{\"url\": \"https://tapestry.wd108.myworkdayjobs.com/Tapestry_Careers\"}",
+  "ids": {
+   "host": "tapestry.wd108.myworkdayjobs.com",
+   "site": "Tapestry_Careers",
+   "tenant": "tapestry"
+  }
+ },
  "WHOOP": {
   "ats": "ashby",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"whoop\"]}",
   "ids": {
    "org": "whoop"
   }
  },
+ "Warby Parker": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"ats\": \"greenhouse\", \"token\": \"warbyparker\"}"
+ },
  "Wayfair": {
   "ats": "smartrecruiters",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "company_id": "wayfair"
   }
@@ -276,6 +535,7 @@
  "Waymo": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{}",
   "ids": {
    "token": "waymo"
   }
@@ -283,13 +543,19 @@
  "Western Digital": {
   "ats": "smartrecruiters",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"wdc\", \"westerndigital\"]}",
   "ids": {
    "company_id": "westerndigital"
   }
  },
+ "Williams-Sonoma": {
+  "failed_on": "2026-11-12",
+  "hints": "{\"careers_url\": \"https://www.williams-sonomainc.com/careers/jobs\", \"slugs\": [\"wsgc\", \"williamssonoma\", \"williams-sonoma\"]}"
+ },
  "Zipline": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"flyzipline\", \"zipline\"]}",
   "ids": {
    "token": "flyzipline"
   }
@@ -297,6 +563,7 @@
  "project44": {
   "ats": "greenhouse",
   "found_on": "2026-11-11",
+  "hints": "{\"slugs\": [\"project44\"]}",
   "ids": {
    "token": "project44"
   }
