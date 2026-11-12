@@ -92,7 +92,7 @@ Updated Thu Nov 12, 2026: **46 open roles**, ranked by fit, **17 new today**. 23
 - Genentech (Roche): 3 postings in your field
 - Gilead Sciences: 0 postings in your field
 - Glossier: 0 postings in your field
-- HP Inc: 5 postings in your field
+- HP Inc: 6 postings in your field
 - Harry's: 0 postings in your field
 - Impossible Foods: 0 postings in your field
 - Instacart: 0 postings in your field
@@ -126,7 +126,7 @@ Updated Thu Nov 12, 2026: **46 open roles**, ranked by fit, **17 new today**. 23
 - Waymo: 0 postings in your field
 - Western Digital: 2 postings in your field
 - Zipline: 1 postings in your field
-- [discovered boards] swept 1107 of 1109, 51 postings in your field, 2 failed
+- [discovered boards] swept 1108 of 1109, 52 postings in your field, 1 failed
 - project44: 0 postings in your field
 
 </details>
