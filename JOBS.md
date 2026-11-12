@@ -116,7 +116,7 @@ Updated Thu Nov 12, 2026: **46 open roles**, ranked by fit, **17 new today**. 23
 - Peloton: 0 postings in your field
 - Rent the Runway: 0 postings in your field
 - Rothy's: 0 postings in your field
-- Samsara: 1 postings in your field
+- Samsara: 0 postings in your field
 - SimpliSafe: 0 postings in your field
 - Specialized: 1 postings in your field
 - TJX: 0 postings in your field
@@ -126,7 +126,7 @@ Updated Thu Nov 12, 2026: **46 open roles**, ranked by fit, **17 new today**. 23
 - Waymo: 0 postings in your field
 - Western Digital: 2 postings in your field
 - Zipline: 1 postings in your field
-- [discovered boards] swept 1109 of 1109, 54 postings in your field, 0 failed; new matches from: AfterQuery, Agentio, Andurilindustries, Arq
+- [discovered boards] swept 1107 of 1109, 51 postings in your field, 2 failed
 - project44: 0 postings in your field
 
 </details>
