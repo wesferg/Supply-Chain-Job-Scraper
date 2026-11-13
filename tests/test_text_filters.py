@@ -42,7 +42,7 @@ def test_salary(text, lo, hi):
 @pytest.mark.parametrize("text,yrs", [
     ("Four-year college degree and a minimum of 2+ years related experience", 2),
     ("3-5 years of progressive experience in demand planning", 3),
-    ("8+ years of hands-on demand planning experience, or 5+ years experience with a Masters", 5),
+    ("8+ years of hands-on demand planning experience, or 5+ years experience with a Masters", 8),  # bachelor's path
     ("5+ years experience in customer or product supply chain management", 5),
     ("Must be at least 18 years of age.", None),
     ("For over 50 years our company has led the industry.", None),
@@ -168,8 +168,13 @@ def test_evaluate_too_senior(f):
 
 
 def test_evaluate_stretch(f):
-    j = _job(description="3-5 years of experience in supply planning preferred.")
+    j = _job(description="3-5 years of experience in supply planning.")
     assert f.evaluate(j).keep and "stretch" in j.flags
+    j = _job(description="1+ years of experience required. 6+ years of experience preferred.")
+    assert f.evaluate(j).keep and "stretch" in j.flags and (j.min_years, j.pref_years) == (1, 6)
+    j = _job(description="2+ years with SQL. 6+ years of experience in demand planning.")
+    d = f.evaluate(j)
+    assert not d.keep and d.reason == "experience: 6+ years required"
 
 
 def test_evaluate_low_pay(f):

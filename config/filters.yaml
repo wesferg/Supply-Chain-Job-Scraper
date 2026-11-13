@@ -116,8 +116,14 @@ titles:
     - "\\banalyst\\b"
 
 experience:
+  # Read from the full posting: the highest REQUIRED number on a bachelor's path
+  # ("2+ yrs SQL ... 6+ yrs planning" = 6; "BS + 6 yrs or MS + 4 yrs" = 6).
   reject_if_min_years_at_least: 5   # "5+ years required" is out
-  stretch_if_min_years_at_least: 3  # 3-4 years: kept, flagged as a stretch
+  stretch_if_min_years_at_least: 3  # 3-4 years required, or 5+ only "preferred": kept, ranked lower
+
+# Skip postings older than this (by the date the company posted them).
+# Jobs already on the list drop off once they pass this age.
+max_posting_age_days: 20
 
 salary:
   floor: 65000          # reject if the posted range tops out below this

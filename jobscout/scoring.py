@@ -110,7 +110,9 @@ def rule_why(job: Job) -> str:
     if "entry" in job.flags:
         parts.append("entry-level title")
     if job.min_years is not None:
-        parts.append(f"asks {job.min_years}+ yrs")
+        parts.append(f"requires {job.min_years}+ yrs")
+    if job.pref_years is not None and (job.min_years is None or job.pref_years > job.min_years):
+        parts.append(f"prefers {job.pref_years}+ yrs")
     if job.salary_max is None:
         parts.append("pay not listed")
     return "; ".join(parts).capitalize()

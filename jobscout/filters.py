@@ -11,7 +11,9 @@ from dataclasses import dataclass
 from typing import Optional
 
 from .models import Job
-from .text import parse_salary, required_years
+from datetime import date
+
+from .text import parse_salary, posted_date, years_detail
 
 _US = re.compile(r"\b(US|USA|U\.S\.A?\.?|United States( of America)?|North America|Anywhere)\b", re.I)
 
@@ -65,6 +67,7 @@ class Filters:
         e = cfg.get("experience", {})
         self.reject_years = e.get("reject_if_min_years_at_least", 5)
         self.stretch_years = e.get("stretch_if_min_years_at_least", 3)
+        self.max_age_days = cfg.get("max_posting_age_days")
 
         s = cfg.get("salary", {})
         self.floor = s.get("floor", 0)
@@ -151,6 +154,24 @@ class Filters:
         shown = "; ".join(locs)[:80] or "no location listed"
         return Decision(False, f"location: {shown}")
 
+    # ---------------- posting age ----------------
+
+    def age_days(self, posted) -> int | None:
+        d = posted_date(posted)
+        return (date.today() - d).days if d else None
+
+    def too_old(self, posted) -> bool:
+        a = self.age_days(posted)
+        return bool(self.max_age_days) and a is not None and a > self.max_age_days
+
+    def age(self, job: Job) -> Decision:
+        d = posted_date(job.posted)
+        if d:
+            job.posted = d.isoformat()
+        if self.too_old(job.posted):
+            return Decision(False, f"age: posted {self.age_days(job.posted)} days ago")
+        return Decision(True, "")
+
     # ---------------- everything ----------------
 
     def evaluate(self, job: Job) -> Decision:
@@ -167,11 +188,17 @@ class Filters:
             return d
         job.metro = d.reason
 
-        job.min_years = required_years(job.description)
+        d = self.age(job)
+        if not d.keep:
+            return d
+
+        job.min_years, job.pref_years = years_detail(job.description)
         if job.min_years is not None and job.min_years >= self.reject_years:
-            return Decision(False, f"experience: {job.min_years}+ years")
+            return Decision(False, f"experience: {job.min_years}+ years required")
         if job.min_years is not None and job.min_years >= self.stretch_years:
             job.flags.append("stretch")
+        elif job.pref_years is not None and job.pref_years >= self.reject_years:
+            job.flags.append("stretch")  # "6+ years preferred": not ruled out, ranked lower
 
         if job.salary_max is None:
             job.salary_min, job.salary_max = parse_salary(job.description)

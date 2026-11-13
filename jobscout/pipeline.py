@@ -18,7 +18,7 @@ from .models import Job, BoardUnavailable
 
 CONFIG = os.path.join(store.ROOT, "config")
 RETRY_FAILED_AFTER_DAYS = 7
-RULES_VERSION = 2  # bump when filtering/scoring code changes in a way that should re-check jobs
+RULES_VERSION = 3  # bump when filtering/scoring code changes in a way that should re-check jobs
 
 
 def load_yaml(name: str) -> dict:
@@ -252,7 +252,8 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
 
     # "Open" = seen in the last 3 days, so one failed fetch doesn't drop a company's jobs.
     recent = (date.today() - timedelta(days=2)).isoformat()
-    open_rows = [r for r in state.matches.values() if r.get("last_seen", "") >= recent]
+    open_rows = [r for r in state.matches.values()
+                 if r.get("last_seen", "") >= recent and not f.too_old(r.get("posted"))]
 
     # Spare Claude budget upgrades open matches that only have a rule score, best first,
     # so the whole list ends up ranked on the same scale.

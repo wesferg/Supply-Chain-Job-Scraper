@@ -41,9 +41,10 @@ All rules live in `config/filters.yaml`.
 | Field | Supply chain, demand/supply/inventory/merchandise planning, forecasting, S&OP, operations research, operations simulation and optimization, logistics/procurement analytics |
 | Ranked lower | General operations titles (Business Operations, Strategy & Operations, Operations Associate) are kept but sit below real supply chain roles |
 | Never | Sales, sales engineering, mechanical/other engineering, HVAC, SEO, actuarial, lab/fund/drone/robot/facilities operations, internships, part-time/contract, talent-community posts |
-| Level | No senior/lead/manager/director titles; rejects postings needing 5+ years; flags 3–4 years as a stretch; rejects pay bands that *start* at $190k+ (a senior hire) and ranks $150k+ starts lower |
+| Level | No senior/lead/manager/director titles. Reads every experience mention in the full posting and uses the highest *required* number on a bachelor's path ("2+ yrs SQL … 6+ yrs planning" counts as 6). Rejects 5+ years required; ranks 3–4 years required, or 5+ only "preferred", lower; rejects pay bands that *start* at $190k+ (a senior hire) and ranks $150k+ starts lower |
 | Where | SF Bay Area (preferred), NYC, Boston, Portland OR, Chicago (and near suburbs), or US-remote. Nothing in Texas, the South, Florida, the Midwest, SoCal, or outside the US |
 | Pay | Rejects ranges that top out under $65k; unlisted pay passes |
+| Fresh | Only postings from the last 20 days (`max_posting_age_days`); roles drop off the list as they age past that. Undated postings are kept |
 
 ## How companies are discovered
 

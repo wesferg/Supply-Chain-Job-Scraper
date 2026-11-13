@@ -2,6 +2,8 @@
 shaped like the real Workday / Greenhouse / Lever / Ashby payloads."""
 import json
 import os
+import time
+from datetime import date, timedelta
 
 import pytest
 
@@ -9,6 +11,10 @@ from jobscout import http, discover, pipeline, store
 from jobscout.ats import workday, simple
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def days_ago(n: int) -> str:  # fixture dates stay recent whenever the tests run
+    return (date.today() - timedelta(days=n)).isoformat()
 
 # ---------------- canned responses ----------------
 
@@ -28,7 +34,7 @@ WD_DETAIL = {
         "title": "Planner, Demand Agg", "location": "Two Folsom, San Francisco, CA, US 94105",
         "jobDescription": "<p>Forecast season inventory. 1-3 years of experience in planning.</p>"
                           "<p>The base pay range is $80,000 - $105,000 per year.</p>",
-        "timeType": "Full time", "startDate": "2026-11-09",
+        "timeType": "Full time", "startDate": days_ago(3),
         "externalUrl": "https://gap.wd1.myworkdayjobs.com/GAPINC/job/San-Francisco-CA/Planner--Demand-Agg_R210823"}},
     "/job/Austin-TX/Supply-Chain-Analyst_R2": {"jobPostingInfo": {
         "title": "Supply Chain Analyst", "location": "Austin, TX", "additionalLocations": ["Dallas, TX"],
@@ -36,7 +42,7 @@ WD_DETAIL = {
 }
 GH = {"jobs": [
     {"id": 7117805, "title": "Demand Planning Analyst", "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/7117805",
-     "location": {"name": "Boston, MA"}, "updated_at": "2026-11-01",
+     "location": {"name": "Boston, MA"}, "updated_at": days_ago(11),
      "content": "&lt;p&gt;0-2 years of experience. $70,000 - $90,000&lt;/p&gt;"},
     {"id": 2, "title": "Account Executive", "absolute_url": "x", "location": {"name": "Boston, MA"}, "content": ""},
 ]}
@@ -44,12 +50,12 @@ LEVER = [
     {"id": "abc", "text": "Logistics Analyst", "hostedUrl": "https://jobs.lever.co/acme/abc",
      "categories": {"location": "Chicago, IL", "allLocations": ["Chicago, IL"], "commitment": "Full-time"},
      "descriptionPlain": "Build routing models.", "lists": [{"text": "Requirements", "content": "<li>1+ years of experience</li>"}],
-     "createdAt": 1731000000000, "salaryRange": {"min": 68000, "max": 82000, "interval": "per-year-salary"}},
+     "createdAt": int((time.time() - 5 * 86400) * 1000), "salaryRange": {"min": 68000, "max": 82000, "interval": "per-year-salary"}},
 ]
 ASHBY = {"jobs": [
     {"id": "u1", "title": "Supply Planner", "location": "Remote", "isRemote": True, "isListed": True,
      "jobUrl": "https://jobs.ashbyhq.com/acme/u1", "descriptionPlain": "Plan supply. 2 years of experience.",
-     "publishedAt": "2026-11-05", "employmentType": "FullTime",
+     "publishedAt": days_ago(7), "employmentType": "FullTime",
      "compensation": {"summaryComponents": [{"compensationType": "Salary", "minValue": 60000, "maxValue": 64000, "interval": "1 YEAR"}]}},
 ]}
 

@@ -27,6 +27,7 @@ class Job:
     # filled in by the pipeline
     metro: str = ""               # which allowed metro matched (e.g. "SF Bay Area")
     min_years: Optional[int] = None
+    pref_years: Optional[int] = None
     flags: list[str] = field(default_factory=list)
     score: Optional[int] = None
     verdict: str = ""

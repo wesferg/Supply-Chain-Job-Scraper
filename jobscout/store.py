@@ -58,7 +58,7 @@ def company(r: dict) -> str:
 
 
 CSV_FIELDS = ["score", "verdict", "title", "company", "metro", "locations", "salary",
-              "min_years", "flags", "why", "concerns", "url", "first_seen", "origin", "ats"]
+              "min_years", "pref_years", "posted", "flags", "why", "concerns", "url", "first_seen", "origin", "ats"]
 
 
 def _salary(r: dict) -> str:
@@ -98,8 +98,11 @@ def _row(i: int, r: dict, today: str) -> str:
     notes = []
     if "entry" in (r.get("flags") or []):
         notes.append("entry-level")
-    if "stretch" in (r.get("flags") or []):
-        notes.append(f"asks {r.get('min_years')}+ yrs")
+    if r.get("min_years") is not None:
+        notes.append(f"requires {r['min_years']}+ yrs")
+    if r.get("pref_years") is not None and (r.get("min_years") is None
+                                            or r["pref_years"] > r["min_years"]):
+        notes.append(f"prefers {r['pref_years']}+ yrs")
     why = _md_cell(r.get("why"))
     if r.get("concerns"):
         why += f" _Watch: {_md_cell(r['concerns'])}_"
@@ -108,11 +111,20 @@ def _row(i: int, r: dict, today: str) -> str:
     new = "**NEW** " if r.get("first_seen") == today else ""
     company_cell = _md_cell(company(r)) + (" \\*" if r.get("origin") == "universe" else "")
     return (f"| {i} | {r.get('score')} | {new}[{_md_cell(r['title'])}]({r['url']}) | {company_cell} "
-            f"| {_md_cell(r.get('metro'))} | {_salary(r) or '-'} | {why} |")
+            f"| {_md_cell(r.get('metro'))} | {_salary(r) or '-'} | {_age(r.get('posted'))} | {why} |")
 
 
-_HEAD = ["| # | Score | Role | Company | Where | Pay | Why it fits |",
-         "|---:|---:|---|---|---|---|---|"]
+def _age(posted) -> str:
+    from .text import posted_date
+    d = posted_date(posted)
+    if not d:
+        return "-"
+    n = (date.today() - d).days
+    return "today" if n <= 0 else f"{n}d ago"
+
+
+_HEAD = ["| # | Score | Role | Company | Where | Pay | Posted | Why it fits |",
+         "|---:|---:|---|---|---|---|---|---|"]
 
 
 def ranked_markdown(rows: list[dict], today: str, log: list[str], min_score: int) -> str:

@@ -14,6 +14,7 @@ from jobscout.models import Job
 from tests.test_adapters_pipeline import fake_net, sandbox  # noqa: F401  (fixture reuse)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OLD = (date.today() - timedelta(days=30)).isoformat()
 
 
 @pytest.fixture(scope="module")
@@ -177,7 +178,7 @@ def test_rule_change_rechecks_old_matches_but_keeps_first_seen(sandbox):
     pipeline.run()
     m = json.load(open(sandbox / "data" / "matches.json"))
     for v in m.values():
-        v["first_seen"] = "2026-10-01"
+        v["first_seen"] = OLD
     json.dump(m, open(sandbox / "data" / "matches.json", "w"))
     # tighten the rules: logistics analysts are out now
     cfg = sandbox / "config" / "filters.yaml"
@@ -190,7 +191,7 @@ def test_rule_change_rechecks_old_matches_but_keeps_first_seen(sandbox):
     cfg.write_text(cfg.read_text().replace("    - logistics analyst\n", "", 1))
     pipeline.run()
     m = json.load(open(sandbox / "data" / "matches.json"))
-    assert next(v for v in m.values() if v["title"] == "Logistics Analyst")["first_seen"] == "2026-10-01"
+    assert next(v for v in m.values() if v["title"] == "Logistics Analyst")["first_seen"] == OLD
 
 
 # ---------------- Eightfold ----------------
@@ -239,3 +240,64 @@ def test_display_name_used_in_list(sandbox):
     pipeline.run()
     md = (sandbox / "JOBS.md").read_text()
     assert "Acme Brands \\*" in md    # name from the Greenhouse board, not the slug
+
+
+# ---------------- experience depth and posting age ----------------
+
+@pytest.mark.parametrize("text,req,pref", [
+    ("2+ years of experience with SQL. 6+ years of experience in demand planning.", 6, None),
+    ("Bachelor's degree and 6+ years of experience, or Master's degree and 4+ years of experience.", 6, None),
+    ("Typically requires a minimum of 6 years of related experience with a Bachelor's degree; "
+     "or 4 years and a Master's degree; or a PhD with 3 years experience.", 6, None),
+    ("Minimum of six (6) years of relevant work experience in planning.", 6, None),
+    ("Requirements\n3+ years of experience in planning\nPreferred Qualifications\n"
+     "7+ years of experience in semiconductors", 3, 7),
+    ("5+ years of experience preferred. 2 years of experience required.", 2, 5),
+    ("Our company has over 100 years of history. 0-2 years of experience in logistics.", 0, None),
+    ("This is a 2-year rotational program for new grads.", None, None),
+    ("Must be 18 years of age or older. 2+ years experience in inventory.", 2, None),
+    ("Experience with Excel is a plus. 2+ years in supply chain analytics.", 2, None),
+    ("BS plus 5 years of experience, MS plus 3 years of experience, or PhD plus 1 year.", 5, None),
+    ("The base pay range is $80,000 - $105,000 per year. 1-3 years of experience in planning.", 1, None),
+    ("8+ years of experience in supply chain, with at least 3 years in a leadership role.", 8, None),
+])
+def test_years_detail(text, req, pref):
+    from jobscout.text import years_detail
+    assert years_detail(text) == (req, pref)
+
+
+def test_posted_date_formats():
+    from jobscout.text import posted_date
+    t = date(2026, 11, 12)
+    assert posted_date("2026-11-09", t) == date(2026, 11, 9)
+    assert posted_date("2026-10-20T18:01:02-04:00", t) == date(2026, 10, 20)
+    assert posted_date("1762905600000", t) == date(2025, 11, 12)          # Lever epoch ms
+    assert posted_date("Posted Today", t) == t
+    assert posted_date("Posted Yesterday", t) == date(2026, 11, 11)
+    assert posted_date("Posted 3 Days Ago", t) == date(2026, 11, 9)
+    assert posted_date("Posted 30+ Days Ago", t) == date(2026, 10, 13)
+    assert posted_date("", t) is None and posted_date("soon", t) is None
+
+
+def test_old_postings_rejected_and_aging_ones_drop_off(f, sandbox):
+    old = (date.today() - timedelta(days=21)).isoformat()
+    j = Job(ats="x", company="c", job_id="1", title="Demand Planner", url="u",
+            locations=["San Francisco, CA"], posted=old)
+    d = f.evaluate(j)
+    assert not d.keep and d.reason == "age: posted 21 days ago"
+    j = Job(ats="x", company="c", job_id="2", title="Demand Planner", url="u",
+            locations=["San Francisco, CA"], posted="Posted 20 Days Ago")
+    assert f.evaluate(j).keep and j.posted == (date.today() - timedelta(days=20)).isoformat()
+    j = Job(ats="x", company="c", job_id="3", title="Demand Planner", url="u",
+            locations=["San Francisco, CA"])               # no date: kept
+    assert f.evaluate(j).keep
+
+    pipeline.run()
+    m = json.load(open(sandbox / "data" / "matches.json"))
+    k = next(k for k, v in m.items() if v["title"] == "Logistics Analyst")
+    m[k]["posted"] = old                                    # it aged past 20 days since
+    json.dump(m, open(sandbox / "data" / "matches.json", "w"))
+    pipeline.run()
+    md = (sandbox / "JOBS.md").read_text()
+    assert "Logistics Analyst" not in md and "Planner, Demand Agg" in md
+    assert "| Posted |" in md and "3d ago" in md
