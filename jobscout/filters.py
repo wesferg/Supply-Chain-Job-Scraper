@@ -68,6 +68,7 @@ class Filters:
         self.reject_years = e.get("reject_if_min_years_at_least", 5)
         self.stretch_years = e.get("stretch_if_min_years_at_least", 3)
         self.max_age_days = cfg.get("max_posting_age_days")
+        self.age_exempt = _rx(cfg.get("age_exempt_titles", []))
 
         s = cfg.get("salary", {})
         self.floor = s.get("floor", 0)
@@ -160,7 +161,9 @@ class Filters:
         d = posted_date(posted)
         return (date.today() - d).days if d else None
 
-    def too_old(self, posted) -> bool:
+    def too_old(self, posted, title: str = "") -> bool:
+        if title and any(r.search(title) for r in self.age_exempt):
+            return False  # new-grad and rotational programs stay open for months
         a = self.age_days(posted)
         return bool(self.max_age_days) and a is not None and a > self.max_age_days
 
@@ -168,7 +171,7 @@ class Filters:
         d = posted_date(job.posted)
         if d:
             job.posted = d.isoformat()
-        if self.too_old(job.posted):
+        if self.too_old(job.posted, job.title):
             return Decision(False, f"age: posted {self.age_days(job.posted)} days ago")
         return Decision(True, "")
 

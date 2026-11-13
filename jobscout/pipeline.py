@@ -253,7 +253,7 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
     # "Open" = seen in the last 3 days, so one failed fetch doesn't drop a company's jobs.
     recent = (date.today() - timedelta(days=2)).isoformat()
     open_rows = [r for r in state.matches.values()
-                 if r.get("last_seen", "") >= recent and not f.too_old(r.get("posted"))]
+                 if r.get("last_seen", "") >= recent and not f.too_old(r.get("posted"), r.get("title", ""))]
 
     # Spare Claude budget upgrades open matches that only have a rule score, best first,
     # so the whole list ends up ranked on the same scale.

@@ -123,7 +123,12 @@ experience:
 
 # Skip postings older than this (by the date the company posted them).
 # Jobs already on the list drop off once they pass this age.
-max_posting_age_days: 20
+max_posting_age_days: 30
+# ...except new-grad / early-career programs, which often stay open for months.
+age_exempt_titles:
+  - "new (college )?grad|recent grad|college grad|university grad|graduate program|grad program"
+  - "rotation(al)?|development program|leadership program|early[- ]career|early talent"
+  - "20(26|27|28) (grad|graduate|program|class)|class of 20|(may|june|spring|summer) 20\\d\\d grad"
 
 salary:
   floor: 65000          # reject if the posted range tops out below this

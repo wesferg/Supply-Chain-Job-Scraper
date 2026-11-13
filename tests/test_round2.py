@@ -280,14 +280,20 @@ def test_posted_date_formats():
 
 
 def test_old_postings_rejected_and_aging_ones_drop_off(f, sandbox):
-    old = (date.today() - timedelta(days=21)).isoformat()
+    old = (date.today() - timedelta(days=31)).isoformat()
     j = Job(ats="x", company="c", job_id="1", title="Demand Planner", url="u",
             locations=["San Francisco, CA"], posted=old)
     d = f.evaluate(j)
-    assert not d.keep and d.reason == "age: posted 21 days ago"
+    assert not d.keep and d.reason == "age: posted 31 days ago"
     j = Job(ats="x", company="c", job_id="2", title="Demand Planner", url="u",
-            locations=["San Francisco, CA"], posted="Posted 20 Days Ago")
-    assert f.evaluate(j).keep and j.posted == (date.today() - timedelta(days=20)).isoformat()
+            locations=["San Francisco, CA"], posted="Posted 30 Days Ago")
+    assert f.evaluate(j).keep and j.posted == (date.today() - timedelta(days=30)).isoformat()
+    for title in ("Global Supply Chain Rotational Program, New College Grad- Master's",
+                  "Associate, Dasher & Logistics — Rotational Leadership Program",
+                  "Fulfillment Coordinator - May 2027 Graduates", "2027 Operations Development Program"):
+        j = Job(ats="x", company="c", job_id="4", title=title, url="u",
+                locations=["San Francisco, CA"], posted="2026-06-01")
+        assert f.evaluate(j).keep, title       # programs are exempt from the age limit
     j = Job(ats="x", company="c", job_id="3", title="Demand Planner", url="u",
             locations=["San Francisco, CA"])               # no date: kept
     assert f.evaluate(j).keep
