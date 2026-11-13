@@ -123,6 +123,37 @@
   "verdict": "",
   "why": "Core planning/supply chain role; requires 3+ yrs"
  },
+ "greenhouse:Altentechnologyusa:5295074007": {
+  "ats": "greenhouse",
+  "company": "Altentechnologyusa",
+  "concerns": "",
+  "first_seen": "2026-11-13",
+  "flags": [
+   "adjacent",
+   "stretch"
+  ],
+  "job_id": "5295074007",
+  "key": "greenhouse:Altentechnologyusa:5295074007",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Foster City, California, United States",
+   "Irvine, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-13",
+  "pref_years": 10,
+  "remote": false,
+  "salary_max": 125000.0,
+  "salary_min": 115000.0,
+  "score": 62,
+  "time_type": "",
+  "title": "Technical Writer, Manufacturing Operations",
+  "url": "https://job-boards.greenhouse.io/altentechnologyusa/jobs/5295074007",
+  "verdict": "",
+  "why": "Adjacent supply chain role; prefers 10+ yrs"
+ },
  "greenhouse:Andurilindustries:5236941007": {
   "ats": "greenhouse",
   "company": "Andurilindustries",
@@ -641,6 +672,36 @@
   "time_type": "Full time",
   "title": "Analyst, Supply Chain Planning",
   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Analyst--Supply-Chain-Planning_R265892",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title"
+ },
+ "workday:Analogdevices:Supply-Chain-Analyst_R265900-1": {
+  "ats": "workday",
+  "company": "Analogdevices",
+  "concerns": "",
+  "first_seen": "2026-11-13",
+  "flags": [
+   "core",
+   "entry"
+  ],
+  "job_id": "Supply-Chain-Analyst_R265900-1",
+  "key": "workday:Analogdevices:Supply-Chain-Analyst_R265900-1",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "US, CA, San Jose, Rio Robles"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-13",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 108795.0,
+  "salary_min": 79108.0,
+  "score": 100,
+  "time_type": "Full time",
+  "title": "Supply Chain Analyst",
+  "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Supply-Chain-Analyst_R265900-1",
   "verdict": "",
   "why": "Core planning/supply chain role; entry-level title"
  },
