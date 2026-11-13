@@ -29,6 +29,40 @@
   "verdict": "",
   "why": "General operations role; entry-level title; requires 1+ yrs"
  },
+ "ashby:Arq:d2ec29d9-1bca-44e4-99d9-a3acb1a875e9": {
+  "ats": "ashby",
+  "company": "Arq",
+  "concerns": "",
+  "first_seen": "2026-11-12",
+  "flags": [
+   "general"
+  ],
+  "job_id": "d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
+  "key": "ashby:Arq:d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "New York",
+   "Mexico City",
+   "Buenos Aires",
+   "Bogota",
+   "S\u00e3o Paulo",
+   "London"
+  ],
+  "metro": "New York City",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-10-20",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 38,
+  "time_type": "FullTime",
+  "title": "Strategy & Operations",
+  "url": "https://jobs.ashbyhq.com/ARQ/d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
+  "verdict": "",
+  "why": "General operations role; pay not listed"
+ },
  "ashby:Basis research:18e40048-fa0a-4118-ae3f-cafd38c59289": {
   "ats": "ashby",
   "company": "Basis research",
@@ -119,6 +153,159 @@
   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5236941007?gh_jid=5236941007",
   "verdict": "",
   "why": "General operations role; prefers 1+ yrs"
+ },
+ "greenhouse:Applovin:4723320006": {
+  "ats": "greenhouse",
+  "company": "Applovin",
+  "concerns": "",
+  "display": "AppLovin",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "general",
+   "entry"
+  ],
+  "job_id": "4723320006",
+  "key": "greenhouse:Applovin:4723320006",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Palo Alto, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-10-20",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 156465.0,
+  "salary_min": 105300.0,
+  "score": 56,
+  "time_type": "",
+  "title": "Business Operations Analyst",
+  "url": "https://boards.greenhouse.io/applovin/jobs/4723320006?gh_jid=4723320006",
+  "verdict": "",
+  "why": "General operations role; entry-level title; requires 2+ yrs"
+ },
+ "greenhouse:Apptronik:6227425004": {
+  "ats": "greenhouse",
+  "company": "Apptronik",
+  "concerns": "",
+  "display": "Apptronik",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "general",
+   "entry"
+  ],
+  "job_id": "6227425004",
+  "key": "greenhouse:Apptronik:6227425004",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Remote US",
+   "Austin, TX"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-10-16",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 32,
+  "time_type": "",
+  "title": "Strategy & Operations Associate",
+  "url": "https://boards.greenhouse.io/apptronik/jobs/6227425004?gh_jid=6227425004",
+  "verdict": "",
+  "why": "General operations role; entry-level title; requires 2+ yrs; pay not listed"
+ },
+ "greenhouse:Archer Aviation:7805058003": {
+  "ats": "greenhouse",
+  "company": "Archer Aviation",
+  "concerns": "",
+  "first_seen": "2026-11-12",
+  "flags": [
+   "general"
+  ],
+  "job_id": "7805058003",
+  "key": "greenhouse:Archer Aviation:7805058003",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "San Jose, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-19",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 72800.0,
+  "salary_min": 72800.0,
+  "score": 44,
+  "time_type": "",
+  "title": "Deployment Operations Coordinator",
+  "url": "https://job-boards.greenhouse.io/archer56/jobs/7805058003",
+  "verdict": "",
+  "why": "General operations role"
+ },
+ "greenhouse:Armstrongtransportgroup:5459621008": {
+  "ats": "greenhouse",
+  "company": "Armstrongtransportgroup",
+  "concerns": "",
+  "display": "Armstrong Transport Group",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "general"
+  ],
+  "job_id": "5459621008",
+  "key": "greenhouse:Armstrongtransportgroup:5459621008",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Remote"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-10-21",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 28,
+  "time_type": "",
+  "title": "Operations Specialist",
+  "url": "https://job-boards.greenhouse.io/armstrongtransportgroup/jobs/5459621008",
+  "verdict": "",
+  "why": "General operations role; pay not listed"
+ },
+ "greenhouse:DoorDash:8301438": {
+  "ats": "greenhouse",
+  "company": "DoorDash",
+  "concerns": "",
+  "first_seen": "2026-11-12",
+  "flags": [
+   "general",
+   "stretch"
+  ],
+  "job_id": "8301438",
+  "key": "greenhouse:DoorDash:8301438",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Los Angeles, CA; San Francisco, CA; New York, NY",
+   "New York"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 4,
+  "origin": "curated",
+  "posted": "2026-10-20",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 155000.0,
+  "salary_min": 105400.0,
+  "score": 38,
+  "time_type": "",
+  "title": "DashOS, Product Strategy & Operations",
+  "url": "https://job-boards.greenhouse.io/doordashusa/jobs/8301438",
+  "verdict": "",
+  "why": "General operations role; requires 4+ yrs"
  },
  "greenhouse:DoorDash:8331916": {
   "ats": "greenhouse",
@@ -246,6 +433,36 @@
   "verdict": "",
   "why": "General operations role; entry-level title; requires 4+ yrs"
  },
+ "greenhouse:Formlabs:8249635": {
+  "ats": "greenhouse",
+  "company": "Formlabs",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "8249635",
+  "key": "greenhouse:Formlabs:8249635",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Somerville, MA",
+   "Somerville, MA, United States"
+  ],
+  "metro": "Boston",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-02",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 75000.0,
+  "salary_min": 65000.0,
+  "score": 61,
+  "time_type": "",
+  "title": "Fulfillment Coordinator - May 2027 Graduates",
+  "url": "https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
  "greenhouse:Formlabs:8311099": {
   "ats": "greenhouse",
   "company": "Formlabs",
@@ -338,6 +555,36 @@
   "verdict": "",
   "why": "Adjacent supply chain role; requires 3+ yrs"
  },
+ "smartrecruiters:AbbVie:3743990015247176": {
+  "ats": "smartrecruiters",
+  "company": "AbbVie",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "3743990015247176",
+  "key": "smartrecruiters:AbbVie:3743990015247176",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "North Chicago, IL, us"
+  ],
+  "metro": "Chicago",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-09-14",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 68,
+  "time_type": "Full-time",
+  "title": "2027 Operations Development Program",
+  "url": "https://jobs.smartrecruiters.com/AbbVie/3743990015247176",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
  "smartrecruiters:Western Digital:744000160924891": {
   "ats": "smartrecruiters",
   "company": "Western Digital",
@@ -397,6 +644,95 @@
   "verdict": "",
   "why": "Core planning/supply chain role; entry-level title"
  },
+ "workday:Applied Materials:Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1": {
+  "ats": "workday",
+  "company": "Applied Materials",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
+  "key": "workday:Applied Materials:Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Santa Clara,CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-21",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 79,
+  "time_type": "Full time",
+  "title": "Logistics Operations I, New College Grad- Bachelor's (Santa Clara, CA)",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
+ "workday:Applied Materials:Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027": {
+  "ats": "workday",
+  "company": "Applied Materials",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core",
+   "entry"
+  ],
+  "job_id": "Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
+  "key": "workday:Applied Materials:Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Santa Clara,CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-16",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 91,
+  "time_type": "Full time",
+  "title": "Global Supply Chain Rotational Program, New College Grad- Master's (Santa Clara, CA)",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; pay not listed"
+ },
+ "workday:Applied Materials:Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714": {
+  "ats": "workday",
+  "company": "Applied Materials",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
+  "key": "workday:Applied Materials:Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Santa Clara,CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-21",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 71,
+  "time_type": "Full time",
+  "title": "Logistics Automation New College Grad- Bachelor's (Santa Clara, CA)",
+  "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
+  "verdict": "",
+  "why": "Adjacent supply chain role; pay not listed"
+ },
  "workday:Intel:Supply-Chain-Engineer_JR0288597": {
   "ats": "workday",
   "company": "Intel",
@@ -427,6 +763,154 @@
   "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Supply-Chain-Engineer_JR0288597",
   "verdict": "",
   "why": "Core planning/supply chain role; requires 4+ yrs; pay not listed"
+ },
+ "workday:KLA:Spares-Demand-Planner_2637177": {
+  "ats": "workday",
+  "company": "KLA",
+  "concerns": "",
+  "first_seen": "2026-11-12",
+  "flags": [
+   "core"
+  ],
+  "job_id": "Spares-Demand-Planner_2637177",
+  "key": "workday:KLA:Spares-Demand-Planner_2637177",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "USA-CA-Milpitas-KLA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "curated",
+  "posted": "2026-10-21",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 83,
+  "time_type": "Full time",
+  "title": "Spares Demand Planner",
+  "url": "https://kla.wd1.myworkdayjobs.com/Search/job/USA-CA-Milpitas-KLA/Spares-Demand-Planner_2637177",
+  "verdict": "",
+  "why": "Core planning/supply chain role; requires 2+ yrs; pay not listed"
+ },
+ "workday:Kraft Heinz:Analyst--Network-Capacity-Planning_R-107715": {
+  "ats": "workday",
+  "company": "Kraft Heinz",
+  "concerns": "",
+  "first_seen": "2026-11-12",
+  "flags": [
+   "core",
+   "entry"
+  ],
+  "job_id": "Analyst--Network-Capacity-Planning_R-107715",
+  "key": "workday:Kraft Heinz:Analyst--Network-Capacity-Planning_R-107715",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Chicago, IL"
+  ],
+  "metro": "Chicago",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-16",
+  "pref_years": 1,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 86,
+  "time_type": "Full time",
+  "title": "Analyst, Network Capacity Planning",
+  "url": "https://heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers/job/Chicago-IL/Analyst--Network-Capacity-Planning_R-107715",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; prefers 1+ yrs; pay not listed"
+ },
+ "workday:New Balance:Data-Scientist---Forecasting_R41549": {
+  "ats": "workday",
+  "company": "New Balance",
+  "concerns": "",
+  "first_seen": "2026-11-12",
+  "flags": [
+   "core"
+  ],
+  "job_id": "Data-Scientist---Forecasting_R41549",
+  "key": "workday:New Balance:Data-Scientist---Forecasting_R41549",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "Boston, MA Headquarters - (NB)"
+  ],
+  "metro": "Boston",
+  "min_years": 2,
+  "origin": "curated",
+  "posted": "2026-10-21",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 76,
+  "time_type": "Full time",
+  "title": "Data Scientist - Forecasting",
+  "url": "https://newbalance.wd1.myworkdayjobs.com/Careers/job/Boston-MA-Headquarters---NB/Data-Scientist---Forecasting_R41549",
+  "verdict": "",
+  "why": "Core planning/supply chain role; requires 2+ yrs; pay not listed"
+ },
+ "workday:PVH:Sourcing-Associate---PVH_R62180": {
+  "ats": "workday",
+  "company": "PVH",
+  "concerns": "",
+  "first_seen": "2026-11-12",
+  "flags": [
+   "adjacent",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "Sourcing-Associate---PVH_R62180",
+  "key": "workday:PVH:Sourcing-Associate---PVH_R62180",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "New York, NY Calvin Klein Office"
+  ],
+  "metro": "New York City",
+  "min_years": 3,
+  "origin": "curated",
+  "posted": "2026-10-15",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 52,
+  "time_type": "Full time",
+  "title": "Sourcing Associate, Nike Mens & THUM",
+  "url": "https://pvh.wd1.myworkdayjobs.com/PVH_Careers/job/New-York-NY-Calvin-Klein-Office/Sourcing-Associate---PVH_R62180",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; requires 3+ yrs; pay not listed"
+ },
+ "workday:Specialized:Demand-Planner---North-America_R0011838": {
+  "ats": "workday",
+  "company": "Specialized",
+  "concerns": "",
+  "first_seen": "2026-11-11",
+  "flags": [
+   "core"
+  ],
+  "job_id": "Demand-Planner---North-America_R0011838",
+  "key": "workday:Specialized:Demand-Planner---North-America_R0011838",
+  "last_seen": "2026-11-13",
+  "locations": [
+   "United States, CA, Morgan Hill (Office)"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "curated",
+  "posted": "2026-10-21",
+  "pref_years": 3,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 83,
+  "time_type": "Full time",
+  "title": "Demand Planner - North America",
+  "url": "https://specialized.wd5.myworkdayjobs.com/Specialized_External_Career_Site/job/United-States-CA-Morgan-Hill-Office/Demand-Planner---North-America_R0011838",
+  "verdict": "",
+  "why": "Core planning/supply chain role; prefers 3+ yrs; pay not listed"
  },
  "workday:Tapestry:Associate-Planner_JR20041": {
   "ats": "workday",

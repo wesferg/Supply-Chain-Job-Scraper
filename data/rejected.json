@@ -51,18 +51,13 @@
  },
  "ashby:Applied:b0b6325d-98b3-44fa-a7c4-956639fe54a8": {
   "last_seen": "2026-11-13",
-  "reason": "age: posted 28 days ago",
+  "reason": "experience: 5+ years required",
   "title": "Talent Operations Specialist "
  },
  "ashby:Aptura:5e296c09-27d9-46d6-afb1-79886c624d65": {
   "last_seen": "2026-11-13",
   "reason": "type: Contract",
   "title": "Supply Chain AI Research Contributor"
- },
- "ashby:Arq:d2ec29d9-1bca-44e4-99d9-a3acb1a875e9": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 24 days ago",
-  "title": "Strategy & Operations"
  },
  "ashby:Arrive:4d574386-838f-4673-8222-cd2e13534bbd": {
   "last_seen": "2026-11-13",
@@ -189,30 +184,10 @@
   "reason": "age: posted 52 days ago",
   "title": "Planner/Buyer, Supply Chain"
  },
- "greenhouse:Applovin:4723320006": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 24 days ago",
-  "title": "Business Operations Analyst"
- },
- "greenhouse:Apptronik:6227425004": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 28 days ago",
-  "title": "Strategy & Operations Associate"
- },
- "greenhouse:Archer Aviation:7805058003": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 25 days ago",
-  "title": "Deployment Operations Coordinator"
- },
  "greenhouse:Arenaclub:4504628009": {
   "last_seen": "2026-11-13",
   "reason": "salary: tops out at $60,000",
   "title": "Vendor Operations Coordinator"
- },
- "greenhouse:Armstrongtransportgroup:5459621008": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 23 days ago",
-  "title": "Operations Specialist"
  },
  "greenhouse:DoorDash:7658934": {
   "last_seen": "2026-11-13",
@@ -289,11 +264,6 @@
   "reason": "age: posted 32 days ago",
   "title": "Associate,  DashMart - Supply Chain Profitability Strategy & Operations"
  },
- "greenhouse:DoorDash:8301438": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 24 days ago",
-  "title": "DashOS, Product Strategy & Operations"
- },
  "greenhouse:Flexport:7450540": {
   "last_seen": "2026-11-13",
   "reason": "age: posted 338 days ago",
@@ -303,11 +273,6 @@
   "last_seen": "2026-11-13",
   "reason": "age: posted 150 days ago",
   "title": "Analyst, Transportation & Supply Chain Strategy"
- },
- "greenhouse:Formlabs:8249635": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 42 days ago",
-  "title": "Fulfillment Coordinator - May 2027 Graduates"
  },
  "greenhouse:Formlabs:8368295": {
   "last_seen": "2026-11-13",
@@ -334,11 +299,6 @@
   "reason": "age: posted 100 days ago",
   "title": "Production Planner"
  },
- "smartrecruiters:AbbVie:3743990015247176": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 60 days ago",
-  "title": "2027 Operations Development Program"
- },
  "smartrecruiters:AbbVie:3743990016529816": {
   "last_seen": "2026-11-13",
   "reason": "experience: 10+ years required",
@@ -351,7 +311,7 @@
  },
  "smartrecruiters:Western Digital:744000157549944": {
   "last_seen": "2026-11-13",
-  "reason": "age: posted 21 days ago",
+  "reason": "experience: 5+ years required",
   "title": "Supply Chain Business Process Governance Specialist"
  },
  "workday:Aep:Project-Procurement-Analyst-Consultant-Specialist_R18825": {
@@ -374,25 +334,10 @@
   "reason": "age: posted 105 days ago",
   "title": "Corporate Events Planner"
  },
- "workday:Applied Materials:Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 23 days ago",
-  "title": "Logistics Operations I, New College Grad- Bachelor's (Santa Clara, CA)"
- },
- "workday:Applied Materials:Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 28 days ago",
-  "title": "Global Supply Chain Rotational Program, New College Grad- Master's (Santa Clara, CA)"
- },
  "workday:Applied Materials:Logistics---Materials-Coordinator--Delft-Site-_R2626590": {
   "last_seen": "2026-11-13",
   "reason": "location: Nijmegen,NLD; Eindhoven,NLD; Hoofddorp,NLD",
   "title": "Logistics & Materials Coordinator (Delft Site)"
- },
- "workday:Applied Materials:Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 23 days ago",
-  "title": "Logistics Automation New College Grad- Bachelor's (Santa Clara, CA)"
  },
  "workday:Applied Materials:Supply-Chain-Project-Management----B3-_R2625779": {
   "last_seen": "2026-11-13",
@@ -499,11 +444,6 @@
   "reason": "age: posted 108 days ago",
   "title": "Regional Services Operations Specialist"
  },
- "workday:KLA:Spares-Demand-Planner_2637177": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 23 days ago",
-  "title": "Spares Demand Planner"
- },
  "workday:KLA:Spares-Demand-Planner_2637773-2": {
   "last_seen": "2026-11-13",
   "reason": "location: Chandler, AZ; Ann Arbor, MI",
@@ -523,11 +463,6 @@
   "last_seen": "2026-11-13",
   "reason": "age: posted 53 days ago",
   "title": "Analyst, Inventory Control"
- },
- "workday:Kraft Heinz:Analyst--Network-Capacity-Planning_R-107715": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 28 days ago",
-  "title": "Analyst, Network Capacity Planning"
  },
  "workday:Kraft Heinz:Quality-Business-Partner-Supply-Chain_R-108438": {
   "last_seen": "2026-11-13",
@@ -634,25 +569,10 @@
   "reason": "location: Vietnam, Remote",
   "title": "Factory Planner"
  },
- "workday:New Balance:Data-Scientist---Forecasting_R41549": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 23 days ago",
-  "title": "Data Scientist - Forecasting"
- },
- "workday:PVH:Sourcing-Associate---PVH_R62180": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 29 days ago",
-  "title": "Sourcing Associate, Nike Mens & THUM"
- },
  "workday:PVH:Sourcing-Associate--Sweaters---PVH_R62968": {
   "last_seen": "2026-11-13",
-  "reason": "age: posted 28 days ago",
+  "reason": "salary: starts at $416,000 (senior pay band)",
   "title": "Sourcing Associate, Sweaters - PVH"
- },
- "workday:Specialized:Demand-Planner---North-America_R0011838": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 23 days ago",
-  "title": "Demand Planner - North America"
  },
  "workday:Tapestry:Allocator--Coachtopia--Special-Projects-Small-Departments_JR7450": {
   "last_seen": "2026-11-13",
