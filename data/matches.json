@@ -10,7 +10,7 @@
   ],
   "job_id": "686819c1-5a5e-4151-8a0a-2647aa17693b",
   "key": "ashby:Ambrook:686819c1-5a5e-4151-8a0a-2647aa17693b",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "San Francisco"
   ],
@@ -39,7 +39,7 @@
   ],
   "job_id": "d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
   "key": "ashby:Arq:d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "New York",
    "Mexico City",
@@ -74,7 +74,7 @@
   ],
   "job_id": "18e40048-fa0a-4118-ae3f-cafd38c59289",
   "key": "ashby:Basis research:18e40048-fa0a-4118-ae3f-cafd38c59289",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "New York Office"
   ],
@@ -104,7 +104,7 @@
   ],
   "job_id": "fa31c080-9bc5-432c-b6e1-5577fcce97e7",
   "key": "ashby:WHOOP:fa31c080-9bc5-432c-b6e1-5577fcce97e7",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Boston, MA"
   ],
@@ -127,13 +127,14 @@
   "ats": "greenhouse",
   "company": "10beauty",
   "concerns": "",
+  "display": "10Beauty",
   "first_seen": "2026-11-14",
   "flags": [
    "adjacent"
   ],
   "job_id": "5295152007",
   "key": "greenhouse:10beauty:5295152007",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Burlington, Massachusetts, United States"
   ],
@@ -164,7 +165,7 @@
   ],
   "job_id": "5295074007",
   "key": "greenhouse:Altentechnologyusa:5295074007",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Foster City, California, United States",
    "Irvine, California, United States"
@@ -195,7 +196,7 @@
   ],
   "job_id": "5236941007",
   "key": "greenhouse:Andurilindustries:5236941007",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Boston, Massachusetts, United States",
    "Costa Mesa, California, United States"
@@ -227,7 +228,7 @@
   ],
   "job_id": "4723320006",
   "key": "greenhouse:Applovin:4723320006",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Palo Alto, CA"
   ],
@@ -258,7 +259,7 @@
   ],
   "job_id": "6227425004",
   "key": "greenhouse:Apptronik:6227425004",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Remote US",
    "Austin, TX"
@@ -288,7 +289,7 @@
   ],
   "job_id": "7805058003",
   "key": "greenhouse:Archer Aviation:7805058003",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "San Jose, California, United States"
   ],
@@ -318,7 +319,7 @@
   ],
   "job_id": "5459621008",
   "key": "greenhouse:Armstrongtransportgroup:5459621008",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Remote"
   ],
@@ -348,7 +349,7 @@
   ],
   "job_id": "8301438",
   "key": "greenhouse:DoorDash:8301438",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Los Angeles, CA; San Francisco, CA; New York, NY",
    "New York"
@@ -380,7 +381,7 @@
   ],
   "job_id": "8331916",
   "key": "greenhouse:DoorDash:8331916",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "San Francisco, CA"
   ],
@@ -411,7 +412,7 @@
   ],
   "job_id": "8350225",
   "key": "greenhouse:DoorDash:8350225",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Seattle, WA; Washington, DC; Chicago, IL; Tempe, AZ",
    "New York"
@@ -442,7 +443,7 @@
   ],
   "job_id": "8356727",
   "key": "greenhouse:DoorDash:8356727",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "San Francisco, CA; New York, NY",
    "San Francisco, CA"
@@ -474,7 +475,7 @@
   ],
   "job_id": "8368010",
   "key": "greenhouse:DoorDash:8368010",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "New York, NY",
    "New York"
@@ -504,7 +505,7 @@
   ],
   "job_id": "8249635",
   "key": "greenhouse:Formlabs:8249635",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Somerville, MA",
    "Somerville, MA, United States"
@@ -535,7 +536,7 @@
   ],
   "job_id": "8311099",
   "key": "greenhouse:Formlabs:8311099",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Somerville, MA",
    "Somerville, MA, United States"
@@ -596,7 +597,7 @@
   ],
   "job_id": "4487597009",
   "key": "greenhouse:Oura:4487597009",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Remote - United States",
    "North America "
@@ -627,7 +628,7 @@
   ],
   "job_id": "3743990015247176",
   "key": "smartrecruiters:AbbVie:3743990015247176",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "North Chicago, IL, us"
   ],
@@ -656,7 +657,7 @@
   ],
   "job_id": "744000160924891",
   "key": "smartrecruiters:Western Digital:744000160924891",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "San Jose, CA, us"
   ],
@@ -686,7 +687,7 @@
   ],
   "job_id": "Analyst--Supply-Chain-Planning_R265892",
   "key": "workday:Analogdevices:Analyst--Supply-Chain-Planning_R265892",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "US, CA, San Jose, Rio Robles"
   ],
@@ -716,7 +717,7 @@
   ],
   "job_id": "Supply-Chain-Analyst_R265900-1",
   "key": "workday:Analogdevices:Supply-Chain-Analyst_R265900-1",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "US, CA, San Jose, Rio Robles"
   ],
@@ -746,7 +747,7 @@
   ],
   "job_id": "Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
   "key": "workday:Applied Materials:Financial-Analyst-I--New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627553-1",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Santa Clara,CA"
   ],
@@ -776,7 +777,7 @@
   ],
   "job_id": "Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
   "key": "workday:Applied Materials:Global-Supply-Chain-Rotational-Program--New-College-Grad--Master-s--Santa-Clara--CA-_R2627027",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Santa Clara,CA"
   ],
@@ -805,7 +806,7 @@
   ],
   "job_id": "Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
   "key": "workday:Applied Materials:Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Santa Clara,CA"
   ],
@@ -835,7 +836,7 @@
   ],
   "job_id": "Supply-Chain-Engineer_JR0288597",
   "key": "workday:Intel:Supply-Chain-Engineer_JR0288597",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "US, Oregon, Hillsboro",
    "US, Arizona, Phoenix"
@@ -865,7 +866,7 @@
   ],
   "job_id": "Spares-Demand-Planner_2637177",
   "key": "workday:KLA:Spares-Demand-Planner_2637177",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "USA-CA-Milpitas-KLA"
   ],
@@ -895,7 +896,7 @@
   ],
   "job_id": "Analyst--Network-Capacity-Planning_R-107715",
   "key": "workday:Kraft Heinz:Analyst--Network-Capacity-Planning_R-107715",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Chicago, IL"
   ],
@@ -924,7 +925,7 @@
   ],
   "job_id": "Data-Scientist---Forecasting_R41549",
   "key": "workday:New Balance:Data-Scientist---Forecasting_R41549",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "Boston, MA Headquarters - (NB)"
   ],
@@ -955,7 +956,7 @@
   ],
   "job_id": "Sourcing-Associate---PVH_R62180",
   "key": "workday:PVH:Sourcing-Associate---PVH_R62180",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "New York, NY Calvin Klein Office"
   ],
@@ -984,7 +985,7 @@
   ],
   "job_id": "Demand-Planner---North-America_R0011838",
   "key": "workday:Specialized:Demand-Planner---North-America_R0011838",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "United States, CA, Morgan Hill (Office)"
   ],
@@ -1014,7 +1015,7 @@
   ],
   "job_id": "Associate-Planner_JR20041",
   "key": "workday:Tapestry:Associate-Planner_JR20041",
-  "last_seen": "2026-11-14",
+  "last_seen": "2026-11-15",
   "locations": [
    "New York, New York, USA (Corporate Headquarters)"
   ],
