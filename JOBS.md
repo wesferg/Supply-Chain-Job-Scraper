@@ -52,7 +52,7 @@ Updated Mon Nov 16, 2026: **22 open roles**, ranked by fit, **1 new today**. 10 
 - Archer Aviation: 1 postings in your field
 - Away: 0 postings in your field
 - Bombas: 0 postings in your field
-- Boston Dynamics: 0 postings in your field
+- Boston Dynamics: ERROR unavailable (workday:bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics)
 - Chevron: ERROR unavailable (workday:chevron.wd5.myworkdayjobs.com/jobs)
 - Clorox: 1 postings in your field
 - Columbia Sportswear: ERROR unavailable (workday:columbiasportswearcompany.wd5.myworkdayjobs.com/Columbia_Career_Site)
@@ -66,7 +66,7 @@ Updated Mon Nov 16, 2026: **22 open roles**, ranked by fit, **1 new today**. 10 
 - FourKites: 0 postings in your field
 - Gap Inc: ERROR unavailable (workday:gapinc.wd1.myworkdayjobs.com/GAPINC)
 - Genentech (Roche): ERROR unavailable (workday:roche.wd3.myworkdayjobs.com/roche-ext)
-- Gilead Sciences: 0 postings in your field
+- Gilead Sciences: ERROR unavailable (workday:gilead.wd1.myworkdayjobs.com/gileadcareers)
 - Glossier: 0 postings in your field
 - HP Inc: ERROR unavailable (workday:hp.wd5.myworkdayjobs.com/ExternalCareerSite)
 - Harry's: 0 postings in your field
@@ -77,13 +77,12 @@ Updated Mon Nov 16, 2026: **22 open roles**, ranked by fit, **1 new today**. 10 
 - KEEN: 0 postings in your field
 - KLA: ERROR unavailable (workday:kla.wd1.myworkdayjobs.com/Search)
 - Kraft Heinz: ERROR unavailable (workday:heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers)
-- Lam Research: lookup inconclusive (1 checks got no answer); will retry tomorrow
-- Levi Strauss & Co: 13 postings in your field
+- Levi Strauss & Co: ERROR unavailable (workday:levistraussandco.wd5.myworkdayjobs.com/External)
 - Lucid Motors: 0 postings in your field
 - Mondelez: ERROR unavailable (workday:mdlz.wd3.myworkdayjobs.com/External)
-- Motorola Solutions: 0 postings in your field
+- Motorola Solutions: ERROR unavailable (workday:motorolasolutions.wd5.myworkdayjobs.com/Careers)
 - NVIDIA: ERROR unavailable (workday:nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite)
-- New Balance: ERROR unavailable (workday:newbalance.wd1.myworkdayjobs.com/Careers)
+- New Balance: 1 postings in your field
 - Nike: ERROR unavailable (workday:nike.wd1.myworkdayjobs.com/nke)
 - On Running: 0 postings in your field
 - Once Upon a Farm: 0 postings in your field
@@ -95,7 +94,7 @@ Updated Mon Nov 16, 2026: **22 open roles**, ranked by fit, **1 new today**. 10 
 - Rothy's: 0 postings in your field
 - Samsara: 0 postings in your field
 - SimpliSafe: 0 postings in your field
-- Specialized: 1 postings in your field
+- Specialized: ERROR unavailable (workday:specialized.wd5.myworkdayjobs.com/Specialized_External_Career_Site)
 - TJX: 0 postings in your field
 - Tapestry: ERROR unavailable (workday:tapestry.wd108.myworkdayjobs.com/Tapestry_Careers)
 - WHOOP: 2 postings in your field
@@ -103,7 +102,7 @@ Updated Mon Nov 16, 2026: **22 open roles**, ranked by fit, **1 new today**. 10 
 - Waymo: 0 postings in your field
 - Western Digital: 3 postings in your field
 - Zipline: 1 postings in your field
-- [discovered boards] swept 1062 of 1108, 55 postings in your field, 46 failed; new matches from: 3y health
+- [discovered boards] swept 1071 of 1107, 51 postings in your field, 37 failed, 1 dropped
 - project44: 0 postings in your field
 
 </details>
