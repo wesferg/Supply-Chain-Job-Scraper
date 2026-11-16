@@ -1,4 +1,34 @@
 {
+ "ashby:3y health:9b10b860-a380-4415-93af-8b0b54f6fcda": {
+  "ats": "ashby",
+  "company": "3y health",
+  "concerns": "",
+  "first_seen": "2026-11-16",
+  "flags": [
+   "general",
+   "entry"
+  ],
+  "job_id": "9b10b860-a380-4415-93af-8b0b54f6fcda",
+  "key": "ashby:3y health:9b10b860-a380-4415-93af-8b0b54f6fcda",
+  "last_seen": "2026-11-16",
+  "locations": [
+   "Remote - US"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-11-16",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": 80000,
+  "salary_min": 50000,
+  "score": 33,
+  "time_type": "FullTime",
+  "title": "Corporate & Integration Operations Associate",
+  "url": "https://jobs.ashbyhq.com/3y-health/9b10b860-a380-4415-93af-8b0b54f6fcda",
+  "verdict": "",
+  "why": "General operations role; entry-level title; requires 2+ yrs"
+ },
  "ashby:Ambrook:686819c1-5a5e-4151-8a0a-2647aa17693b": {
   "ats": "ashby",
   "company": "Ambrook",
@@ -39,7 +69,7 @@
   ],
   "job_id": "d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
   "key": "ashby:Arq:d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "New York",
    "Mexico City",
@@ -74,7 +104,7 @@
   ],
   "job_id": "18e40048-fa0a-4118-ae3f-cafd38c59289",
   "key": "ashby:Basis research:18e40048-fa0a-4118-ae3f-cafd38c59289",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "New York Office"
   ],
@@ -104,7 +134,7 @@
   ],
   "job_id": "fa31c080-9bc5-432c-b6e1-5577fcce97e7",
   "key": "ashby:WHOOP:fa31c080-9bc5-432c-b6e1-5577fcce97e7",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "Boston, MA"
   ],
@@ -134,7 +164,7 @@
   ],
   "job_id": "5295152007",
   "key": "greenhouse:10beauty:5295152007",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "Burlington, Massachusetts, United States"
   ],
@@ -196,7 +226,7 @@
   ],
   "job_id": "5236941007",
   "key": "greenhouse:Andurilindustries:5236941007",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "Boston, Massachusetts, United States",
    "Costa Mesa, California, United States"
@@ -228,7 +258,7 @@
   ],
   "job_id": "4723320006",
   "key": "greenhouse:Applovin:4723320006",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "Palo Alto, CA"
   ],
@@ -289,7 +319,7 @@
   ],
   "job_id": "7805058003",
   "key": "greenhouse:Archer Aviation:7805058003",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "San Jose, California, United States"
   ],
@@ -319,7 +349,7 @@
   ],
   "job_id": "5459621008",
   "key": "greenhouse:Armstrongtransportgroup:5459621008",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "Remote"
   ],
@@ -349,7 +379,7 @@
   ],
   "job_id": "8301438",
   "key": "greenhouse:DoorDash:8301438",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "Los Angeles, CA; San Francisco, CA; New York, NY",
    "New York"
@@ -381,7 +411,7 @@
   ],
   "job_id": "8331916",
   "key": "greenhouse:DoorDash:8331916",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "San Francisco, CA"
   ],
@@ -412,7 +442,7 @@
   ],
   "job_id": "8350225",
   "key": "greenhouse:DoorDash:8350225",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Seattle, WA; Washington, DC; Chicago, IL; Tempe, AZ",
    "New York"
@@ -443,7 +473,7 @@
   ],
   "job_id": "8356727",
   "key": "greenhouse:DoorDash:8356727",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "San Francisco, CA; New York, NY",
    "San Francisco, CA"
@@ -475,7 +505,7 @@
   ],
   "job_id": "8368010",
   "key": "greenhouse:DoorDash:8368010",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "New York, NY",
    "New York"
@@ -505,7 +535,7 @@
   ],
   "job_id": "8249635",
   "key": "greenhouse:Formlabs:8249635",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "Somerville, MA",
    "Somerville, MA, United States"
@@ -536,7 +566,7 @@
   ],
   "job_id": "8311099",
   "key": "greenhouse:Formlabs:8311099",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "Somerville, MA",
    "Somerville, MA, United States"
@@ -628,7 +658,7 @@
   ],
   "job_id": "3743990015247176",
   "key": "smartrecruiters:AbbVie:3743990015247176",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "North Chicago, IL, us"
   ],
@@ -657,7 +687,7 @@
   ],
   "job_id": "744000160924891",
   "key": "smartrecruiters:Western Digital:744000160924891",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "San Jose, CA, us"
   ],
@@ -676,6 +706,37 @@
   "verdict": "",
   "why": "Core planning/supply chain role; pay not listed"
  },
+ "smartrecruiters:Western Digital:744000161899737": {
+  "ats": "smartrecruiters",
+  "company": "Western Digital",
+  "concerns": "",
+  "first_seen": "2026-11-16",
+  "flags": [
+   "core",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "744000161899737",
+  "key": "smartrecruiters:Western Digital:744000161899737",
+  "last_seen": "2026-11-16",
+  "locations": [
+   "San Jose, CA, us"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 3,
+  "origin": "curated",
+  "posted": "2026-11-16",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 79,
+  "time_type": "Full-time",
+  "title": "Supply Chain Analyst - Fulfillment and Logistics",
+  "url": "https://jobs.smartrecruiters.com/westerndigital/744000161899737",
+  "verdict": "",
+  "why": "Core planning/supply chain role; entry-level title; requires 3+ yrs; pay not listed"
+ },
  "workday:Analogdevices:Analyst--Supply-Chain-Planning_R265892": {
   "ats": "workday",
   "company": "Analogdevices",
@@ -687,7 +748,7 @@
   ],
   "job_id": "Analyst--Supply-Chain-Planning_R265892",
   "key": "workday:Analogdevices:Analyst--Supply-Chain-Planning_R265892",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "US, CA, San Jose, Rio Robles"
   ],
@@ -717,7 +778,7 @@
   ],
   "job_id": "Supply-Chain-Analyst_R265900-1",
   "key": "workday:Analogdevices:Supply-Chain-Analyst_R265900-1",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "US, CA, San Jose, Rio Robles"
   ],
@@ -985,7 +1046,7 @@
   ],
   "job_id": "Demand-Planner---North-America_R0011838",
   "key": "workday:Specialized:Demand-Planner---North-America_R0011838",
-  "last_seen": "2026-11-15",
+  "last_seen": "2026-11-16",
   "locations": [
    "United States, CA, Morgan Hill (Office)"
   ],
