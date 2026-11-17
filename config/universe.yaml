@@ -17,7 +17,7 @@ sweep:
   # A board that fails this many sweeps in a row is dropped.
   drop_after_failures: 3
   # Fewer Workday search terms than for your curated companies, to keep sweeps cheap.
-  workday_search_terms: [supply chain, planner, demand, forecast, logistics, inventory]
+  workday_search_terms: [supply chain, planner, logistics, inventory, demand]
   # Claude scores at most this many new matches per run (the rest keep the rule score).
   max_llm_scores_per_run: 150
 

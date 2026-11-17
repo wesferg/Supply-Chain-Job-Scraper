@@ -51,9 +51,21 @@ QUICK = _session(retries=0)  # for flaky bulk indexes: fail fast, the caller dec
 _lock = threading.Lock()
 
 
+# Workday rate-limits by caller across all its customer sites, so on top of the
+# per-site spacing every Workday request shares one overall pace.
+WORKDAY_SHARED_DELAY = 0.12
+
+
 def _throttle(url: str) -> None:
     """Reserve the next slot for this host, then sleep until it arrives."""
     host = urlparse(url).netloc
+    if host.endswith((".myworkdayjobs.com", ".myworkdaysite.com")):
+        with _lock:
+            now = time.monotonic()
+            shared = max(now, _last_hit.get("*workday*", 0.0) + WORKDAY_SHARED_DELAY)
+            _last_hit["*workday*"] = shared
+        if shared > now:
+            time.sleep(shared - now)
     with _lock:
         now = time.monotonic()
         slot = max(now, _last_hit.get(host, 0.0) + HOST_DELAY.get(host, MIN_DELAY))
