@@ -6,11 +6,13 @@ Every Workday careers page loads its jobs from a public JSON endpoint:
 """
 from __future__ import annotations
 
+import threading
+
 import re
 from typing import Callable, Iterable
 
 from .. import http
-from ..models import Job, BoardUnavailable
+from ..models import Job, BoardBusy, BoardUnavailable
 from ..text import html_to_text
 
 PAGE = 20
@@ -56,15 +58,22 @@ def validate(c: dict) -> bool | None:
                       payload={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": ""})
 
 
+# Workday throttles one IP hitting many company sites at once, so only a few run together.
+_CONCURRENT = threading.BoundedSemaphore(4)
+
+
 def _list(c: dict, term: str) -> Iterable[dict]:
     total = None
     for page in range(MAX_PAGES_PER_TERM):
-        data = http.post_json(_base(c) + "/jobs", {
+        code, data = http.status_json(_base(c) + "/jobs", {
             "appliedFacets": {}, "limit": PAGE, "offset": page * PAGE, "searchText": term,
         })
         if not isinstance(data, dict):
             if page == 0:
-                raise BoardUnavailable(f"workday:{c['host']}/{c['site']}")
+                where = f"workday:{c['host']}/{c['site']} HTTP {code}"
+                if code in http.GONE:
+                    raise BoardUnavailable(where)
+                raise BoardBusy(where)
             return
         posts = data.get("jobPostings") or []
         if total is None:
@@ -79,7 +88,12 @@ def job_id_for(path: str) -> str:
     return path.rstrip("/").rsplit("/", 1)[-1]
 
 
-def fetch(name: str, c: dict, search_terms: list[str],
+def fetch(name: str, c: dict, search_terms: list[str], title_ok, known=None, loc_ok=lambda locs: True):
+    with _CONCURRENT:
+        return _fetch(name, c, search_terms, title_ok, known, loc_ok)
+
+
+def _fetch(name: str, c: dict, search_terms: list[str],
           title_ok: Callable[[str], bool], known: set[str] | None = None,
           loc_ok: Callable[[list], bool] = lambda _: True) -> list[Job]:
     """known: job keys already decided on a previous run; their (slow) detail

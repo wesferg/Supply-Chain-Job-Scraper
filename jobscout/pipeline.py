@@ -14,7 +14,7 @@ import yaml
 from . import discover, feeds, store, scoring, universe
 from .ats import FETCHERS, board_key
 from .filters import Filters
-from .models import Job, BoardUnavailable
+from .models import Job, BoardBusy, BoardUnavailable
 
 CONFIG = os.path.join(store.ROOT, "config")
 RETRY_FAILED_AFTER_DAYS = 7
@@ -67,7 +67,7 @@ def curated_board_keys(state: store.State) -> set[str]:
 
 
 def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
-        workers: int = 10, sweep_universe: bool = True) -> dict:
+        workers: int = 16, sweep_universe: bool = True) -> dict:
     filters_cfg = load_yaml("filters.yaml")
     profile = load_yaml("profile.yaml")
     companies = load_yaml("companies.yaml")["companies"]
@@ -157,6 +157,8 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
         try:
             jobs = FETCHERS[t["ats"]](t["name"], t["ids"], f.title_ok, f.loc_maybe, t["terms"], known)
             return t, jobs, None
+        except BoardBusy as e:
+            return t, [], f"busy ({e})"
         except BoardUnavailable as e:
             return t, [], f"unavailable ({e})"
         except Exception as e:
@@ -164,7 +166,8 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
 
     fetched: list[Job] = []
     board_of: dict[str, dict] = {}  # job key -> target
-    uni_stats = {"scanned": 0, "failed": 0, "skipped": 0, "postings": 0}
+    uni_stats = {"scanned": 0, "failed": 0, "skipped": 0, "postings": 0, "busy": 0}
+    err_kinds: dict[str, int] = {}
     print(f"checking {len(targets)} boards...")
     with ThreadPoolExecutor(max_workers=workers) as pool:
         for n, fut in enumerate(as_completed([pool.submit(fetch_one, t) for t in targets]), 1):
@@ -179,10 +182,17 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
                 if err == "skipped":
                     uni_stats["skipped"] += 1
                     continue
+                if err and err.startswith("busy"):
+                    uni_stats["busy"] += 1          # try again next time; not a strike
+                    kind = f"{t['ats']} {err.rsplit(' ', 1)[-1].rstrip(')')}"
+                    err_kinds[kind] = err_kinds.get(kind, 0) + 1
+                    continue
                 b["last_scanned"] = today
                 if err:
                     b["fails"] = b.get("fails", 0) + 1
                     uni_stats["failed"] += 1
+                    kind = f"{t['ats']} {err.split('(')[0].strip()} {err.rsplit(' ', 1)[-1].rstrip(')')}"
+                    err_kinds[kind] = err_kinds.get(kind, 0) + 1
                 else:
                     b["fails"] = 0
                     uni_stats["scanned"] += 1
@@ -257,8 +267,13 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
                f"{uni_stats['postings']} postings in your field, {uni_stats['failed']} failed")
         if dead:
             msg += f", {len(dead)} dropped"
+        if uni_stats["busy"]:
+            msg += f", {uni_stats['busy']} busy (retried next run)"
         if uni_stats["skipped"]:
             msg += f", {uni_stats['skipped']} left for tomorrow (time limit)"
+        if err_kinds:
+            msg += "; errors: " + ", ".join(f"{k} x{v}" for k, v in
+                                           sorted(err_kinds.items(), key=lambda kv: -kv[1])[:6])
         if hit_boards:
             msg += "; new matches from: " + ", ".join(hit_boards)
         log.append(msg)

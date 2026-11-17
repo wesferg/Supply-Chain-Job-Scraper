@@ -176,3 +176,24 @@ def test_daily_simplify_topup_keeps_weekly_schedule(monkeypatch, tmp_path):
     g = universe.grow(cfg, set(), only_sources=["simplify"])
     u = universe.load()
     assert g["added"] == 1 and "lever:newgradco" in u["boards"] and u["meta"]["last_grow"] == "2026-11-10"
+
+
+def test_throttled_workday_board_gets_no_strike(sandbox, monkeypatch):
+    from jobscout import universe as uni
+    os.makedirs(sandbox / "data", exist_ok=True)
+    key = "workday:busy.wd1.myworkdayjobs.com/careers"
+    uni.save({"meta": {"last_grow": date.today().isoformat()}, "boards": {key: {
+        "ats": "workday", "ids": {"host": "busy.wd1.myworkdayjobs.com", "tenant": "busy", "site": "careers"},
+        "name": "Busy", "added": "x", "last_scanned": "", "last_hit": "", "hits": 0, "fails": 2}}})
+    (sandbox / "config" / "universe.yaml").write_text(open(os.path.join(ROOT, "config", "universe.yaml")).read())
+    real = http.status_json
+
+    def status_json(url, payload=None, **kw):
+        if "busy.wd1" in url:
+            return 429, None
+        return real(url, payload, **kw)
+    monkeypatch.setattr(http, "status_json", status_json)
+    pipeline.run()
+    b = uni.load()["boards"][key]
+    assert b["fails"] == 2                                  # unchanged, not dropped
+    assert "1 busy (retried next run)" in (sandbox / "JOBS.md").read_text()

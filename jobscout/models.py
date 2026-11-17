@@ -5,6 +5,10 @@ from dataclasses import dataclass, field, asdict
 from typing import Optional
 
 
+class BoardBusy(Exception):
+    """The board didn't answer this time (rate limit, timeout, 5xx). Not held against it."""
+
+
 class BoardUnavailable(Exception):
     """The board didn't answer like a real job board (wrong id, removed, blocked)."""
 
