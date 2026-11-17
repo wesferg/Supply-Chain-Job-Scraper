@@ -37,6 +37,9 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # optional: Claude fit scoring
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}           # optional: web-search company discovery
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}           # optional: Adzuna job search
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}             # optional: JSearch (LinkedIn/Indeed via Google for Jobs)
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONUNBUFFERED: "1"   # show progress in the Actions log as it happens
         run: python -m jobscout

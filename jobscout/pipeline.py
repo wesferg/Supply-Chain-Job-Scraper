@@ -11,7 +11,7 @@ from datetime import date, timedelta
 
 import yaml
 
-from . import discover, store, scoring, universe
+from . import discover, feeds, store, scoring, universe
 from .ats import FETCHERS, board_key
 from .filters import Filters
 from .models import Job, BoardUnavailable
@@ -125,9 +125,12 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
         every = ucfg.get("grow", {}).get("every_days", 7)
         last = universe.load()["meta"].get("last_grow", "")
         due = not last or last <= (date.today() - timedelta(days=every)).isoformat()
-        if due and not dry_run:
+        if not dry_run:
+            # Full discovery weekly; the new-grad lists on GitHub (plus any boards still
+            # waiting to be checked) every day, since they add new companies daily.
             try:
-                g = universe.grow(ucfg, curated_board_keys(state))
+                g = universe.grow(ucfg, curated_board_keys(state),
+                                  only_sources=None if due else ["simplify"])
                 log.append(f"[company discovery] found {g['added']} new job boards "
                            f"({g['total']} in the discovered set)")
             except Exception as e:
@@ -188,7 +191,16 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
                 board_of[j.key] = t
             fetched.extend(jobs or [])
 
+    # ---- aggregator feeds (Simplify, Zapply, Adzuna, JSearch) into the same list
+    fcfg = load_yaml("feeds.yaml") if os.path.exists(os.path.join(CONFIG, "feeds.yaml")) else {}
+    if fcfg and not only:
+        print("reading job aggregators...")
+        for j in feeds.collect(fcfg, f.title_ok, f.loc_maybe, f.too_old, known, log):
+            board_of[j.key] = {"origin": "feed", "name": j.company}
+            fetched.append(j)       # after board results, so a company's own posting wins
+
     llm_left = sweep.get("max_llm_scores_per_run", 150)
+    seen_fp = {fp for r in state.matches.values() for fp in store.fingerprints(r)}
     new_rows = []
     done: set[str] = set()
     for job in fetched:
@@ -208,6 +220,11 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
         if not d.keep:
             state.rejected[k] = {"reason": d.reason, "title": job.title, "last_seen": today}
             continue
+        fps = store.fingerprints(job.to_dict())
+        if fps & seen_fp:  # same role already listed from another source
+            state.rejected[k] = {"reason": "duplicate", "title": job.title, "last_seen": today}
+            continue
+        seen_fp |= fps
         t = board_of.get(k, {})
         scoring.score(job, profile, f.floor, f.good_pay, allow_llm=llm_left > 0)
         llm_left -= 1
@@ -215,6 +232,8 @@ def run(dry_run: bool = False, only: str | None = None, use_llm: bool = True,
                "origin": t.get("origin", "curated")}
         if t.get("display"):
             rec["display"] = t["display"]
+        if t.get("origin") == "feed":
+            rec["source"] = feeds.label(job)
         rec.pop("description", None)
         if not rec.get("verdict") and os.environ.get("ANTHROPIC_API_KEY"):
             # Not Claude-scored yet (no key, or today's cap hit): keep enough text to score later.

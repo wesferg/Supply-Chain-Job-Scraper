@@ -189,12 +189,22 @@ def ids_from_key(k: str) -> tuple[str, dict] | None:
     return None
 
 
-def grow(cfg: dict, curated_keys: set[str]) -> dict:
-    """Harvest board URLs from every enabled source, validate new ones, add them."""
+def _simplify_urls() -> list[str]:
+    """Every link in the SimplifyJobs new-grad list, active or not: each points at the
+    careers board of a company that hires new grads."""
+    from . import feeds
+    return [x["url"] for x in feeds.simplify_listings() if x.get("url")]
+
+
+def grow(cfg: dict, curated_keys: set[str], only_sources: list[str] | None = None) -> dict:
+    """Harvest board URLs from every enabled source, validate new ones, add them.
+    only_sources limits the harvest (boards waiting for a re-check are always included)."""
     u = load()
     g = cfg["grow"]
-    src = g["sources"]
+    src = {k: v for k, v in g["sources"].items() if only_sources is None or k in only_sources}
     urls: list[str] = []
+    if src.get("simplify", {}).get("enabled"):
+        urls += _simplify_urls()
     if src.get("brave", {}).get("enabled"):
         urls += _brave(src["brave"], u["meta"])          # most targeted first
     if src.get("commoncrawl", {}).get("enabled"):
@@ -203,6 +213,7 @@ def grow(cfg: dict, curated_keys: set[str]) -> dict:
         urls += _wayback(g["patterns"], src["wayback"].get("rows_per_pattern", 20000),
                          src["wayback"].get("since_year", 2025), u["meta"])
 
+    prev_last_grow = u["meta"].get("last_grow", "")
     found = boards_from_urls(urls)
     # Boards whose check got no answer last time (rate limits, timeouts) go first.
     for k in u["meta"].pop("recheck", []):
@@ -245,7 +256,8 @@ def grow(cfg: dict, curated_keys: set[str]) -> dict:
     u["meta"]["recheck"] = recheck[:5000]
     if recheck:
         print(f"grow: {len(recheck)} boards got no answer; re-checking them next time")
-    u["meta"]["last_grow"] = today
+    # a daily top-up from the GitHub lists doesn't count as the weekly full pass
+    u["meta"]["last_grow"] = today if only_sources is None else prev_last_grow
     save(u)
     print(f"grow: added {added}; universe now {len(u['boards'])} boards")
     return {"urls": len(urls), "boards_seen": len(found), "added": added, "total": len(u["boards"])}

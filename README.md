@@ -64,13 +64,33 @@ job board it recognizes:
 - Staffing agencies are skipped.
 - Boards that stop responding are dropped.
 
+## Job aggregators
+
+The same run also reads job aggregators (`config/feeds.yaml`), and their listings go
+through the same filters and ranking. A role listed in more than one place appears once,
+and a company's own posting wins. When an aggregator links to a Workday, Greenhouse,
+Lever or Ashby posting, the full description is read from the company's site.
+
+| Feed | What it adds | Needs |
+|---|---|---|
+| [SimplifyJobs New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) | ~18k new-grad postings. Its links also feed company discovery: every company there gets its whole careers board swept | Nothing |
+| [Zapply New-Grad-Jobs-2027](https://github.com/zapplyjobs/New-Grad-Jobs-2027) | Fresh new-grad listings (data credit: Zapply) | Nothing |
+| [Adzuna](https://developer.adzuna.com) | Aggregates thousands of US job sites, searched by role and city | Free key: secrets `ADZUNA_APP_ID`, `ADZUNA_APP_KEY` |
+| JSearch on [RapidAPI](https://rapidapi.com) | Google for Jobs, which carries **LinkedIn, Indeed, Glassdoor and ZipRecruiter** postings | Secret `RAPIDAPI_KEY`. Free plan is 200 calls a month (6 searches a day); Pro is $25 a month |
+
+LinkedIn, Indeed and Handshake aren't scraped directly. Their terms forbid it, they
+block automated traffic from servers like GitHub's, and Handshake needs your student
+login. JSearch is the sanctioned route to their postings. The list marks each role's
+source, for example "via LinkedIn via JSearch".
+
 ## Setup
 
 1. Make the repo **private**: Settings → General → Danger Zone → Change visibility. The
    profile and results are personal.
 2. Recommended: add `ANTHROPIC_API_KEY` under Settings → Secrets and variables → Actions.
    Claude Haiku scores each match once, which costs pennies a day.
-3. Go to **Actions → Job scout → Run workflow**. That's the only button. After the first
+3. Optional: add the Adzuna and JSearch keys above for more listings.
+4. Go to **Actions → Job scout → Run workflow**. That's the only button. After the first
    run, it runs every morning by itself.
 
 The first run takes longer, because it discovers companies and checks every board for the

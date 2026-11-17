@@ -1,0 +1,64 @@
+# ---------------------------------------------------------------------------
+# Job aggregators, merged into the same filters, scoring and ranked JOBS.md list.
+# Listings that link to a company's own Workday/Greenhouse/Lever/Ashby posting get the
+# full description from there, so experience, pay and dates come from the real posting.
+#
+# LinkedIn, Indeed and Handshake aren't scraped directly (their terms forbid it, they
+# block automated traffic, and Handshake needs your login). JSearch below is the
+# sanctioned route to LinkedIn/Indeed/Glassdoor postings, via Google for Jobs.
+# ---------------------------------------------------------------------------
+
+# Full job descriptions fetched per run for new aggregator listings.
+enrich_max: 150
+
+# SimplifyJobs/New-Grad-Positions (GitHub). No key.
+simplify:
+  enabled: true
+
+# zapplyjobs/New-Grad-Jobs-2027 (GitHub README). No key. Credit: Zapply (zapply.jobs).
+zapply:
+  enabled: true
+
+# Adzuna job search API: aggregates thousands of US job sites.
+# Free key at https://developer.adzuna.com -> add repo secrets ADZUNA_APP_ID and
+# ADZUNA_APP_KEY. Free tier allows 250 calls/day; this uses `max_calls` per run.
+adzuna:
+  enabled: true
+  max_calls: 60
+  max_days_old: 30
+  what: [supply chain analyst, demand planner, supply planner, inventory analyst,
+         logistics analyst, procurement analyst, operations research analyst,
+         materials planner, production planner, S&OP analyst]
+  where:
+    - {where: "San Francisco", km: 60}
+    - {where: "San Jose", km: 30}
+    - {where: "New York", km: 40}
+    - {where: "Boston", km: 40}
+    - {where: "Chicago", km: 40}
+    - {where: "Portland, Oregon", km: 30}
+
+# JSearch (RapidAPI): Google for Jobs, which includes LinkedIn, Indeed, Glassdoor and
+# ZipRecruiter postings. Key at https://rapidapi.com (search "JSearch") -> repo secret
+# RAPIDAPI_KEY. Free plan: 200 calls/month, so 6 a day; the Pro plan ($25/month,
+# 10,000 calls) can raise max_calls to ~100. Queries rotate daily.
+jsearch:
+  enabled: true
+  max_calls: 6
+  date_posted: 3days
+  queries:
+    - entry level supply chain analyst in San Francisco Bay Area
+    - demand planner in San Francisco Bay Area
+    - supply planner in San Jose, CA
+    - inventory analyst in San Francisco Bay Area
+    - new grad supply chain in California
+    - operations research analyst in San Francisco Bay Area
+    - supply chain analyst in New York, NY
+    - demand planner in New York, NY
+    - supply chain analyst in Boston, MA
+    - demand planner in Boston, MA
+    - supply chain analyst in Chicago, IL
+    - demand planner in Chicago, IL
+    - supply chain analyst in Portland, OR
+    - logistics analyst in San Francisco Bay Area
+    - procurement analyst in San Francisco Bay Area
+    - entry level demand planning remote

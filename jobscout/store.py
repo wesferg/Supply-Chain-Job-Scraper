@@ -4,6 +4,7 @@ from __future__ import annotations
 import csv
 import json
 import os
+import re
 from datetime import date, datetime, timedelta
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -57,8 +58,29 @@ def company(r: dict) -> str:
     return r.get("display") or r.get("company", "")
 
 
+_SUFFIX = re.compile(r"\b(inc|incorporated|corp|corporation|llc|ltd|co|company|the|group|holdings|plc|usa|us)\b")
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", _SUFFIX.sub("", (s or "").lower()))
+
+
+def fingerprints(r: dict) -> set[str]:
+    """Ways to recognise the same role listed by two sources: its link, or its
+    company + title + city."""
+    out = set()
+    url = (r.get("url") or "").split("?")[0].split("#")[0].rstrip("/").lower()
+    url = re.sub(r"^https?://(www\.)?", "", url).replace("/en-us/", "/")
+    if url:
+        out.add("u:" + url)
+    co = _norm(r.get("display") or r.get("company"))
+    if co and r.get("title"):
+        out.add(f"t:{co}|{_norm(r['title'])}|{r.get('metro') or ''}")
+    return out
+
+
 CSV_FIELDS = ["score", "verdict", "title", "company", "metro", "locations", "salary",
-              "min_years", "pref_years", "posted", "flags", "why", "concerns", "url", "first_seen", "origin", "ats"]
+              "min_years", "pref_years", "posted", "flags", "why", "concerns", "url", "first_seen", "origin", "source", "ats"]
 
 
 def _salary(r: dict) -> str:
@@ -110,6 +132,8 @@ def _row(i: int, r: dict, today: str) -> str:
         why += f" `{', '.join(notes)}`"
     new = "**NEW** " if r.get("first_seen") == today else ""
     company_cell = _md_cell(company(r)) + (" \\*" if r.get("origin") == "universe" else "")
+    if r.get("source"):
+        company_cell += f" <sub>via {_md_cell(r['source'])}</sub>"
     return (f"| {i} | {r.get('score')} | {new}[{_md_cell(r['title'])}]({r['url']}) | {company_cell} "
             f"| {_md_cell(r.get('metro'))} | {_salary(r) or '-'} | {_age(r.get('posted'))} | {why} |")
 

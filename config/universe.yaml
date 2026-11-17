@@ -9,11 +9,11 @@ enabled: true
 sweep:
   # Boards checked per day. Workday boards cost 3 units (several searches each);
   # the others cost 1. ~1500 units covers a few thousand boards every few days.
-  daily_budget_units: 1500
+  daily_budget_units: 3500
   # A board that produced a match in the last N days is checked every day.
   promote_days: 45
   # Stop starting new boards after this many minutes (unfinished ones roll to tomorrow).
-  max_minutes: 40
+  max_minutes: 45
   # A board that fails this many sweeps in a row is dropped.
   drop_after_failures: 3
   # Fewer Workday search terms than for your curated companies, to keep sweeps cheap.
@@ -29,9 +29,13 @@ grow:
   every_days: 7
   # New boards checked (validated) per discovery pass, and a time cap on that step.
   # Anything not checked in time is picked up by the next pass.
-  max_new_boards: 2000
+  max_new_boards: 3000
   max_minutes: 15
   sources:
+    # SimplifyJobs' new-grad list on GitHub: ~18k postings linking straight to the careers
+    # boards of companies that hire new grads. Read every day. No key needed.
+    simplify:
+      enabled: true
     # Common Crawl's public URL index: millions of crawled career-site URLs. No key needed.
     commoncrawl:
       enabled: true
