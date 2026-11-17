@@ -1,12 +1,12 @@
 {
  "ashby:1x:454f7d55-7bbd-405d-bf9c-4b3a24018392": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 106 days ago",
+  "reason": "age: posted 110 days ago",
   "title": "Inventory Control Analyst "
  },
  "ashby:1x:bdb83ddb-0337-4542-b066-7580e534a60a": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 39 days ago",
+  "reason": "age: posted 43 days ago",
   "title": "Materials Planner"
  },
  "ashby:3y health:3bced49e-5db4-477d-9a32-1d1cb494792f": {
@@ -31,17 +31,17 @@
  },
  "ashby:AfterQuery:30b3dddf-9804-4e80-8fc6-2e2b2a511ca7": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 157 days ago",
+  "reason": "age: posted 161 days ago",
   "title": "Business Operations Generalist"
  },
  "ashby:Agentio:1e194d80-399d-4cf9-a9ea-7a0fd50e8100": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 91 days ago",
+  "reason": "age: posted 95 days ago",
   "title": "Strategy & Operations, Creator Supply"
  },
  "ashby:Agentio:43039c49-bfa4-4cd2-bf04-f1253cee64af": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 38 days ago",
+  "reason": "age: posted 42 days ago",
   "title": "Strategy and Operations, Revenue"
  },
  "ashby:Aiand:a6b9afe7-521e-42d5-b624-82e42b9909d2": {
@@ -61,12 +61,12 @@
  },
  "ashby:Anyone ai:ea7b9c45-d0f4-4873-8877-963c297c3478": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 128 days ago",
+  "reason": "age: posted 132 days ago",
   "title": "Data & Operations Specialist"
  },
  "ashby:Applied:b0b6325d-98b3-44fa-a7c4-956639fe54a8": {
   "last_seen": "2026-11-17",
-  "reason": "experience: 5+ years required",
+  "reason": "age: posted 32 days ago",
   "title": "Talent Operations Specialist "
  },
  "ashby:Aptura:5e296c09-27d9-46d6-afb1-79886c624d65": {
@@ -74,14 +74,9 @@
   "reason": "type: Contract",
   "title": "Supply Chain AI Research Contributor"
  },
- "ashby:Arrive:4d574386-838f-4673-8222-cd2e13534bbd": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Stockholm",
-  "title": "Payments Operations Analyst"
- },
  "ashby:Ashgro:5071c238-b98d-4a9b-9c30-b026f2c114f7": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 378 days ago",
+  "reason": "age: posted 382 days ago",
   "title": "Operations Associate"
  },
  "ashby:Aurora operations inc:cd97be54-5be0-4040-bf2d-b4f0667dc74e": {
@@ -101,13 +96,33 @@
  },
  "ashby:Baseten:768bca5d-287f-405a-b677-605317607178": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 64 days ago",
+  "reason": "age: posted 68 days ago",
   "title": "Compute Strategy & Operations"
  },
  "ashby:Basiccapital:f767a07d-f909-4949-9950-509c74f05489": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 89 days ago",
+  "reason": "age: posted 93 days ago",
   "title": "Operations Associate (User Support)"
+ },
+ "ashby:Blissway:b37bb059-8412-406b-83d3-d3515a2cd64a": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Denver, Colorado",
+  "title": "Talent Acquisition and Operations Specialist"
+ },
+ "ashby:Blissway:f8d12553-f80b-40f3-8dc2-7622bac878cb": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Denver, Colorado",
+  "title": "Finance and Operations Specialist"
+ },
+ "ashby:Claylabs:4be52dd6-244b-4e27-bf4a-757a1094a82a": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 167 days ago",
+  "title": "Procurement"
+ },
+ "ashby:Clera:d51bbf54-1f30-4d28-a5e7-98ff6c41faf1": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Salt Lake City",
+  "title": "Operations Associate"
  },
  "ashby:Cogent security:174aa234-b539-440f-b7ce-0931563dd62e": {
   "last_seen": "2026-11-17",
@@ -119,6 +134,31 @@
   "reason": "location: Toronto; Ottawa; Montreal",
   "title": "Delivery Operations Analyst"
  },
+ "ashby:Commure:2dbff324-2a00-475b-a183-8967fc950089": {
+  "last_seen": "2026-11-17",
+  "reason": "experience: 8+ years required",
+  "title": "BPO Operations Specialist, Revenue Cycle Management"
+ },
+ "ashby:Confido:95cfe564-a30b-44fd-8689-5a9d77462d36": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 39 days ago",
+  "title": "Analyst, Demand & Supply Planning"
+ },
+ "ashby:Decagon:80e62efe-c1e1-4f00-a9cb-2a75d8cbb577": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 270 days ago",
+  "title": "Business Operations, Pricing Strategy"
+ },
+ "ashby:Decagon:aed35522-81dd-466f-aa98-6dbe8fda413a": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 60 days ago",
+  "title": "Business Operations, Growth"
+ },
+ "ashby:Decagon:c309c767-3553-42e1-81ec-73cc3b88c2ce": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 175 days ago",
+  "title": "Founders' Office, Business Operations "
+ },
  "ashby:Dyna robotics:5fadf857-9654-45e4-978e-00a6b30f252b": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 209 days ago",
@@ -128,6 +168,61 @@
   "last_seen": "2026-11-17",
   "reason": "age: posted 60 days ago",
   "title": "Operations Associate"
+ },
+ "ashby:Embedding vc:38a93f90-ea8b-471b-becd-767781057b87": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 113 days ago",
+  "title": "Business Operations"
+ },
+ "ashby:FSH:4c2a9282-fa44-4251-8b76-2e25476ea53a": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 110 days ago",
+  "title": "Business Operations"
+ },
+ "ashby:Fluidstack:43ccf8a9-133e-413b-bac3-64490582c241": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 120 days ago",
+  "title": "Office Operations Coordinator"
+ },
+ "ashby:Fluidstack:821fdf35-818a-4d17-8f50-21c41f802aa6": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 116 days ago",
+  "title": "Strategy & Operations Generalist"
+ },
+ "ashby:Focused:9dea2a78-24b4-4ef5-99e5-3a279ede7752": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Darmstadt, DE; Germany",
+  "title": "Supply Chain Engineer (f/m/d)"
+ },
+ "ashby:Focused:ab16a318-e2ed-4873-a1d7-d9f2c9755f04": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Darmstadt, DE",
+  "title": "Procurement & Supply Chain Engineer"
+ },
+ "ashby:Focused:f946a58e-ddac-4064-bffa-a46d0e278e02": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Darmstadt, DE",
+  "title": "PMO Operations Specialist (f/m/d)"
+ },
+ "ashby:Fortuna health:aa48c14b-e38e-4f27-84ef-a6b032bb9b60": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 98 days ago",
+  "title": "Product Operations Associate"
+ },
+ "ashby:Genesis:0b9249a2-d514-4331-ac7e-79e64e3b2c9b": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 47 days ago",
+  "title": "Logistics Specialist"
+ },
+ "ashby:Harperinsure:d1a82faa-7d95-4806-b160-038616f7ef97": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 54 days ago",
+  "title": "Customer Operations Specialist, Payments"
+ },
+ "ashby:Harperinsure:f635e211-fda5-4628-a3fb-d61ef12b8052": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 201 days ago",
+  "title": "Business Operations Associate"
  },
  "ashby:Harvey:16b67976-02a3-4179-9eca-afc86c551b8a": {
   "last_seen": "2026-11-17",
@@ -144,34 +239,169 @@
   "reason": "location: San Diego",
   "title": "Air Operations Specialist"
  },
+ "ashby:Hirehangar:2d389ccd-21b7-4bbe-815d-fbcc173bd533": {
+  "last_seen": "2026-11-17",
+  "reason": "type: Contract",
+  "title": "Client Success & CRM Operations Specialist"
+ },
+ "ashby:Hirehangar:960c7921-54ad-4fb7-8293-5a2cabcc036f": {
+  "last_seen": "2026-11-17",
+  "reason": "type: Contract",
+  "title": "Software Procurement Analyst"
+ },
+ "ashby:Hirehangar:c477db1d-8ac0-41a8-ab85-35d901d574ae": {
+  "last_seen": "2026-11-17",
+  "reason": "type: Contract",
+  "title": "Client Implementation & Operations Analyst"
+ },
+ "ashby:Humanoid:92fbd18c-7219-41fe-a8a9-fc3c5ce23c91": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 35 days ago",
+  "title": "Inventory/Warehouse Specialist"
+ },
  "ashby:KAYAK:aabe9078-2fdf-435d-8fb5-6968d3a99cd9": {
   "last_seen": "2026-11-17",
   "reason": "location: Berlin Office",
   "title": "Commercial Operations Specialist"
+ },
+ "ashby:Kalshi:952b8bc4-f20a-4f86-86c1-19cb3301c610": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 62 days ago",
+  "title": "Institutional Sales & Operations, Kalshi Prime"
+ },
+ "ashby:Mach9:8bb32c28-bdce-4832-9a48-c40fa5368113": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 63 days ago",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Marianaminerals:3640adb2-6917-4a00-917a-0fbefdba1c1f": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Houston, TX; Moab, UT",
+  "title": "Production Planner"
+ },
+ "ashby:Marianaminerals:5de5bf23-128f-4637-8871-33051fc7712d": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 34 days ago",
+  "title": "Logistics Analyst "
+ },
+ "ashby:Marianaminerals:e431ba9d-8552-42b2-a566-86dcdc11c3e2": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 119 days ago",
+  "title": "Mine Planner "
+ },
+ "ashby:Matx:5d054283-328a-4f9b-b813-57fd390a3a24": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 68 days ago",
+  "title": "Supply Chain Specialist, Procurement"
+ },
+ "ashby:Metaview:f69ac278-53ba-4644-9181-93bade4678b3": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 169 days ago",
+  "title": "Business Operations"
  },
  "ashby:Moss:4c5c2cba-9f11-4bb3-b5fc-e63c52c0a9bd": {
   "last_seen": "2026-11-17",
   "reason": "location: Berlin",
   "title": "Customer Operations Associate (f/m/d)"
  },
+ "ashby:Normalcomputing:dfe9ab4e-b624-4a33-9c6b-04a3de3fabe0": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 85 days ago",
+  "title": "Talent Operations Specialist"
+ },
  "ashby:Notion:0d000633-4a69-4dae-ab5f-da19b5ab8cc0": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 62 days ago",
   "title": "Business Operations & Strategy"
+ },
+ "ashby:Openai:0ca02747-5c97-432b-95c5-4b9099bce992": {
+  "last_seen": "2026-11-17",
+  "reason": "experience: 7+ years required",
+  "title": "Machine Learning Data Scientist - Consumer Forecasting"
+ },
+ "ashby:Openai:1eb32675-b1a0-4c0a-9b57-19ceab07e9e0": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 110 days ago",
+  "title": "Data Scientist, Ads Demand"
+ },
+ "ashby:Openai:31df540f-4062-46e8-918f-b747a90c7052": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 35 days ago",
+  "title": "Compensation Operations Analyst"
+ },
+ "ashby:Openai:9747412d-a23d-48ba-bddd-ad1247c360f5": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 39 days ago",
+  "title": "Strategy & Operations Programs, Support"
+ },
+ "ashby:Openai:c46d8648-b921-4b71-bb9a-f7d5c8e989f4": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Munich, Germany",
+  "title": "Strategy & Operations, Germany"
+ },
+ "ashby:Openloophealth:1ee407e5-9c4f-4c31-b88e-43256d19f879": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 57 days ago",
+  "title": "Order Fulfillment Specialist"
+ },
+ "ashby:Openloophealth:602c2461-0943-4b9f-a3d7-7ff2c597bf7c": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Dallas, TX - HQ; McKinney, TX; Highland Village, TX",
+  "title": "Supply Chain Specialist II"
+ },
+ "ashby:Periodic labs:fd89f03f-545f-4ffb-a051-8581a3ec686a": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 91 days ago",
+  "title": "Business Operations, Product & Science"
  },
  "ashby:Plaid:a063f469-1ec5-44d1-8cc5-1da47a7b8783": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 45 days ago",
   "title": "Product Operations Specialist"
  },
+ "ashby:Quantum:025e6431-7515-4f94-a30f-e527e36b58de": {
+  "last_seen": "2026-11-17",
+  "reason": "location: London",
+  "title": "Talent Acquisition Sourcing Specialist"
+ },
+ "ashby:Saronic:53400a7d-214c-42ad-ac19-2cfe5e351bf7": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Franklin, LA",
+  "title": "Supply Chain Planner"
+ },
+ "ashby:Sela:f0f5d380-ac9f-4dca-ac96-2155c595985d": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 67 days ago",
+  "title": "Founding Strategy & Operations Generalist"
+ },
+ "ashby:Sunday:a81292e2-bb63-4b53-bb4e-47e6d2193fa2": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 109 days ago",
+  "title": "Fulfillment Associate"
+ },
+ "ashby:Trading212:e03427a7-8ddb-40c3-acfd-1d6f2165c123": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Berlin",
+  "title": "Graduate Operations Analyst"
+ },
+ "ashby:Voleon:6953e829-c69d-43dc-9b39-49ab1b487b2d": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 88 days ago",
+  "title": "Operations Associate (University Hire) "
+ },
+ "ashby:Voleon:eb98b211-9cc8-4785-bc89-2337e531c6a4": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 49 days ago",
+  "title": "Fixed Income Operations Analyst"
+ },
  "ashby:WHOOP:f4c503bb-4532-43b4-89c0-138b224233d4": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 42 days ago",
+  "reason": "age: posted 46 days ago",
   "title": "Wholesale Inventory Analyst, Accessories & Apparel"
  },
  "greenhouse:1stavenuepower:5444320008": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 36 days ago",
+  "reason": "age: posted 40 days ago",
   "title": "Supply Chain Specialist/ Buyer"
  },
  "greenhouse:Able:8785511002": {
@@ -181,17 +411,22 @@
  },
  "greenhouse:Airspace:6022128004": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 154 days ago",
+  "reason": "age: posted 158 days ago",
   "title": "Operations Specialist I, Lifesciences"
  },
  "greenhouse:Airspace:6215914004": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 42 days ago",
+  "reason": "age: posted 46 days ago",
   "title": "Operations Specialist I (Medical Device)"
+ },
+ "greenhouse:Airspace:6264041004": {
+  "last_seen": "2026-11-17",
+  "reason": "salary: tops out at $54,080",
+  "title": "Operations Specialist II, Lifesciences (US)"
  },
  "greenhouse:Aloyoga:6204619004": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 51 days ago",
+  "reason": "age: posted 55 days ago",
   "title": "Operations Associate (Full-Time) - Station Twelve"
  },
  "greenhouse:Aloyoga:6242135004": {
@@ -216,42 +451,42 @@
  },
  "greenhouse:Anthropic:5357933008": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 70 days ago",
+  "reason": "age: posted 74 days ago",
   "title": "Procurement Operations Business Partner, R&D Operations"
  },
  "greenhouse:Anthropic:5358096008": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 56 days ago",
+  "reason": "age: posted 60 days ago",
   "title": "Product Finance & Strategy, Claude Platform, Forecasting & Rhythms"
  },
  "greenhouse:Anthropic:5382744008": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 94 days ago",
+  "reason": "age: posted 98 days ago",
   "title": "Infrastructure Capacity Planner, Demand Planning"
  },
  "greenhouse:Anthropic:5382750008": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 94 days ago",
+  "reason": "age: posted 98 days ago",
   "title": "AI Infrastructure Operations, Demand Planning"
  },
  "greenhouse:Anthropic:5383710008": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 95 days ago",
+  "reason": "age: posted 99 days ago",
   "title": "AV Operations Specialist"
  },
  "greenhouse:Anthropic:5432995008": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 51 days ago",
+  "reason": "age: posted 55 days ago",
   "title": "Strategy & Operations, Office of the CCO"
  },
  "greenhouse:Anthropic:5446641008": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 37 days ago",
+  "reason": "age: posted 41 days ago",
   "title": "Procurement Operations Business Partner, Technology"
  },
  "greenhouse:Aperiatechnologies:6205690004": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 52 days ago",
+  "reason": "age: posted 56 days ago",
   "title": "Planner/Buyer, Supply Chain"
  },
  "greenhouse:Arenaclub:4504628009": {
@@ -259,89 +494,189 @@
   "reason": "salary: tops out at $60,000",
   "title": "Vendor Operations Coordinator"
  },
+ "greenhouse:Asteraearlycareer2027:4723986005": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 71 days ago",
+  "title": "Capacity Planning NCG"
+ },
+ "greenhouse:Asteraearlycareer2027:4731990005": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 60 days ago",
+  "title": "Supply Chain Operations Analyst \u2013 NCG "
+ },
+ "greenhouse:Astronicscorporation:4422984009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 50 days ago",
+  "title": "Operations Coordinator - 2nd Shift "
+ },
+ "greenhouse:Astronicscorporation:4448655009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 36 days ago",
+  "title": "Master Scheduler"
+ },
+ "greenhouse:Attotude:4252955009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 181 days ago",
+  "title": "Strategic Sourcing & Supply Chain Leader"
+ },
+ "greenhouse:Cloudflare:8248563": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Hybrid; Atlanta, GA; Austin, TX, United States; Lisboa, Lisboa, Portugal",
+  "title": "Logistics Operations Specialist"
+ },
+ "greenhouse:Cloudflare:8278383": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Hybrid; Austin, TX, United States",
+  "title": "Infrastructure Business Operations Associate "
+ },
+ "greenhouse:Cloudflare:8300518": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Hybrid; Austin, TX, United States",
+  "title": "Capacity Planning Engineer"
+ },
+ "greenhouse:Dataiku:6256950004": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Netherlands, Remote",
+  "title": "Talent Operations Specialist"
+ },
  "greenhouse:DoorDash:7658934": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 122 days ago",
+  "reason": "age: posted 126 days ago",
   "title": "Associate Manager, AI Research Lab Strategy & Operations"
  },
  "greenhouse:DoorDash:7749114": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 233 days ago",
+  "reason": "age: posted 237 days ago",
   "title": "Operations Research Scientist"
  },
  "greenhouse:DoorDash:8004278": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 151 days ago",
+  "reason": "age: posted 155 days ago",
   "title": "Associate Manager, New Verticals - Convenience Strategy & Operations"
  },
  "greenhouse:DoorDash:8056158": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 123 days ago",
+  "reason": "age: posted 127 days ago",
   "title": "Associate Manager, New Verticals - Retail Strategy & Operations"
  },
  "greenhouse:DoorDash:8092065": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 107 days ago",
+  "reason": "age: posted 111 days ago",
   "title": "Associate Manager, New Verticals - Affordability Strategy & Operations"
  },
  "greenhouse:DoorDash:8131068": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 91 days ago",
+  "reason": "age: posted 95 days ago",
   "title": "Associate Manager, Strategy & Operations"
  },
  "greenhouse:DoorDash:8160170": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 79 days ago",
+  "reason": "age: posted 83 days ago",
   "title": "Associate Manager, New Verticals - Fulfillment Strategy & Operations "
  },
  "greenhouse:DoorDash:8162204": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 73 days ago",
+  "reason": "age: posted 77 days ago",
   "title": "Associate Manager, Strategy & Operations"
  },
  "greenhouse:DoorDash:8176875": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 71 days ago",
+  "reason": "age: posted 75 days ago",
   "title": "Associate, Strategy & Operations - Dasher Financial"
  },
  "greenhouse:DoorDash:8197734": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 63 days ago",
+  "reason": "age: posted 67 days ago",
   "title": "Associate, Dasher Tasks, Strategy & Operations"
- },
- "greenhouse:DoorDash:8205350": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 58 days ago",
-  "title": "Associate Manager,  DashMart - Supply Chain Profitability Strategy & Operations"
- },
- "greenhouse:DoorDash:8240696": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 45 days ago",
-  "title": "Associate, New Verticals - Grocery Revenue Strategy & Operations"
  },
  "greenhouse:DoorDash:8247291": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 43 days ago",
+  "reason": "age: posted 47 days ago",
   "title": "Associate Manager, Dasher & Logistics"
  },
  "greenhouse:DoorDash:8259455": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 38 days ago",
+  "reason": "age: posted 42 days ago",
   "title": "Associate Manager, Digital Ordering - Strategy & Operations"
  },
  "greenhouse:DoorDash:8273901": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 32 days ago",
+  "reason": "age: posted 36 days ago",
   "title": "Associate,  DashMart - Supply Chain Profitability Strategy & Operations"
+ },
+ "greenhouse:Duettoresearch:8120547": {
+  "last_seen": "2026-11-17",
+  "reason": "location: United States ",
+  "title": "Business Operations Specialist"
+ },
+ "greenhouse:Enova:8256308": {
+  "last_seen": "2026-11-17",
+  "reason": "experience: 5+ years required",
+  "title": "Business Operations Associate - CashNet USA"
+ },
+ "greenhouse:Fairlife:5278518007": {
+  "last_seen": "2026-11-17",
+  "reason": "experience: 7+ years required",
+  "title": "Maintenance Planner"
+ },
+ "greenhouse:Fairlife:5278535007": {
+  "last_seen": "2026-11-17",
+  "reason": "experience: 5+ years required",
+  "title": "Maintenance Parts Procurement"
+ },
+ "greenhouse:Fanaticscollectibles:4222317009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 214 days ago",
+  "title": "Supply Chain & Strategic Operations Associate"
+ },
+ "greenhouse:Fanaticscollectibles:4317524009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 124 days ago",
+  "title": "AI Enablement & Business Operations Associate"
+ },
+ "greenhouse:Fanaticscollectibles:4378579009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 82 days ago",
+  "title": "Manufacturing Materials Planning Associate"
+ },
+ "greenhouse:Fanaticscollectibles:4407732009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 62 days ago",
+  "title": "Night Vault Operations Associate $24.54/HR"
+ },
+ "greenhouse:Fanaticscollectibles:4410718009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 57 days ago",
+  "title": "Collation Planner"
+ },
+ "greenhouse:Fanaticscollectibles:4451621009": {
+  "last_seen": "2026-11-17",
+  "reason": "salary: tops out at $50,003",
+  "title": "Night Operations Associate - $26.71/HR (3x12)"
+ },
+ "greenhouse:Fartherfinance:4740893005": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Hybrid - Dallas, TX; Dallas, Texas, United States",
+  "title": "401k Operations Associate"
+ },
+ "greenhouse:Figureai:4719239006": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 43 days ago",
+  "title": "Commercial Operations Associate"
+ },
+ "greenhouse:Flagshippioneeringinc:8726287002": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 89 days ago",
+  "title": "Talent Operations Specialist"
  },
  "greenhouse:Flexport:7450540": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 338 days ago",
+  "reason": "age: posted 342 days ago",
   "title": "Global Operations Associate"
  },
  "greenhouse:Flexport:8011615": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 150 days ago",
+  "reason": "age: posted 154 days ago",
   "title": "Analyst, Transportation & Supply Chain Strategy"
  },
  "greenhouse:Formlabs:8368295": {
@@ -353,6 +688,16 @@
   "last_seen": "2026-11-17",
   "reason": "experience: 5+ years required",
   "title": "Supply Chain Engineer"
+ },
+ "greenhouse:Garnerhealth:6238643004": {
+  "last_seen": "2026-11-17",
+  "reason": "experience: 5+ years required",
+  "title": "Payments Operations Analyst"
+ },
+ "greenhouse:Hearst:4508818009": {
+  "last_seen": "2026-11-17",
+  "reason": "salary: tops out at $62,400",
+  "title": "Operations Coordinator"
  },
  "greenhouse:Janestreet:7419820002": {
   "last_seen": "2026-11-17",
@@ -379,35 +724,75 @@
   "reason": "age: posted 41 days ago",
   "title": "Talent Development, Infrastructure and Operations Specialist"
  },
- "greenhouse:KEEN:4734889005": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 58 days ago",
-  "title": "Global Logistics Coordinator"
+ "greenhouse:K2spacecorporation:5020170008": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 348 days ago",
+  "title": "All Future Mission Assignments - Business Operations"
  },
  "greenhouse:Kodiak:4418166009": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 55 days ago",
   "title": "Product Strategy & Operations Associate"
  },
+ "greenhouse:Leolabsinc:4422721009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 50 days ago",
+  "title": "Inventory Control Specialist"
+ },
+ "greenhouse:Leolabsinc:4437402009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 41 days ago",
+  "title": "Materials Planner"
+ },
  "greenhouse:Lilasciences:4423502009": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 43 days ago",
   "title": "Supply Chain Demand Planner"
+ },
+ "greenhouse:Localitymediallcdbafirstdue:4477714009": {
+  "last_seen": "2026-11-17",
+  "reason": "experience: 5+ years required",
+  "title": "Training Operations Specialist"
  },
  "greenhouse:Maybellquantum:5399769008": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 85 days ago",
   "title": "Strategy and Operations"
  },
+ "greenhouse:Mcmastercarr:4029254009": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 417 days ago",
+  "title": "Distribution Operations"
+ },
+ "greenhouse:Moxxidigital:5423295008": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 64 days ago",
+  "title": "Conversion Rate Optimization Analyst "
+ },
  "greenhouse:Oura:4418964009": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 50 days ago",
+  "reason": "age: posted 54 days ago",
   "title": "Demand Planner, E-Commerce"
  },
  "greenhouse:Perryellisinternational:4720307006": {
   "last_seen": "2026-11-17",
   "reason": "experience: 5+ years required",
   "title": "Product Operations Associate - Sweaters"
+ },
+ "greenhouse:Point72:8755415002": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 78 days ago",
+  "title": "Procurement Specialist"
+ },
+ "greenhouse:Point72:8888064002": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 34 days ago",
+  "title": "Data Sourcing & Strategy Operations Analyst   "
+ },
+ "greenhouse:Purestorage:8027649": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 141 days ago",
+  "title": "Data Steward, Master Data Management, Supply Chain "
  },
  "greenhouse:Tatari:8885302002": {
   "last_seen": "2026-11-17",
@@ -418,26 +803,6 @@
   "last_seen": "2026-11-17",
   "reason": "age: posted 35 days ago",
   "title": "Media Operations Coordinator"
- },
- "greenhouse:Thinkacademyus:7639053003": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 35 days ago",
-  "title": "Higher Elementary Math Teacher (G2-G5) +  Business Operations Specialist"
- },
- "greenhouse:Thinkacademyus:7639068003": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 35 days ago",
-  "title": "Middle School Math Teacher (Grades 6-8)) +  Business Operations Specialist"
- },
- "greenhouse:Thinkacademyus:7697182003": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 221 days ago",
-  "title": "Education Management Trainee ( Math Teacher + Business Operations )\u00a0"
- },
- "greenhouse:Thinkacademyus:7976090003": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 84 days ago",
-  "title": "Pre-School Math Teacher + Business Operations Specialist "
  },
  "greenhouse:Thinkacademyus:8003042003": {
   "last_seen": "2026-11-17",
@@ -453,11 +818,6 @@
   "last_seen": "2026-11-17",
   "reason": "location: Remote - Colombia",
   "title": "Fast Track Operations Specialist 2"
- },
- "greenhouse:Twilio:8261245": {
-  "last_seen": "2026-11-17",
-  "reason": "location: Remote - Mexico",
-  "title": "Billing Operations Analyst 1"
  },
  "greenhouse:Twilio:8355801": {
   "last_seen": "2026-11-17",
@@ -481,8 +841,13 @@
  },
  "greenhouse:Zipline:7826987003": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 100 days ago",
+  "reason": "age: posted 104 days ago",
   "title": "Production Planner"
+ },
+ "lever:Appen 2:c3358b13-70eb-44b8-9db7-0f0e11f5297e": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Remote, MX; Remote, BR; Remote - Argentina",
+  "title": "Operations Specialist - Remote (MX, BR or AR)"
  },
  "lever:Hive:26937957-8c78-4835-bc10-bdb3c8d78931": {
   "last_seen": "2026-11-17",
@@ -494,10 +859,45 @@
   "reason": "age: posted 33 days ago",
   "title": "Business Operations Associate"
  },
+ "lever:Palantir:5f3f9547-2aea-4ac2-995d-e8fa53b16e39": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 39 days ago",
+  "title": "Operations Analyst - US Government Security"
+ },
+ "lever:Palantir:b14585f4-9a68-49e8-97af-3f03f2a6c357": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 1558 days ago",
+  "title": "Operations Analyst - US Government"
+ },
+ "lever:Pditechnologies:56f66a9d-8766-40bd-91bc-3be14ba8cd72": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 35 days ago",
+  "title": "Network Operations Analyst II"
+ },
+ "lever:Pditechnologies:de8e6233-ea7c-4c60-9f89-22e0373ef692": {
+  "last_seen": "2026-11-17",
+  "reason": "salary: tops out at $33,280",
+  "title": "Fuel Logistics & Accounting Analyst"
+ },
+ "lever:Plus 2:4afbf05b-6448-4e2b-b607-10383aca103f": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 43 days ago",
+  "title": "Vehicle Operations Specialist"
+ },
  "lever:Redsox:167a78b0-6079-40c3-84fd-8b072328c4d0": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 33 days ago",
   "title": "Accounting Operations Specialist"
+ },
+ "lever:Runlaminar:ecf43bba-cf9e-47a4-9885-a393a6a68c64": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 52 days ago",
+  "title": "Strategy & Operations, Founder's Office"
+ },
+ "lever:Trueplatform:6bc84742-5770-4e32-8a24-c39119956dba": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Multiple Locations (US)",
+  "title": "HRIS Operations Associate"
  },
  "lever:Tsmg:9dff56d8-98b8-468f-b298-0660ae68695d": {
   "last_seen": "2026-11-17",
@@ -524,10 +924,10 @@
   "reason": "age: posted 287 days ago",
   "title": "Traveling Low Voltage Foreman- Supply Chain Infrastructure"
  },
- "simplify:Applied Materials:d4591906-92ca-469c-a235-d36eff8f6b06": {
+ "lever:Zoox:85ac55ee-0fdf-4b17-b57f-b09ce0defebe": {
   "last_seen": "2026-11-17",
-  "reason": "duplicate",
-  "title": "Logistics Automation New Grad"
+  "reason": "age: posted 139 days ago",
+  "title": "Commercial Operations Analyst"
  },
  "smartrecruiters:AbbVie:3743990016529816": {
   "last_seen": "2026-11-17",
@@ -538,6 +938,11 @@
   "last_seen": "2026-11-17",
   "reason": "experience: 8+ years required",
   "title": "Facilities Planner"
+ },
+ "smartrecruiters:Collabera2:94372919": {
+  "last_seen": "2026-11-17",
+  "reason": "type: Contract",
+  "title": "Operations Analyst"
  },
  "smartrecruiters:Eurofins:744000152197654": {
   "last_seen": "2026-11-17",
@@ -569,6 +974,16 @@
   "reason": "location: Miami Lakes, FL, us (Remote)",
   "title": "Reports & Operations Auditor - Full Remote"
  },
+ "smartrecruiters:Kioxia:744000159510769": {
+  "last_seen": "2026-11-17",
+  "reason": "type: Contract",
+  "title": "Demand Planner \u2013 Data Center Segment - 2286"
+ },
+ "smartrecruiters:KrgTechnologyInc:743999654643995": {
+  "last_seen": "2026-11-17",
+  "reason": "type: Contract",
+  "title": "SAP IBP Consultant"
+ },
  "smartrecruiters:LLNL:3743990012380987": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 232 days ago",
@@ -579,414 +994,129 @@
   "reason": "age: posted 63 days ago",
   "title": "Procurement Policy Analyst "
  },
+ "smartrecruiters:M3USA:744000150607670": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Bengaluru, KA, in (Remote)",
+  "title": "Operations Specialist"
+ },
+ "smartrecruiters:MSXInternational:3743990012632936": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Southfield, MI, us (Remote)",
+  "title": "Dealer Operations Specialist"
+ },
+ "smartrecruiters:MSXInternational:3743990015915256": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Troy, MI, us (Remote)",
+  "title": "Dealer Operations Specialist"
+ },
  "smartrecruiters:MattelInc:744000159428394": {
   "last_seen": "2026-11-17",
   "reason": "salary: tops out at $54,080",
   "title": "Fulfillment Coordinator"
+ },
+ "smartrecruiters:Mirantis:744000142988729": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Yerevan, Yerevan, am (Remote)",
+  "title": "Marketplace Operations Analyst (remote in Armenia)"
+ },
+ "smartrecruiters:Mirantis:744000143187780": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Almaty, Almaty Region, kz (Remote)",
+  "title": "SaaS Operations Analyst \u2013 Cloud Commerce (remote in Kazakhstan)"
+ },
+ "smartrecruiters:Prosidianconsulting:744000011855106": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Charlotte, NC, us (Remote)",
+  "title": "Logistics Management Specialist - Standard | Comprehensive Operational Support [DEA0036041]"
+ },
+ "smartrecruiters:Prosidianconsulting:744000020656029": {
+  "last_seen": "2026-11-17",
+  "reason": "type: Contract",
+  "title": "Rail Rate Negotiations Analyst | Transportation and Logistics [DOENEOST002007]"
+ },
+ "smartrecruiters:Prosidianconsulting:744000034944757": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 680 days ago",
+  "title": "Procurement Specialist | Professional and Administrtive Support Sevices  [DOE-PASS955960]"
+ },
+ "smartrecruiters:SOSi1:3743990011450776": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Multiple Locations, Multiple Locations, us",
+  "title": "Operations Coordinator "
+ },
+ "smartrecruiters:SOSi1:3743990013848796": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Remote, Florida, us (Remote)",
+  "title": "Procurement Analyst"
+ },
+ "smartrecruiters:SikaAG:744000137622849": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Tunis, Tunis Governorate, tn (Remote)",
+  "title": "Export Specialist "
+ },
+ "smartrecruiters:Tenergy:744000065051056": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 522 days ago",
+  "title": "Warehouse Operations Associate"
+ },
+ "smartrecruiters:Tenergy:744000131234550": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 161 days ago",
+  "title": "Inventory and Shipping Operations Associate"
+ },
+ "smartrecruiters:TurnerTownsend:744000155122069": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 36 days ago",
+  "title": "Supply Chain and Procurement Management - All Levels"
+ },
+ "smartrecruiters:VeoliaEnvironnementSA:744000160237736": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Peterborough, England, gb (Remote)",
+  "title": "Operations Analyst"
+ },
+ "smartrecruiters:Versant3:744000155321779": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 35 days ago",
+  "title": "Product Owner, Supply Chain & Procurement"
  },
  "smartrecruiters:Western Digital:744000157549944": {
   "last_seen": "2026-11-17",
   "reason": "experience: 5+ years required",
   "title": "Supply Chain Business Process Governance Specialist"
  },
- "workday:Aep:Project-Procurement-Analyst-Consultant-Specialist_R18825": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Columbus, OH; Transmission New Albany HQ1",
-  "title": "Project Procurement Analyst/Consultant/Specialist"
- },
  "workday:Alation:Executive-Operations-Associate--Office-of-the-CEO_R10000804": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 34 days ago",
   "title": "Executive Operations Associate, Office of the CEO"
  },
- "workday:Amlrightsource:Operations-Specialist---Remote--US_R-103316": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Remote - Ohio",
-  "title": "Operations Specialist - Remote, US"
- },
- "workday:Analogdevices:Associate-Supply-Chain-Analyst_R265317": {
-  "last_seen": "2026-11-16",
-  "reason": "age: posted 84 days ago",
-  "title": "Associate Supply Chain Analyst"
- },
- "workday:Applied Materials:Corporate-Events-Planner_R2624882": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 105 days ago",
-  "title": "Corporate Events Planner"
- },
- "workday:Applied Materials:Logistics---Materials-Coordinator--Delft-Site-_R2626590": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Nijmegen,NLD; Eindhoven,NLD; Hoofddorp,NLD",
-  "title": "Logistics & Materials Coordinator (Delft Site)"
- },
- "workday:Applied Materials:Supply-Chain-Project-Management----B3-_R2625779": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 88 days ago",
-  "title": "Supply Chain Project Management - (B3)"
- },
- "workday:Avnet:Material-Planner_JR-024371": {
+ "workday:Boydcorp:Procurement---Supply-Chain-Executive_R-103227": {
   "last_seen": "2026-11-17",
-  "reason": "location: Penang, Malaysia; Johor, Malaysia",
-  "title": "Material Planner"
+  "reason": "age: posted 49 days ago",
+  "title": "Procurement & Supply Chain Executive"
  },
  "workday:Clorox:Product-Owner---Material-Planning_JR23876": {
   "last_seen": "2026-11-17",
   "reason": "experience: 6+ years required",
   "title": "Product Owner - Material Planning"
  },
- "workday:Conagra Brands:Supply-Chain-Development-Associate---2027_Req-039317-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Omaha, Nebraska; Hagerstown, Maryland; Marshall MO; Waterloo IA; 4735 Denver CO;",
-  "title": "Supply Chain Development Associate - 2027"
+ "workday:Cni:Logistics-Specialist_R9165": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 104 days ago",
+  "title": "Logistics Specialist"
  },
  "workday:Constellation Brands:Logistics-Fulfillment-Execution-Analyst_R-41345": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 43 days ago",
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 47 days ago",
   "title": "Logistics Fulfillment Execution Analyst"
  },
- "workday:Crate & Barrel:Operations-Associate_R27379": {
-  "last_seen": "2026-11-15",
-  "reason": "type: Part time",
-  "title": "Operations Associate"
- },
- "workday:Genentech (Roche):Functional-Consultant---SAP-EWM-TM---Custom-Solutions_202604-108806-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Warsaw; Poznan",
-  "title": "Solution Architect \u2013 SAP EWM / TM (Logistics & Supply Chain)"
- },
- "workday:Genentech (Roche):Global-Supply-Chain-Process-Architect---Planning---Regulatory-Compliance_202606-115874-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Rotkreuz; Indianapolis",
-  "title": "Global Supply Chain Process Architect \u2013 Planning & Regulatory Compliance"
- },
- "workday:Genentech (Roche):Supply-Chain-and-Planning-Specialist---2-years-FTC_202610-127552-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Bathgate; Motherwell",
-  "title": "Supply Chain and Planning Specialist - 2 years FTC"
- },
- "workday:HP Inc:Business-Operations-Analyst_3157995-2": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Johor Bahru, Johor, Malaysia; Batu Kawan, Pulau Pinang (Penang), Malaysia",
-  "title": "Business Operations Analyst"
- },
- "workday:HP Inc:Demand-Planner_3162809-2": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Praha, Praha, Czechia; Bengaluru, Karnataka, India",
-  "title": "Demand Planner"
- },
- "workday:HP Inc:Fulfillment-Planning-Analyst_3168473-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Gurugram, Haryana, India; Bucharest, Bucure\u015fti, Romania",
-  "title": "Fulfillment Planning Analyst"
- },
- "workday:HP Inc:PageWide-Industrial-Hardware-Planning-Analyst_3170689-2": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Corvallis, Oregon, United States of America; Vancouver, Washington, United State",
-  "title": "PageWide Industrial Hardware Planning Analyst"
- },
- "workday:HP Inc:SAP-Integrated-Business-Planning-Techno-Functional-Architect_3169367-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Spring, Texas, United States of America; Tlaquepaque, Jalisco, Mexico",
-  "title": "SAP Integrated Business Planning Techno Functional Architect"
- },
- "workday:HP Inc:Supply-Chain-Planning-Architect---AI---SAP-IBP_3166607-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Sant Cugat del Valles, Barcelona, Spain; Spring, Texas, United States of America",
-  "title": "Supply Chain Planning Architect - AI & SAP IBP"
- },
- "workday:Intel:Advance-Packaging-Material-Supply-Chain-Engineer_JR0287358": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Japan, Tokyo; Malaysia, Penang",
-  "title": "Advance Packaging Material Supply Chain Engineer"
- },
- "workday:Intel:Operations-Research-Engineer_JR0284429": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 80 days ago",
-  "title": "Operations Research Engineer"
- },
- "workday:Intel:Tool-Install-Qual-Operations-Specialist_JR0289025": {
-  "last_seen": "2026-11-15",
-  "reason": "experience: 5+ years required",
-  "title": "Tool Install Qual Operations Specialist"
- },
- "workday:KLA:Aftermarket-Business-Data-Analyst_2638660": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Ann Arbor, MI; Chandler, AZ",
-  "title": "Supply Chain Spares Planning Analyst"
- },
- "workday:KLA:Buyer-Planner_2640247-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Phoenix, AZ; Ann Arbor, MI",
-  "title": "Buyer/Planner"
- },
- "workday:KLA:Master-Scheduler_2641326": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 37 days ago",
-  "title": "Master Scheduler"
- },
- "workday:KLA:Regional-Services-Operations-Specialist_2638990-1": {
-  "last_seen": "2026-11-13",
-  "reason": "age: posted 108 days ago",
-  "title": "Regional Services Operations Specialist"
- },
- "workday:KLA:Spares-Demand-Planner_2637773-2": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Chandler, AZ; Ann Arbor, MI",
-  "title": "Spares Demand Planner"
- },
- "workday:KLA:Spares-Demand-Planner_2638659": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 31 days ago",
-  "title": "Spares Demand Planner"
- },
- "workday:KLA:Supply-Chain-Specialist_2640248-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Ann Arbor, MI; Phoenix, AZ",
-  "title": "Supply Chain Specialist"
- },
- "workday:Kraft Heinz:Analyst--Inventory-Control_R-106849": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 53 days ago",
-  "title": "Analyst, Inventory Control"
- },
- "workday:Kraft Heinz:Quality-Business-Partner-Supply-Chain_R-108438": {
-  "last_seen": "2026-11-15",
-  "reason": "experience: 15+ years required",
-  "title": "Quality Business Partner Supply Chain"
- },
- "workday:Levi Strauss & Co:Analyst--Sourcing---Supply-Planning-Analytics-and-Decision-Intelligence_R-0158179": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Office, Mexico, D.F., Mexico",
-  "title": "Analyst, Sourcing & Supply Planning Analytics and Decision Intelligence"
- },
- "workday:Levi Strauss & Co:Global-Order-Operations-Analyst-with-German--w-m-d-_R-0159121": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Warsaw, Poland",
-  "title": "Global Order Operations Analyst with German (w/m/d)"
- },
- "workday:Levi Strauss & Co:Inventory-Analyst_R-0141445": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Sky Harbor Distribution Center, Henderson, NV, USA",
-  "title": "Inventory Analyst"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0157593": {
-  "last_seen": "2026-11-16",
-  "reason": "location: GCC Office \u2013 ITC Green Center, Bengaluru, Karnataka, India",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0157605": {
-  "last_seen": "2026-11-16",
-  "reason": "location: GCC Office \u2013 ITC Green Center, Bengaluru, Karnataka, India",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0157623": {
-  "last_seen": "2026-11-16",
-  "reason": "location: GCC Office \u2013 ITC Green Center, Bengaluru, Karnataka, India",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0158495": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Office, Mexico, D.F., Mexico",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0158496": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Office, Mexico, D.F., Mexico",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0158497": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Office, Mexico, D.F., Mexico",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0158498": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Office, Mexico, D.F., Mexico",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0158499": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Office, Mexico, D.F., Mexico",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0158500": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Office, Mexico, D.F., Mexico",
-  "title": "Network Operations Analyst I"
- },
- "workday:Levi Strauss & Co:Network-Operations-Analyst-I_R-0158501": {
-  "last_seen": "2026-11-16",
-  "reason": "location: Office, Mexico, D.F., Mexico",
-  "title": "Network Operations Analyst I"
- },
- "workday:Mdlz:Analyst-Warehousing---Logistics_R-181023": {
+ "workday:Jdpa:Commercial-Operations-Analyst_R-100547": {
   "last_seen": "2026-11-17",
-  "reason": "location: Mexico (Remote)",
-  "title": "Analyst Warehousing & Logistics"
+  "reason": "location: Remote Mexico",
+  "title": "Commercial Operations Analyst"
  },
- "workday:Mdlz:Forecasting-Analyst---Functional-Analytics_R-179492-1": {
+ "workday:Livenation:Cost---Procurement-Analyst_JR-94261": {
   "last_seen": "2026-11-17",
-  "reason": "type: Part time",
-  "title": "Forecasting Analyst - Functional Analytics"
- },
- "workday:Mdlz:HR-Business-Partner-Manufacturing---Supply-Chain--DACH---m-f-d-_R-171873-1": {
-  "last_seen": "2026-11-17",
-  "reason": "location: Loerrach, Germany; Bremen, Germany",
-  "title": "HR Business Partner Manufacturing & Supply Chain (DACH) (m/f/d)"
- },
- "workday:Mdlz:Procurement-Specialist_R-180783": {
-  "last_seen": "2026-11-17",
-  "reason": "location: Khon Kaen, Thailand; Lad Krabang, Bangkok, Thailand",
-  "title": "Procurement Specialist"
- },
- "workday:Mondelez:Analyst-Warehousing---Logistics_R-181023": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Mexico (Remote)",
-  "title": "Analyst Warehousing & Logistics"
- },
- "workday:Mondelez:Forecasting-Analyst---Functional-Analytics_R-179492-1": {
-  "last_seen": "2026-11-15",
-  "reason": "type: Part time",
-  "title": "Forecasting Analyst - Functional Analytics"
- },
- "workday:Mondelez:HR-Business-Partner-Manufacturing---Supply-Chain--DACH---m-f-d-_R-171873-1": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Loerrach, Germany; Bremen, Germany",
-  "title": "HR Business Partner Manufacturing & Supply Chain (DACH) (m/f/d)"
- },
- "workday:Mondelez:Procurement-Specialist_R-180783": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Khon Kaen, Thailand; Lad Krabang, Bangkok, Thailand",
-  "title": "Procurement Specialist"
- },
- "workday:Mondelez:Regional-Procurement-Specialist--F-M-X-_R-179026": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Business Office - Warsaw, Poland; Opava, Czech Republic; Bucharest, Romania; Bus",
-  "title": "Regional Procurement Specialist (F/M/X)"
- },
- "workday:Mondelez:Sourcing-Specialist-Oils---Fats-LA_R-172344-1": {
-  "last_seen": "2026-11-13",
-  "reason": "location: Business Unit Head Office - S\u00e3o Paulo, Brazil; Plant - Curitiba, Brazil",
-  "title": "Sourcing Specialist Oils & Fats LA"
- },
- "workday:NVIDIA:Factory-Planner_JR2021699": {
-  "last_seen": "2026-11-15",
-  "reason": "location: Vietnam, Remote",
-  "title": "Factory Planner"
- },
- "workday:PVH:Sourcing-Associate--Sweaters---PVH_R62968": {
-  "last_seen": "2026-11-15",
-  "reason": "salary: starts at $416,000 (senior pay band)",
-  "title": "Sourcing Associate, Sweaters - PVH"
- },
- "workday:Parsons:Current-Operations--CUOPS--Planner_R186872-1": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - HI, Camp Smith",
-  "title": "Current Operations (CUOPS) Planner"
- },
- "workday:Parsons:Future-Operations--FUOPS--Planner_R186873": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - HI, Camp Smith",
-  "title": "Future Operations (FUOPS) Planner"
- },
- "workday:Parsons:Hospital-Program---Mobile-Operations-Coordinator_R183759": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - MN, Crosby",
-  "title": "Hospital Program & Mobile Operations Coordinator"
- },
- "workday:Parsons:Joint-Fires-Exercise-Planner-TS_R183730": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - HI, Camp Smith",
-  "title": "Joint Fires Exercise Planner TS"
- },
- "workday:Parsons:Logistics-Engineer--UAE-National-_R187433": {
-  "last_seen": "2026-11-17",
-  "reason": "location: AE - Abu Dhabi",
-  "title": "Logistics Engineer (UAE National)"
- },
- "workday:Parsons:Logistics-Operator-Saudi-National-_R188306": {
-  "last_seen": "2026-11-17",
-  "reason": "location: SA - Riyadh, Qiddiya",
-  "title": "Logistics Operator(Saudi National)"
- },
- "workday:Parsons:Logistics-Specialist--Receiving-Distribution-Specialist----TS-SCI_R188303-1": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - VA, Springfield",
-  "title": "Logistics Specialist (Receiving Distribution Specialist) - TS/SCI"
- },
- "workday:Parsons:MDDU-CBRN-Operations-Administration-and-Logistics-Coordinator_R172691-1": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - DC, Washington",
-  "title": "MDDU CBRN Operations Administration and Logistics Coordinator"
- },
- "workday:Parsons:Military-Exercise-Planner_R185341-1": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - HI, Fort Shafter",
-  "title": "Military Exercise Planner - Secret"
- },
- "workday:Parsons:Planner_R187615": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - DC, Washington",
-  "title": "Planner"
- },
- "workday:Parsons:Planner_R187693": {
-  "last_seen": "2026-11-17",
-  "reason": "location: SA - Riyadh",
-  "title": "Planner (Saudi National)"
- },
- "workday:Parsons:Procurement-Specialist--Saudi-National-_R188294-1": {
-  "last_seen": "2026-11-17",
-  "reason": "location: SA - Riyadh, Qiddiya",
-  "title": "Procurement Specialist (Saudi National)"
- },
- "workday:Parsons:Project-Planner---Environmental_R188059": {
-  "last_seen": "2026-11-17",
-  "reason": "experience: 15+ years required",
-  "title": "Project Planner - Environmental"
- },
- "workday:Parsons:Strategic-Planner_R186875": {
-  "last_seen": "2026-11-17",
-  "reason": "location: US - HI, Camp Smith",
-  "title": "Strategic Planner"
- },
- "workday:Parsons:Urban-Designer-Planner--UAE-National-_R187541-1": {
-  "last_seen": "2026-11-17",
-  "reason": "location: AE - Dubai",
-  "title": "Urban Designer/Planner (UAE National)"
- },
- "workday:Proofpoint:Global-Logistics---Trade-Compliance-Coordinator_R14674": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 70 days ago",
-  "title": "Global Logistics & Trade Compliance Coordinator"
- },
- "workday:Rxo:Specialists--Logistics--LTL-_JR103633-1": {
-  "last_seen": "2026-11-17",
-  "reason": "salary: tops out at $50,000",
-  "title": "Logistics Specialist (LTL)"
- },
- "workday:Tapestry:Allocator--Coachtopia--Special-Projects-Small-Departments_JR7450": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 150 days ago",
-  "title": "Allocator, Coachtopia, Special Projects/Small Departments"
- },
- "workday:Tapestry:Associate--Global-Store-Design-Procurement-and-Operations_JR17111-1": {
-  "last_seen": "2026-11-15",
-  "reason": "age: posted 43 days ago",
-  "title": "Associate, Global Store Design Procurement and Operations"
- },
- "workday:Verisure:Tcnico-de-Planificacin---Forecast---Call-Center_r2026090304": {
-  "last_seen": "2026-11-17",
-  "reason": "location: Pozuelo de Alarcon; Barcelona",
-  "title": "T\u00e9cnico de Planificaci\u00f3n - Forecast - Call Center"
- },
- "workday:Zebra:Capacity-Planning-Specialist--Advisor_JR102948": {
-  "last_seen": "2026-11-17",
-  "reason": "location: 2 Locations",
-  "title": "Capacity Planning Specialist, Advisor"
- },
- "workday:Zebra:Supply-Chain-Planner--II_JR103963": {
-  "last_seen": "2026-11-17",
-  "reason": "location: 2 Locations",
-  "title": "Supply Chain Planner, II"
+  "reason": "location: Manchester, United Kingdom; Farringdon, London, United Kingdom",
+  "title": "Cost & Procurement Analyst"
  }
 }
