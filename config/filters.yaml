@@ -95,6 +95,7 @@ titles:
     - "\\bseo\\b|\\bsearch engine|actuar|quantum|meteorolog|weather|population|store plan|space plan|visual merchandis|\\bmerchant\\b"
     - "talent (community|network|pool)|skillbridge|freelance|ai trainer|evergreen|general application"
     - "cruise|resort|appointment setter|destination|vacation|honeymoon|people (&|and) |workplace|\\bgtm\\b|go[- ]to[- ]market|subscription|technical operations"
+    - "post[- ]training|pre[- ]training|\\bllms?\\b|reasoning|machine learning (engineer|scientist|researcher)|\\bml (engineer|scientist)"
     - "teacher|tutor|instructor|educat|accounts? (receivable|payable)|client services|customer (success|service|support|experience)|billing|collections|claims"
     - "crypto|\\btrading\\b|clearing|corporate actions|\\bmargin\\b|\\bapac\\b|\\bemea\\b|\\blatam\\b"
     # seniority
