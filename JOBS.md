@@ -1,6 +1,6 @@
 # Your job matches
 
-Updated Tue Nov 17, 2026: **35 open roles**, ranked by fit, **26 new today**. 30 lower-scoring roles are in `results/jobs.csv`.
+Updated Tue Nov 17, 2026: **36 open roles**, ranked by fit, **27 new today**. 30 lower-scoring roles are in `results/jobs.csv`.
 
 ## Apply first (80+)
 
@@ -17,10 +17,10 @@ Updated Tue Nov 17, 2026: **35 open roles**, ranked by fit, **26 new today**. 30
 |---:|---:|---|---|---|---|---|---|
 | 5 | 76 | **NEW** [Founding Supply Chain](https://jobs.ashbyhq.com/pocket/3afdd854-adeb-4e42-b4a1-c6b0bbe3c795) | Pocket \* | SF Bay Area | $120k-$180k | 28d ago | Core planning/supply chain role; requires 3+ yrs `requires 3+ yrs` |
 | 6 | 75 | **NEW** [Contracts Analyst- Procurement Services – SFO (1822) (EXEMPT)](https://jobs.smartrecruiters.com/CityAndCountyOfSanFrancisco1/3743990016879946) | CityAndCountyOfSanFrancisco1 \* | SF Bay Area | - | 1d ago | Adjacent supply chain role; entry-level title; requires 1+ yrs; pay not listed `entry-level, requires 1+ yrs` |
-| 7 | 72 | **NEW** [Post-Training Research Scientist - Forecasting and Reasoning](https://boards.greenhouse.io/point72/jobs/8939660002?gh_jid=8939660002) | Point72 \* | New York City | - | 5d ago | Core planning/supply chain role; pay not listed |
-| 8 | 71 | **NEW** [Logistics Automation New Grad](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714) | Applied Materials <sub>via Simplify</sub> | SF Bay Area | - | 64d ago | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
-| 9 | 71 | **NEW** [Logistics Operations Coordinator](https://jobs.smartrecruiters.com/Tenergy/744000159742499) | Tenergy \* | SF Bay Area | - | 13d ago | Adjacent supply chain role; pay not listed |
-| 10 | 69 | **NEW** [DTC Fulfillment Analyst](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4724216006) | SharkNinja \* | Boston | $56k-$86k | 20d ago | Adjacent supply chain role; entry-level title; requires 1+ yrs `entry-level, requires 1+ yrs` |
+| 7 | 71 | **NEW** [Logistics Automation New Grad](https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Logistics-Automation-New-College-Grad--Bachelor-s--Santa-Clara--CA-_R2627714) | Applied Materials <sub>via Simplify</sub> | SF Bay Area | - | 64d ago | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
+| 8 | 71 | **NEW** [Logistics Operations Coordinator](https://jobs.smartrecruiters.com/Tenergy/744000159742499) | Tenergy \* | SF Bay Area | - | 13d ago | Adjacent supply chain role; pay not listed |
+| 9 | 69 | **NEW** [DTC Fulfillment Analyst](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4724216006) | SharkNinja \* | Boston | $56k-$86k | 20d ago | Adjacent supply chain role; entry-level title; requires 1+ yrs `entry-level, requires 1+ yrs` |
+| 10 | 69 | **NEW** [Produce Inventory Planner](https://wd5.myworkdaysite.com/recruiting/sysco/syscocareers/job/Sysco-San-Diego/Produce-Inventory-Planner_R273933-1) | Sysco \* | SF Bay Area | - | 15d ago | Core planning/supply chain role; requires 3+ yrs; pay not listed `requires 3+ yrs` |
 | 11 | 69 | [Apparel & Accessories Inventory Planner](https://jobs.ashbyhq.com/whoop/fa31c080-9bc5-432c-b6e1-5577fcce97e7) | WHOOP | Boston | $80k-$110k | 20d ago | Core planning/supply chain role; requires 3+ yrs `requires 3+ yrs` |
 | 12 | 68 | **NEW** [Operations & Logistics Coordinator](https://jobs.ashbyhq.com/corvus-robotics/367b0cde-835a-402e-9413-56ed1b224774) | Corvus robotics \* | SF Bay Area | $70k-$90k | today | Adjacent supply chain role |
 | 13 | 68 | **NEW** [Strategic Sourcing Specialist, Compute](https://jobs.ashbyhq.com/Crusoe/c48758cc-79a0-468d-9a8c-b50abc88c324) | Crusoe \* | SF Bay Area | $110k-$135k | 27d ago | Adjacent supply chain role; prefers 5+ yrs `prefers 5+ yrs` |
@@ -55,7 +55,8 @@ Updated Tue Nov 17, 2026: **35 open roles**, ranked by fit, **26 new today**. 30
 | 32 | 48 | **NEW** [Talent & Operations Coordinator](https://jobs.ashbyhq.com/odysseyml/03a63696-335b-4bcc-906f-ca024766aad1) | Odysseyml \* | SF Bay Area | $124k-$155k | 13d ago | General operations role |
 | 33 | 47 | **NEW** [Strategy & Operations Working Student](https://jobs.ashbyhq.com/Clera/43345a4e-7087-4a35-aa3b-a27bf26feb85) | Clera \* | SF Bay Area | - | 2d ago | General operations role; pay not listed |
 | 34 | 47 | **NEW** [Associate, Business Operations & Analytics](https://jobs.ashbyhq.com/Jerry.ai/54e9f762-7563-416d-b74e-1168fe4fcf18) | Jerry ai \* | New York City | $110k-$140k | 8d ago | General operations role; entry-level title; requires 1+ yrs `entry-level, requires 1+ yrs` |
-| 35 | 45 | **NEW** [Business Operations Associate](https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/248ee42c-f303-478d-ac60-34179560ab65) | Superhuman 20Platform 20Inc \* | New York City | $118k-$163k | 1d ago | General operations role; entry-level title `entry-level` |
+| 35 | 46 | **NEW** [City Operations Associate](https://job-boards.greenhouse.io/cssmerge/jobs/8949087002) | ATOMS Careers page \* | SF Bay Area | $62k-$71k | today | General operations role; entry-level title; requires 1+ yrs `entry-level, requires 1+ yrs` |
+| 36 | 45 | **NEW** [Business Operations Associate](https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/248ee42c-f303-478d-ac60-34179560ab65) | Superhuman 20Platform 20Inc \* | New York City | $118k-$163k | 1d ago | General operations role; entry-level title `entry-level` |
 
 \* found by automatic company discovery (not on your list)
 
@@ -70,7 +71,7 @@ Updated Tue Nov 17, 2026: **35 open roles**, ranked by fit, **26 new today**. 30
 - Clorox: 1 postings in your field
 - Columbia Sportswear: ERROR busy (workday:columbiasportswearcompany.wd5.myworkdayjobs.com/Columbia_Career_Site HTTP 0)
 - Conagra Brands: ERROR busy (workday:conagrabrands.wd1.myworkdayjobs.com/Careers_US HTTP 0)
-- Constellation Brands: 1 postings in your field
+- Constellation Brands: ERROR busy (workday:cbrands.wd5.myworkdayjobs.com/CBI_External_Careers HTTP 0)
 - Crate & Barrel: ERROR busy (workday:crateandbarrel.wd1.myworkdayjobs.com/CBH HTTP 0)
 - DoorDash: 18 postings in your field
 - Etsy: ERROR busy (workday:etsy.wd5.myworkdayjobs.com/Etsy_Careers HTTP 0)
@@ -99,7 +100,7 @@ Updated Tue Nov 17, 2026: **35 open roles**, ranked by fit, **26 new today**. 30
 - Nike: ERROR busy (workday:nike.wd1.myworkdayjobs.com/nke HTTP 0)
 - On Running: 0 postings in your field
 - Once Upon a Farm: 0 postings in your field
-- Oura: 1 postings in your field
+- Oura: 2 postings in your field
 - PVH: ERROR busy (workday:pvh.wd1.myworkdayjobs.com/PVH_Careers HTTP 0)
 - Peak Design: 0 postings in your field
 - Peloton: 0 postings in your field
@@ -117,8 +118,8 @@ Updated Tue Nov 17, 2026: **35 open roles**, ranked by fit, **26 new today**. 30
 - Zipline: 1 postings in your field
 - [Simplify] 1 listings in your field and cities
 - [Zapply] 0 listings in your field and cities
-- [company discovery] found 1163 new job boards (2849 in the discovered set)
-- [discovered boards] swept 2289 of 2849, 255 postings in your field, 1 failed, 375 busy (retried next run); errors: workday 0 x375, lever unavailable (lever:akabrands x1; new matches from: Axon, Bluesight, Brainco, CircleLogistics1, CityAndCountyOfSanFrancisco1, Clera, Corvus robotics, Crusoe, Elevenlabs, EliseAI, Enova, Fanaticscollectibles, Figureai, Focusfinancialpartners, Fortell, Harperinsure, Horizon3ai, Imprint, Jerry ai, MattelInc, Matx, Moxxidigital, NBCUniversal3, Nidus technologies, Odysseyml, Planetlabs, Pocket, Point72, Rackner, Rivet, Sharkninjaoperatingllc, Specter, Superhuman 20Platform 20Inc, Tenergy, Traba, Undercontrolroboticsinc, Veeva, Verkada, Waabi, Zoox
+- [company discovery] found 85 new job boards (2934 in the discovered set)
+- [discovered boards] swept 2279 of 2933, 256 postings in your field, 1 failed, 1 dropped, 385 busy (retried next run); errors: workday 0 x385, lever unavailable (lever:akabrands x1; new matches from: Axon, Bluesight, Brainco, CircleLogistics1, CityAndCountyOfSanFrancisco1, Clera, Corvus robotics, Crusoe, Cssmerge, Elevenlabs, EliseAI, Enova, Fanaticscollectibles, Figureai, Focusfinancialpartners, Fortell, Harperinsure, Horizon3ai, Imprint, Jerry ai, MattelInc, Matx, Moxxidigital, NBCUniversal3, Nidus technologies, Odysseyml, Planetlabs, Pocket, Rackner, Rivet, Sharkninjaoperatingllc, Specter, Superhuman 20Platform 20Inc, Sysco, Tenergy, Traba, Undercontrolroboticsinc, Veeva, Verkada, Waabi, Zoox
 - project44: 0 postings in your field
 
 </details>

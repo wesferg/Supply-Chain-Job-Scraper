@@ -951,6 +951,38 @@
   "verdict": "",
   "why": "General operations role; entry-level title; requires 3+ yrs"
  },
+ "greenhouse:Cssmerge:8949087002": {
+  "ats": "greenhouse",
+  "company": "Cssmerge",
+  "concerns": "",
+  "display": "ATOMS Careers page",
+  "first_seen": "2026-11-17",
+  "flags": [
+   "general",
+   "entry"
+  ],
+  "job_id": "8949087002",
+  "key": "greenhouse:Cssmerge:8949087002",
+  "last_seen": "2026-11-17",
+  "locations": [
+   "San Francisco, CA",
+   "San Francisco, California, United States"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 1,
+  "origin": "universe",
+  "posted": "2026-11-17",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 70720.0,
+  "salary_min": 62400.0,
+  "score": 46,
+  "time_type": "",
+  "title": "City Operations Associate",
+  "url": "https://job-boards.greenhouse.io/cssmerge/jobs/8949087002",
+  "verdict": "",
+  "why": "General operations role; entry-level title; requires 1+ yrs"
+ },
  "greenhouse:DoorDash:8301438": {
   "ats": "greenhouse",
   "company": "DoorDash",
@@ -1393,37 +1425,6 @@
   "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8263932",
   "verdict": "",
   "why": "Core planning/supply chain role; entry-level title; prefers 6+ yrs"
- },
- "greenhouse:Point72:8939660002": {
-  "ats": "greenhouse",
-  "company": "Point72",
-  "concerns": "",
-  "display": "Point72",
-  "first_seen": "2026-11-17",
-  "flags": [
-   "core"
-  ],
-  "job_id": "8939660002",
-  "key": "greenhouse:Point72:8939660002",
-  "last_seen": "2026-11-17",
-  "locations": [
-   "New York",
-   "New York, New York, United States"
-  ],
-  "metro": "New York City",
-  "min_years": null,
-  "origin": "universe",
-  "posted": "2026-11-12",
-  "pref_years": null,
-  "remote": false,
-  "salary_max": null,
-  "salary_min": null,
-  "score": 72,
-  "time_type": "",
-  "title": "Post-Training Research Scientist - Forecasting and Reasoning",
-  "url": "https://boards.greenhouse.io/point72/jobs/8939660002?gh_jid=8939660002",
-  "verdict": "",
-  "why": "Core planning/supply chain role; pay not listed"
  },
  "greenhouse:Rackner:4752567005": {
   "ats": "greenhouse",
@@ -2008,5 +2009,42 @@
   "url": "https://jobs.smartrecruiters.com/westerndigital/744000160924891",
   "verdict": "",
   "why": "Core planning/supply chain role; pay not listed"
+ },
+ "workday:Sysco:Produce-Inventory-Planner_R273933-1": {
+  "ats": "workday",
+  "company": "Sysco",
+  "concerns": "",
+  "first_seen": "2026-11-17",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "Produce-Inventory-Planner_R273933-1",
+  "key": "workday:Sysco:Produce-Inventory-Planner_R273933-1",
+  "last_seen": "2026-11-17",
+  "locations": [
+   "Sysco San Diego",
+   "Sysco Arizona  -  OpCo",
+   "Sysco Central California  -  Headquarters",
+   "Sysco Sacramento",
+   "Sysco Ventura",
+   "Sysco San Francisco",
+   "Sysco Riverside -  Distribution",
+   "Sysco Los Angeles  -  Home Office"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2026-11-02",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 69,
+  "time_type": "Full time",
+  "title": "Produce Inventory Planner",
+  "url": "https://wd5.myworkdaysite.com/recruiting/sysco/syscocareers/job/Sysco-San-Diego/Produce-Inventory-Planner_R273933-1",
+  "verdict": "",
+  "why": "Core planning/supply chain role; requires 3+ yrs; pay not listed"
  }
 }

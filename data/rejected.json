@@ -214,11 +214,6 @@
   "reason": "age: posted 47 days ago",
   "title": "Logistics Specialist"
  },
- "ashby:Harperinsure:d1a82faa-7d95-4806-b160-038616f7ef97": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 54 days ago",
-  "title": "Customer Operations Specialist, Payments"
- },
  "ashby:Harperinsure:f635e211-fda5-4628-a3fb-d61ef12b8052": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 201 days ago",
@@ -329,6 +324,11 @@
   "reason": "age: posted 35 days ago",
   "title": "Compensation Operations Analyst"
  },
+ "ashby:Openai:6b8c6731-9bf0-4a0a-8e2f-46662f5a5073": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Dublin, Ireland",
+  "title": "Privacy Operations Analyst"
+ },
  "ashby:Openai:9747412d-a23d-48ba-bddd-ad1247c360f5": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 39 days ago",
@@ -338,11 +338,6 @@
   "last_seen": "2026-11-17",
   "reason": "location: Munich, Germany",
   "title": "Strategy & Operations, Germany"
- },
- "ashby:Openloophealth:1ee407e5-9c4f-4c31-b88e-43256d19f879": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 57 days ago",
-  "title": "Order Fulfillment Specialist"
  },
  "ashby:Openloophealth:602c2461-0943-4b9f-a3d7-7ff2c597bf7c": {
   "last_seen": "2026-11-17",
@@ -639,20 +634,10 @@
   "reason": "age: posted 82 days ago",
   "title": "Manufacturing Materials Planning Associate"
  },
- "greenhouse:Fanaticscollectibles:4407732009": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 62 days ago",
-  "title": "Night Vault Operations Associate $24.54/HR"
- },
  "greenhouse:Fanaticscollectibles:4410718009": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 57 days ago",
   "title": "Collation Planner"
- },
- "greenhouse:Fanaticscollectibles:4451621009": {
-  "last_seen": "2026-11-17",
-  "reason": "salary: tops out at $50,003",
-  "title": "Night Operations Associate - $26.71/HR (3x12)"
  },
  "greenhouse:Fartherfinance:4740893005": {
   "last_seen": "2026-11-17",
@@ -769,6 +754,11 @@
   "reason": "age: posted 64 days ago",
   "title": "Conversion Rate Optimization Analyst "
  },
+ "greenhouse:Oura:4383256009": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Hybrid - London, England; London, England, United Kingdom",
+  "title": "International Demand Planner"
+ },
  "greenhouse:Oura:4418964009": {
   "last_seen": "2026-11-17",
   "reason": "age: posted 54 days ago",
@@ -778,6 +768,11 @@
   "last_seen": "2026-11-17",
   "reason": "experience: 5+ years required",
   "title": "Product Operations Associate - Sweaters"
+ },
+ "greenhouse:Planetlabs:8354040": {
+  "last_seen": "2026-11-17",
+  "reason": "experience: 6+ years required",
+  "title": "Inventory Operations Specialist"
  },
  "greenhouse:Point72:8755415002": {
   "last_seen": "2026-11-17",
@@ -1089,34 +1084,39 @@
   "reason": "age: posted 34 days ago",
   "title": "Executive Operations Associate, Office of the CEO"
  },
- "workday:Boydcorp:Procurement---Supply-Chain-Executive_R-103227": {
-  "last_seen": "2026-11-17",
-  "reason": "age: posted 49 days ago",
-  "title": "Procurement & Supply Chain Executive"
- },
  "workday:Clorox:Product-Owner---Material-Planning_JR23876": {
   "last_seen": "2026-11-17",
   "reason": "experience: 6+ years required",
   "title": "Product Owner - Material Planning"
  },
- "workday:Cni:Logistics-Specialist_R9165": {
+ "workday:Gflenv:Area-Procurement-Specialist_R40724": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 104 days ago",
-  "title": "Logistics Specialist"
+  "reason": "location: 1000 Social Street,Raleigh,NC; Southfield, Michigan; Houston, Texas; 1700 Pacifi",
+  "title": "Area Procurement Specialist"
  },
- "workday:Constellation Brands:Logistics-Fulfillment-Execution-Analyst_R-41345": {
+ "workday:Gflenv:Bilingual-Area-Procurement-Analyst_R38696": {
   "last_seen": "2026-11-17",
-  "reason": "age: posted 47 days ago",
-  "title": "Logistics Fulfillment Execution Analyst"
+  "reason": "location: Vaughan, Ontario; Montreal, Quebec; Dartmouth, Nova Scotia",
+  "title": "Bilingual Area Procurement Analyst"
  },
- "workday:Jdpa:Commercial-Operations-Analyst_R-100547": {
+ "workday:Imeg:Medical-Equipment-Graduate-Planner---2_R-16224": {
   "last_seen": "2026-11-17",
-  "reason": "location: Remote Mexico",
-  "title": "Commercial Operations Analyst"
+  "reason": "location: Jacksonville, FL; Fort Lauderdale, FL; Medley, FL; Orlando, FL; Tallahassee, FL;",
+  "title": "Medical Equipment Planner - 2"
  },
- "workday:Livenation:Cost---Procurement-Analyst_JR-94261": {
+ "workday:Sysco:Inventory-Planner---GSC---US_R275484": {
   "last_seen": "2026-11-17",
-  "reason": "location: Manchester, United Kingdom; Farringdon, London, United Kingdom",
-  "title": "Cost & Procurement Analyst"
+  "reason": "location: Sysco Arizona  -  OpCo; Sysco Las Vegas",
+  "title": "Inventory Planner"
+ },
+ "workday:Sysco:Inventory-Planner_R268783": {
+  "last_seen": "2026-11-17",
+  "reason": "age: posted 46 days ago",
+  "title": "Inventory Planner"
+ },
+ "workday:Sysco:Inventory-Planner_R273870": {
+  "last_seen": "2026-11-17",
+  "reason": "location: Sysco Southeast Florida; Sysco South Florida",
+  "title": "Inventory Planner"
  }
 }
