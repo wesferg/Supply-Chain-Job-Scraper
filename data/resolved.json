@@ -1,6 +1,6 @@
 {
  "Allbirds": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"ats\": \"greenhouse\", \"token\": \"allbirds\"}"
  },
  "Applied Materials": {
@@ -30,7 +30,7 @@
   }
  },
  "Bio-Rad": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"bio-rad\", \"biorad\"]}"
  },
  "Bombas": {
@@ -42,8 +42,9 @@
   }
  },
  "Bose": {
-  "failed_on": "2026-11-12",
-  "hints": "{\"url\": \"https://boseallaboutme.wd1.myworkdayjobs.com/Bose_Careers\"}"
+  "failed_on": "2026-11-19",
+  "hints": "{\"url\": \"https://boseallaboutme.wd1.myworkdayjobs.com/Bose_Careers\"}",
+  "unsure": true
  },
  "Boston Dynamics": {
   "ats": "workday",
@@ -66,7 +67,7 @@
   }
  },
  "Chobani": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{}"
  },
  "Clorox": {
@@ -110,7 +111,7 @@
   }
  },
  "Coyote Logistics": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"coyote\", \"coyotelogistics\"]}"
  },
  "Crate & Barrel": {
@@ -132,7 +133,7 @@
   }
  },
  "Estee Lauder Companies": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"elcompanies\", \"esteelauder\"]}"
  },
  "Etsy": {
@@ -260,7 +261,7 @@
   }
  },
  "Joby Aviation": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"jobyaviation\"]}"
  },
  "KEEN": {
@@ -282,7 +283,7 @@
   }
  },
  "Kellanova": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"kellanova\"]}"
  },
  "Kraft Heinz": {
@@ -296,7 +297,7 @@
   }
  },
  "Lam Research": {
-  "failed_on": "2026-11-18",
+  "failed_on": "2026-11-19",
   "hints": "{\"ats\": \"eightfold\", \"domain\": \"lamresearch.com\", \"host\": \"careers.lamresearch.com\"}",
   "unsure": true
  },
@@ -411,7 +412,7 @@
   }
  },
  "Peet's Coffee": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"peets\", \"peetscoffee\"]}"
  },
  "Peloton": {
@@ -423,11 +424,11 @@
   }
  },
  "Ralph Lauren": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"ralphlauren\"]}"
  },
  "Reebok": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{}"
  },
  "Rent the Runway": {
@@ -439,11 +440,11 @@
   }
  },
  "Rivian": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"rivian\"]}"
  },
  "Ross Stores": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"careers_url\": \"https://jobs.rossstores.com/\", \"slugs\": [\"rossstores\"]}"
  },
  "Rothy's": {
@@ -455,7 +456,7 @@
   }
  },
  "SRAM": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{}"
  },
  "Samsara": {
@@ -467,7 +468,7 @@
   }
  },
  "ShipBob": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"slugs\": [\"shipbob\"]}"
  },
  "SimpliSafe": {
@@ -489,7 +490,7 @@
   }
  },
  "Spindrift": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{}"
  },
  "TJX": {
@@ -521,7 +522,7 @@
   }
  },
  "Warby Parker": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"ats\": \"greenhouse\", \"token\": \"warbyparker\"}"
  },
  "Wayfair": {
@@ -549,7 +550,7 @@
   }
  },
  "Williams-Sonoma": {
-  "failed_on": "2026-11-12",
+  "failed_on": "2026-11-19",
   "hints": "{\"careers_url\": \"https://www.williams-sonomainc.com/careers/jobs\", \"slugs\": [\"wsgc\", \"williamssonoma\", \"williams-sonoma\"]}"
  },
  "Zipline": {
