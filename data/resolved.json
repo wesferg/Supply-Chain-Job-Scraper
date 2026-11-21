@@ -42,9 +42,8 @@
   }
  },
  "Bose": {
-  "failed_on": "2026-11-20",
-  "hints": "{\"url\": \"https://boseallaboutme.wd1.myworkdayjobs.com/Bose_Careers\"}",
-  "unsure": true
+  "failed_on": "2026-11-21",
+  "hints": "{\"url\": \"https://boseallaboutme.wd1.myworkdayjobs.com/Bose_Careers\"}"
  },
  "Boston Dynamics": {
   "ats": "workday",
@@ -297,7 +296,7 @@
   }
  },
  "Lam Research": {
-  "failed_on": "2026-11-20",
+  "failed_on": "2026-11-21",
   "hints": "{\"ats\": \"eightfold\", \"domain\": \"lamresearch.com\", \"host\": \"careers.lamresearch.com\"}",
   "unsure": true
  },
