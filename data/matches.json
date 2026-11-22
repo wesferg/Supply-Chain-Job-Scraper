@@ -10,7 +10,7 @@
   ],
   "job_id": "9b10b860-a380-4415-93af-8b0b54f6fcda",
   "key": "ashby:3y health:9b10b860-a380-4415-93af-8b0b54f6fcda",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Remote - US"
   ],
@@ -40,7 +40,7 @@
   ],
   "job_id": "c490ee87-d220-4971-be06-f75729d06099",
   "key": "ashby:Applied:c490ee87-d220-4971-be06-f75729d06099",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Sunnyvale"
   ],
@@ -69,7 +69,7 @@
   ],
   "job_id": "d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
   "key": "ashby:Arq:d2ec29d9-1bca-44e4-99d9-a3acb1a875e9",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York",
    "Mexico City",
@@ -93,6 +93,36 @@
   "verdict": "",
   "why": "General operations role; pay not listed"
  },
+ "ashby:Baseten:9120b805-9b3a-45eb-ba05-9b6890877472": {
+  "ats": "ashby",
+  "company": "Baseten",
+  "concerns": "",
+  "first_seen": "2026-11-22",
+  "flags": [
+   "general",
+   "senior_pay"
+  ],
+  "job_id": "9120b805-9b3a-45eb-ba05-9b6890877472",
+  "key": "ashby:Baseten:9120b805-9b3a-45eb-ba05-9b6890877472",
+  "last_seen": "2026-11-22",
+  "locations": [
+   "San Francisco"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-19",
+  "pref_years": 3,
+  "remote": true,
+  "salary_max": 235000,
+  "salary_min": 185000,
+  "score": 42,
+  "time_type": "FullTime",
+  "title": "Revenue Strategy & Operations (AI Natives, AI Strategics, Labs)",
+  "url": "https://jobs.ashbyhq.com/baseten/9120b805-9b3a-45eb-ba05-9b6890877472",
+  "verdict": "",
+  "why": "General operations role; pay band suggests a more senior hire; prefers 3+ yrs"
+ },
  "ashby:Basis research:18e40048-fa0a-4118-ae3f-cafd38c59289": {
   "ats": "ashby",
   "company": "Basis research",
@@ -104,7 +134,7 @@
   ],
   "job_id": "18e40048-fa0a-4118-ae3f-cafd38c59289",
   "key": "ashby:Basis research:18e40048-fa0a-4118-ae3f-cafd38c59289",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York Office"
   ],
@@ -134,7 +164,7 @@
   ],
   "job_id": "8a7d5a94-fecd-45a7-9a64-48720976fbc0",
   "key": "ashby:Brainco:8a7d5a94-fecd-45a7-9a64-48720976fbc0",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco Bay Area"
   ],
@@ -192,7 +222,7 @@
   ],
   "job_id": "367b0cde-835a-402e-9413-56ed1b224774",
   "key": "ashby:Corvus robotics:367b0cde-835a-402e-9413-56ed1b224774",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Mountain View, CA"
   ],
@@ -222,7 +252,7 @@
   ],
   "job_id": "c48758cc-79a0-468d-9a8c-b50abc88c324",
   "key": "ashby:Crusoe:c48758cc-79a0-468d-9a8c-b50abc88c324",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Sunnyvale, CA - US",
    "Bellevue, WA - US"
@@ -242,6 +272,35 @@
   "verdict": "",
   "why": "Adjacent supply chain role; prefers 5+ yrs"
  },
+ "ashby:Dyna robotics:477872e8-44ba-430f-8efc-ad239e7acd69": {
+  "ats": "ashby",
+  "company": "Dyna robotics",
+  "concerns": "",
+  "first_seen": "2026-11-22",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "477872e8-44ba-430f-8efc-ad239e7acd69",
+  "key": "ashby:Dyna robotics:477872e8-44ba-430f-8efc-ad239e7acd69",
+  "last_seen": "2026-11-22",
+  "locations": [
+   "Redwood City, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-20",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 63,
+  "time_type": "FullTime",
+  "title": "Logistics & Inventory Specialist",
+  "url": "https://jobs.ashbyhq.com/dyna-robotics/477872e8-44ba-430f-8efc-ad239e7acd69",
+  "verdict": "",
+  "why": "Adjacent supply chain role; pay not listed"
+ },
  "ashby:Elevenlabs:b28719ff-833d-49b4-8286-f59082732186": {
   "ats": "ashby",
   "company": "Elevenlabs",
@@ -253,7 +312,7 @@
   ],
   "job_id": "b28719ff-833d-49b4-8286-f59082732186",
   "key": "ashby:Elevenlabs:b28719ff-833d-49b4-8286-f59082732186",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "United States",
    "New York",
@@ -288,7 +347,7 @@
   ],
   "job_id": "ace2ba35-b2fa-41a2-a3da-e9279241d3da",
   "key": "ashby:EliseAI:ace2ba35-b2fa-41a2-a3da-e9279241d3da",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York City",
    "Toronto"
@@ -319,7 +378,7 @@
   ],
   "job_id": "9e0c7b30-94a0-4b5c-a9e5-df30a588b398",
   "key": "ashby:Fortell:9e0c7b30-94a0-4b5c-a9e5-df30a588b398",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York"
   ],
@@ -348,7 +407,7 @@
   ],
   "job_id": "22dea7af-1808-4375-9751-987c1a17f54d",
   "key": "ashby:Harperinsure:22dea7af-1808-4375-9751-987c1a17f54d",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco",
    "Atlanta"
@@ -380,7 +439,7 @@
   ],
   "job_id": "28bb7a90-e106-424b-92e9-627e6ca843ee",
   "key": "ashby:Horizon3ai:28bb7a90-e106-424b-92e9-627e6ca843ee",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "US, Remote"
   ],
@@ -411,7 +470,7 @@
   ],
   "job_id": "b630b601-5e23-4fc5-85e6-cbc4bc2b65d2",
   "key": "ashby:Imprint:b630b601-5e23-4fc5-85e6-cbc4bc2b65d2",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York City"
   ],
@@ -473,7 +532,7 @@
   ],
   "job_id": "2555a8fb-a7a2-421e-a97c-9949c2f10cff",
   "key": "ashby:Litmushiring:2555a8fb-a7a2-421e-a97c-9949c2f10cff",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco"
   ],
@@ -503,7 +562,7 @@
   ],
   "job_id": "382afc93-357a-4ead-b8cf-607c32399485",
   "key": "ashby:Matx:382afc93-357a-4ead-b8cf-607c32399485",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Mountain View (HQ) or Remote"
   ],
@@ -533,7 +592,7 @@
   ],
   "job_id": "106ae0f0-f34d-4c85-be8e-2badd0306b29",
   "key": "ashby:Nidus technologies:106ae0f0-f34d-4c85-be8e-2badd0306b29",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York City"
   ],
@@ -592,7 +651,7 @@
   ],
   "job_id": "3afdd854-adeb-4e42-b4a1-c6b0bbe3c795",
   "key": "ashby:Pocket:3afdd854-adeb-4e42-b4a1-c6b0bbe3c795",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco"
   ],
@@ -623,7 +682,7 @@
   ],
   "job_id": "9b211cc2-dcb2-4902-b84f-a5a2d5d0705f",
   "key": "ashby:Replit:9b211cc2-dcb2-4902-b84f-a5a2d5d0705f",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Foster City, CA"
   ],
@@ -652,7 +711,7 @@
   ],
   "job_id": "e541893a-6457-4947-9e1e-b687f506713f",
   "key": "ashby:Rivet:e541893a-6457-4947-9e1e-b687f506713f",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Jose, CA"
   ],
@@ -682,7 +741,7 @@
   ],
   "job_id": "e6ba0f80-e2a5-4532-9fae-01f0b19ea28f",
   "key": "ashby:Specter:e6ba0f80-e2a5-4532-9fae-01f0b19ea28f",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco"
   ],
@@ -712,7 +771,7 @@
   ],
   "job_id": "248ee42c-f303-478d-ac60-34179560ab65",
   "key": "ashby:Superhuman 20Platform 20Inc:248ee42c-f303-478d-ac60-34179560ab65",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Hub - New York"
   ],
@@ -742,7 +801,7 @@
   ],
   "job_id": "374f18a8-6daf-439a-a28a-d4a09da730cd",
   "key": "ashby:Traba:374f18a8-6daf-439a-a28a-d4a09da730cd",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York City, NY"
   ],
@@ -761,6 +820,36 @@
   "verdict": "",
   "why": "General operations role; entry-level title; requires 1+ yrs; pay not listed"
  },
+ "ashby:Trm labs:9df4a53e-b30f-4811-a03e-da5abb52f110": {
+  "ats": "ashby",
+  "company": "Trm labs",
+  "concerns": "",
+  "first_seen": "2026-11-22",
+  "flags": [
+   "general",
+   "stretch"
+  ],
+  "job_id": "9df4a53e-b30f-4811-a03e-da5abb52f110",
+  "key": "ashby:Trm labs:9df4a53e-b30f-4811-a03e-da5abb52f110",
+  "last_seen": "2026-11-22",
+  "locations": [
+   "United States"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 4,
+  "origin": "universe",
+  "posted": "2026-11-19",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 14,
+  "time_type": "FullTime",
+  "title": "Talent Operations Specialist",
+  "url": "https://jobs.ashbyhq.com/trm-labs/9df4a53e-b30f-4811-a03e-da5abb52f110",
+  "verdict": "",
+  "why": "General operations role; requires 4+ yrs; pay not listed"
+ },
  "ashby:WHOOP:fa31c080-9bc5-432c-b6e1-5577fcce97e7": {
   "ats": "ashby",
   "company": "WHOOP",
@@ -772,7 +861,7 @@
   ],
   "job_id": "fa31c080-9bc5-432c-b6e1-5577fcce97e7",
   "key": "ashby:WHOOP:fa31c080-9bc5-432c-b6e1-5577fcce97e7",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Boston, MA"
   ],
@@ -864,7 +953,7 @@
   ],
   "job_id": "4723320006",
   "key": "greenhouse:Applovin:4723320006",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Palo Alto, CA"
   ],
@@ -893,7 +982,7 @@
   ],
   "job_id": "7805058003",
   "key": "greenhouse:Archer Aviation:7805058003",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Jose, California, United States"
   ],
@@ -923,7 +1012,7 @@
   ],
   "job_id": "5459621008",
   "key": "greenhouse:Armstrongtransportgroup:5459621008",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Remote"
   ],
@@ -955,7 +1044,7 @@
   ],
   "job_id": "8203578003",
   "key": "greenhouse:Axon:8203578003",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco, California, United States",
    "Scottsdale, Arizona, United States"
@@ -988,7 +1077,7 @@
   ],
   "job_id": "8203581003",
   "key": "greenhouse:Axon:8203581003",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Boston, Massachusetts, United States",
    "Scottsdale, Arizona, United States"
@@ -1021,7 +1110,7 @@
   ],
   "job_id": "8203588003",
   "key": "greenhouse:Axon:8203588003",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York-Office(27th St)",
    "Scottsdale, Arizona, United States"
@@ -1053,7 +1142,7 @@
   ],
   "job_id": "8949087002",
   "key": "greenhouse:Cssmerge:8949087002",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco, CA",
    "San Francisco, California, United States"
@@ -1084,7 +1173,7 @@
   ],
   "job_id": "8301438",
   "key": "greenhouse:DoorDash:8301438",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Los Angeles, CA; San Francisco, CA; New York, NY",
    "New York"
@@ -1147,7 +1236,7 @@
   ],
   "job_id": "8350225",
   "key": "greenhouse:DoorDash:8350225",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York, NY; San Francisco, CA; Seattle, WA; Los Angeles, CA; Seattle, WA; Washington, DC; Chicago, IL; Tempe, AZ",
    "New York"
@@ -1178,7 +1267,7 @@
   ],
   "job_id": "8356727",
   "key": "greenhouse:DoorDash:8356727",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco, CA; New York, NY",
    "San Francisco, CA"
@@ -1210,7 +1299,7 @@
   ],
   "job_id": "8368010",
   "key": "greenhouse:DoorDash:8368010",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York, NY",
    "New York"
@@ -1243,7 +1332,7 @@
   ],
   "job_id": "8383502",
   "key": "greenhouse:Enova:8383502",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Chicago, IL ",
    "175 W. Jackson Blvd Chicago, IL 60604"
@@ -1274,7 +1363,7 @@
   ],
   "job_id": "4466612009",
   "key": "greenhouse:Fanaticscollectibles:4466612009",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Sunnyvale, TX, United States",
    "Sunnyvale, Texas, United States"
@@ -1306,7 +1395,7 @@
   ],
   "job_id": "4724920006",
   "key": "greenhouse:Figureai:4724920006",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Jose, CA",
    "San Jose, California, United States"
@@ -1338,7 +1427,7 @@
   ],
   "job_id": "6228319004",
   "key": "greenhouse:Focusfinancialpartners:6228319004",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Boston, MA",
    "Boston, Massachusetts, United States"
@@ -1368,7 +1457,7 @@
   ],
   "job_id": "8249635",
   "key": "greenhouse:Formlabs:8249635",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Somerville, MA",
    "Somerville, MA, United States"
@@ -1399,7 +1488,7 @@
   ],
   "job_id": "8311099",
   "key": "greenhouse:Formlabs:8311099",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Somerville, MA",
    "Somerville, MA, United States"
@@ -1430,7 +1519,7 @@
   ],
   "job_id": "4509396009",
   "key": "greenhouse:Instalilyai:4509396009",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York City",
    "New York, New York, United States"
@@ -1462,7 +1551,7 @@
   ],
   "job_id": "5457593008",
   "key": "greenhouse:Moxxidigital:5457593008",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York, New York ",
    "New York, New York, United States"
@@ -1494,7 +1583,7 @@
   ],
   "job_id": "8211718",
   "key": "greenhouse:Planetlabs:8211718",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco, CA",
    "San Francisco Office"
@@ -1527,7 +1616,7 @@
   ],
   "job_id": "8263932",
   "key": "greenhouse:Planetlabs:8263932",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco, CA",
    "San Francisco Office"
@@ -1591,7 +1680,7 @@
   ],
   "job_id": "4752680005",
   "key": "greenhouse:Rackner:4752680005",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Remote \u2014 United States",
    "Falls Church, Virginia, United States"
@@ -1716,7 +1805,7 @@
   ],
   "job_id": "4480651009",
   "key": "greenhouse:Undercontrolroboticsinc:4480651009",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Sunnyvale, CA",
    "Sunnyvale, California, United States"
@@ -1748,7 +1837,7 @@
   ],
   "job_id": "5275085007",
   "key": "greenhouse:Verkada:5275085007",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Mateo, CA United States",
    "San Mateo, California, United States"
@@ -1779,7 +1868,7 @@
   ],
   "job_id": "8b58a4ff-8804-4302-bb84-c7c3bd32e9e3",
   "key": "lever:Bluesight:8b58a4ff-8804-4302-bb84-c7c3bd32e9e3",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "United States - Remote"
   ],
@@ -1809,7 +1898,7 @@
   ],
   "job_id": "b000e904-0c59-4c81-b7ad-a6f2844a94d6",
   "key": "lever:Hive:b000e904-0c59-4c81-b7ad-a6f2844a94d6",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco"
   ],
@@ -1839,7 +1928,7 @@
   ],
   "job_id": "0287a2b0-5972-4bff-89c2-36e2a36dc4a8",
   "key": "lever:Veeva:0287a2b0-5972-4bff-89c2-36e2a36dc4a8",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York - New York City"
   ],
@@ -1869,7 +1958,7 @@
   ],
   "job_id": "4e962ef7-7d6f-4962-a344-7a2740b99aa1",
   "key": "lever:Veeva:4e962ef7-7d6f-4962-a344-7a2740b99aa1",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Massachusetts - Boston"
   ],
@@ -1899,7 +1988,7 @@
   ],
   "job_id": "4d3d7741-f357-4a6d-b18f-60e2541c1a7f",
   "key": "lever:Waabi:4d3d7741-f357-4a6d-b18f-60e2541c1a7f",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Pittsburgh, PA",
    "Toronto, ON",
@@ -1936,7 +2025,7 @@
   ],
   "job_id": "9b088854-b5e0-49e2-a368-e82220c0b375",
   "key": "lever:Zoox:9b088854-b5e0-49e2-a368-e82220c0b375",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Hayward, CA"
   ],
@@ -1966,7 +2055,7 @@
   ],
   "job_id": "d4591906-92ca-469c-a235-d36eff8f6b06",
   "key": "simplify:Applied Materials:d4591906-92ca-469c-a235-d36eff8f6b06",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Santa Clara, CA"
   ],
@@ -1997,7 +2086,7 @@
   ],
   "job_id": "3743990015247176",
   "key": "smartrecruiters:AbbVie:3743990015247176",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "North Chicago, IL, us"
   ],
@@ -2027,7 +2116,7 @@
   ],
   "job_id": "3743990016943886",
   "key": "smartrecruiters:AbbVie:3743990016943886",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "North Chicago, IL, us"
   ],
@@ -2056,7 +2145,7 @@
   ],
   "job_id": "3743990016806046",
   "key": "smartrecruiters:CircleLogistics1:3743990016806046",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Remote, OR, us (Remote)"
   ],
@@ -2117,7 +2206,7 @@
   ],
   "job_id": "3743990017020456",
   "key": "smartrecruiters:CityAndCountyOfSanFrancisco1:3743990017020456",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Francisco, CA, us"
   ],
@@ -2146,7 +2235,7 @@
   ],
   "job_id": "744000160796271",
   "key": "smartrecruiters:MattelInc:744000160796271",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "East Aurora, NEW YORK, us"
   ],
@@ -2175,7 +2264,7 @@
   ],
   "job_id": "744000161991389",
   "key": "smartrecruiters:NBCUniversal3:744000161991389",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "New York, NEW YORK, us"
   ],
@@ -2204,7 +2293,7 @@
   ],
   "job_id": "744000159742499",
   "key": "smartrecruiters:Tenergy:744000159742499",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Fremont, CA, us"
   ],
@@ -2233,7 +2322,7 @@
   ],
   "job_id": "744000160924891",
   "key": "smartrecruiters:Western Digital:744000160924891",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "San Jose, CA, us"
   ],
@@ -2613,6 +2702,36 @@
   "verdict": "",
   "why": "Adjacent supply chain role; requires 4+ yrs"
  },
+ "workday:Gevernova:Asia-Pacific-Regional-Logistics-Leader_R5058253-2": {
+  "ats": "workday",
+  "company": "Gevernova",
+  "concerns": "",
+  "first_seen": "2026-11-22",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "Asia-Pacific-Regional-Logistics-Leader_R5058253-2",
+  "key": "workday:Gevernova:Asia-Pacific-Regional-Logistics-Leader_R5058253-2",
+  "last_seen": "2026-11-22",
+  "locations": [
+   "Shanghai",
+   "Remote"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-12",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 52,
+  "time_type": "Full time",
+  "title": "Asia Pacific Regional Logistics Leader",
+  "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Shanghai/Asia-Pacific-Regional-Logistics-Leader_R5058253-2",
+  "verdict": "",
+  "why": "Adjacent supply chain role; pay not listed"
+ },
  "workday:Ghr:Associate--VP---Equity-Research--IT-Hardware---Technology-Supply-Chain_26020844-1": {
   "ats": "workday",
   "company": "Ghr",
@@ -2653,7 +2772,7 @@
   ],
   "job_id": "Supply-Planner_R0006297",
   "key": "workday:Helenoftroy:Supply-Planner_R0006297",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "USA - Marlborough, Massachusetts"
   ],
@@ -2791,6 +2910,36 @@
   "verdict": "",
   "why": "Adjacent supply chain role; requires 1+ yrs; pay not listed"
  },
+ "workday:Symbotic:Operations-Development-Program_R7969": {
+  "ats": "workday",
+  "company": "Symbotic",
+  "concerns": "",
+  "first_seen": "2026-11-22",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "Operations-Development-Program_R7969",
+  "key": "workday:Symbotic:Operations-Development-Program_R7969",
+  "last_seen": "2026-11-22",
+  "locations": [
+   "USA Remote & Travel"
+  ],
+  "metro": "Remote (US)",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-12",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 60,
+  "time_type": "Full time",
+  "title": "Operations Development Program",
+  "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Remote--Travel/Operations-Development-Program_R7969",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
  "workday:Sysco:Produce-Inventory-Planner_R273933-1": {
   "ats": "workday",
   "company": "Sysco",
@@ -2802,7 +2951,7 @@
   ],
   "job_id": "Produce-Inventory-Planner_R273933-1",
   "key": "workday:Sysco:Produce-Inventory-Planner_R273933-1",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Sysco San Diego",
    "Sysco Arizona  -  OpCo",
@@ -2869,7 +3018,7 @@
   ],
   "job_id": "eightfold-eaton-687240366280",
   "key": "zapply:Eaton:eightfold-eaton-687240366280",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Orchard Park, New York, USA, 14127"
   ],
@@ -2899,7 +3048,7 @@
   ],
   "job_id": "sr-llnl-3743990017020106",
   "key": "zapply:LLNL:sr-llnl-3743990017020106",
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-22",
   "locations": [
    "Livermore, CA"
   ],
