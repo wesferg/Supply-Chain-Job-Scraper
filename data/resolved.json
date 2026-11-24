@@ -296,7 +296,7 @@
   }
  },
  "Lam Research": {
-  "failed_on": "2026-11-22",
+  "failed_on": "2026-11-24",
   "hints": "{\"ats\": \"eightfold\", \"domain\": \"lamresearch.com\", \"host\": \"careers.lamresearch.com\"}",
   "unsure": true
  },
