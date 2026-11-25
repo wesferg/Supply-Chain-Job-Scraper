@@ -29,6 +29,36 @@
   "verdict": "",
   "why": "General operations role; entry-level title; requires 2+ yrs"
  },
+ "ashby:Antioch:1c5e60d7-1c69-4357-93df-9443350d2329": {
+  "ats": "ashby",
+  "company": "Antioch",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "general",
+   "entry"
+  ],
+  "job_id": "1c5e60d7-1c69-4357-93df-9443350d2329",
+  "key": "ashby:Antioch:1c5e60d7-1c69-4357-93df-9443350d2329",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "New York City (in-person)"
+  ],
+  "metro": "New York City",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-22",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 36,
+  "time_type": "FullTime",
+  "title": "Operations Associate, Office & Executive Support",
+  "url": "https://jobs.ashbyhq.com/antioch/1c5e60d7-1c69-4357-93df-9443350d2329",
+  "verdict": "",
+  "why": "General operations role; entry-level title; pay not listed"
+ },
  "ashby:Applied:c490ee87-d220-4971-be06-f75729d06099": {
   "ats": "ashby",
   "company": "Applied",
@@ -944,6 +974,7 @@
   "ats": "greenhouse",
   "company": "Amaehealth",
   "concerns": "",
+  "display": "Amae Health",
   "first_seen": "2026-11-24",
   "flags": [
    "general"
@@ -1855,6 +1886,36 @@
   "verdict": "",
   "why": "Adjacent supply chain role; entry-level title; requires 1+ yrs"
  },
+ "greenhouse:Sharkninjaoperatingllc:4729432006": {
+  "ats": "greenhouse",
+  "company": "Sharkninjaoperatingllc",
+  "concerns": "",
+  "display": "SharkNinja",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "core"
+  ],
+  "job_id": "4729432006",
+  "key": "greenhouse:Sharkninjaoperatingllc:4729432006",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Needham, MA, United States"
+  ],
+  "metro": "Boston",
+  "min_years": 1,
+  "origin": "universe",
+  "posted": "2026-11-24",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 90000.0,
+  "salary_min": 66300.0,
+  "score": 79,
+  "time_type": "",
+  "title": "Supply Planner ",
+  "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4729432006",
+  "verdict": "",
+  "why": "Core planning/supply chain role; requires 1+ yrs"
+ },
  "greenhouse:Sharkninjaoperatingllc:4729477006": {
   "ats": "greenhouse",
   "company": "Sharkninjaoperatingllc",
@@ -2138,6 +2199,35 @@
   "verdict": "",
   "why": "General operations role; entry-level title"
  },
+ "lever:Wwprosolutions:d2e78437-ff58-4045-a50d-19dcb906c1a4": {
+  "ats": "lever",
+  "company": "Wwprosolutions",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "d2e78437-ff58-4045-a50d-19dcb906c1a4",
+  "key": "lever:Wwprosolutions:d2e78437-ff58-4045-a50d-19dcb906c1a4",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Malta, New York"
+  ],
+  "metro": "New York City",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-21",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 150000,
+  "salary_min": 80000,
+  "score": 65,
+  "time_type": "Full-Time",
+  "title": "Dock & Logistics Coordinator , Malta, NY - Semiconductor",
+  "url": "https://jobs.lever.co/wwprosolutions/d2e78437-ff58-4045-a50d-19dcb906c1a4",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
+ },
  "lever:Zoox:9b088854-b5e0-49e2-a368-e82220c0b375": {
   "ats": "lever",
   "company": "Zoox",
@@ -2350,6 +2440,35 @@
   "verdict": "",
   "why": "Adjacent supply chain role; entry-level title; requires 3+ yrs; pay not listed"
  },
+ "smartrecruiters:HarvardUniversity:3743990016991246": {
+  "ats": "smartrecruiters",
+  "company": "HarvardUniversity",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "general"
+  ],
+  "job_id": "3743990016991246",
+  "key": "smartrecruiters:HarvardUniversity:3743990016991246",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Cambridge, MA, us"
+  ],
+  "metro": "Boston",
+  "min_years": 1,
+  "origin": "universe",
+  "posted": "2026-11-20",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 34,
+  "time_type": "Full-time",
+  "title": "Operations Coordinator",
+  "url": "https://jobs.smartrecruiters.com/HarvardUniversity/3743990016991246",
+  "verdict": "",
+  "why": "General operations role; requires 1+ yrs; pay not listed"
+ },
  "smartrecruiters:Intuitive Surgical:744000163341209": {
   "ats": "smartrecruiters",
   "company": "Intuitive Surgical",
@@ -2379,6 +2498,65 @@
   "url": "https://jobs.smartrecruiters.com/intuitive/744000163341209",
   "verdict": "",
   "why": "Core planning/supply chain role; entry-level title; requires 1+ yrs; pay not listed"
+ },
+ "smartrecruiters:LLNL:3743990016984926": {
+  "ats": "smartrecruiters",
+  "company": "LLNL",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "3743990016984926",
+  "key": "smartrecruiters:LLNL:3743990016984926",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Livermore, CA, us"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-20",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 168852.0,
+  "salary_min": 114900.0,
+  "score": 82,
+  "time_type": "Full-time",
+  "title": "Procurement Policy Analyst ",
+  "url": "https://jobs.smartrecruiters.com/LLNL/3743990016984926",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title"
+ },
+ "smartrecruiters:LLNL:3743990016985111": {
+  "ats": "smartrecruiters",
+  "company": "LLNL",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "core"
+  ],
+  "job_id": "3743990016985111",
+  "key": "smartrecruiters:LLNL:3743990016985111",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Livermore, CA, us"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-20",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 143328.0,
+  "salary_min": 122028.0,
+  "score": 90,
+  "time_type": "Full-time",
+  "title": "Operations Research Postdoctoral Researcher",
+  "url": "https://jobs.smartrecruiters.com/LLNL/3743990016985111",
+  "verdict": "",
+  "why": "Core planning/supply chain role"
  },
  "smartrecruiters:MattelInc:744000160796271": {
   "ats": "smartrecruiters",
@@ -2438,6 +2616,36 @@
   "verdict": "",
   "why": "Adjacent supply chain role; requires 1+ yrs"
  },
+ "smartrecruiters:NorthwesternMedicine:744000162525500": {
+  "ats": "smartrecruiters",
+  "company": "NorthwesternMedicine",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "744000162525500",
+  "key": "smartrecruiters:NorthwesternMedicine:744000162525500",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Chicago, IL, us"
+  ],
+  "metro": "Chicago",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-19",
+  "pref_years": 5,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 66,
+  "time_type": "Full-time",
+  "title": "Supply Chain Specialist II Logistics - PSS Equipment and Technology, Full-time, Evenings ",
+  "url": "https://jobs.smartrecruiters.com/NorthwesternMedicine/744000162525500",
+  "verdict": "",
+  "why": "Core planning/supply chain role; prefers 5+ yrs; pay not listed"
+ },
  "smartrecruiters:Tenergy:744000159742499": {
   "ats": "smartrecruiters",
   "company": "Tenergy",
@@ -2466,6 +2674,66 @@
   "url": "https://jobs.smartrecruiters.com/Tenergy/744000159742499",
   "verdict": "",
   "why": "Adjacent supply chain role; pay not listed"
+ },
+ "smartrecruiters:TurnerTownsend:744000162592394": {
+  "ats": "smartrecruiters",
+  "company": "TurnerTownsend",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "744000162592394",
+  "key": "smartrecruiters:TurnerTownsend:744000162592394",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Menlo Park, California, us"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-11-19",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 105000.0,
+  "salary_min": 95000.0,
+  "score": 82,
+  "time_type": "Full-time",
+  "title": "MAC Furniture Associate Planner",
+  "url": "https://jobs.smartrecruiters.com/TurnerTownsend/744000162592394",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; requires 2+ yrs"
+ },
+ "smartrecruiters:Versant3:744000162796457": {
+  "ats": "smartrecruiters",
+  "company": "Versant3",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "744000162796457",
+  "key": "smartrecruiters:Versant3:744000162796457",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Englewood Cliffs, NEW JERSEY, us (Remote)"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2026-11-20",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 54,
+  "time_type": "Full-time",
+  "title": "Product Owner, Supply Chain & Procurement (SAP S/4HANA)",
+  "url": "https://jobs.smartrecruiters.com/Versant3/744000162796457",
+  "verdict": "",
+  "why": "Core planning/supply chain role; requires 3+ yrs; pay not listed"
  },
  "smartrecruiters:Western Digital:744000160924891": {
   "ats": "smartrecruiters",
@@ -2707,6 +2975,69 @@
   "verdict": "",
   "why": "Core planning/supply chain role; entry-level title; requires 0+ yrs; pay not listed"
  },
+ "workday:Ciena:Global-Trade-Analyst--Remote-East-Coast-North-America_R032051": {
+  "ats": "workday",
+  "company": "Ciena",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "Global-Trade-Analyst--Remote-East-Coast-North-America_R032051",
+  "key": "workday:Ciena:Global-Trade-Analyst--Remote-East-Coast-North-America_R032051",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Remote-US",
+   "Remote-Canada"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2026-11-17",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 48,
+  "time_type": "Full time",
+  "title": "Global Trade Analyst, Remote East Coast North America",
+  "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Remote-US/Global-Trade-Analyst--Remote-East-Coast-North-America_R032051",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; requires 3+ yrs; pay not listed"
+ },
+ "workday:Ciena:Planner--Supply-Chain_R032068": {
+  "ats": "workday",
+  "company": "Ciena",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "core",
+   "stretch"
+  ],
+  "job_id": "Planner--Supply-Chain_R032068",
+  "key": "workday:Ciena:Planner--Supply-Chain_R032068",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Guadalajara",
+   "Remote-US"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2026-11-10",
+  "pref_years": 5,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 56,
+  "time_type": "Full time",
+  "title": "Planner, Supply Chain",
+  "url": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Guadalajara/Planner--Supply-Chain_R032068",
+  "verdict": "",
+  "why": "Core planning/supply chain role; requires 3+ yrs; prefers 5+ yrs; pay not listed"
+ },
  "workday:Cni:Logistics-Specialist_R9165": {
   "ats": "workday",
   "company": "Cni",
@@ -2867,7 +3198,7 @@
   ],
   "job_id": "Asia-Pacific-Regional-Logistics-Leader_R5058253-2",
   "key": "workday:Gevernova:Asia-Pacific-Regional-Logistics-Leader_R5058253-2",
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "locations": [
    "Shanghai",
    "Remote"
@@ -2917,6 +3248,41 @@
   "verdict": "",
   "why": "Core planning/supply chain role; entry-level title; requires 1+ yrs; prefers 3+ yrs; pay not listed"
  },
+ "workday:Guardianlife:Financial-Analyst---Operations--Service---Claims_R000109999": {
+  "ats": "workday",
+  "company": "Guardianlife",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "general",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "Financial-Analyst---Operations--Service---Claims_R000109999",
+  "key": "workday:Guardianlife:Financial-Analyst---Operations--Service---Claims_R000109999",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Bethlehem",
+   "New York",
+   "Boston",
+   "Pittsfield",
+   "Holmdel"
+  ],
+  "metro": "New York City",
+  "min_years": 4,
+  "origin": "universe",
+  "posted": "2026-11-10",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 30,
+  "time_type": "Full time",
+  "title": "Financial Analyst - Strategy and Operations",
+  "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Bethlehem/Financial-Analyst---Operations--Service---Claims_R000109999",
+  "verdict": "",
+  "why": "General operations role; entry-level title; requires 4+ yrs; pay not listed"
+ },
  "workday:Helenoftroy:Supply-Planner_R0006297": {
   "ats": "workday",
   "company": "Helenoftroy",
@@ -2927,7 +3293,7 @@
   ],
   "job_id": "Supply-Planner_R0006297",
   "key": "workday:Helenoftroy:Supply-Planner_R0006297",
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "locations": [
    "USA - Marlborough, Massachusetts"
   ],
@@ -3005,6 +3371,36 @@
   "verdict": "",
   "why": "Adjacent supply chain role; pay not listed"
  },
+ "workday:Keybank:Market-Planner-I_R-41352-1": {
+  "ats": "workday",
+  "company": "Keybank",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "Market-Planner-I_R-41352-1",
+  "key": "workday:Keybank:Market-Planner-I_R-41352-1",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Brooklyn, OH"
+  ],
+  "metro": "New York City",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-03",
+  "pref_years": 3,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 68,
+  "time_type": "Full time",
+  "title": "Market Planner I",
+  "url": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/Market-Planner-I_R-41352-1",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; prefers 3+ yrs; pay not listed"
+ },
  "workday:Leidos:Science-Planner_R-00196617": {
   "ats": "workday",
   "company": "Leidos",
@@ -3061,6 +3457,36 @@
   "time_type": "",
   "title": "Operations Analyst",
   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Boston-Massachusetts/Operations-Analyst_JR26100914",
+  "verdict": "",
+  "why": "General operations role; entry-level title; pay not listed"
+ },
+ "workday:Rb:Cash-Operations-Specialist-I_R-0000034034-1": {
+  "ats": "workday",
+  "company": "Rb",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "general",
+   "entry"
+  ],
+  "job_id": "Cash-Operations-Specialist-I_R-0000034034-1",
+  "key": "workday:Rb:Cash-Operations-Specialist-I_R-0000034034-1",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Chicago, IL"
+  ],
+  "metro": "Chicago",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-05",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 42,
+  "time_type": "Full time",
+  "title": "Cash Operations Specialist I",
+  "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Chicago-IL/Cash-Operations-Specialist-I_R-0000034034-1",
   "verdict": "",
   "why": "General operations role; entry-level title; pay not listed"
  },
@@ -3182,6 +3608,35 @@
   "verdict": "",
   "why": "Adjacent supply chain role; requires 1+ yrs; pay not listed"
  },
+ "workday:Ryder:Customer-Logistics-Manger_R190021": {
+  "ats": "workday",
+  "company": "Ryder",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "Customer-Logistics-Manger_R190021",
+  "key": "workday:Ryder:Customer-Logistics-Manger_R190021",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "USA - Remote NJ"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-11-23",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 54,
+  "time_type": "Full time",
+  "title": "Customer Logistics Manger",
+  "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/USA---Remote-NJ/Customer-Logistics-Manger_R190021",
+  "verdict": "",
+  "why": "Adjacent supply chain role; requires 2+ yrs; pay not listed"
+ },
  "workday:Symbotic:Operations-Development-Program_R7969": {
   "ats": "workday",
   "company": "Symbotic",
@@ -3193,7 +3648,7 @@
   ],
   "job_id": "Operations-Development-Program_R7969",
   "key": "workday:Symbotic:Operations-Development-Program_R7969",
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "locations": [
    "USA Remote & Travel"
   ],
@@ -3211,6 +3666,97 @@
   "url": "https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Remote--Travel/Operations-Development-Program_R7969",
   "verdict": "",
   "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
+ "workday:Synnex:Export-Analyst-II_R57640": {
+  "ats": "workday",
+  "company": "Synnex",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "Export-Analyst-II_R57640",
+  "key": "workday:Synnex:Export-Analyst-II_R57640",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Fremont, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2026-11-12",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 74000.0,
+  "salary_min": 52000.0,
+  "score": 64,
+  "time_type": "Full time",
+  "title": "Export Analyst II",
+  "url": "https://synnex.wd5.myworkdayjobs.com/hyvecareers/job/Fremont-CA/Export-Analyst-II_R57640",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; requires 3+ yrs"
+ },
+ "workday:Synnex:Import-Analyst-II_R57639": {
+  "ats": "workday",
+  "company": "Synnex",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent",
+   "stretch",
+   "entry"
+  ],
+  "job_id": "Import-Analyst-II_R57639",
+  "key": "workday:Synnex:Import-Analyst-II_R57639",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Fremont, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": 3,
+  "origin": "universe",
+  "posted": "2026-11-12",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 74000.0,
+  "salary_min": 52000.0,
+  "score": 64,
+  "time_type": "Full time",
+  "title": "Import Analyst II",
+  "url": "https://synnex.wd5.myworkdayjobs.com/hyvecareers/job/Fremont-CA/Import-Analyst-II_R57639",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; requires 3+ yrs"
+ },
+ "workday:Synnex:Product-Sourcing-Specialist_R56305": {
+  "ats": "workday",
+  "company": "Synnex",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent"
+  ],
+  "job_id": "Product-Sourcing-Specialist_R56305",
+  "key": "workday:Synnex:Product-Sourcing-Specialist_R56305",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Fremont, CA"
+  ],
+  "metro": "SF Bay Area",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-11-18",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": 160000.0,
+  "salary_min": 120000.0,
+  "score": 72,
+  "time_type": "Full time",
+  "title": "Product Sourcing Specialist",
+  "url": "https://synnex.wd5.myworkdayjobs.com/hyvecareers/job/Fremont-CA/Product-Sourcing-Specialist_R56305",
+  "verdict": "",
+  "why": "Adjacent supply chain role"
  },
  "workday:Sysco:Produce-Inventory-Planner_R273933-1": {
   "ats": "workday",
@@ -3249,6 +3795,36 @@
   "verdict": "",
   "why": "Core planning/supply chain role; requires 3+ yrs; pay not listed"
  },
+ "workday:Thehartford:Capacity-Planning-Consultant_R2627880": {
+  "ats": "workday",
+  "company": "Thehartford",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "core"
+  ],
+  "job_id": "Capacity-Planning-Consultant_R2627880",
+  "key": "workday:Thehartford:Capacity-Planning-Consultant_R2627880",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Hartford, CT",
+   "United States - Remote"
+  ],
+  "metro": "Remote (US)",
+  "min_years": 2,
+  "origin": "universe",
+  "posted": "2026-11-20",
+  "pref_years": null,
+  "remote": true,
+  "salary_max": 111600.0,
+  "salary_min": 74400.0,
+  "score": 73,
+  "time_type": "Full time",
+  "title": "Capacity Planning Consultant",
+  "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Hartford-CT/Capacity-Planning-Consultant_R2627880",
+  "verdict": "",
+  "why": "Core planning/supply chain role; requires 2+ yrs"
+ },
  "workday:Topcon:Demand-Planner_JR107370": {
   "ats": "workday",
   "company": "Topcon",
@@ -3279,6 +3855,36 @@
   "verdict": "",
   "why": "Core planning/supply chain role; requires 4+ yrs"
  },
+ "workday:Uchicago:ARC-Operations-Analyst_JR34987": {
+  "ats": "workday",
+  "company": "Uchicago",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "general",
+   "entry"
+  ],
+  "job_id": "ARC-Operations-Analyst_JR34987",
+  "key": "workday:Uchicago:ARC-Operations-Analyst_JR34987",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Chicago, IL"
+  ],
+  "metro": "Chicago",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-10-26",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 34,
+  "time_type": "",
+  "title": "ARC Operations Analyst",
+  "url": "https://uchicago.wd5.myworkdayjobs.com/en-US/External/job/Chicago-IL/ARC-Operations-Analyst_JR34987",
+  "verdict": "",
+  "why": "General operations role; entry-level title; pay not listed"
+ },
  "workday:Wk:Fulfillment-Associate-I_R0061188": {
   "ats": "workday",
   "company": "Wk",
@@ -3306,6 +3912,39 @@
   "time_type": "",
   "title": "Fulfillment Associate I",
   "url": "https://wk.wd3.myworkdayjobs.com/en-US/External/job/USA---New-York-City-NY/Fulfillment-Associate-I_R0061188",
+  "verdict": "",
+  "why": "Adjacent supply chain role; entry-level title; pay not listed"
+ },
+ "workday:Xylem:Operations-Leadership-Development-Program--OLDP-_R50986": {
+  "ats": "workday",
+  "company": "Xylem",
+  "concerns": "",
+  "first_seen": "2026-11-24",
+  "flags": [
+   "adjacent",
+   "entry"
+  ],
+  "job_id": "Operations-Leadership-Development-Program--OLDP-_R50986",
+  "key": "workday:Xylem:Operations-Leadership-Development-Program--OLDP-_R50986",
+  "last_seen": "2026-11-24",
+  "locations": [
+   "Morton Grove, Illinois",
+   "Holland, Michigan (Office)",
+   "Dubois, Pennsylvania",
+   "Auburn, New York"
+  ],
+  "metro": "New York City",
+  "min_years": null,
+  "origin": "universe",
+  "posted": "2026-09-28",
+  "pref_years": null,
+  "remote": false,
+  "salary_max": null,
+  "salary_min": null,
+  "score": 70,
+  "time_type": "Full time",
+  "title": "Operations Leadership Development Program (OLDP)",
+  "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Morton-Grove-Illinois/Operations-Leadership-Development-Program--OLDP-_R50986",
   "verdict": "",
   "why": "Adjacent supply chain role; entry-level title; pay not listed"
  },

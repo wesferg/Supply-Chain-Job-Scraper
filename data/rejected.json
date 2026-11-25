@@ -15,17 +15,17 @@
   "title": "Corporate & Integration Operations Associate"
  },
  "ashby:Advanced systems group:e85f3529-b0a7-4af2-a092-75528bee7ae8": {
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-24",
   "reason": "type: Temporary",
   "title": "Streaming Operations Specialist"
  },
  "ashby:Aerovect:2696cf23-051a-40aa-aa84-4f0156024037": {
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-24",
   "reason": "location: Toronto  - Remote",
   "title": "Buyer/Planner"
  },
  "ashby:Aerovect:ce98e046-24d3-4bdc-b376-423dcc0f7f5d": {
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-24",
   "reason": "location: Detroit - Remote",
   "title": "Buyer/Planner"
  },
@@ -45,17 +45,17 @@
   "title": "Strategy and Operations, Revenue"
  },
  "ashby:Aiand:a6b9afe7-521e-42d5-b624-82e42b9909d2": {
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-24",
   "reason": "location: Yokohama; Tokyo",
   "title": "Procurement Specialist"
  },
  "ashby:Allarahealth:c2f68c70-c1b7-4347-97c0-621fabad797f": {
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-24",
   "reason": "location: Florida",
   "title": "Payer Operations Specialist"
  },
  "ashby:Annaautismcare:470ec347-97c4-429b-b443-7aec76e0697c": {
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-24",
   "reason": "location: Remote - Philippines",
   "title": "Business Operations Specialist"
  },
@@ -70,7 +70,7 @@
   "title": "Talent Operations Specialist "
  },
  "ashby:Aptura:5e296c09-27d9-46d6-afb1-79886c624d65": {
-  "last_seen": "2026-11-20",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract",
   "title": "Supply Chain AI Research Contributor"
  },
@@ -549,6 +549,11 @@
   "reason": "age: posted 99 days ago",
   "title": "AV Operations Specialist"
  },
+ "greenhouse:Anthropic:5391277008": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 62 days ago",
+  "title": "Program Operations, Coordination & Logistics, Claude Frontier Academy"
+ },
  "greenhouse:Anthropic:5432995008": {
   "last_seen": "2026-11-24",
   "reason": "age: posted 55 days ago",
@@ -764,6 +769,16 @@
   "reason": "age: posted 154 days ago",
   "title": "Analyst, Transportation & Supply Chain Strategy"
  },
+ "greenhouse:Flexport:8414628": {
+  "last_seen": "2026-11-24",
+  "reason": "salary: tops out at $57,595",
+  "title": "Global Operations Specialist"
+ },
+ "greenhouse:Flexport:8414677": {
+  "last_seen": "2026-11-24",
+  "reason": "salary: tops out at $57,595",
+  "title": "Global Operations Specialist"
+ },
  "greenhouse:Formlabs:8368295": {
   "last_seen": "2026-11-24",
   "reason": "experience: 5+ years required",
@@ -964,68 +979,78 @@
   "reason": "age: posted 33 days ago",
   "title": "Business Operations Associate"
  },
+ "lever:Istaridigital ai:a28b43f8-cc70-4e20-b833-e0228bb2d48e": {
+  "last_seen": "2026-11-24",
+  "reason": "location: DMV (Washington, D.C., Maryland, Virginia) (Hybrid)",
+  "title": "Talent Sourcing & Operations Specialist"
+ },
  "lever:Palantir:5f3f9547-2aea-4ac2-995d-e8fa53b16e39": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 39 days ago",
   "title": "Operations Analyst - US Government Security"
  },
+ "lever:Palantir:7600fb76-e25e-418c-bf83-d2b1444f2dc6": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 1862 days ago",
+  "title": "Supply Chain Security Analyst"
+ },
  "lever:Palantir:b14585f4-9a68-49e8-97af-3f03f2a6c357": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 1558 days ago",
   "title": "Operations Analyst - US Government"
  },
  "lever:Pditechnologies:56f66a9d-8766-40bd-91bc-3be14ba8cd72": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 35 days ago",
   "title": "Network Operations Analyst II"
  },
  "lever:Pditechnologies:de8e6233-ea7c-4c60-9f89-22e0373ef692": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "salary: tops out at $33,280",
   "title": "Fuel Logistics & Accounting Analyst"
  },
  "lever:Plus 2:4afbf05b-6448-4e2b-b607-10383aca103f": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 43 days ago",
   "title": "Vehicle Operations Specialist"
  },
  "lever:Redsox:167a78b0-6079-40c3-84fd-8b072328c4d0": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 33 days ago",
   "title": "Accounting Operations Specialist"
  },
  "lever:Runlaminar:ecf43bba-cf9e-47a4-9885-a393a6a68c64": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 52 days ago",
   "title": "Strategy & Operations, Founder's Office"
  },
  "lever:Trueplatform:6bc84742-5770-4e32-8a24-c39119956dba": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Multiple Locations (US)",
   "title": "HRIS Operations Associate"
  },
  "lever:Tsmg:9dff56d8-98b8-468f-b298-0660ae68695d": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract Full time",
   "title": "Inventory Analyst"
  },
  "lever:Tsmg:c90567ef-b293-4c5c-bce1-321c612035fa": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract Full time",
   "title": "Trainer - Logistics & Supply Chain"
  },
  "lever:Tsmg:d05dd061-7dd6-41bf-85a1-2240901c2a7b": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract Full time",
   "title": "Logistics Analyst"
  },
  "lever:Tsmg:f30379a7-5769-41df-aead-135d98216d4d": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract Full time",
   "title": "Sustaining Manufacturing & Logistics Specialist"
  },
  "lever:Wachter:c0cd74f1-23b8-41c5-b608-1cb9bad721f3": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 287 days ago",
   "title": "Traveling Low Voltage Foreman- Supply Chain Infrastructure"
  },
@@ -1050,47 +1075,47 @@
   "title": "Facilities Planner"
  },
  "smartrecruiters:Collabera2:94372919": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract",
   "title": "Operations Analyst"
  },
  "smartrecruiters:Eurofins:744000152197654": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 50 days ago",
   "title": "Logistics & Team Support Specialist - External Manufacturing"
  },
  "smartrecruiters:HarvardUniversity:3743990016816736": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "experience: 7+ years required",
   "title": "Strategic Sourcing Analyst"
  },
  "smartrecruiters:JobsForHumanity:744000146316469": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 79 days ago",
   "title": "Remote Operations Coordinator"
  },
  "smartrecruiters:JobsForHumanity:744000157775122": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Houston, TX, us (Remote)",
   "title": "Specialist II - Inventory Control"
  },
  "smartrecruiters:JobsForHumanity:744000158361860": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Miami Lakes, FL, us (Remote)",
   "title": "Supply Chain and International Procurement Specialist - Full Remote"
  },
  "smartrecruiters:JobsForHumanity:744000158375189": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Miami Lakes, FL, us (Remote)",
   "title": "Reports & Operations Auditor - Full Remote"
  },
  "smartrecruiters:Kioxia:744000159510769": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract",
   "title": "Demand Planner \u2013 Data Center Segment - 2286"
  },
  "smartrecruiters:KrgTechnologyInc:743999654643995": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract",
   "title": "SAP IBP Consultant"
  },
@@ -1104,13 +1129,18 @@
   "reason": "age: posted 63 days ago",
   "title": "Procurement Policy Analyst "
  },
+ "smartrecruiters:LLNL:3743990017078786": {
+  "last_seen": "2026-11-24",
+  "reason": "duplicate",
+  "title": "Work Planner"
+ },
  "smartrecruiters:M3USA:744000150607670": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Bengaluru, KA, in (Remote)",
   "title": "Operations Specialist"
  },
  "smartrecruiters:MSXInternational:3743990012632936": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Southfield, MI, us (Remote)",
   "title": "Dealer Operations Specialist"
  },
@@ -1125,42 +1155,42 @@
   "title": "Fulfillment Coordinator"
  },
  "smartrecruiters:Mirantis:744000142988729": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Yerevan, Yerevan, am (Remote)",
   "title": "Marketplace Operations Analyst (remote in Armenia)"
  },
  "smartrecruiters:Mirantis:744000143187780": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Almaty, Almaty Region, kz (Remote)",
   "title": "SaaS Operations Analyst \u2013 Cloud Commerce (remote in Kazakhstan)"
  },
  "smartrecruiters:Prosidianconsulting:744000011855106": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Charlotte, NC, us (Remote)",
   "title": "Logistics Management Specialist - Standard | Comprehensive Operational Support [DEA0036041]"
  },
  "smartrecruiters:Prosidianconsulting:744000020656029": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "type: Contract",
   "title": "Rail Rate Negotiations Analyst | Transportation and Logistics [DOENEOST002007]"
  },
  "smartrecruiters:Prosidianconsulting:744000034944757": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 680 days ago",
   "title": "Procurement Specialist | Professional and Administrtive Support Sevices  [DOE-PASS955960]"
  },
  "smartrecruiters:SOSi1:3743990011450776": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Multiple Locations, Multiple Locations, us",
   "title": "Operations Coordinator "
  },
  "smartrecruiters:SOSi1:3743990013848796": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Remote, Florida, us (Remote)",
   "title": "Procurement Analyst"
  },
  "smartrecruiters:SikaAG:744000137622849": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Tunis, Tunis Governorate, tn (Remote)",
   "title": "Export Specialist "
  },
@@ -1174,13 +1204,18 @@
   "reason": "age: posted 161 days ago",
   "title": "Inventory and Shipping Operations Associate"
  },
+ "smartrecruiters:TheNielsenCompany:3743990016972257": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mexico City, mx (Remote)",
+  "title": "Contract Management Specialist \u2013 Global Procurement"
+ },
  "smartrecruiters:TurnerTownsend:744000155122069": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 36 days ago",
   "title": "Supply Chain and Procurement Management - All Levels"
  },
  "smartrecruiters:VeoliaEnvironnementSA:744000160237736": {
-  "last_seen": "2026-11-18",
+  "last_seen": "2026-11-24",
   "reason": "location: Peterborough, England, gb (Remote)",
   "title": "Operations Analyst"
  },
@@ -1193,6 +1228,686 @@
   "last_seen": "2026-11-17",
   "reason": "experience: 5+ years required",
   "title": "Supply Chain Business Process Governance Specialist"
+ },
+ "workday:Accenture:Central-Operations-Planner---Analyst_R00337425": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Central Operations Planner \u2013 Analyst"
+ },
+ "workday:Accenture:Central-Operations-Planner---Analyst_R00337426": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Central Operations Planner \u2013 Analyst"
+ },
+ "workday:Accenture:Central-Operations-Planner---Analyst_R00337428": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Central Operations Planner \u2013 Analyst"
+ },
+ "workday:Accenture:Central-Operations-Planner---Analyst_R00337440": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Central Operations Planner \u2013 Analyst"
+ },
+ "workday:Accenture:Consultores-SAP-IBP_R00296449": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Pernambuco - Recife; Campina Grande, Unifacisa Building 7; Porto Alegre, Rua Uru",
+  "title": "Consultor(a) SAP IBP"
+ },
+ "workday:Accenture:Data-Scientist-Consultant---SupplyChain---Operations_R00203821": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Buenos Aires; Mar del Plata; Cordoba; Rosario",
+  "title": "Business Data Scientist - SupplyChain & Operations"
+ },
+ "workday:Accenture:Delivery-Operations-Associate-Manager_AIOC-S01639044-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Delivery Operations Associate Manager"
+ },
+ "workday:Accenture:Demand---Supply-Planning-Consultant---Process-Excellence_R00365944": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Kuala Lumpur, Exchange 106",
+  "title": "Demand & Supply Planning Consultant - Process Excellence"
+ },
+ "workday:Accenture:Healthcare-ERP-Demand-Planning-Consultant_R00363081-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Taguig",
+  "title": "Healthcare ERP Demand Planning Consultant"
+ },
+ "workday:Accenture:Learning-Operations-Specialist_AIOC-S01653909-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Learning Operations Specialist"
+ },
+ "workday:Accenture:Project-Planner-Consultant_14894799": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Roma",
+  "title": "Project Planner Consultant"
+ },
+ "workday:Accenture:SAP-EWM-Consultant---Supply-Chain-Transformation_R00333124-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Milano; Roma; Torino",
+  "title": "WMS Functional Consultant - Logistics & Warehouse Management"
+ },
+ "workday:Accenture:SAP-GTS-Consultant-with-German_R00354888": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bucharest",
+  "title": "SAP Logistics Consultant with German (GTS module)"
+ },
+ "workday:Accenture:SAP-Logistics-Consultant_R00296776": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Lisbon; Coimbra, Torre Arnado; Braga, Polo de Negocios de Braga; Lisbon, Santos ",
+  "title": "SAP Logistics Consultant"
+ },
+ "workday:Accenture:SAP-Logistics-Execution-Consultant---High-Tech--CMT-_R00361170": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 54 days ago",
+  "title": "SAP Logistics Execution Consultant - High Tech (CMT)"
+ },
+ "workday:Accenture:SAP-Supply-Chain-Consultant_R00373994-2": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Assago, Via del Mulino 11a; Roma",
+  "title": "SAP Supply Chain Consultant"
+ },
+ "workday:Accenture:Semiconductor-Operations-Analyst--Supply-Chain-Logistics-_R00330710": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Kuala Lumpur, Exchange 106",
+  "title": "Semiconductor Operations Analyst (Supply Chain/Logistics)"
+ },
+ "workday:Accenture:Solution-Planner_ATCI-5328077-S1942843-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Solution Planner"
+ },
+ "workday:Accenture:Supply-Chain---Fulfillment-Transformation-Consultant_14784343": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Milano; Roma",
+  "title": "Supply Chain & Fulfillment Transformation Consultant"
+ },
+ "workday:Accenture:Supply-Chain-Analytics---Planner_ATCP-1543554-S448720": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Manila; Cebu City",
+  "title": "Supply Chain Analytics & Planner"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01653597-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01657657-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01657659-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01657661-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01671075-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674244-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674245-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674246-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674247-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674248-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674249-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674250-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674251-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674252-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674253-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674254-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674255-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674256-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674257-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674258-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674297-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674298-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674299-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674300-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674301-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674302-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674303-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674304-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674305-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674306-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674307-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674308-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674309-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674310-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01674311-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01675467-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01675468-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01675469-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01675477-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01675478-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01675479-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01675480-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Analyst_AIOC-S01675481-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01654536-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Noida",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01665413-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01665654-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01665656-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01668574": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Noida",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01671418-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01673194-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Kolkata",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01673195-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Kolkata",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01673196-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Kolkata",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01673197-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Kolkata",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675034-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675035-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675036-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675037-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675038-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675470-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675471-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675472-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_AIOC-S01675473-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Associate_R00363813": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Sofia",
+  "title": "Supply Chain Operations Associate"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01670670-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01673815-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01674260-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01674261-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01674262-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01674325-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01674326-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01674327-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01675476-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Operations-Specialist_AIOC-S01675482-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru",
+  "title": "Supply Chain Operations Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651003-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651006-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651008-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651012-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651018-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651023-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651024-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651025-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651033-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651036-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651046-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651049-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651051-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651116-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651117-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01651122-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674264-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674265-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674266-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674267-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674268-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674269-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674270-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674271-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674272-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Associate"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674273-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674274-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674275-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674276-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674277-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674278-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674279-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674280-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674281-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Analyst_AIOC-S01674282-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Associate_AIOC-S01664842-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai",
+  "title": "Supply Chain Plan&Analyt Associate"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Senior-Analyst_AIOC-S01659742-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Supply Chain Planning & Analytics Analyst"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Specialist_AIOC-S01674259-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Specialist_AIOC-S01674328-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Plan-Analyt-Specialist_AIOC-S01674329-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Supply Chain Plan&Analyt Specialist"
+ },
+ "workday:Accenture:Supply-Chain-Strategy-Consultant_R00362311": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Madrid, Castellana 85",
+  "title": "Supply Chain Strategy Consultant"
+ },
+ "workday:Accenture:Warehouse-Operations-Associate_AIOC-S01670385-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Navi Mumbai, MDC5C",
+  "title": "Warehouse Operations Associate"
+ },
+ "workday:Accenture:Warehouse-Operations-Associate_AIOC-S01673405-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Mumbai",
+  "title": "Warehouse Operations Associate"
  },
  "workday:Agilent:AVP--Supply-Chain-Strategy---Business-Operations---Global-Supply-Chain_4040902-1": {
   "last_seen": "2026-11-21",
@@ -1213,6 +1928,21 @@
   "last_seen": "2026-11-21",
   "reason": "age: posted 34 days ago",
   "title": "Executive Operations Associate, Office of the CEO"
+ },
+ "workday:Allegion:IT-Business-Analyst---Supply-Chain_JR38111": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Remote, Indiana",
+  "title": "IT Business Analyst \u2013 Supply Chain"
+ },
+ "workday:Allegromicro:Demand-Planning-Analyst_R7063": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Manchester, NH; Auburn Hills, MI; Richardson, TX",
+  "title": "Demand Planning Analyst"
+ },
+ "workday:Allegromicro:Kinaxis-Solution-Architect--Supply-Chain-Planning_R6813": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Hyderabad, India; Work from Home \u2013 Delhi (India); Pune, India; Bengaluru, India",
+  "title": "Kinaxis Solution Architect, Supply Chain Planning"
  },
  "workday:Amcor:Procurement-Analyst-PET_REQ_93188": {
   "last_seen": "2026-11-24",
@@ -1244,6 +1974,16 @@
   "reason": "location: Penang, Malaysia; Johor, Malaysia",
   "title": "Material Planner"
  },
+ "workday:Awg:Demand-Reporting-Data-Scientist_R40770": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Huntingdon; Peterborough",
+  "title": "Demand Reporting Data Scientist"
+ },
+ "workday:Bakerhughes:ASPIRE---Supply-Chain---2027_R169537": {
+  "last_seen": "2026-11-24",
+  "reason": "location: CZ-DOUDLEVCE-PILSEN-EDVARDA BENESE 564/39; CZ-Other Czech Republic",
+  "title": "ASPIRE - Supply Chain - 2027"
+ },
  "workday:Bjswholesaleclub:Merchandise-Planner--Consumer-Electronics-_R255176": {
   "last_seen": "2026-11-21",
   "reason": "age: posted 72 days ago",
@@ -1259,10 +1999,60 @@
   "reason": "location: Remote - Mexico",
   "title": "Procurement Specialist"
  },
+ "workday:Brambles:Finance-Business-Partner--Supply-Chain-and-Asset-Productivity_JR25467": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Manchester, Lancashire, United Kingdom; Madrid, Community of Madrid, Spain",
+  "title": "Finance Business Partner, Supply Chain and Asset Productivity"
+ },
+ "workday:Brambles:HR-Business-Partner---Supply-Chain-Operations_JR24213": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 141 days ago",
+  "title": "HR Business Partner - Supply Chain Operations"
+ },
+ "workday:Brambles:HR-Generalist---Suppy-Chain--m-f-d-_JR25071": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Cologne, North Rhine-Westphalia, Germany; Remote, Field Based, Netherlands; Remo",
+  "title": "HR Generalist Supply Chain - Europe (m/f/d) - FTC 6 months"
+ },
+ "workday:Brambles:HR-Generalist--Supply-Chain-UK-I---FTC_JR25524-2": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Manchester, Lancashire, United Kingdom; Pontefract, West Yorkshire, United Kingd",
+  "title": "HR Generalist, Supply Chain UK&I - FTC"
+ },
  "workday:Campbellsoup:Analyst--Logistics-and-Transportation_Req-69245": {
   "last_seen": "2026-11-24",
   "reason": "location: USA - NC - Charlotte; USA - NJ - Camden",
   "title": "Analyst, Logistics and Transportation"
+ },
+ "workday:Carrier:Operations-Leadership-Program_30217913": {
+  "last_seen": "2026-11-24",
+  "reason": "location: CAI23: Carrier-Indianapolis, 7310 West Morris Street, Indianapolis, IN, 46231 US",
+  "title": "Operations Leadership Program"
+ },
+ "workday:Carrier:Operations-Leadership-Program_30217915": {
+  "last_seen": "2026-11-24",
+  "reason": "location: CAN03: Carrier-Charlotte, 9701 Old Statesville Road, Charlotte, NC, 28269 USA; C",
+  "title": "Operations Leadership Program"
+ },
+ "workday:Carrier:Operations-Leadership-Program_30217922": {
+  "last_seen": "2026-11-24",
+  "reason": "location: CAT02: Carrier -Collierville, 97 South Byhalia Road, Collierville, TN, 38017 USA",
+  "title": "Operations Leadership Program"
+ },
+ "workday:Carrier:Operations-Leadership-Program_30217925": {
+  "last_seen": "2026-11-24",
+  "reason": "location: TX22: 1501 Distribution Drive, Fort Worth, TX, 76052, USA; CAN03: Carrier-Charlo",
+  "title": "Operations Leadership Program"
+ },
+ "workday:Carrier:Operations-Leadership-Program_30217930": {
+  "last_seen": "2026-11-24",
+  "reason": "location: CAG01: CTD-Athens, 700 Olympic Drive, Athens, GA, 30601 USA; CAN03: Carrier-Char",
+  "title": "Operations Leadership Program"
+ },
+ "workday:Carrier:Operations-Leadership-Program_30217934": {
+  "last_seen": "2026-11-24",
+  "reason": "location: CAF77: CCS - CIB, 13995 Pasteur Boulevard, Palm Beach Gardens, FL, 33418 USA; CA",
+  "title": "Operations Leadership Program"
  },
  "workday:Cat:XMLNAME-2027-Leadership---Technical-Development-Program--LTDP----Procurement_R0000380148": {
   "last_seen": "2026-11-24",
@@ -1273,6 +2063,21 @@
   "last_seen": "2026-11-24",
   "reason": "location: Charter Manufacturing Company, Inc - Mequon, WI; Charter Dura-Bar - Woodstock, I",
   "title": "Supply Chain Rotational Analyst - May 2027 Grads"
+ },
+ "workday:Ciena:Advisor--Supply-Chain-Services-Analytics_R032000": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Remote-Canada; Remote-UK Zone 2",
+  "title": "Advisor, Supply Chain Services Analytics"
+ },
+ "workday:Ciena:Business-Analyst--Service-Logistics_R031966": {
+  "last_seen": "2026-11-24",
+  "reason": "experience: 5+ years required",
+  "title": "Business Analyst, Service Logistics"
+ },
+ "workday:Ciena:Supply-Chain---Operations-Coordinator_R032145": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Montreal; Ottawa",
+  "title": "Supply Chain & Operations Coordinator"
  },
  "workday:Clorox:Product-Owner---Material-Planning_JR23876": {
   "last_seen": "2026-11-24",
@@ -1309,6 +2114,11 @@
   "reason": "age: posted 102 days ago",
   "title": "Planner, Analytics & Forecasting"
  },
+ "workday:Dentsuaegis:Junior-Communications-Planner_R0975122-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: no location listed",
+  "title": "Junior Communications Planner"
+ },
  "workday:Elevancehealth:Forecast-Reporting-Consultant_JR196331": {
   "last_seen": "2026-11-21",
   "reason": "experience: 5+ years required",
@@ -1319,33 +2129,113 @@
   "reason": "age: posted 36 days ago",
   "title": "Supply Chain Planner"
  },
+ "workday:Flsmidth:Demand-Planning---SIOP-Leader_R28847": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Chennai; Monterrey",
+  "title": "Demand Planning & SIOP Leader"
+ },
+ "workday:Gdit:PSYOP-Planner_RQ229065-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: USA FL MacDill AFB; USA CO Colorado Springs",
+  "title": "PSYOP Planner"
+ },
+ "workday:Gdit:Procurement-Analyst_RQ231342": {
+  "last_seen": "2026-11-24",
+  "reason": "location: USA VA Falls Church; USA VA Herndon",
+  "title": "Procurement Analyst"
+ },
+ "workday:Gdit:Sourcing-and-Procurement--Analyst_RQ232361-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: USA VA Falls Church; USA VA Herndon",
+  "title": "Sourcing and Procurement- Analyst"
+ },
+ "workday:Gdit:Sourcing-and-Procurement-Analyst_RQ229217-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: USA VA Sterling; USA VA Herndon; USA VA Falls Church",
+  "title": "Sourcing and Procurement Analyst"
+ },
+ "workday:Gdit:Supply-Chain-Analyst_RQ230296-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: USA VA Falls Church; USA VA Herndon",
+  "title": "Supply Chain Analyst"
+ },
+ "workday:Gdit:Transportation-Coordinator--Kuwait-_RQ229802": {
+  "last_seen": "2026-11-24",
+  "reason": "location: IRQ Erbil  - TF Strike (APC080); International",
+  "title": "Transportation Coordinator (Kuwait)"
+ },
+ "workday:Gdit:Transportation-Coordinator--Southwest-Asia-_RQ224123-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: IRQ Erbil  - TF Strike (APC080); International",
+  "title": "Transportation Coordinator (Southwest Asia)"
+ },
  "workday:Geaerospace:Military-Officer-Leadership-Program--MOLP----Supply-Chain_R5042930-1": {
   "last_seen": "2026-11-21",
   "reason": "location: Evendale; Vandalia; West Chester",
   "title": "Military Officer Leadership Program (MOLP) \u2013 Supply Chain"
  },
+ "workday:Generac:Inventory-Control-Specialist---1st-Shift_JR16776": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Jefferson Hub Recon; Lake Mills, WI - USA; Edgerton, WI - USA; Fort Atkinson, WI",
+  "title": "Inventory Control Specialist - 1st Shift (Jefferson HUB)"
+ },
+ "workday:Generac:Inventory-Control-Specialist-I--2nd-Shift-_JR16902": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Richfield, WI - USA; Grafton, WI - USA; Slinger, WI - USA; Milwaukee, WI - USA; ",
+  "title": "Inventory Control Specialist I (2nd Shift)"
+ },
+ "workday:Gevernova:Asia-Pacific-Regional-Logistics-Leader_R5058253-1": {
+  "last_seen": "2026-11-24",
+  "reason": "duplicate",
+  "title": "Asia Pacific Regional Logistics Leader"
+ },
+ "workday:Gevernova:Global-Digital-Transformation-Leader---Logistics-F-H_R5058260-1": {
+  "last_seen": "2026-11-24",
+  "reason": "experience: 10+ years required",
+  "title": "Global Digital Transformation Leader \u2013 Logistics F/H"
+ },
  "workday:Gevernova:Global-Digital-Transformation-Leader---Logistics-F-H_R5058260-3": {
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "reason": "experience: 10+ years required",
   "title": "Global Digital Transformation Leader \u2013 Logistics F/H"
  },
  "workday:Gevernova:Global-Sourcing-Operations-and-Transformation-Leader---GenAI-F-H_R5058213-3": {
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "reason": "location: Issy Les Moulineaux; Stafford",
   "title": "Global Sourcing Operations and Transformation Leader - GenAI F/H"
  },
+ "workday:Gevernova:Outbound-Logistics-Costing-Leader---North-America_R5059131-1": {
+  "last_seen": "2026-11-24",
+  "reason": "experience: 5+ years required",
+  "title": "Outbound Logistics Costing Leader \u2013 North America"
+ },
+ "workday:Gevernova:Planificateur-trice--de-Construction-sur-site--Industrie-Hydrolectrique--Site-Construction-Planner---Hydropower-Projects_R5050392-1": {
+  "last_seen": "2026-11-24",
+  "reason": "experience: 5+ years required",
+  "title": "Planificateur(trice) de Construction sur site (Industrie Hydro\u00e9lectrique)/Site Construction Planner \u2013 Hydropower Projects"
+ },
  "workday:Gevernova:Planificateur-trice--de-Construction-sur-site--Industrie-Hydrolectrique--Site-Construction-Planner---Hydropower-Projects_R5050392-2": {
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "reason": "experience: 5+ years required",
   "title": "Planificateur(trice) de Construction sur site (Industrie Hydro\u00e9lectrique)/Site Construction Planner \u2013 Hydropower Projects"
  },
  "workday:Gevernova:Project-Planner_R5052063": {
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "reason": "location: Rugby; Glasgow GB 4",
   "title": "Project Planner"
  },
+ "workday:Gevernova:Project-Planner_R5052063-3": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Rugby; Glasgow GB 4",
+  "title": "Project Planner"
+ },
+ "workday:Gevernova:Site-Planner--hydropower-_R5051663-2": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 85 days ago",
+  "title": "Site Planner (hydropower)"
+ },
  "workday:Gevernova:Site-Planner--hydropower-_R5051663-3": {
-  "last_seen": "2026-11-22",
+  "last_seen": "2026-11-24",
   "reason": "age: posted 82 days ago",
   "title": "Site Planner (hydropower)"
  },
@@ -1363,6 +2253,156 @@
   "last_seen": "2026-11-20",
   "reason": "location: Vaughan, Ontario; Montreal, Quebec; Dartmouth, Nova Scotia",
   "title": "Bilingual Area Procurement Analyst"
+ },
+ "workday:Globalhr:Material-Planner--FTC-Maternity-Cover-_01871930": {
+  "last_seen": "2026-11-24",
+  "reason": "location: MY-10-KLANG-009 ~ 9 Lengkuk Keluli 2 ~ 9 LENGKUK KELULI 2-009; MY-10-SUBANG-001 ",
+  "title": "Material Planner (FTC Maternity Cover)"
+ },
+ "workday:Globalhr:Procurement--Planning-and-Compliance-Specialist_01889995": {
+  "last_seen": "2026-11-24",
+  "reason": "location: MY-10-SUBANG-001 ~ Mukim Damansara, Daerah Petaling ~ JALAN LAPANGAN TERBANG SUB",
+  "title": "Procurement, Planning and Compliance Specialist"
+ },
+ "workday:Globalhr:Program-Planner-II---Onsite_01881420": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US-AZ-TUCSON-807 ~ 1151 E Hermans Rd ~ BLDG 807; US-AZ-TUCSON-9030 CORRIDOR ~ 90",
+  "title": "Program Planner II - Onsite"
+ },
+ "workday:Globalhr:Program-Planner-II---Onsite_01881643-1": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 47 days ago",
+  "title": "Program Planner II - Onsite"
+ },
+ "workday:Gundersenhealth:Logistics-Coordinator_JR-33390": {
+  "last_seen": "2026-11-24",
+  "reason": "location: La Crosse, WI",
+  "title": "Logistics Coordinator"
+ },
+ "workday:Gundersenhealth:Solution-Owner---ERP-Finance--Supply-Chain--and-Contract-Management_JR-33300": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Wisconsin; Minnesota; Iowa",
+  "title": "Solution Owner | ERP Finance, Supply Chain, and Contract Management"
+ },
+ "workday:HP Inc:Business-Operations-Analyst_3157995-2": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Johor Bahru, Johor, Malaysia; Batu Kawan, Pulau Pinang (Penang), Malaysia",
+  "title": "Business Operations Analyst"
+ },
+ "workday:HP Inc:Demand-Planner_3162809-2": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Praha, Praha, Czechia; Bengaluru, Karnataka, India",
+  "title": "Demand Planner"
+ },
+ "workday:HP Inc:Fulfillment-Planning-Analyst_3168473-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Gurugram, Haryana, India; Bucharest, Bucure\u015fti, Romania",
+  "title": "Fulfillment Planning Analyst"
+ },
+ "workday:HP Inc:PWI-Worldwide-Consumables-Planner_3171230-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Corvallis, Oregon, United States of America; Vancouver, Washington, United State",
+  "title": "PWI Worldwide Consumables Planner"
+ },
+ "workday:HP Inc:PageWide-Industrial-Hardware-Planning-Analyst_3170689-2": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Corvallis, Oregon, United States of America; Vancouver, Washington, United State",
+  "title": "PageWide Industrial Hardware Planning Analyst"
+ },
+ "workday:HP Inc:Principal-Supply-Chain-Planning-Process-Design_3165158": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Chennai, Tamil Nadu, India; Tlaquepaque, Jalisco, Mexico",
+  "title": "Supply Chain Planning Process Architect"
+ },
+ "workday:HP Inc:SAP-Integrated-Business-Planning-Techno-Functional-Architect_3169367-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Spring, Texas, United States of America; Tlaquepaque, Jalisco, Mexico",
+  "title": "SAP Integrated Business Planning Techno Functional Architect"
+ },
+ "workday:HP Inc:Service-Supply-Chain-Global-Process-Transformation-Lead--Cross-Functional-SAP-S4-SME-_3157570": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Sant Cugat del Valles, Barcelona, Spain; Bucharest, Bucure\u015fti, Romania",
+  "title": "Business Solution Architect, Logistics and Trade Compliance."
+ },
+ "workday:HP Inc:Supply-Chain-Planning-Architect---AI---SAP-IBP_3166607-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Sant Cugat del Valles, Barcelona, Spain; Spring, Texas, United States of America",
+  "title": "Supply Chain Planning Architect - AI & SAP IBP"
+ },
+ "workday:HP Inc:Vendor-Managed-Inventory-and-Inventory-Optimization_3168565-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Spring, Texas, United States of America; Tlaquepaque, Jalisco, Mexico",
+  "title": "Vendor Managed Inventory and Inventory Optimization"
+ },
+ "workday:Hp:ACS-Category-Planner_3171007": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Fort Collins, Colorado, United States of America; Spring, Texas, United States o",
+  "title": "ACS Category Planner"
+ },
+ "workday:Hp:Business-Operations-Analyst_3157995-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Johor Bahru, Johor, Malaysia; Batu Kawan, Pulau Pinang (Penang), Malaysia",
+  "title": "Business Operations Analyst"
+ },
+ "workday:Hp:Business-Operations-Analyst_3165106": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Batu Kawan, Pulau Pinang (Penang), Malaysia; Johor Bahru, Johor, Malaysia",
+  "title": "Business Operations Analyst"
+ },
+ "workday:Hp:Business-Operations-Specialist_3168017": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bengaluru, Karnataka, India; Chennai, Tamil Nadu, India",
+  "title": "Business Operations Specialist"
+ },
+ "workday:Hp:Demand-Planner_3162809": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Praha, Praha, Czechia; Bengaluru, Karnataka, India",
+  "title": "Demand Planner"
+ },
+ "workday:Hp:Fulfillment-Planning-Analyst_3168473": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Gurugram, Haryana, India; Bucharest, Bucure\u015fti, Romania",
+  "title": "Fulfillment Planning Analyst"
+ },
+ "workday:Hp:Network-COE-Logistics-Global-Process-Owner_3157570-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Sant Cugat del Valles, Barcelona, Spain; Bucharest, Bucure\u015fti, Romania",
+  "title": "Business Solution Architect, Logistics and Trade Compliance."
+ },
+ "workday:Hp:PWI-Worldwide-Consumables-Planner_3171230": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Corvallis, Oregon, United States of America; Vancouver, Washington, United State",
+  "title": "PWI Worldwide Consumables Planner"
+ },
+ "workday:Hp:PageWide-Industrial-Hardware-Planning-Analyst_3170689-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Corvallis, Oregon, United States of America; Vancouver, Washington, United State",
+  "title": "PageWide Industrial Hardware Planning Analyst"
+ },
+ "workday:Hp:SAP-Integrated-Business-Planning-Techno-Functional-Architect_3169367": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Spring, Texas, United States of America; Tlaquepaque, Jalisco, Mexico",
+  "title": "SAP Integrated Business Planning Techno Functional Architect"
+ },
+ "workday:Hp:Services-Strategic-Business-Planner_3170037": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Spring, Texas, United States of America; Vancouver, Washington, United States of",
+  "title": "Services Strategic Business Planner"
+ },
+ "workday:Hp:Supply-Chain-Planning-Architect---AI---SAP-IBP_3166607": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Sant Cugat del Valles, Barcelona, Spain; Spring, Texas, United States of America",
+  "title": "Supply Chain Planning Architect - AI & SAP IBP"
+ },
+ "workday:Hp:Supply-Chain-Planning-COE---SME_3165158-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Chennai, Tamil Nadu, India; Tlaquepaque, Jalisco, Mexico",
+  "title": "Supply Chain Planning Process Architect"
+ },
+ "workday:Hp:Vendor-Managed-Inventory-and-Inventory-Optimization_3168565": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Spring, Texas, United States of America; Tlaquepaque, Jalisco, Mexico",
+  "title": "Vendor Managed Inventory and Inventory Optimization"
  },
  "workday:Hpe:Digital-Architect---Supply-Chain---Logistics_1215984": {
   "last_seen": "2026-11-24",
@@ -1469,6 +2509,11 @@
   "reason": "location: Jacksonville, FL; Fort Lauderdale, FL; Medley, FL; Orlando, FL; Tallahassee, FL;",
   "title": "Medical Equipment Planner - 2"
  },
+ "workday:Incora:Supply-Chain-Controller_JR106854": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Derby, United Kingdom; Derby, Rolls Royce, GBR",
+  "title": "Supply Chain Controller"
+ },
  "workday:Interpublic:Planner--Connections-Planning_R18322": {
   "last_seen": "2026-11-24",
   "reason": "location: Montreal, Quebec, Canada; Toronto, Ontario, Canada",
@@ -1488,6 +2533,11 @@
   "last_seen": "2026-11-24",
   "reason": "location: US | KS | Lenexa | 15400 West 99th Street; US | MO | Kansas City | 6301 Winchest",
   "title": "HIRING EVENT: Warehouse Specialists - November 18th, 2026"
+ },
+ "workday:Jci:AME-Material-Flow---Intralogistics-SME_WD30280453": {
+  "last_seen": "2026-11-24",
+  "reason": "location: San Antonio-Texas-United States of America; SA - Gilbert Gemini 2; Nisku-Alberta",
+  "title": "AME Material Flow & Intralogistics SME"
  },
  "workday:Jcrew:Associate-Planner_129358": {
   "last_seen": "2026-11-21",
@@ -1559,6 +2609,11 @@
   "reason": "location: Stevenage; Bolton",
   "title": "Procurement - Undergraduate Placement 2027"
  },
+ "workday:Mckesson:Product-Operations-Analyst_JR0153881": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 55 days ago",
+  "title": "Product Operations Analyst"
+ },
  "workday:Mdlz:Analyst-Warehousing---Logistics_R-181023": {
   "last_seen": "2026-11-20",
   "reason": "location: Mexico (Remote)",
@@ -1599,10 +2654,30 @@
   "reason": "salary: tops out at $56,680",
   "title": "Supply Chain Clerk"
  },
+ "workday:Methodisthealth:HRIS-Operations-Analyst_R-22508-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Remote Associate - Tennessee; Remote Associate - Arkansas; Remote Associate - Mi",
+  "title": "HRIS Operations Analyst"
+ },
+ "workday:Michelinhr:Customer-Fulfillment-Analyst--Aviation-_R-2026028889-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Bangkok MSG Headquarters; MICHELIN ROH CO LTD",
+  "title": "Customer Fulfillment Analyst (Aviation)"
+ },
+ "workday:Michelinhr:Industrial-Tactical-Supply-Chain_R-2026040916": {
+  "last_seen": "2026-11-24",
+  "reason": "location: MICHELIN ROH CO LTD; Bangkok MSG Headquarters",
+  "title": "Industrial Tactical Supply Chain"
+ },
  "workday:Motorola Solutions:Service-Forecast-Analyst_R70904": {
   "last_seen": "2026-11-24",
   "reason": "location: Illinois Remote Work; South Carolina Remote Work; Florida Remote Work; New Jerse",
   "title": "Service Forecast Analyst"
+ },
+ "workday:Myhrabc:Contract-Specialist-II---Supply-Chain-Distribution_R2618576": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Remote, Pennsylvania",
+  "title": "Contract Specialist II - Supply Chain/Distribution"
  },
  "workday:NVIDIA:Factory-Planner_JR2021699": {
   "last_seen": "2026-11-24",
@@ -1613,6 +2688,11 @@
   "last_seen": "2026-11-24",
   "reason": "location: Vietnam, Remote",
   "title": "Factory Planner"
+ },
+ "workday:Nrel:Postdoctoral-Researcher---Operations-Research-and-Transportation-Systems-Optimization_R14607": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Golden, CO; Remote Site",
+  "title": "Postdoctoral Researcher \u2013 Operations Research and Transportation Systems Optimization"
  },
  "workday:Oregon:Business-Operations-Specialist--Administrative-Specialist-2-_REQ-209783": {
   "last_seen": "2026-11-24",
@@ -1634,6 +2714,86 @@
   "reason": "location: US-HI-Camp H.M. Smith; US-HI-Honolulu",
   "title": "Medical Intelligence Operations Analyst"
  },
+ "workday:Parsons:Current-Operations--CUOPS--Planner_R186872-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - HI, Camp Smith",
+  "title": "Current Operations (CUOPS) Planner"
+ },
+ "workday:Parsons:Future-Operations--FUOPS--Planner_R186873": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - HI, Camp Smith",
+  "title": "Future Operations (FUOPS) Planner"
+ },
+ "workday:Parsons:Hospital-Program---Mobile-Operations-Coordinator_R183759": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - MN, Crosby",
+  "title": "Hospital Program & Mobile Operations Coordinator"
+ },
+ "workday:Parsons:Joint-Fires-Exercise-Planner-TS_R183730": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - HI, Camp Smith",
+  "title": "Joint Fires Exercise Planner TS"
+ },
+ "workday:Parsons:Light-Rail--LRT--Operations-Coordinator_R188784": {
+  "last_seen": "2026-11-24",
+  "reason": "location: CA - AB, Edmonton",
+  "title": "Light Rail (LRT) Operations Coordinator"
+ },
+ "workday:Parsons:Logistics-Operator-Saudi-National-_R188306": {
+  "last_seen": "2026-11-24",
+  "reason": "location: SA - Riyadh, Qiddiya",
+  "title": "Logistics Operator(Saudi National)"
+ },
+ "workday:Parsons:Logistics-Specialist--Receiving-Distribution-Specialist----TS-SCI_R188303-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - VA, Springfield",
+  "title": "Logistics Specialist (Receiving Distribution Specialist) - TS/SCI"
+ },
+ "workday:Parsons:MDDU-CBRN-Operations-Administration-and-Logistics-Coordinator_R172691-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - DC, Washington",
+  "title": "MDDU CBRN Operations Administration and Logistics Coordinator"
+ },
+ "workday:Parsons:Military-Exercise-Planner_R185341-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - HI, Fort Shafter",
+  "title": "Military Exercise Planner - Secret"
+ },
+ "workday:Parsons:Planner_R187615": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - DC, Washington",
+  "title": "Planner"
+ },
+ "workday:Parsons:Planner_R187693": {
+  "last_seen": "2026-11-24",
+  "reason": "location: SA - Riyadh",
+  "title": "Planner (Saudi National)"
+ },
+ "workday:Parsons:Procurement-Specialist---Saudi-National_R188591": {
+  "last_seen": "2026-11-24",
+  "reason": "location: SA - Jeddah",
+  "title": "Procurement Specialist - Saudi National"
+ },
+ "workday:Parsons:Procurement-Specialist--Saudi-National-_R188294-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: SA - Riyadh, Qiddiya",
+  "title": "Procurement Specialist (Saudi National)"
+ },
+ "workday:Parsons:Project-Planner---Environmental_R188059": {
+  "last_seen": "2026-11-24",
+  "reason": "experience: 15+ years required",
+  "title": "Project Planner - Environmental"
+ },
+ "workday:Parsons:Strategic-Planner_R186875": {
+  "last_seen": "2026-11-24",
+  "reason": "location: US - HI, Camp Smith",
+  "title": "Strategic Planner"
+ },
+ "workday:Parsons:Urban-Designer-Planner--UAE-National-_R187541-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: AE - Dubai",
+  "title": "Urban Designer/Planner (UAE National)"
+ },
  "workday:Plugpower:Distribution-Planner_R7111": {
   "last_seen": "2026-11-21",
   "reason": "age: posted 58 days ago",
@@ -1648,6 +2808,11 @@
   "last_seen": "2026-11-24",
   "reason": "location: VA - Richmond (23219); VA - Richmond",
   "title": "Experienced M&A Associate - Transportation & Logistics"
+ },
+ "workday:Qtsdatacenters:Procurement-Operations-Analyst_R2026-2186": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Irving, TX; Duluth, GA",
+  "title": "Procurement Operations Analyst"
  },
  "workday:Qvc:Assistant-Sourcing-Specialist_R83726": {
   "last_seen": "2026-11-21",
@@ -1664,10 +2829,50 @@
   "reason": "location: 2 Locations",
   "title": "Procurement & Supply Chain Business Partnering Specialist"
  },
+ "workday:Ryansg:Brokerage-Operations-Coordinator_JR26-5360": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 48 days ago",
+  "title": "Brokerage Operations Coordinator"
+ },
+ "workday:Ryder:Supply-Chain-Hiring-Our-Heroes-Corporate-Fellowship_R185868": {
+  "last_seen": "2026-11-24",
+  "reason": "location: USA - Provo UT 84606; USA - Columbus OH Innis Rd",
+  "title": "Supply Chain Hiring Our Heroes Corporate Fellowship"
+ },
+ "workday:Sandvik:Demand-Planner_R0098921-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Canada, ON, Lively; Canada, NB, Miramichi",
+  "title": "Demand Planner"
+ },
+ "workday:Sandvik:Logistics-Engineer---P3_R0096912": {
+  "last_seen": "2026-11-24",
+  "reason": "location: South Africa, Boksburg; South Africa, Burgersfort",
+  "title": "Logistics Engineer - P3"
+ },
+ "workday:Sandvik:Master-Planner---Carbides_R0098491": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Sweden, V\u00e4stberga; Sweden, Stockholm",
+  "title": "Master Planner - Carbides"
+ },
+ "workday:Sandvik:National-Logistics-Specialist_R0099769-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Australia, NSW, Newcastle (Heatherbrae); Australia, QLD, Narangba; Australia, WA",
+  "title": "National Logistics Specialist"
+ },
  "workday:Specialized:Demand-Planner---North-America_R0011838": {
   "last_seen": "2026-11-24",
   "reason": "age: posted 34 days ago",
   "title": "Demand Planner - North America"
+ },
+ "workday:Synnex:Snr-Mgr--Supply-Chain-Managment_R56613": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 63 days ago",
+  "title": "Snr Mgr, Supply Chain Managment"
+ },
+ "workday:Synnex:Supply-Chain-Buyer_R55026-1": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 90 days ago",
+  "title": "Supply Chain Buyer"
  },
  "workday:Sysco:Inventory-Planner---GSC---US_R275484": {
   "last_seen": "2026-11-24",
@@ -1699,6 +2904,26 @@
   "reason": "location: 2 Locations",
   "title": "Asset Based Lending Operations Analyst"
  },
+ "workday:Thales:Junior-Supply-Chain-Engineering-Analyst--New-Grad-_R0346713-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Ottawa; Halifax - Wilkinson; Mill Bay - Squl\u2019ew'",
+  "title": "Junior Supply Chain Engineering Analyst (New Grad)"
+ },
+ "workday:Thales:Leader-Supply-Chain-Rseau-Mtier-RMS-Deliver---F-H_R0345420-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Vendome; Campus Thales Bordeaux; Chatellerault; Valence; Moirans",
+  "title": "Leader Supply Chain R\u00e9seau M\u00e9tier RMS Deliver - F/H"
+ },
+ "workday:Thales:Primavera-P6-Scheduler-Planner_R0343532-1": {
+  "last_seen": "2026-11-24",
+  "reason": "location: Ottawa - Palladium; Halifax - Wilkinson; Mill Bay - Squl\u2019ew'",
+  "title": "Primavera P6 Scheduler/Planner"
+ },
+ "workday:Transunion:Event-and-Experiences-Planner_19043395": {
+  "last_seen": "2026-11-24",
+  "reason": "experience: 5+ years required",
+  "title": "Event and Experiences Planner"
+ },
  "workday:Veralto:Oracle-Business-Analyst---Supply-Chain---Manufacturing_R10269205": {
   "last_seen": "2026-11-21",
   "reason": "location: Extrema, Minas Gerais, Brazil; S\u00e3o Paulo, Brazil",
@@ -1718,5 +2943,15 @@
   "last_seen": "2026-11-24",
   "reason": "location: Fort Worth, TX; Groveport, OH; Franklin, NH; Sparks, NV",
   "title": "Transportation Specialist"
+ },
+ "workday:Williams:Supv--Supply-Chain---Growth-Project-Purchasing_R113092": {
+  "last_seen": "2026-11-24",
+  "reason": "location: OK Tulsa - Headquarters; TX Houston - Tower",
+  "title": "Supv, Supply Chain - Growth Project Purchasing"
+ },
+ "workday:Xylem:Logistics-Coordinator_R49483": {
+  "last_seen": "2026-11-24",
+  "reason": "age: posted 106 days ago",
+  "title": "Logistics Coordinator"
  }
 }
