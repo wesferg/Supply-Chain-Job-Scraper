@@ -1,16 +1,16 @@
 {
  "ashby:1x:454f7d55-7bbd-405d-bf9c-4b3a24018392": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 110 days ago",
   "title": "Inventory Control Analyst "
  },
  "ashby:1x:bdb83ddb-0337-4542-b066-7580e534a60a": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 43 days ago",
   "title": "Materials Planner"
  },
  "ashby:3y health:3bced49e-5db4-477d-9a32-1d1cb494792f": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "type: Contract",
   "title": "Corporate & Integration Operations Associate"
  },
@@ -30,17 +30,17 @@
   "title": "Buyer/Planner"
  },
  "ashby:AfterQuery:30b3dddf-9804-4e80-8fc6-2e2b2a511ca7": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 161 days ago",
   "title": "Business Operations Generalist"
  },
  "ashby:Agentio:1e194d80-399d-4cf9-a9ea-7a0fd50e8100": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 95 days ago",
   "title": "Strategy & Operations, Creator Supply"
  },
  "ashby:Agentio:43039c49-bfa4-4cd2-bf04-f1253cee64af": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 42 days ago",
   "title": "Strategy and Operations, Revenue"
  },
@@ -54,18 +54,23 @@
   "reason": "location: Florida",
   "title": "Payer Operations Specialist"
  },
+ "ashby:Anatomy financial:5cb3a5ae-3267-4567-8716-e870597ba31d": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 43 days ago",
+  "title": "Customer Operations Specialist"
+ },
  "ashby:Annaautismcare:470ec347-97c4-429b-b443-7aec76e0697c": {
   "last_seen": "2026-11-24",
   "reason": "location: Remote - Philippines",
   "title": "Business Operations Specialist"
  },
  "ashby:Anyone ai:ea7b9c45-d0f4-4873-8877-963c297c3478": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 132 days ago",
   "title": "Data & Operations Specialist"
  },
  "ashby:Applied:b0b6325d-98b3-44fa-a7c4-956639fe54a8": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 32 days ago",
   "title": "Talent Operations Specialist "
  },
@@ -75,7 +80,7 @@
   "title": "Supply Chain AI Research Contributor"
  },
  "ashby:Ashgro:5071c238-b98d-4a9b-9c30-b026f2c114f7": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 382 days ago",
   "title": "Operations Associate"
  },
@@ -95,7 +100,7 @@
   "title": "Biz Ops"
  },
  "ashby:Baseten:768bca5d-287f-405a-b677-605317607178": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 68 days ago",
   "title": "Compute Strategy & Operations"
  },
@@ -103,6 +108,91 @@
   "last_seen": "2026-11-25",
   "reason": "age: posted 93 days ago",
   "title": "Operations Associate (User Support)"
+ },
+ "ashby:Bjakcareer:066ac7d5-dd99-42a1-82b2-ca5e3dc4eb92": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Malaysia",
+  "title": "Strategy & Operations Associate"
+ },
+ "ashby:Bjakcareer:09a20442-771e-48ea-aebf-a22959bc0fa2": {
+  "last_seen": "2026-11-26",
+  "reason": "location: United Kingdom",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Bjakcareer:19be18dd-d5ba-4b82-b674-78db2b88b8e0": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Malaysia",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Bjakcareer:1a3c0cac-03d6-47f2-bcbd-99e873311cea": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Indonesia",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Bjakcareer:4d3810cf-7325-4193-84ec-ddb7d1e36454": {
+  "last_seen": "2026-11-26",
+  "reason": "location: China",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Bjakcareer:57614722-1164-4c52-b1cd-a654c8ac3d2c": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Singapore",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Bjakcareer:787ed445-dbe1-4f64-b575-f64d66d2413b": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Thailand",
+  "title": "Strategy & Operations Associate"
+ },
+ "ashby:Bjakcareer:904bd1bf-d298-43a0-9a27-31a962d9210d": {
+  "last_seen": "2026-11-26",
+  "reason": "location: China",
+  "title": "Strategy & Operations Associate"
+ },
+ "ashby:Bjakcareer:a8779794-ff69-4ed3-b329-d22c87961e9e": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Taipei, Taiwan",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Bjakcareer:ad85ff40-12f8-4f85-bd12-8c324655f270": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Hong Kong",
+  "title": "Strategy & Operations Associate"
+ },
+ "ashby:Bjakcareer:b51e476b-2a3c-42cf-b9e8-4b0b40872f8e": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Singapore",
+  "title": "Strategy & Operations Associate"
+ },
+ "ashby:Bjakcareer:bcdafbfa-89c8-45b6-8ecd-f8bb51facc3d": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Hong Kong",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Bjakcareer:c9d2aa41-01d6-4734-9842-90787ea9ce38": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Tokyo, Japan",
+  "title": "Business Operations Associate"
+ },
+ "ashby:Bjakcareer:d2ce4c4c-6dab-454f-812e-a106e71e464a": {
+  "last_seen": "2026-11-26",
+  "reason": "location: United Kingdom",
+  "title": "Strategy & Operations Associate"
+ },
+ "ashby:Bjakcareer:dc915100-30e7-4171-aad8-1e7f17faac80": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Tokyo, Japan",
+  "title": "Strategy & Operations Associate"
+ },
+ "ashby:Bjakcareer:e8970501-21bf-4916-ba55-de251a04516c": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Indonesia",
+  "title": "Strategy & Operations Associate"
+ },
+ "ashby:Bjakcareer:faa6a430-a5b6-454f-9f73-d099590d5586": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Taipei, Taiwan",
+  "title": "Strategy & Operations Associate"
  },
  "ashby:Blissway:b37bb059-8412-406b-83d3-d3515a2cd64a": {
   "last_seen": "2026-11-25",
@@ -114,18 +204,43 @@
   "reason": "location: Denver, Colorado",
   "title": "Finance and Operations Specialist"
  },
+ "ashby:Brooklinen:5928fbb4-f203-4797-842b-a5d5e206c036": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Brooklinen HQ",
+  "title": "Planner"
+ },
+ "ashby:Canvas medical:9fa7e1bb-6ba3-4b8d-b6f7-d177b7bf8fc5": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Fully Remote",
+  "title": "Customer Operations Coordinator, Support"
+ },
+ "ashby:Capchase:4c59c634-4614-414c-8f8c-de005d6e9fa9": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Guatemala; Argentina; Mexico; Chile; Costa Rica; Colombia; Latin America",
+  "title": "Payment Operations Specialist"
+ },
+ "ashby:Cape:ba0cdd14-ad58-4b90-b036-d6d4d77f125e": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 53 days ago",
+  "title": "Operations Analyst, Consumer"
+ },
+ "ashby:Chaidiscovery:d8a52358-9942-4914-a90d-b62aa75cf456": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 31 days ago",
+  "title": "Business Operations"
+ },
  "ashby:Claylabs:4be52dd6-244b-4e27-bf4a-757a1094a82a": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 167 days ago",
   "title": "Procurement"
  },
  "ashby:Clera:7df8c7f6-2f6f-478d-99b5-aea148ea96ee": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "duplicate",
   "title": "Strategy & Operations Working Student"
  },
  "ashby:Clera:c0aacddf-56ba-4400-afcf-ff0021dc98ed": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "location: Salt Lake City",
   "title": "Operations Associate"
  },
@@ -134,10 +249,25 @@
   "reason": "location: Salt Lake City",
   "title": "Operations Associate"
  },
+ "ashby:Codes health:bdbdf014-3be4-449a-be77-fa6faaed3de8": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 345 days ago",
+  "title": "Strategy & Operations"
+ },
  "ashby:Cogent security:174aa234-b539-440f-b7ce-0931563dd62e": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 84 days ago",
   "title": "Business Operations & Strategy "
+ },
+ "ashby:Cognition:170ec744-c6b9-4d75-bdb1-f1eaf5e24d79": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 410 days ago",
+  "title": "Business Operations"
+ },
+ "ashby:Cognition:22a47602-27c2-476e-8e3d-caca249b0a7d": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 94 days ago",
+  "title": "Talent Operations Coordinator"
  },
  "ashby:Cohere:3906eb1d-932f-485a-8f77-e8cc31859fdd": {
   "last_seen": "2026-11-18",
@@ -149,10 +279,20 @@
   "reason": "experience: 8+ years required",
   "title": "BPO Operations Specialist, Revenue Cycle Management"
  },
+ "ashby:Conduct:566148dd-59ca-456c-bc84-86506eb75efb": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 44 days ago",
+  "title": "Founding BizOps (NYC)"
+ },
  "ashby:Confido:95cfe564-a30b-44fd-8689-5a9d77462d36": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 39 days ago",
   "title": "Analyst, Demand & Supply Planning"
+ },
+ "ashby:Cuspai:543c8d46-fec0-4d1e-803c-c2c5b42eeaf3": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Amsterdam, NL; London, UK; Berlin, DE; Cambridge, UK",
+  "title": "Talent Acquisition Operations Specialist"
  },
  "ashby:Decagon:80e62efe-c1e1-4f00-a9cb-2a75d8cbb577": {
   "last_seen": "2026-11-25",
@@ -169,10 +309,25 @@
   "reason": "age: posted 175 days ago",
   "title": "Founders' Office, Business Operations "
  },
+ "ashby:Doctolib:6f4d7079-56c3-4516-bf4b-be0e36030f89": {
+  "last_seen": "2026-11-26",
+  "reason": "type: Intern",
+  "title": "Stage - Strategy & Operations (x/f/m) - mars 2027"
+ },
  "ashby:Dyna robotics:5fadf857-9654-45e4-978e-00a6b30f252b": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 209 days ago",
   "title": "Business Operations & Strategy Associate"
+ },
+ "ashby:Echeloncareers:207916e3-8c02-4d9b-b57a-01ab21390e89": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Riyadh, Saudi Arabia",
+  "title": "Business Operations"
+ },
+ "ashby:Edra:c6a698fa-cd4e-4604-a163-0b108233292c": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 80 days ago",
+  "title": "Strategy & Operations (People)"
  },
  "ashby:Ellipsislabs:9628d475-a386-4eff-9c3c-b4ac11fc60ca": {
   "last_seen": "2026-11-18",
@@ -184,9 +339,24 @@
   "reason": "age: posted 113 days ago",
   "title": "Business Operations"
  },
+ "ashby:Endex:71936ea5-68e4-4697-995f-fe44905382e2": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 407 days ago",
+  "title": "Business Operations Generalist"
+ },
+ "ashby:Eneba:b5397869-d277-4b3a-8747-54ed1e0c688f": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Europe",
+  "title": "Payment Operations Analyst"
+ },
  "ashby:FSH:4c2a9282-fa44-4251-8b76-2e25476ea53a": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 110 days ago",
+  "title": "Business Operations"
+ },
+ "ashby:Factory:f679242d-2fea-4fcb-8b7e-09b50344f3c0": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 421 days ago",
   "title": "Business Operations"
  },
  "ashby:Fluidstack:43ccf8a9-133e-413b-bac3-64490582c241": {
@@ -214,23 +384,53 @@
   "reason": "location: Darmstadt, DE",
   "title": "PMO Operations Specialist (f/m/d)"
  },
+ "ashby:Formenergy:268538a0-dd9a-48de-8864-aeb7edb90ee8": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 57 days ago",
+  "title": "Material Planner"
+ },
+ "ashby:Formenergy:5592f375-8718-4d2e-9617-3ee6a044ebd0": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Weirton, WV",
+  "title": "Supply Chain Logistics Associate "
+ },
+ "ashby:Formenergy:a96f3845-1797-4be4-80ee-0221c564a354": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 78 days ago",
+  "title": "Financial Analyst, Supply Chain"
+ },
  "ashby:Fortuna health:aa48c14b-e38e-4f27-84ef-a6b032bb9b60": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 98 days ago",
   "title": "Product Operations Associate"
+ },
+ "ashby:Forus:970f8b3c-c1b1-4c1d-9984-f78f3c5d2dd2": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 193 days ago",
+  "title": "Strategy & Operations"
  },
  "ashby:Fundingcircle:6f030251-1d0c-4d1e-aece-07d5829af17d": {
   "last_seen": "2026-11-22",
   "reason": "location: London",
   "title": "Payments Operations Analyst"
  },
+ "ashby:Generatorhealth:78bb8dc7-4051-4a3a-a1e3-432e7cd04eee": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 738 days ago",
+  "title": "Operations Specialist"
+ },
  "ashby:Genesis:0b9249a2-d514-4331-ac7e-79e64e3b2c9b": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 47 days ago",
   "title": "Logistics Specialist"
  },
+ "ashby:Goodstack:c09c03e9-13af-4c8c-9ca0-9024ab196c1f": {
+  "last_seen": "2026-11-26",
+  "reason": "type: Contract",
+  "title": "Payment Operations Specialist (12-month Maternity Cover)"
+ },
  "ashby:Hadrian automation:1a3066f7-589f-4bfe-94ec-312bf52e05e3": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 142 days ago",
   "title": "Supply Chain Buyer "
  },
@@ -239,8 +439,13 @@
   "reason": "experience: 7+ years required",
   "title": "Master Scheduler"
  },
+ "ashby:Hang:36a6254d-b093-4eee-8c91-c0193ab17c69": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 673 days ago",
+  "title": "Business Operations & Strategy"
+ },
  "ashby:Harperinsure:f635e211-fda5-4628-a3fb-d61ef12b8052": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 201 days ago",
   "title": "Business Operations Associate"
  },
@@ -274,10 +479,30 @@
   "reason": "type: Contract",
   "title": "Client Implementation & Operations Analyst"
  },
+ "ashby:Hiya:072af4d0-7f8b-40ad-8429-3c7a84753ea4": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 56 days ago",
+  "title": "Talent Operations Specialist "
+ },
+ "ashby:Hud:5c5a6b61-3ef3-4eb2-a81d-1ad3e920e1c3": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 65 days ago",
+  "title": "Business Operations"
+ },
  "ashby:Humanoid:92fbd18c-7219-41fe-a8a9-fc3c5ce23c91": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 35 days ago",
   "title": "Inventory/Warehouse Specialist"
+ },
+ "ashby:January:b2a2ec4f-2fc3-4499-9386-7292cf8f0362": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 174 days ago",
+  "title": "Strategy & Operations"
+ },
+ "ashby:January:b3b889bc-da82-4ed0-b049-54ec15a27fe3": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 36 days ago",
+  "title": "People Strategy & Operations"
  },
  "ashby:Jerry ai:018c0c63-7827-4f68-b6fe-633ea32773d5": {
   "last_seen": "2026-11-25",
@@ -293,6 +518,26 @@
   "last_seen": "2026-11-25",
   "reason": "age: posted 62 days ago",
   "title": "Institutional Sales & Operations, Kalshi Prime"
+ },
+ "ashby:Leland:713e1b2b-a8e1-4c97-8ed2-887b021d9cdb": {
+  "last_seen": "2026-11-26",
+  "reason": "type: Contract",
+  "title": "Business Operations & Strategy Coach"
+ },
+ "ashby:Lyric:1a74c273-85db-4127-9a90-77773bc69c03": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Bengaluru; BLR/Chennai/Pune",
+  "title": "Forward Deployed Supply Chain Engineer (India)"
+ },
+ "ashby:Lyric:286b623e-f2d9-4981-941d-9830b8d61b6b": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 84 days ago",
+  "title": "Forward Deployed Supply Chain Engineer  (US)"
+ },
+ "ashby:Lyric:4929d708-14e6-4268-b13a-989f07e22549": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Canada",
+  "title": "Forward Deployed Supply Chain Engineer  (Canada)"
  },
  "ashby:Mach9:8bb32c28-bdce-4832-9a48-c40fa5368113": {
   "last_seen": "2026-11-25",
@@ -338,6 +583,16 @@
   "last_seen": "2026-11-25",
   "reason": "age: posted 62 days ago",
   "title": "Business Operations & Strategy"
+ },
+ "ashby:Nubank:62c98c6a-e253-4802-9a8e-6076ef4e0d08": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 131 days ago",
+  "title": "Procurement Specialist"
+ },
+ "ashby:Office hours:7168af42-26ad-4003-83a6-913f25fcc689": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 51 days ago",
+  "title": "Business Operations Associate"
  },
  "ashby:Openai:08e8d03a-df94-46af-8664-cd9aab1af445": {
   "last_seen": "2026-11-25",
@@ -399,15 +654,55 @@
   "reason": "location: Daphne, AL",
   "title": "Procurement Specialist"
  },
+ "ashby:Pennylane:9425c878-0006-48fd-8ea7-1db38dbbed42": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Paris",
+  "title": "Procurement Specialist"
+ },
+ "ashby:Pennylane:e1a0543e-43f2-4e2c-8f36-171b32104d73": {
+  "last_seen": "2026-11-26",
+  "reason": "location: France",
+  "title": "Procurement Specialist"
+ },
  "ashby:Periodic labs:fd89f03f-545f-4ffb-a051-8581a3ec686a": {
   "last_seen": "2026-11-18",
   "reason": "age: posted 91 days ago",
   "title": "Business Operations, Product & Science"
  },
+ "ashby:Phoebe work:1607bf1a-a3ab-44aa-8000-eabeb5a50cc5": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 348 days ago",
+  "title": "Biz Ops"
+ },
+ "ashby:Physicalintelligence:c2c1faae-acb6-4c8b-bd0d-e7e180ac8d94": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 298 days ago",
+  "title": "Business Operations"
+ },
  "ashby:Plaid:a063f469-1ec5-44d1-8cc5-1da47a7b8783": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 45 days ago",
   "title": "Product Operations Specialist"
+ },
+ "ashby:Preply:b1d677ac-d472-468b-a84e-b0db4ed8ac29": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Barcelona",
+  "title": " Engagement Operations Specialist"
+ },
+ "ashby:Preply:e8be16bb-9c27-4f3d-a39f-cd5a363ca5d6": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Kyiv",
+  "title": "Engagement Operations Specialist"
+ },
+ "ashby:Prompt:84a32a75-f859-45ec-85c1-eecf0482e388": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 127 days ago",
+  "title": "Executive Assistant /Business Operations Associate to Co-Founder"
+ },
+ "ashby:Psi:5e306173-00c1-41da-923f-1792cbda6e12": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Boston",
+  "title": "Commercial Operations Associate"
  },
  "ashby:Quantum:025e6431-7515-4f94-a30f-e527e36b58de": {
   "last_seen": "2026-11-18",
@@ -419,20 +714,100 @@
   "reason": "location: London",
   "title": "Talent Acquisition Sourcing Specialist"
  },
+ "ashby:Ramp:4c24a55a-ea3b-4cea-a5b5-7862938616bf": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 67 days ago",
+  "title": "Procurement Solutions Architect"
+ },
+ "ashby:Ramp:871d2fc8-def8-4837-a9b0-7cc4fe126c2b": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 65 days ago",
+  "title": "Product Operations Specialist | Procurement"
+ },
+ "ashby:Revenuecat:8e4061ba-d01a-4c4c-a72e-9f13fbd3fbc7": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Americas; EMEA",
+  "title": "Sales & Operations Specialist, RC Capital"
+ },
+ "ashby:Rho:0666c289-991f-42d1-9fb1-ca90390b0546": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 65 days ago",
+  "title": "Payment Operations Associate"
+ },
+ "ashby:Rillet:f8d4f207-1e14-49fc-a0aa-a997a0c9bc2c": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 506 days ago",
+  "title": "Business Operations - AI Builder"
+ },
  "ashby:Saronic:53400a7d-214c-42ad-ac19-2cfe5e351bf7": {
   "last_seen": "2026-11-18",
   "reason": "location: Franklin, LA",
   "title": "Supply Chain Planner"
+ },
+ "ashby:Scale 20Army 20Careers:bd3d2c02-f67e-4d54-83bd-ae6b9694b9fc": {
+  "last_seen": "2026-11-26",
+  "reason": "type: Contract",
+  "title": "Property Operations Coordinator"
  },
  "ashby:Sela:f0f5d380-ac9f-4dca-ac96-2155c595985d": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 67 days ago",
   "title": "Founding Strategy & Operations Generalist"
  },
+ "ashby:Seqholdings:6122cead-176e-46b6-b244-1e4185b1d6da": {
+  "last_seen": "2026-11-26",
+  "reason": "salary: starts at $200,000 (senior pay band)",
+  "title": "Business Operations"
+ },
+ "ashby:Socure:2f09d7b0-42b0-4488-a1d7-2cb3bc079927": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 66 days ago",
+  "title": "Procurement Analyst"
+ },
+ "ashby:Squadhealth:06f53c8e-820a-48d7-9da9-e5c04a368cf9": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 63 days ago",
+  "title": "Operations Associate"
+ },
+ "ashby:Squadhealth:9f7b02ec-f8ce-4cd1-89c6-859cfabf1c6a": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 31 days ago",
+  "title": "Strategy & Operations"
+ },
  "ashby:Sunday:a81292e2-bb63-4b53-bb4e-47e6d2193fa2": {
   "last_seen": "2026-11-25",
   "reason": "age: posted 109 days ago",
   "title": "Fulfillment Associate"
+ },
+ "ashby:Superdial:842342dc-c2f9-43ff-8982-f1d9e8bde6c7": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 88 days ago",
+  "title": "Operations Associate"
+ },
+ "ashby:Taxo:9af870f4-d96d-4b1d-8ecc-8299042dafc0": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 46 days ago",
+  "title": "Operations Associate"
+ },
+ "ashby:Tenexlabs:0f7a4687-5eca-4092-9ce1-20e8ba22616a": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 100 days ago",
+  "title": "Business Operations Analyst"
+ },
+ "ashby:Terac:707ab7d1-57a7-473d-94e4-b1b6575d88a0": {
+  "last_seen": "2026-11-26",
+  "reason": "type: Contract",
+  "title": "Finance and Accounting Professionals: Business Operations and Software Workflows"
+ },
+ "ashby:Terac:efccf61b-a5fa-48d4-8aa2-e08af31da8e5": {
+  "last_seen": "2026-11-26",
+  "reason": "type: Contract",
+  "title": "Enterprise Procurement Professionals: Communications Platform Contract Negotiation"
+ },
+ "ashby:Thndr:4471022b-8777-4100-af11-ef1c98577637": {
+  "last_seen": "2026-11-26",
+  "reason": "location: Riyadh Office",
+  "title": "Operations Associate - KSA"
  },
  "ashby:Thumbtack:1287342e-f3c4-474c-8c22-1ba78b010482": {
   "last_seen": "2026-11-25",
@@ -445,7 +820,7 @@
   "title": "Workforce Management Planning Analyst"
  },
  "ashby:Traba:ac2d25ac-fbdf-48e4-9527-3cb27ae31006": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "duplicate",
   "title": "Operations Analyst - Summer 2027 Graduates"
  },
@@ -464,6 +839,16 @@
   "reason": "age: posted 49 days ago",
   "title": "Fixed Income Operations Analyst"
  },
+ "ashby:Voltai careers:3bda29c7-e5de-46f6-bf38-e23b75408daf": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 256 days ago",
+  "title": "BizOps"
+ },
+ "ashby:Vultr:b61f7406-621e-4377-887c-074dd9e96cdd": {
+  "last_seen": "2026-11-26",
+  "reason": "experience: 5+ years required",
+  "title": "Logistics Analyst"
+ },
  "ashby:WHOOP:f4c503bb-4532-43b4-89c0-138b224233d4": {
   "last_seen": "2026-11-22",
   "reason": "age: posted 46 days ago",
@@ -475,7 +860,7 @@
   "title": "Operations specialist, decarbonization solutions"
  },
  "greenhouse:1stavenuepower:5444320008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 40 days ago",
   "title": "Supply Chain Specialist/ Buyer"
  },
@@ -515,24 +900,29 @@
   "title": "Operations Specialist II, Lifesciences (US)"
  },
  "greenhouse:Aloyoga:6204619004": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 55 days ago",
   "title": "Operations Associate (Full-Time) - Station Twelve"
  },
  "greenhouse:Aloyoga:6242135004": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "salary: tops out at $43,680",
   "title": "Operations Associate (Full-Time) - Oakbrook Center"
  },
  "greenhouse:Alpaca:6199718004": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "location: Remote - Japan; Japan",
   "title": "Broker-Dealer Operations Specialist, Japan (Japan Location / Japanese Language Required) "
  },
  "greenhouse:Alpaca:6255596004": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "location: Remote - Global (Eastern Time Zone); Remote - EMEA; European Union",
   "title": "Operations Analyst"
+ },
+ "greenhouse:Altevarcm:4360640009": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 106 days ago",
+  "title": "Operations Specialist "
  },
  "greenhouse:Amplemarket:5017308101": {
   "last_seen": "2026-11-24",
@@ -540,7 +930,7 @@
   "title": "Operations Specialist"
  },
  "greenhouse:Anthropic:5357933008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 74 days ago",
   "title": "Procurement Operations Business Partner, R&D Operations"
  },
@@ -550,32 +940,32 @@
   "title": "Product Finance & Strategy, Claude Platform, Forecasting & Rhythms"
  },
  "greenhouse:Anthropic:5382744008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 98 days ago",
   "title": "Infrastructure Capacity Planner, Demand Planning"
  },
  "greenhouse:Anthropic:5382750008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 98 days ago",
   "title": "AI Infrastructure Operations, Demand Planning"
  },
  "greenhouse:Anthropic:5383710008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 99 days ago",
   "title": "AV Operations Specialist"
  },
  "greenhouse:Anthropic:5391277008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 62 days ago",
   "title": "Program Operations, Coordination & Logistics, Claude Frontier Academy"
  },
  "greenhouse:Anthropic:5432995008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 55 days ago",
   "title": "Strategy & Operations, Office of the CCO"
  },
  "greenhouse:Anthropic:5446641008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 41 days ago",
   "title": "Procurement Operations Business Partner, Technology"
  },
@@ -585,22 +975,22 @@
   "title": "Machine Learning Data Scientist, Forecasting Platform"
  },
  "greenhouse:Anthropic:5485582008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 8+ years required",
   "title": "Compute Capacity Strategy & Operations"
  },
  "greenhouse:Aperiatechnologies:6205690004": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 56 days ago",
   "title": "Planner/Buyer, Supply Chain"
  },
  "greenhouse:Apptronik:6227425004": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 35 days ago",
   "title": "Strategy & Operations Associate"
  },
  "greenhouse:Archer Aviation:8208521003": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 5+ years required",
   "title": "Supply Chain Planner"
  },
@@ -608,6 +998,16 @@
   "last_seen": "2026-11-24",
   "reason": "salary: tops out at $60,000",
   "title": "Vendor Operations Coordinator"
+ },
+ "greenhouse:Assertiveprofessionals:4420885009": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 63 days ago",
+  "title": "Acquisition & Procurement Analyst"
+ },
+ "greenhouse:Assertiveprofessionals:4420955009": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 63 days ago",
+  "title": "Policy & Planning Analyst"
  },
  "greenhouse:Asteraearlycareer2027:4723986005": {
   "last_seen": "2026-11-18",
@@ -634,6 +1034,26 @@
   "reason": "age: posted 181 days ago",
   "title": "Strategic Sourcing & Supply Chain Leader"
  },
+ "greenhouse:Baublebar:8187193": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 80 days ago",
+  "title": "Merchandise Planning Assistant \u2013 Hybrid NYC "
+ },
+ "greenhouse:Beyondfinance:6961066": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 539 days ago",
+  "title": "Strategy & Operations Analyst"
+ },
+ "greenhouse:Beyondfinance:6961384": {
+  "last_seen": "2026-11-26",
+  "reason": "age: posted 539 days ago",
+  "title": "Strategy & Operations Associate"
+ },
+ "greenhouse:Blacksky:8932845002": {
+  "last_seen": "2026-11-26",
+  "reason": "experience: 5+ years required",
+  "title": "Procurement Administrator"
+ },
  "greenhouse:Cloudflare:8248563": {
   "last_seen": "2026-11-24",
   "reason": "location: Hybrid; Atlanta, GA; Austin, TX, United States; Lisboa, Lisboa, Portugal",
@@ -655,47 +1075,47 @@
   "title": "Talent Operations Specialist"
  },
  "greenhouse:DoorDash:7658934": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 126 days ago",
   "title": "Associate Manager, AI Research Lab Strategy & Operations"
  },
  "greenhouse:DoorDash:7749114": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 237 days ago",
   "title": "Operations Research Scientist"
  },
  "greenhouse:DoorDash:8004278": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 155 days ago",
   "title": "Associate Manager, New Verticals - Convenience Strategy & Operations"
  },
  "greenhouse:DoorDash:8056158": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 127 days ago",
   "title": "Associate Manager, New Verticals - Retail Strategy & Operations"
  },
  "greenhouse:DoorDash:8092065": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 111 days ago",
   "title": "Associate Manager, New Verticals - Affordability Strategy & Operations"
  },
  "greenhouse:DoorDash:8131068": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 95 days ago",
   "title": "Associate Manager, Strategy & Operations"
  },
  "greenhouse:DoorDash:8160170": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 83 days ago",
   "title": "Associate Manager, New Verticals - Fulfillment Strategy & Operations "
  },
  "greenhouse:DoorDash:8162204": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 77 days ago",
   "title": "Associate Manager, Strategy & Operations"
  },
  "greenhouse:DoorDash:8176875": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 75 days ago",
   "title": "Associate, Strategy & Operations - Dasher Financial"
  },
@@ -705,17 +1125,17 @@
   "title": "Associate, Dasher Tasks, Strategy & Operations"
  },
  "greenhouse:DoorDash:8247291": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 47 days ago",
   "title": "Associate Manager, Dasher & Logistics"
  },
  "greenhouse:DoorDash:8259455": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 42 days ago",
   "title": "Associate Manager, Digital Ordering - Strategy & Operations"
  },
  "greenhouse:DoorDash:8273901": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 36 days ago",
   "title": "Associate,  DashMart - Supply Chain Profitability Strategy & Operations"
  },
@@ -725,7 +1145,7 @@
   "title": "Business Operations Specialist"
  },
  "greenhouse:Enova:8256308": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 5+ years required",
   "title": "Business Operations Associate - CashNet USA"
  },
@@ -745,7 +1165,7 @@
   "title": "Supply Chain & Strategic Operations Associate"
  },
  "greenhouse:Fanaticscollectibles:4317524009": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 124 days ago",
   "title": "AI Enablement & Business Operations Associate"
  },
@@ -755,12 +1175,12 @@
   "title": "Manufacturing Materials Planning Associate"
  },
  "greenhouse:Fanaticscollectibles:4410718009": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 57 days ago",
   "title": "Collation Planner"
  },
  "greenhouse:Fanaticscollectibles:4451621009": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 31 days ago",
   "title": "Night Operations Associate - $26.71/HR (3x12)"
  },
@@ -770,7 +1190,7 @@
   "title": "401k Operations Associate"
  },
  "greenhouse:Figureai:4719239006": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 43 days ago",
   "title": "Commercial Operations Associate"
  },
@@ -780,32 +1200,32 @@
   "title": "Talent Operations Specialist"
  },
  "greenhouse:Flexport:7450540": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 342 days ago",
   "title": "Global Operations Associate"
  },
  "greenhouse:Flexport:8011615": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 154 days ago",
   "title": "Analyst, Transportation & Supply Chain Strategy"
  },
  "greenhouse:Flexport:8414628": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "salary: tops out at $57,595",
   "title": "Global Operations Specialist"
  },
  "greenhouse:Flexport:8414677": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "salary: tops out at $57,595",
   "title": "Global Operations Specialist"
  },
  "greenhouse:Formlabs:8368295": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 5+ years required",
   "title": "Supply Chain Engineer"
  },
  "greenhouse:Formlabs:8372071": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 5+ years required",
   "title": "Supply Chain Engineer"
  },
@@ -885,7 +1305,7 @@
   "title": "Distribution Operations"
  },
  "greenhouse:Moxxidigital:5423295008": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 64 days ago",
   "title": "Conversion Rate Optimization Analyst "
  },
@@ -895,7 +1315,7 @@
   "title": "Operations Analyst, Plan Loading"
  },
  "greenhouse:Oura:4383256009": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "location: Hybrid - London, England; London, England, United Kingdom",
   "title": "International Demand Planner"
  },
@@ -910,17 +1330,17 @@
   "title": "Product Operations Associate - Sweaters"
  },
  "greenhouse:Planetlabs:8354040": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 6+ years required",
   "title": "Inventory Operations Specialist"
  },
  "greenhouse:Point72:8755415002": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 78 days ago",
   "title": "Procurement Specialist"
  },
  "greenhouse:Point72:8888064002": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 34 days ago",
   "title": "Data Sourcing & Strategy Operations Analyst   "
  },
@@ -940,12 +1360,12 @@
   "title": "Media Operations Coordinator"
  },
  "greenhouse:Thinkacademyus:8003042003": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 56 days ago",
   "title": "User Growth&Operations Specialist"
  },
  "greenhouse:Thinkacademyus:8027810003": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 36 days ago",
   "title": "User Conversion & Operations Specialist"
  },
@@ -980,7 +1400,7 @@
   "title": "Business Operations Analyst (Human Data)"
  },
  "greenhouse:Zipline:7826987003": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 104 days ago",
   "title": "Production Planner"
  },
@@ -990,12 +1410,12 @@
   "title": "Operations Specialist - Remote (MX, BR or AR)"
  },
  "lever:Hive:26937957-8c78-4835-bc10-bdb3c8d78931": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 33 days ago",
   "title": "Business Operations Analyst"
  },
  "lever:Hive:f8d74d93-d64c-43fe-83c6-7f5525b8bfe1": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 33 days ago",
   "title": "Business Operations Associate"
  },
@@ -1075,12 +1495,12 @@
   "title": "Traveling Low Voltage Foreman- Supply Chain Infrastructure"
  },
  "lever:Zoox:85ac55ee-0fdf-4b17-b57f-b09ce0defebe": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 139 days ago",
   "title": "Commercial Operations Analyst"
  },
  "simplify:Cambridge Systematics:b6b4d5c6-961e-4e67-9bbe-d592536ac5e9": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "location: United States",
   "title": "Transportation Analyst"
  },
@@ -1090,7 +1510,7 @@
   "title": "Maintenance Planner "
  },
  "smartrecruiters:AbbVie:3743990016619816": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 8+ years required",
   "title": "Facilities Planner"
  },
@@ -1105,7 +1525,7 @@
   "title": "Logistics & Team Support Specialist - External Manufacturing"
  },
  "smartrecruiters:HarvardUniversity:3743990016816736": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 7+ years required",
   "title": "Strategic Sourcing Analyst"
  },
@@ -1150,7 +1570,7 @@
   "title": "Procurement Policy Analyst "
  },
  "smartrecruiters:LLNL:3743990017078786": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "duplicate",
   "title": "Work Planner"
  },
@@ -1170,7 +1590,7 @@
   "title": "Dealer Operations Specialist"
  },
  "smartrecruiters:MattelInc:744000159428394": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "salary: tops out at $54,080",
   "title": "Fulfillment Coordinator"
  },
@@ -1215,12 +1635,12 @@
   "title": "Export Specialist "
  },
  "smartrecruiters:Tenergy:744000065051056": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 522 days ago",
   "title": "Warehouse Operations Associate"
  },
  "smartrecruiters:Tenergy:744000131234550": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 161 days ago",
   "title": "Inventory and Shipping Operations Associate"
  },
@@ -1230,7 +1650,7 @@
   "title": "Contract Management Specialist \u2013 Global Procurement"
  },
  "smartrecruiters:TurnerTownsend:744000155122069": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "age: posted 36 days ago",
   "title": "Supply Chain and Procurement Management - All Levels"
  },
@@ -2105,7 +2525,7 @@
   "title": "Supply Chain & Operations Coordinator"
  },
  "workday:Clorox:Product-Owner---Material-Planning_JR23876": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "experience: 6+ years required",
   "title": "Product Owner - Material Planning"
  },
@@ -2950,7 +3370,7 @@
   "title": "Supply Chain Buyer"
  },
  "workday:Sysco:Inventory-Planner---GSC---US_R275484": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "location: Sysco Arizona  -  OpCo; Sysco Las Vegas",
   "title": "Inventory Planner"
  },
@@ -2960,12 +3380,12 @@
   "title": "Inventory Planner"
  },
  "workday:Sysco:Inventory-Planner_R273870": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "location: Sysco Southeast Florida; Sysco South Florida",
   "title": "Inventory Planner"
  },
  "workday:Sysco:Produce-Inventory-Planner_R276323": {
-  "last_seen": "2026-11-25",
+  "last_seen": "2026-11-26",
   "reason": "location: Sysco Denver - Denver; Sysco Intermountain; Sysco Seattle - Kent; Sysco Idaho - ",
   "title": "Produce Inventory Planner"
  },
@@ -2975,7 +3395,7 @@
   "title": "Warehouse Operations Clerk - Day Shift (MA)"
  },
  "workday:Texascapitalbank:Asset-Based-Lending-Operations-Analyst_JR106347": {
-  "last_seen": "2026-11-21",
+  "last_seen": "2026-11-26",
   "reason": "location: 2 Locations",
   "title": "Asset Based Lending Operations Analyst"
  },
