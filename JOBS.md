@@ -1,6 +1,6 @@
 # Your job matches
 
-Updated Fri Nov 27, 2026: **46 open roles**, ranked by fit, **5 new today**. 37 lower-scoring roles are in `results/jobs.csv`.
+Updated Fri Nov 27, 2026: **47 open roles**, ranked by fit, **1 new today**. 38 lower-scoring roles are in `results/jobs.csv`.
 
 ## Apply first (80+)
 
@@ -18,7 +18,7 @@ Updated Fri Nov 27, 2026: **46 open roles**, ranked by fit, **5 new today**. 37 
 | # | Score | Role | Company | Where | Pay | Posted | Why it fits |
 |---:|---:|---|---|---|---|---|---|
 | 7 | 79 | [Supply Planner](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4729432006) | SharkNinja \* | Boston | $66k-$90k | 3d ago | Core planning/supply chain role; requires 1+ yrs `requires 1+ yrs` |
-| 8 | 76 | **NEW** [Deployment Site Intall Buyer, Planner, XFRA](https://jobs.ashbyhq.com/span/d0f71c66-79fa-4a0f-b327-5bab2462b448) | Span \* | SF Bay Area | $85k-$135k | 6d ago | Adjacent supply chain role; prefers 3+ yrs `prefers 3+ yrs` |
+| 8 | 76 | [Deployment Site Intall Buyer, Planner, XFRA](https://jobs.ashbyhq.com/span/d0f71c66-79fa-4a0f-b327-5bab2462b448) | Span \* | SF Bay Area | $85k-$135k | 6d ago | Adjacent supply chain role; prefers 3+ yrs `prefers 3+ yrs` |
 | 9 | 76 | [Supply Planner](https://helenoftroy.wd503.myworkdayjobs.com/Main_HoT/job/USA---Marlborough-Massachusetts/Supply-Planner_R0006297) | Helenoftroy \* | Boston | - | 8d ago | Core planning/supply chain role; requires 2+ yrs; pay not listed `requires 2+ yrs` |
 | 10 | 72 | [Capacity Planning and Analytics Coordinator](https://jobs.ashbyhq.com/applied/c490ee87-d220-4971-be06-f75729d06099) | Applied \* | SF Bay Area | $95k-$120k | 7d ago | Core planning/supply chain role; requires 3+ yrs `requires 3+ yrs` |
 | 11 | 71 | [Logistics Operations Coordinator](https://jobs.smartrecruiters.com/Tenergy/744000159742499) | Tenergy \* | SF Bay Area | - | 23d ago | Adjacent supply chain role; pay not listed |
@@ -40,55 +40,51 @@ Updated Fri Nov 27, 2026: **46 open roles**, ranked by fit, **5 new today**. 37 
 | 22 | 63 | [Logistics & Inventory Specialist](https://jobs.ashbyhq.com/dyna-robotics/477872e8-44ba-430f-8efc-ad239e7acd69) | Dyna robotics \* | SF Bay Area | - | 7d ago | Adjacent supply chain role; pay not listed |
 | 23 | 63 | [Logistics Specialist](https://rxo.wd501.myworkdayjobs.com/rxojobs/job/Benicia-California/Logistics-Specialist_JR105862) | Rxo \* | SF Bay Area | - | 9d ago | Adjacent supply chain role; requires 1+ yrs; pay not listed `requires 1+ yrs` |
 | 24 | 63 | [Vendor Management (VMO) Procurement Specialist](https://jobs.smartrecruiters.com/NBCUniversal3/744000161991389) | NBCUniversal3 \* | New York City | $70k-$90k | 10d ago | Adjacent supply chain role; requires 1+ yrs `requires 1+ yrs` |
-| 25 | 61 | [Fulfillment Coordinator - May 2027 Graduates](https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635) | Formlabs | Boston | $65k-$75k | 56d ago | Adjacent supply chain role |
-| 26 | 60 | [Operations Development Program](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Remote--Travel/Operations-Development-Program_R7969) | Symbotic \* | Remote (US) | - | 15d ago | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
-| 27 | 59 | **NEW** [Procurement Specialist US](https://jobs.ashbyhq.com/sereact/c1cf71a2-de2c-47af-b255-995aeef292a0) | Sereact \* | Boston | $105k-$130k | 9d ago | Adjacent supply chain role; prefers 5+ yrs `prefers 5+ yrs` |
-| 28 | 59 | **NEW** [Supply Chain & Operations Specialist](https://jobs.ashbyhq.com/tractable/22b7f0dc-b06a-427b-995b-ea92c14b5bcd) | Tractable \* | Remote (US) | $75k-$95k | 29d ago | Core planning/supply chain role; requires 3+ yrs `requires 3+ yrs` |
-| 29 | 58 | [Allocation Coordinator](https://jobs.smartrecruiters.com/MattelInc/744000160796271) | MattelInc \* | New York City | - | 17d ago | Adjacent supply chain role; requires 2+ yrs; pay not listed `requires 2+ yrs` |
-| 30 | 57 | [Construction Contracts & Procurement Analyst - Port of San Francisco (1823)](https://jobs.smartrecruiters.com/CityAndCountyOfSanFrancisco1/3743990017020456) | CityAndCountyOfSanFrancisco1 \* | SF Bay Area | - | 6d ago | Adjacent supply chain role; entry-level title; requires 3+ yrs; pay not listed `entry-level, requires 3+ yrs` |
-| 31 | 54 | **NEW** [Business Operations Associate](https://jobs.ashbyhq.com/binti/c85b3c73-8a51-43bf-9fdd-d9ee2a5b020c) | Binti \* | SF Bay Area | $95k-$170k | 15d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
-| 32 | 54 | [Strategy & Operations Associate](https://jobs.ashbyhq.com/hadrian-automation/0ca1be18-75b4-4abe-a697-8577bab304ff) | Hadrian automation \* | SF Bay Area | $130k-$190k | 17d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
-| 33 | 54 | [Product Owner, Supply Chain & Procurement (SAP S/4HANA)](https://jobs.smartrecruiters.com/Versant3/744000162796457) | Versant3 \* | Remote (US) | - | 7d ago | Core planning/supply chain role; requires 3+ yrs; pay not listed `requires 3+ yrs` |
-| 34 | 54 | [Growth Strategy & Operations Associate](https://jobs.lever.co/hive/b000e904-0c59-4c81-b7ad-a6f2844a94d6) | Hive \* | SF Bay Area | $80k-$120k | 9d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
-| 35 | 54 | [Carrier Procurement Rep](https://jobs.smartrecruiters.com/CircleLogistics1/3743990016806046) | CircleLogistics1 \* | Remote (US) | - | 16d ago | Adjacent supply chain role; requires 1+ yrs; pay not listed `requires 1+ yrs` |
-| 36 | 54 | [Operations Analyst](https://job-boards.greenhouse.io/undercontrolroboticsinc/jobs/4480651009) | Noble Machines, Inc \* | SF Bay Area | $115k-$150k | 15d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
-| 37 | 52 | [Quality Control Planner](https://jobs.smartrecruiters.com/AbbVie/3743990016943886) | AbbVie \* | Chicago | - | 9d ago | Adjacent supply chain role; prefers 6+ yrs; pay not listed `prefers 6+ yrs` |
-| 38 | 52 | [Field Test Operations Specialist](https://jobs.ashbyhq.com/rivet/e541893a-6457-4947-9e1e-b687f506713f) | Rivet \* | SF Bay Area | $130k-$152k | 25d ago | General operations role |
-| 39 | 50 | [Business Operations Associate](https://jobs.ashbyhq.com/aureliussystems/32764b16-19d5-4130-89b3-1cd94c432099) | Aureliussystems \* | SF Bay Area | $90k-$120k | 13d ago | General operations role; entry-level title `entry-level` |
-| 40 | 50 | [Strategy & Operations](https://job-boards.greenhouse.io/amaehealth/jobs/4515572009) | Amae Health \* | SF Bay Area | $125k-$165k | 8d ago | General operations role |
+| 25 | 61 | **NEW** [Global Logistics & Trade Compliance Coordinator](https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Sunnyvale-CA/Global-Logistics---Trade-Compliance-Coordinator_R14674) | Proofpoint \* | SF Bay Area | - | 30d ago | Adjacent supply chain role; pay not listed |
+| 26 | 61 | [Fulfillment Coordinator - May 2027 Graduates](https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635) | Formlabs | Boston | $65k-$75k | 56d ago | Adjacent supply chain role |
+| 27 | 60 | [Operations Development Program](https://symbotic.wd504.myworkdayjobs.com/Symbotic/job/USA-Remote--Travel/Operations-Development-Program_R7969) | Symbotic \* | Remote (US) | - | 15d ago | Adjacent supply chain role; entry-level title; pay not listed `entry-level` |
+| 28 | 59 | [Procurement Specialist US](https://jobs.ashbyhq.com/sereact/c1cf71a2-de2c-47af-b255-995aeef292a0) | Sereact \* | Boston | $105k-$130k | 9d ago | Adjacent supply chain role; prefers 5+ yrs `prefers 5+ yrs` |
+| 29 | 59 | [Supply Chain & Operations Specialist](https://jobs.ashbyhq.com/tractable/22b7f0dc-b06a-427b-995b-ea92c14b5bcd) | Tractable \* | Remote (US) | $75k-$95k | 29d ago | Core planning/supply chain role; requires 3+ yrs `requires 3+ yrs` |
+| 30 | 58 | [Allocation Coordinator](https://jobs.smartrecruiters.com/MattelInc/744000160796271) | MattelInc \* | New York City | - | 17d ago | Adjacent supply chain role; requires 2+ yrs; pay not listed `requires 2+ yrs` |
+| 31 | 57 | [Construction Contracts & Procurement Analyst - Port of San Francisco (1823)](https://jobs.smartrecruiters.com/CityAndCountyOfSanFrancisco1/3743990017020456) | CityAndCountyOfSanFrancisco1 \* | SF Bay Area | - | 6d ago | Adjacent supply chain role; entry-level title; requires 3+ yrs; pay not listed `entry-level, requires 3+ yrs` |
+| 32 | 54 | [Business Operations Associate](https://jobs.ashbyhq.com/binti/c85b3c73-8a51-43bf-9fdd-d9ee2a5b020c) | Binti \* | SF Bay Area | $95k-$170k | 15d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
+| 33 | 54 | [Strategy & Operations Associate](https://jobs.ashbyhq.com/hadrian-automation/0ca1be18-75b4-4abe-a697-8577bab304ff) | Hadrian automation \* | SF Bay Area | $130k-$190k | 17d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
+| 34 | 54 | [Product Owner, Supply Chain & Procurement (SAP S/4HANA)](https://jobs.smartrecruiters.com/Versant3/744000162796457) | Versant3 \* | Remote (US) | - | 7d ago | Core planning/supply chain role; requires 3+ yrs; pay not listed `requires 3+ yrs` |
+| 35 | 54 | [Growth Strategy & Operations Associate](https://jobs.lever.co/hive/b000e904-0c59-4c81-b7ad-a6f2844a94d6) | Hive \* | SF Bay Area | $80k-$120k | 9d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
+| 36 | 54 | [Carrier Procurement Rep](https://jobs.smartrecruiters.com/CircleLogistics1/3743990016806046) | CircleLogistics1 \* | Remote (US) | - | 16d ago | Adjacent supply chain role; requires 1+ yrs; pay not listed `requires 1+ yrs` |
+| 37 | 54 | [Operations Analyst](https://job-boards.greenhouse.io/undercontrolroboticsinc/jobs/4480651009) | Noble Machines, Inc \* | SF Bay Area | $115k-$150k | 15d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
+| 38 | 52 | [Quality Control Planner](https://jobs.smartrecruiters.com/AbbVie/3743990016943886) | AbbVie \* | Chicago | - | 9d ago | Adjacent supply chain role; prefers 6+ yrs; pay not listed `prefers 6+ yrs` |
+| 39 | 52 | [Field Test Operations Specialist](https://jobs.ashbyhq.com/rivet/e541893a-6457-4947-9e1e-b687f506713f) | Rivet \* | SF Bay Area | $130k-$152k | 25d ago | General operations role |
+| 40 | 50 | [Business Operations Associate](https://jobs.ashbyhq.com/aureliussystems/32764b16-19d5-4130-89b3-1cd94c432099) | Aureliussystems \* | SF Bay Area | $90k-$120k | 13d ago | General operations role; entry-level title `entry-level` |
+| 41 | 50 | [Strategy & Operations](https://job-boards.greenhouse.io/amaehealth/jobs/4515572009) | Amae Health \* | SF Bay Area | $125k-$165k | 8d ago | General operations role |
 
 ## Long shots
 
 | # | Score | Role | Company | Where | Pay | Posted | Why it fits |
 |---:|---:|---|---|---|---|---|---|
-| 41 | 49 | [Strategy & Operations Analyst](https://careers.formlabs.com/job/8311099/apply/?gh_jid=8311099) | Formlabs | Boston | $85k-$140k | 28d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
-| 42 | 48 | [Payments Operations Specialist](https://jobs.ashbyhq.com/harperinsure/22dea7af-1808-4375-9751-987c1a17f54d) | Harperinsure \* | SF Bay Area | $65k-$115k | 15d ago | General operations role |
-| 43 | 46 | [Founding Business Operations](https://jobs.ashbyhq.com/litmushiring/2555a8fb-a7a2-421e-a97c-9949c2f10cff) | Litmushiring \* | SF Bay Area | $70k-$90k | 9d ago | General operations role |
-| 44 | 46 | [City Operations Associate](https://job-boards.greenhouse.io/cssmerge/jobs/8949087002) | ATOMS Careers page \* | SF Bay Area | $62k-$71k | 10d ago | General operations role; entry-level title; requires 1+ yrs `entry-level, requires 1+ yrs` |
-| 45 | 45 | **NEW** [Legal & Privacy Operations Associate](https://jobs.ashbyhq.com/ramp/31bd9e9e-102f-4051-abc1-22cdd7d9617a) | Ramp \* | New York City | $110k-$155k | 18d ago | General operations role; entry-level title; requires 1+ yrs `entry-level, requires 1+ yrs` |
-| 46 | 45 | [Business Operations Associate](https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/248ee42c-f303-478d-ac60-34179560ab65) | Superhuman 20Platform 20Inc \* | New York City | $118k-$163k | 11d ago | General operations role; entry-level title `entry-level` |
+| 42 | 49 | [Strategy & Operations Analyst](https://careers.formlabs.com/job/8311099/apply/?gh_jid=8311099) | Formlabs | Boston | $85k-$140k | 28d ago | General operations role; entry-level title; requires 2+ yrs `entry-level, requires 2+ yrs` |
+| 43 | 48 | [Payments Operations Specialist](https://jobs.ashbyhq.com/harperinsure/22dea7af-1808-4375-9751-987c1a17f54d) | Harperinsure \* | SF Bay Area | $65k-$115k | 15d ago | General operations role |
+| 44 | 46 | [Founding Business Operations](https://jobs.ashbyhq.com/litmushiring/2555a8fb-a7a2-421e-a97c-9949c2f10cff) | Litmushiring \* | SF Bay Area | $70k-$90k | 9d ago | General operations role |
+| 45 | 46 | [City Operations Associate](https://job-boards.greenhouse.io/cssmerge/jobs/8949087002) | ATOMS Careers page \* | SF Bay Area | $62k-$71k | 10d ago | General operations role; entry-level title; requires 1+ yrs `entry-level, requires 1+ yrs` |
+| 46 | 45 | [Legal & Privacy Operations Associate](https://jobs.ashbyhq.com/ramp/31bd9e9e-102f-4051-abc1-22cdd7d9617a) | Ramp \* | New York City | $110k-$155k | 18d ago | General operations role; entry-level title; requires 1+ yrs `entry-level, requires 1+ yrs` |
+| 47 | 45 | [Business Operations Associate](https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/248ee42c-f303-478d-ac60-34179560ab65) | Superhuman 20Platform 20Inc \* | New York City | $118k-$163k | 11d ago | General operations role; entry-level title `entry-level` |
 
 \* found by automatic company discovery (not on your list)
 
 <details><summary>Run log</summary>
 
-- Allbirds: could not find a supported careers site (add it by hand in companies.yaml)
 - Applied Materials: ERROR busy (workday:amat.wd1.myworkdayjobs.com/External HTTP 0)
 - Archer Aviation: 2 postings in your field
 - Away: 0 postings in your field
-- Bio-Rad: could not find a supported careers site (add it by hand in companies.yaml)
 - Bombas: 0 postings in your field
 - Boston Dynamics: ERROR busy (workday:bostondynamics.wd1.myworkdayjobs.com/Boston_Dynamics HTTP 0)
 - Chevron: ERROR busy (workday:chevron.wd5.myworkdayjobs.com/jobs HTTP 0)
-- Chobani: could not find a supported careers site (add it by hand in companies.yaml)
 - Clorox: 1 postings in your field
 - Columbia Sportswear: ERROR busy (workday:columbiasportswearcompany.wd5.myworkdayjobs.com/Columbia_Career_Site HTTP 0)
 - Conagra Brands: ERROR busy (workday:conagrabrands.wd1.myworkdayjobs.com/Careers_US HTTP 0)
 - Constellation Brands: ERROR busy (workday:cbrands.wd5.myworkdayjobs.com/CBI_External_Careers HTTP 0)
-- Coyote Logistics: could not find a supported careers site (add it by hand in companies.yaml)
 - Crate & Barrel: ERROR busy (workday:crateandbarrel.wd1.myworkdayjobs.com/CBH HTTP 0)
 - DoorDash: 16 postings in your field
-- Estee Lauder Companies: could not find a supported careers site (add it by hand in companies.yaml)
 - Etsy: ERROR busy (workday:etsy.wd5.myworkdayjobs.com/Etsy_Careers HTTP 0)
 - Flexport: 4 postings in your field
 - Formlabs: 4 postings in your field
@@ -103,10 +99,8 @@ Updated Fri Nov 27, 2026: **46 open roles**, ranked by fit, **5 new today**. 37 
 - Instacart: 0 postings in your field
 - Intel: ERROR busy (workday:intel.wd1.myworkdayjobs.com/External HTTP 0)
 - Intuitive Surgical: 1 postings in your field
-- Joby Aviation: could not find a supported careers site (add it by hand in companies.yaml)
 - KEEN: 0 postings in your field
 - KLA: ERROR busy (workday:kla.wd1.myworkdayjobs.com/Search HTTP 0)
-- Kellanova: could not find a supported careers site (add it by hand in companies.yaml)
 - Kraft Heinz: ERROR busy (workday:heinz.wd1.myworkdayjobs.com/KraftHeinz_Careers HTTP 0)
 - Lam Research: lookup inconclusive (1 checks got no answer); will retry tomorrow
 - Levi Strauss & Co: ERROR busy (workday:levistraussandco.wd5.myworkdayjobs.com/External HTTP 0)
@@ -121,33 +115,23 @@ Updated Fri Nov 27, 2026: **46 open roles**, ranked by fit, **5 new today**. 37 
 - Oura: 1 postings in your field
 - PVH: ERROR busy (workday:pvh.wd1.myworkdayjobs.com/PVH_Careers HTTP 0)
 - Peak Design: 0 postings in your field
-- Peet's Coffee: could not find a supported careers site (add it by hand in companies.yaml)
 - Peloton: 0 postings in your field
-- Ralph Lauren: could not find a supported careers site (add it by hand in companies.yaml)
-- Reebok: could not find a supported careers site (add it by hand in companies.yaml)
 - Rent the Runway: 0 postings in your field
-- Rivian: could not find a supported careers site (add it by hand in companies.yaml)
-- Ross Stores: could not find a supported careers site (add it by hand in companies.yaml)
 - Rothy's: 0 postings in your field
-- SRAM: could not find a supported careers site (add it by hand in companies.yaml)
 - Samsara: 0 postings in your field
-- ShipBob: could not find a supported careers site (add it by hand in companies.yaml)
 - SimpliSafe: 0 postings in your field
 - Specialized: ERROR busy (workday:specialized.wd5.myworkdayjobs.com/Specialized_External_Career_Site HTTP 0)
-- Spindrift: could not find a supported careers site (add it by hand in companies.yaml)
 - TJX: 0 postings in your field
 - Tapestry: ERROR busy (workday:tapestry.wd108.myworkdayjobs.com/Tapestry_Careers HTTP 0)
 - WHOOP: 1 postings in your field
-- Warby Parker: could not find a supported careers site (add it by hand in companies.yaml)
 - Wayfair: 0 postings in your field
 - Waymo: 0 postings in your field
 - Western Digital: 1 postings in your field
-- Williams-Sonoma: could not find a supported careers site (add it by hand in companies.yaml)
 - Zipline: 1 postings in your field
 - [Simplify] 1 listings in your field and cities
 - [Zapply] 0 listings in your field and cities
-- [company discovery] found 897 new job boards (4431 in the discovered set)
-- [discovered boards] swept 992 of 4431, 225 postings in your field, 0 failed, 823 busy (retried next run); errors: workday 0 x823; new matches from: Binti, Bjakcareer, Concoursetech, Ellipsis health, Equip, Niramedical, Ramp, Sereact, Span, Super com, Superdial, Tractable
+- [company discovery] found 13 new job boards (4444 in the discovered set)
+- [discovered boards] swept 927 of 4443, 178 postings in your field, 5 failed, 1 dropped, 843 busy (retried next run); errors: workday 0 x843, ashby unavailable (ashby:Verne%20Robotics x1, greenhouse unavailable (greenhouse:accrue x1, ashby unavailable (ashby:aditude x1, greenhouse unavailable (greenhouse:aperaaiinc x1, greenhouse unavailable (greenhouse:apogeetherapeutics x1; new matches from: 10alabs, Proofpoint
 - project44: 0 postings in your field
 
 </details>
